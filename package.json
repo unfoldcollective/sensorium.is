@@ -4,7 +4,8 @@
   "description": "Website for Sensorium Conference",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-sass": "sass --watch user/themes/sensorial/scss:user/themes/sensorial/css-compiled",
+    "watch": "npm run watch-sass"
   },
   "repository": {
     "type": "git",
