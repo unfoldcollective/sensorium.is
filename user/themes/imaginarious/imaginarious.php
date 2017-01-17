@@ -3,7 +3,7 @@ namespace Grav\Theme;
 
 use Grav\Common\Theme;
 
-class Sensorial extends Theme
+class Imaginarious extends Theme
 {
     // Access plugin events in this class
 }

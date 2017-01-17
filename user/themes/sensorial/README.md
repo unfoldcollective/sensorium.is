@@ -1,3 +1,7 @@
-# Sensorial
+# Sensorial Theme
 
-A theme developed for the [Sensorium Conference](http://sensorium.is/)
+The **Sensorial** Theme is for [Grav CMS](http://github.com/getgrav/grav).  This README.md file should be modified to describe the features, installation, configuration, and general usage of this theme.
+
+## Description
+
+theme for Sensorium conference

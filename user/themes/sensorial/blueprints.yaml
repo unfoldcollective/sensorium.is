@@ -1,9 +1,15 @@
 name: Sensorial
-version: 1.0.0
-description: "Sensorial is created for sensorium.is"
-icon: empire
+version: 0.1.0
+description: theme for Sensorium conference
+icon: rebel
 author:
   name: Philo van Kemenade
+  email: philovankemenade@gmail.com
+homepage: https://github.com/philo-van-kemenade/grav-theme-sensorial
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/philo-van-kemenade/grav-theme-sensorial/issues
+readme: https://github.com/philo-van-kemenade/grav-theme-sensorial/blob/develop/README.md
 license: MIT
 
 form:
@@ -11,7 +17,7 @@ form:
   fields:
     dropdown.enabled:
         type: toggle
-        label: Dropdown in navbar
+        label: Dropdown in Menu
         highlight: 1
         default: 1
         options:
