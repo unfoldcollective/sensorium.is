@@ -4,7 +4,7 @@
   "description": "Website for Sensorium Conference",
   "main": "index.js",
   "scripts": {
-    "watch-sass": "sass --watch user/themes/sensorial/scss:user/themes/sensorial/css-compiled",
+    "watch-sass": "sass --watch user/themes/imaginarious/scss:user/themes/imaginarious/css",
     "watch": "npm run watch-sass"
   },
   "repository": {

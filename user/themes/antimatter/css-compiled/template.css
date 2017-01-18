@@ -19,7 +19,7 @@ html, body {
   height: 100%; }
 
 body {
-  background: #fff;
+  background: #ff725c;
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -41,7 +41,7 @@ b, strong, label, th {
   padding-right: 0; }
 
 #body {
-  background: #fff;
+  background: #ff725c;
   padding-top: 8rem;
   padding-bottom: 11rem; }
 

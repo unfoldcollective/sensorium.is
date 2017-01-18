@@ -1,0 +1,64 @@
+#header #logo img {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.default-animation, #header #logo img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+/* tachyons */
+.grow {
+  -moz-osx-font-smoothing: grayscale !important;
+  backface-visibility: hidden !important;
+  transform: translateZ(0) !important;
+  transition: transform 0.25s ease-out !important; }
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05) !important; }
+
+/* template: core */
+a {
+  color: #1BB3E9; }
+  a:hover {
+    color: inherit; }
+
+/* template: typography */
+h1 {
+  text-align: inherit;
+  letter-spacing: 0; }
+
+h2 {
+  letter-spacing: 0; }
+
+h3 {
+  letter-spacing: 0; }
+
+/* template: header */
+#header #logo img {
+  height: 2rem; }
+
+/* Animated Logotype */
+iframe.animatedLogotype {
+  width: 290px;
+  height: 116px; }
+  @media (min-width: 480px) {
+    iframe.animatedLogotype {
+      width: 450px;
+      height: 180px; } }
+  @media (min-width: 768px) {
+    iframe.animatedLogotype {
+      width: 630px;
+      height: 252px; } }
+  @media (min-width: 960px) {
+    iframe.animatedLogotype {
+      width: 750px;
+      height: 300px; } }
+
+/*# sourceMappingURL=template-customized.css.map */

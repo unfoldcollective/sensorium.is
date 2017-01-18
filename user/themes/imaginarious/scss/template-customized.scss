@@ -1,0 +1,73 @@
+// Load Third Party Libraries
+@import "vendor/bourbon/bourbon";
+
+// Load Template Helpers
+@import "template-customized/utilities";
+@import "template-customized/extensions";
+@import "template-customized/colors";
+// @import "template-customized/core";
+
+/* tachyons */
+.grow {
+  -moz-osx-font-smoothing: grayscale !important;
+  backface-visibility: hidden !important;
+  transform: translateZ(0) !important;
+  transition: transform 0.25s ease-out !important;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05) !important;
+}
+
+/* template: core */
+a {
+	color: $core-accent;
+	&:hover {
+		color: inherit;
+	}
+}
+
+
+/* template: typography */
+h1 {
+	text-align: inherit;
+	letter-spacing: 0;
+}
+
+h2 {
+	letter-spacing: 0;
+}
+
+h3 {
+	letter-spacing: 0;
+}
+
+/* template: header */
+#header {
+	#logo {
+		img {
+			@extend .default-animation;
+			@extend %vertical-align;
+		    height: 2rem;
+		}
+	}
+}
+
+/* Animated Logotype */
+iframe.animatedLogotype {
+    width: 290px;
+    height: 116px;
+    @media (min-width: 480px) {
+      width: 450px;
+      height: 180px;
+    }
+    @media (min-width: 768px) {
+      width: 630px;
+      height: 252px;
+    }
+    @media (min-width: 960px) {
+      width: 750px;
+      height: 300px;
+    }
+}
