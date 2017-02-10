@@ -1,3 +1,4 @@
+{% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 <ul class="navigation">
 {% for module in page.collection() %}
     {% if not module.header.disabled %}
