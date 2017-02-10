@@ -11,9 +11,11 @@ content:
         dir: asc
         custom:
             - _showcase
-            - _highlights
-            - _callout
-            - _features
+            - _news
+            - _artists
+            - _about
+            - _programme
+            - _location
 ---
 
 
