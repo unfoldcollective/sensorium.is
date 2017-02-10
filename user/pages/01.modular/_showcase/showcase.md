@@ -9,8 +9,5 @@ buttons:
       classes: f4 link grow ba bw1 ph3 pv2 mb2 dib white
 ---
 
-## The first Slovak conference making sense of creative technology will be back in April 2017!
-### More info coming soon
-
-
-
+## The first Slovak conference making sense of creative technology
+### 28-29 April 2017
