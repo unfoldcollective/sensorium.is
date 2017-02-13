@@ -1,11 +1,20 @@
 // Load Third Party Libraries
 @import "vendor/bourbon/bourbon";
 
+// Load Nucleus Mixins and Functions
+@import "../../antimatter/scss/nucleus/functions/base";
+@import "../../antimatter/scss/nucleus/mixins/base";
+
+// Load theme config
+@import "configuration/nucleus/_base.scss";
+@import "configuration/template/_base.scss";
+
 // Load Template Helpers
-@import "template-customized/utilities";
-@import "template-customized/extensions";
+@import "../../antimatter/scss/template/extensions";
+
+// Load cutomized template components
 @import "template-customized/colors";
-// @import "template-customized/core";
+@import "template-customized/blog";
 
 /* tachyons */
 .grow {

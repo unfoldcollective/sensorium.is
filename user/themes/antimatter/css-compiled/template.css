@@ -308,23 +308,14 @@ h1 {
       line-height: 1.2;
       margin-bottom: 2.5rem; } }
 
-@media only all and (min-width: 48em) and (max-width: 59.938em) {
-  h2 {
-    font-size: 2.1rem; } }
 @media only all and (max-width: 47.938em) {
   h2 {
     font-size: 2rem; } }
 
-@media only all and (min-width: 48em) and (max-width: 59.938em) {
-  h3 {
-    font-size: 1.7rem; } }
 @media only all and (max-width: 47.938em) {
   h3 {
     font-size: 1.6rem; } }
 
-@media only all and (min-width: 48em) and (max-width: 59.938em) {
-  h4 {
-    font-size: 1.35rem; } }
 @media only all and (max-width: 47.938em) {
   h4 {
     font-size: 1.25rem; } }
@@ -346,9 +337,6 @@ h1 + h2 {
   text-align: center;
   font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 300; }
-  @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    h1 + h2 {
-      font-size: 1.6rem; } }
   @media only all and (max-width: 47.938em) {
     h1 + h2 {
       font-size: 1.5rem; } }
@@ -360,9 +348,6 @@ h2 + h3 {
   text-align: center;
   font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 300; }
-  @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    h2 + h3 {
-      font-size: 1.6rem; } }
   @media only all and (max-width: 47.938em) {
     h2 + h3 {
       font-size: 1.5rem; } }
@@ -633,9 +618,6 @@ td {
   .blog-header h1 {
     font-size: 4rem;
     margin-top: 0; }
-    @media only all and (min-width: 48em) and (max-width: 59.938em) {
-      .blog-header h1 {
-        font-size: 3rem; } }
     @media only all and (max-width: 47.938em) {
       .blog-header h1 {
         font-size: 2.5rem;
@@ -806,9 +788,6 @@ ul.pagination {
   .modular .showcase h1 {
     font-size: 4rem;
     margin-top: 0; }
-    @media only all and (min-width: 48em) and (max-width: 59.938em) {
-      .modular .showcase h1 {
-        font-size: 3rem; } }
     @media only all and (max-width: 47.938em) {
       .modular .showcase h1 {
         font-size: 2.5rem;
