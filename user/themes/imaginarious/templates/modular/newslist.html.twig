@@ -1,26 +1,26 @@
-<section class="modular-row mw7 center">
+<section class="modular-row mw8 center">
 	<div class="tc">
 		{{ content }}
 	</div>
-
 	{% for p in page.collection %}
-		<article class="pv4 bt bb b--black-10 ph3 ph0-l">
-			<div class="flex flex-column flex-row-ns">
-				<div class="w-100 w-60-ns pr3-ns order-2 order-1-ns">
-					<h2 class="f3 mt0 lh-title">
-						<a href="{{p.url}}">{{ p.title }}</a>
-					</h2>
-					<p class="f5 f4-l lh-copy">
-						{{ p.summary }}
-					</p>
+		<article class="bb b--black-10">
+			<a class="db pv4 ph3 ph0-l no-underline dim" href="#0">
+				<div class="flex flex-column flex-row-ns">
+					<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+						<img src="{{ p.media.images|first.url }}" class="db" alt="{{p.title}}">
+					</div>
+					<div class="w-100 w-60-ns pl3-ns">
+						<h2 class="f3 fw1 mt0 lh-title">
+							{{ p.title }}
+						</h2>
+						<p class="f6 f5-l lh-copy">
+							{{ p.summary }}
+						</p>
+						{# <p class="f6 lh-copy gray mv0">By <span class="ttu">Robin Darnell</span></p> #}
+						<time class="f6 db light-gray">{{ p.date|nicetime(false) }}</time>
+					</div>
 				</div>
-				<div class="pl3-ns order-1 order-2-ns mb4 mb0-ns w-100 w-40-ns">
-					<img src="{{ p.media.images|first.url }}" class="db" alt="{{p.title}}">
-				</div>
-			</div>
-			{# <p class="f6 lh-copy gray mv0">By <span class="ttu">Robin Darnell</span></p> #}
-			<time class="f6 db light-gray">{{ p.date|nicetime(false) }}</time>
+			</a>
 		</article>
-	{% endfor %}	  
-
+	{% endfor %}
 </section>
