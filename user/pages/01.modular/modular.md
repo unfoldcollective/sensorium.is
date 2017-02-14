@@ -11,8 +11,8 @@ content:
         dir: asc
         custom:
             - _showcase
-            - _news
             - _artists
+            - _news
             - _about
             - _programme
             - _location
