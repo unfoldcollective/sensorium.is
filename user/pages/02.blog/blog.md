@@ -1,6 +1,7 @@
 ---
-title: Blog
+title: News
 blog_url: blog
+slug: blog
 body_classes: header-image fullwidth
 
 sitemap:
@@ -22,5 +23,5 @@ feed:
 pagination: true
 ---
 
-# My Gravtastic Blog
-## A tale of **awesomazing** adventures
+# News & updates
+## Find out about the latest Sensorium developments

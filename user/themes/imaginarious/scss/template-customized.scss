@@ -13,7 +13,6 @@
 @import "../../antimatter/scss/template/extensions";
 
 // Load cutomized template components
-@import "template-customized/colors";
 @import "template-customized/blog";
 
 /* tachyons */
@@ -52,8 +51,20 @@ h3 {
 	letter-spacing: 0;
 }
 
+// Blockquote
+blockquote {
+  p {
+    color: #444;
+  }
+  cite {
+    color: #444;
+  }
+}
+
 /* template: header */
 #header {
+  background-color: transparent;
+  box-shadow: none;
 	#logo {
 		img {
 			@extend .default-animation;
@@ -61,6 +72,42 @@ h3 {
 		    height: 2rem;
 		}
 	}
+}
+/* template: buttons */
+%button {
+  display: inline-block;
+  padding: 7px 20px;
+
+    &.button-small {
+        padding: 3px 10px;
+        font-size: $core-font-size - 0.1rem;
+    }
+
+}
+
+@mixin button-color($color) {
+  // background: $white;
+  background: lighten($page-bg, 5%);
+  color: $color;
+  border: 1px solid $color;
+  border-radius: 3px;
+  &:hover {
+    background: $color;
+    color: lighten($page-bg, 5%);
+  }
+  &:active {
+    box-shadow: 0 1px 0 darken($color, 12%);
+  }
+}
+
+.button {
+  @extend %button;
+  @include button-color($core-accent);
+}
+
+.button-secondary {
+  @extend %button;
+  @include button-color($secondary-link);
 }
 
 /* Animated Logotype */

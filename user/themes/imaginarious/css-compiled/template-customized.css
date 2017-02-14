@@ -59,7 +59,7 @@
       .list-item .list-blog-header h4 a {
         color: #444; }
         .list-item .list-blog-header h4 a:hover {
-          color: #990077; }
+          color: #ccfff2; }
     .list-item .list-blog-header img {
       display: block;
       margin-top: 1rem;
@@ -84,7 +84,7 @@
 .tags a {
   display: inline-block;
   font-size: 0.8rem;
-  border: 1px solid #990077;
+  border: 1px solid #ccfff2;
   border-radius: 3px;
   padding: 0.1rem 0.4rem;
   margin-bottom: 0.2rem;
@@ -149,7 +149,7 @@ ul.pagination {
 
 /* template: core */
 a {
-  color: #990077; }
+  color: #ccfff2; }
   a:hover {
     color: inherit; }
 
@@ -164,9 +164,47 @@ h2 {
 h3 {
   letter-spacing: 0; }
 
+blockquote p {
+  color: #444; }
+blockquote cite {
+  color: #444; }
+
 /* template: header */
-#header #logo img {
-  height: 2rem; }
+#header {
+  background-color: transparent;
+  box-shadow: none; }
+  #header #logo img {
+    height: 2rem; }
+
+/* template: buttons */
+.button, .button-secondary {
+  display: inline-block;
+  padding: 7px 20px; }
+  .button-small.button, .button-small.button-secondary {
+    padding: 3px 10px;
+    font-size: 0.9rem; }
+
+.button {
+  background: #ff8876;
+  color: #ccfff2;
+  border: 1px solid #ccfff2;
+  border-radius: 3px; }
+  .button:hover {
+    background: #ccfff2;
+    color: #ff8876; }
+  .button:active {
+    box-shadow: 0 1px 0 #8fffe2; }
+
+.button-secondary {
+  background: #ff8876;
+  color: #F6635E;
+  border: 1px solid #F6635E;
+  border-radius: 3px; }
+  .button-secondary:hover {
+    background: #F6635E;
+    color: #ff8876; }
+  .button-secondary:active {
+    box-shadow: 0 1px 0 #f32b24; }
 
 /* Animated Logotype */
 iframe.animatedLogotype {

@@ -10,7 +10,10 @@ pages:
   process:
     markdown: true
     twig: false
-
+  dateformat:
+    default: 'd/m/Y'                        # The default date format Grav expects in the `date: ` field
+    short: 'jS M Y'                         # Short date format
+    long: 'F jS \a\t g:ia'                  # Long date format
 cache:
   enabled: true
   check:
