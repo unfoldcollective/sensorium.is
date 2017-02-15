@@ -438,6 +438,18 @@ class AdminController extends AdminBaseController
 
         $config = $this->grav['config'];
 
+        // Special handler for user data.
+        if ($this->view == 'user') {
+            if (!$this->admin->authorize(['admin.super', 'admin.users'])) {
+                //not admin.super or admin.users
+                if ($this->prepareData($data)->username !== $this->grav['user']->username) {
+                    $this->admin->setMessage($this->admin->translate('PLUGIN_ADMIN.INSUFFICIENT_PERMISSIONS_FOR_TASK') . ' save.',
+                    'error');
+                    return false;
+                }
+            }
+        }
+
         // Special handler for pages data.
         if ($this->view == 'pages') {
             /** @var Pages $pages */
@@ -511,7 +523,6 @@ class AdminController extends AdminBaseController
                     $obj->folder($obj->slug());
                 }
             }
-
 
         } else {
             // Handle standard data types.
@@ -958,12 +969,11 @@ class AdminController extends AdminBaseController
         $type    = isset($data['type']) ? $data['type'] : '';
 
         if (!$this->authorizeTask('uninstall ' . $type, ['admin.' . $type, 'admin.super'])) {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'  => 'error',
                 'message' => $this->admin->translate('PLUGIN_ADMIN.INSUFFICIENT_PERMISSIONS_FOR_TASK')
             ];
-
-            return false;
+            echo json_encode($json_response);exit;
         }
 
         //check if there are packages that have this as a dependency. Abort and show which ones
@@ -977,31 +987,31 @@ class AdminController extends AdminBaseController
                         $dependent_packages) . "</cyan> depends on this package. Please remove it first.";
             }
 
-            $this->admin->json_response = ['status' => 'error', 'message' => $message];
-
-            return false;
+            $json_response = ['status' => 'error', 'message' => $message];
+            echo json_encode($json_response);exit;
         }
 
         try {
             $dependencies = $this->admin->dependenciesThatCanBeRemovedWhenRemoving($package);
             $result       = Gpm::uninstall($package, []);
         } catch (\Exception $e) {
-            $this->admin->json_response = ['status' => 'error', 'message' => $e->getMessage()];
-
-            return false;
+            $json_response = ['status' => 'error', 'message' => $e->getMessage()];
+            echo json_encode($json_response);exit;
         }
 
         if ($result) {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'       => 'success',
                 'dependencies' => $dependencies,
                 'message'      => $this->admin->translate(is_string($result) ? $result : 'PLUGIN_ADMIN.UNINSTALL_SUCCESSFUL')
             ];
+            echo json_encode($json_response);exit;
         } else {
-            $this->admin->json_response = [
+            $json_response = [
                 'status'  => 'error',
                 'message' => $this->admin->translate('PLUGIN_ADMIN.UNINSTALL_FAILED')
             ];
+            echo json_encode($json_response);exit;
         }
 
         return true;
@@ -1102,7 +1112,7 @@ class AdminController extends AdminBaseController
      */
     protected function taskClearCache()
     {
-        if (!$this->authorizeTask('clear cache', ['admin.cache', 'admin.super'])) {
+        if (!$this->authorizeTask('clear cache', ['admin.cache', 'admin.super', 'admin.maintenance'])) {
             return false;
         }
 

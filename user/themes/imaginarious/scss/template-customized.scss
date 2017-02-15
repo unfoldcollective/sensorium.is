@@ -1,0 +1,129 @@
+// Load Third Party Libraries
+@import "vendor/bourbon/bourbon";
+
+// Load Nucleus Mixins and Functions
+@import "../../antimatter/scss/nucleus/functions/base";
+@import "../../antimatter/scss/nucleus/mixins/base";
+
+// Load theme config
+@import "configuration/nucleus/_base.scss";
+@import "configuration/template/_base.scss";
+
+// Load Template Helpers
+@import "../../antimatter/scss/template/extensions";
+
+// Load cutomized template components
+@import "template-customized/blog";
+
+/* tachyons */
+.grow {
+  -moz-osx-font-smoothing: grayscale !important;
+  backface-visibility: hidden !important;
+  transform: translateZ(0) !important;
+  transition: transform 0.25s ease-out !important;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05) !important;
+}
+
+/* template: core */
+a {
+	color: $core-accent;
+	&:hover {
+		color: inherit;
+	}
+}
+
+
+/* template: typography */
+h1 {
+	text-align: inherit;
+	letter-spacing: 0;
+}
+
+h2 {
+	letter-spacing: 0;
+}
+
+h3 {
+	letter-spacing: 0;
+}
+
+// Blockquote
+blockquote {
+  p {
+    color: #444;
+  }
+  cite {
+    color: #444;
+  }
+}
+
+/* template: header */
+#header {
+  background-color: transparent;
+  box-shadow: none;
+	#logo {
+		img {
+			@extend .default-animation;
+			@extend %vertical-align;
+		    height: 2rem;
+		}
+	}
+}
+/* template: buttons */
+%button {
+  display: inline-block;
+  padding: 7px 20px;
+
+    &.button-small {
+        padding: 3px 10px;
+        font-size: $core-font-size - 0.1rem;
+    }
+
+}
+
+@mixin button-color($color) {
+  // background: $white;
+  background: lighten($page-bg, 5%);
+  color: $color;
+  border: 1px solid $color;
+  border-radius: 3px;
+  &:hover {
+    background: $color;
+    color: lighten($page-bg, 5%);
+  }
+  &:active {
+    box-shadow: 0 1px 0 darken($color, 12%);
+  }
+}
+
+.button {
+  @extend %button;
+  @include button-color($core-accent);
+}
+
+.button-secondary {
+  @extend %button;
+  @include button-color($secondary-link);
+}
+
+/* Animated Logotype */
+iframe.animatedLogotype {
+    width: 290px;
+    height: 116px;
+    @media (min-width: 480px) {
+      width: 450px;
+      height: 180px;
+    }
+    @media (min-width: 768px) {
+      width: 630px;
+      height: 252px;
+    }
+    @media (min-width: 960px) {
+      width: 750px;
+      height: 300px;
+    }
+}

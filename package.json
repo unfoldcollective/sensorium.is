@@ -1,0 +1,20 @@
+{
+  "name": "sensorium.is-2017",
+  "version": "1.0.0",
+  "description": "Website for Sensorium Conference",
+  "main": "index.js",
+  "scripts": {
+    "watch-sass": "sass --watch user/themes/imaginarious/scss:user/themes/imaginarious/css",
+    "watch": "npm run watch-sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unfoldcollective/sensorium.is-2017.git"
+  },
+  "author": "Philo van Kemenade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unfoldcollective/sensorium.is-2017/issues"
+  },
+  "homepage": "https://github.com/unfoldcollective/sensorium.is-2017#readme"
+}

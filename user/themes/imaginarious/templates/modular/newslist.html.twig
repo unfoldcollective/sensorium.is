@@ -1,0 +1,26 @@
+<section class="modular-row mw8 center">
+	<div class="tc">
+		{{ content }}
+	</div>
+	{% for p in page.collection %}
+		<article class="bb b--black-10">
+			<a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{p.url}}">
+				<div class="flex flex-column flex-row-ns">
+					<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+						<img src="{{ p.media.images|first.url }}" class="db" alt="{{p.title}}">
+					</div>
+					<div class="w-100 w-60-ns pl3-ns">
+						<h2 class="f3 fw1 mt0 lh-title">
+							{{ p.title }}
+						</h2>
+						<p class="f6 f5-l lh-copy">
+							{{ p.summary }}
+						</p>
+						{# <p class="f6 lh-copy gray mv0">By <span class="ttu">Robin Darnell</span></p> #}
+						<time class="f6 db light-gray">{{ p.date|nicetime(false) }}</time>
+					</div>
+				</div>
+			</a>
+		</article>
+	{% endfor %}
+</section>

@@ -1,0 +1,17 @@
+<section class="cf tc w-100 pa2-ns">
+	<div class="tc">
+		{{ content }}
+	</div>
+	{% for p in page.collection %}
+	<article class="dib w-100 w-50-m  w-25-ns pa2-ns">
+		<a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{p.url}}">
+			<div class="aspect-ratio aspect-ratio--1x1">
+				<img style="background-image:url({{ p.media.images|first.url }});" 
+				class="db bg-center cover aspect-ratio--object" alt="{{p.title}}" />
+			</div>
+			<h3 class="f5 f4-ns mb0 black-90">{{ p.title }}</h3>
+			<h3 class="f6 f5 fw4 mt2 black-60">{{ p.header.subtitle }}</h3>
+		</a>
+	</article>
+	{% endfor %}
+</section>

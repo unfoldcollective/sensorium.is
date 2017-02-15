@@ -1,0 +1,48 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+{% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+
+{% block javascripts %}
+    {% if show_onpage_menu %}
+        {% do assets.add('theme://js/singlePageNav.min.js') %}
+    {% endif %}
+    {{ parent() }}
+{% endblock %}
+
+{% block bottom %}
+    {{ parent() }}
+    {% if show_onpage_menu %}
+        <script>
+        // singlePageNav initialization & configuration
+        $('#navbar').singlePageNav({
+            offset: $('#header').outerHeight(),
+            filter: ':not(.external)',
+            updateHash: true,
+            currentClass: 'active'
+        });
+        </script>
+    {% endif %}
+{% endblock %}
+
+{% block header_navigation %}
+    {% if show_onpage_menu %}
+        {% include 'partials/organisms/navigation-onpage.html.twig' %}
+    {% else %}
+        {{  parent() }}
+    {% endif %}
+{% endblock %}
+
+{% block slidebar_navigation %}
+    {% include 'partials/organisms/navigation-onpage.html.twig' %}
+{% endblock %}
+
+{% block content %}
+    {{ page.content }}
+    {% for module in page.collection() %}
+        {% if not module.header.disabled %}
+            <div id="{{ _self.pageLinkName(module.menu) }}"></div>
+            {{ module.content }}
+        {% endif %}
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,13 @@
+name: Imaginarious
+version: 0.1.0
+description: theme for Sensorium conference
+icon: rebel
+author:
+  name: Philo van Kemenade
+  email: philovankemenade@gmail.com
+homepage: https://github.com/philo-van-kemenade/grav-theme-imaginarious
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/philo-van-kemenade/grav-theme-imaginarious/issues
+readme: https://github.com/philo-van-kemenade/grav-theme-imaginarious/blob/develop/README.md
+license: MIT
