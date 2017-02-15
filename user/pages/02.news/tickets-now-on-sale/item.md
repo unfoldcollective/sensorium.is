@@ -3,7 +3,6 @@ title: Tickets now available
 date: 03/02/2017
 taxonomy:
     category: blog
-    #tag: [sensorium, tickets]
 process:
     twig: true
 ---
