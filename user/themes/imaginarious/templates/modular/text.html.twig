@@ -1,7 +1,7 @@
-<div class="modular-row tc">
+<section class="tc f4 measure center">
     {% set image = page.media.images|first %}
     {% if image %}
         {{ image.cropResize(400,400).html('','','align-'~page.header.image_align) }}
     {% endif %}
 {{ content }}
-</div>
+</section>
