@@ -14,3 +14,4 @@ Since it’s beginning, Sensorium has been collaborating with Resonate festival,
 We believe the program will amaze you. Sensorium invites ground-breaking works of art employing cutting-edge technology, but mainly the opportunity to meet and connect with innovative artists and designers. The aim of the event is to give creators a space to present their work and through that to stir a forward-thinking debate of ideas, opinions and visions connecting technology and art.
 
 Can’t wait to see you!
+
