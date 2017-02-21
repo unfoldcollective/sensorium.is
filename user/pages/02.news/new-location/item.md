@@ -1,6 +1,6 @@
 ---
-title: 'We moved to a new location'
-date: 02/10/2017
+title: We moved to a new location
+date: 12/02/2017
 taxonomy:
     category:
         - blog
