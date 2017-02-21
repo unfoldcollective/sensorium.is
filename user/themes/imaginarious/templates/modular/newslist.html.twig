@@ -1,8 +1,14 @@
+{% if page.header.limit %}
+	{% set limit = page.header.limit %}	
+{% else %}
+	{% set limit = 5 %}
+{% endif %}
+
 <section class="modular-row mw8 center">
 	<div class="tc">
 		{{ content }}
 	</div>
-	{% for p in page.collection %}
+	{% for p in page.collection.slice(0, limit) %}
 		<article class="bb b--black-10">
 			<a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{p.url}}">
 				<div class="flex flex-column flex-row-ns">
@@ -23,4 +29,9 @@
 			</a>
 		</article>
 	{% endfor %}
+	{% if page.collection.count > limit %}
+		<div class="tc pa4 f4">
+			<a href="/news">see all news...</a>
+		</div>
+	{% endif %}
 </section>
