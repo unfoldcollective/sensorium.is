@@ -1,6 +1,7 @@
 ---
 title: Location
+image_align: left
 ---
 
 ## Location
-### More info soon
+### Talks ****Pisztory Palace Bratislava****

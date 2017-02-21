@@ -1,0 +1,17 @@
+enabled: true
+text_var: 'Custom Text added by the **Git Sync** plugin (disable plugin to remove)'
+folders:
+  - pages
+repository: 'https://github.com/unfoldcollective/sensorium.is-2017.git'
+user: phillchill
+password: HelemaaL88g
+webhook: 'http://sensorium.is/git-sync/_git-sync'
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false
