@@ -3,7 +3,7 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
-		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-125).colorize(255,114,92) %}
+		{% set blog_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(0,0,0) %}
 
 		{% if blog_image %}
 		<div class="flush-top blog-header blog-header-image tc" style="background-image: url({{ blog_image.url }});">

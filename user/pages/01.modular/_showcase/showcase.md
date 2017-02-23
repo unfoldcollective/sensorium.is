@@ -6,7 +6,7 @@ buttons:
         text: 'Register now'
         url: 'https://ti.to/sensorium2017/sensorium2017'
         newTab: true
-        classes: 'f4 link grow ba bw1 ph3 pv2 mb2 dib white'
+        classes: 'f4 link grow ba bw1 ph3 pv2 mb2 dib white hover-white'
 showAnimatedLogotype: true
 ---
 

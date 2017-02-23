@@ -13,7 +13,9 @@
 @import "../../antimatter/scss/template/extensions";
 
 // Load cutomized template components
+@import "template-customized/core";
 @import "template-customized/blog";
+@import "template-customized/header";
 
 /* tachyons */
 .grow {
@@ -27,15 +29,6 @@
 .grow:focus {
   transform: scale(1.05) !important;
 }
-
-/* template: core */
-a {
-	color: $core-accent;
-	&:hover {
-		color: inherit;
-	}
-}
-
 
 /* template: typography */
 h1 {

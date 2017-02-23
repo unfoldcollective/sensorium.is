@@ -9,12 +9,16 @@ body {
   	-moz-osx-font-smoothing: grayscale;
 }
 
-// a {
-// 	color: $core-accent;
-// 	&:hover {
-// 		color: inherit;
-// 	}
-// }
+a {
+	color: $core-accent;
+	&:hover {
+		color: darken($core-accent, 20%);
+	}
+}
+
+
+
+
 
 // Global Container
 #container {
@@ -35,12 +39,12 @@ body {
 
 // Global body styling
 #body {
-	// @extend .default-animation;
-	// @extend .padding-horiz;
+	@extend .default-animation;
+	@extend .padding-horiz;
 	
-	// background: $page-bg;
-	// padding-top: $header-height + $padding-vert;
-	// padding-bottom: $footer-height + $padding-vert + 2rem;
+	background: $page-bg;
+	padding-top: $header-height + $padding-vert;
+	padding-bottom: $footer-height + $padding-vert + 2rem;
 }
 
 // Alignment
