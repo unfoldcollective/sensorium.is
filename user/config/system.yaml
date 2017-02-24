@@ -14,6 +14,14 @@ pages:
     default: 'd/m/Y'                        # The default date format Grav expects in the `date: ` field
     short: 'jS M Y'                         # Short date format
     long: 'F jS \a\t g:ia'                  # Long date format
+
+languages:
+  supported:
+    - en
+    - sk
+  override_locale: true
+  include_default_lang: false
+
 cache:
   enabled: true
   check:
