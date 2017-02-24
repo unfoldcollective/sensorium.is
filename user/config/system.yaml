@@ -36,11 +36,12 @@ twig:
   autoescape: false
 
 assets:
-  css_pipeline: false
+  css_pipeline: true
   css_minify: true
   css_rewrite: true
-  js_pipeline: false
+  js_pipeline: true
   js_minify: true
+  enable_asset_timestamp: true             # Enable asset timestamps
 
 errors:
   display: true
