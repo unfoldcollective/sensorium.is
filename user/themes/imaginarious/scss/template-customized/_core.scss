@@ -43,7 +43,8 @@ a {
 	@extend .padding-horiz;
 	
 	background: $page-bg;
-	padding-top: $header-height + $padding-vert;
+	// padding-top: $header-height + $padding-vert;
+	padding-top: $header-height;
 	padding-bottom: $footer-height + $padding-vert + 2rem;
 }
 

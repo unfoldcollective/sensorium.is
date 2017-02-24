@@ -1,9 +1,5 @@
-{% set showcase_image = page.media.images|first.grayscale().contrast(20).brightness(-100).colorize(0,0,0) %}
-{% if showcase_image %}
-	<div class="modular-row showcase flush-top" style="background-image: url({{ showcase_image.url }});">
-{% else %}
-<div class="modular-row showcase">
-{% endif %}
+<div class="relative modular-row showcase">
+	<img class="sensorium-arcs" src="{{ theme_url }}/images/backgrounds/arcs.svg" alt="">
 	{% if page.header.showAnimatedLogotype %}
 		{% include 'partials/atoms/animatedLogotype.html.twig' %}
 	{% endif %}

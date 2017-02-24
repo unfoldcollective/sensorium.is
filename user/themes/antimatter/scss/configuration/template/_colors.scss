@@ -1,11 +1,18 @@
+// Sensorium Colors
+$sensorium-teal: 				#0096AC;
+$light-purple: 					#A463F2;
+$sensorium-pink: 				#FBD2CE;
+$light-green: 					#9CFCCF;
+$sensorium-gray: 				#CDCCCB;
+
 // Core
-$core-text:						#444;
-$core-accent:					#1BB3E9;
-$secondary-link:				#F6635E;
+$core-text:						$sensorium-gray;
+$core-accent:					$light-purple; 
+$secondary-link:				$sensorium-teal;
 $white:							#fff;
 $black:							#000;
-$light-gray:					#ddd;
-$border-color: 					#EEEEEE;
+$light-gray:					$sensorium-gray;
+$border-color: 					$sensorium-pink;
 
 // Borders
 $core-border-color:				$light-gray;

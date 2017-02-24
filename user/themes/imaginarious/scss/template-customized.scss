@@ -15,7 +15,6 @@
 // Load cutomized template components
 @import "template-customized/core";
 @import "template-customized/blog";
-@import "template-customized/header";
 
 /* tachyons */
 .grow {
@@ -65,6 +64,16 @@ blockquote {
 		    height: 2rem;
 		}
 	}
+  // scroll based changes
+  &.scrolled {
+    background-color: rgba($light-green,0.90) !important;
+    #navbar a {
+      color: $core-accent !important;
+      &:hover {
+        color: $core-accent !important;
+      }
+    }
+  }
 }
 /* template: buttons */
 %button {
@@ -101,6 +110,21 @@ blockquote {
 .button-secondary {
   @extend %button;
   @include button-color($secondary-link);
+}
+
+/* template: showcase */
+.modular {
+  .showcase {
+    background-color: $page-bg;
+    img.sensorium-arcs {
+      position: absolute;
+      max-width: none;
+      top: 0;
+      left: 50%;
+      width: 1200px;
+      margin-left: -600px; /* half the width */
+    }
+  }
 }
 
 /* Animated Logotype */
