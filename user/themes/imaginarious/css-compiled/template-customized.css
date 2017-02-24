@@ -182,13 +182,15 @@ ul.pagination {
 
 /* template: typography */
 h1 {
-  text-align: inherit;
+  text-align: inherit !important;
   letter-spacing: 0; }
 
 h2 {
+  text-align: inherit !important;
   letter-spacing: 0; }
 
 h3 {
+  text-align: inherit !important;
   letter-spacing: 0; }
 
 blockquote p {
