@@ -116,6 +116,14 @@ blockquote {
 .modular {
   .showcase {
     background-color: $page-bg;
+    img.sensorium-arcs {
+      position: absolute;
+      max-width: none;
+      top: 0;
+      left: 50%;
+      width: 1200px;
+      margin-left: -600px; /* half the width */
+    }
   }
 }
 

@@ -52,7 +52,7 @@ a {
 
 #body {
   background: #000;
-  padding-top: 8rem;
+  padding-top: 5rem;
   padding-bottom: 11rem; }
 
 .left {
@@ -242,6 +242,14 @@ blockquote cite {
 /* template: showcase */
 .modular .showcase {
   background-color: #000; }
+  .modular .showcase img.sensorium-arcs {
+    position: absolute;
+    max-width: none;
+    top: 0;
+    left: 50%;
+    width: 1200px;
+    margin-left: -600px;
+    /* half the width */ }
 
 /* Animated Logotype */
 iframe.animatedLogotype {
