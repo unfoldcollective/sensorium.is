@@ -1,4 +1,5 @@
 // Breakpoints
+$tablet-container:              48.000em !default;
 @mixin breakpoint($breakpoints, $media: all) {
     @each $breakpoint in $breakpoints {
         @if $breakpoint == large-desktop-range {
