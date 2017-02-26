@@ -1,9 +1,9 @@
 ---
-title: Speakers
-menu: Speakers
+title: Umelci
+menu: Umelci
 content:
     items:
-      '@page': '/speakers'
+        '@page': /speakers
 ---
 
-## Speakers
+## Umelci

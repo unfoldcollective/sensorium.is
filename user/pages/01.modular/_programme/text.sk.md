@@ -1,6 +1,6 @@
 ---
-title: Programme
+title: Program
 ---
 
-## Programme
-### More info soon
+## Program
+### Informácie čoskoro

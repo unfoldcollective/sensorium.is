@@ -1,7 +1,7 @@
 ---
-title: Location
+title: Miesto
 image_align: left
 ---
 
-## Location
-### Talks ****Pisztory Palace Bratislava****
+## Miesto
+### Prednášky ****Pisztoryho palác Bratislava****
