@@ -16,6 +16,9 @@
 @import "template-customized/core";
 @import "template-customized/blog";
 
+// Load Vendor Components
+@import "vendor/tilt-hover-effects.scss";
+
 /* tachyons */
 .grow {
   -moz-osx-font-smoothing: grayscale !important;

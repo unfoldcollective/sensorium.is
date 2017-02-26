@@ -1,19 +1,26 @@
-<section class="cf tc w-100 pa2-ns">
+<section id="section-speakers" class="cf tc w-100 pa2-ns">
 	<div class="tc">
 		{{ content }}
 	</div>
+
 	<div>
 		{% for p in page.collection %}
-		<article class="dib v-top w-100 w-50-m  w-25-ns pa2-ns">
-			<a class="db pv4 ph3 ph0-l no-underline dark-gray dim" href="{{p.url}}">
-				<div class="aspect-ratio aspect-ratio--1x1">
-					<img style="background-image:url({{ p.media.images|first.url }});" 
-					class="db bg-center cover aspect-ratio--object">
-				</div>
-				<h3 class="f5 f4-ns mb0 moon-gray">{{ p.title }}</h3>
-				<h3 class="f6 f5 fw4 mt2 moon-gray">{{ p.header.subtitle }}</h3>
+		<section class="dib smooth">
+			<a href="{{p.url}}" class="tilter tilter--6">
+				<figure class="tilter__figure">
+					<img class="tilter__image bg-center cover" style="background-image:url({{ p.media.images|first.url }});" alt="img11" />
+					<div class="tilter__deco tilter__deco--shine"><div></div></div>
+					<div class="tilter__deco tilter__deco--overlay"></div>
+					<figcaption class="tilter__caption">
+						<h3 class="tilter__title">{{ p.title }}</h3>
+						<p class="tilter__description">{{ p.header.subtitle }}</p>
+					</figcaption>
+					<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
+						<path d="M20.5,20.5h260v375h-260V20.5z" />
+					</svg>
+				</figure>
 			</a>
-		</article>
+		</section>
 		{% endfor %}
 	</div>
 </section>
