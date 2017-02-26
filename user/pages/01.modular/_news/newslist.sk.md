@@ -1,13 +1,13 @@
 ---
-title: News
-menu: News
+title: Novinky
+menu: Novinky
 content:
     items:
-      '@page': '/news'
+        '@page': /news
     order:
         by: date
         dir: desc
 limit: 5
 ---
 
-## News
+## Novinky

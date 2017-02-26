@@ -1,13 +1,13 @@
 ---
-title: About
+title: 'O nás'
 ---
 
-## About
+## O nás
 
 <div class="f3">
-Sensorium is two days of workshops and talks bridging the fields of computational art, design and performance.
+Sensorium sú dva dni workshopov a prednášok v oblastiach kde umenie, dizajn a performance, využíva výpočtovú techniku.
 </div>
 
-Immerse yourself in the world of dynamic and interactive installations, graphics, data visualisations and generative design. Internationally established artists and designers who use computation as a creative practice will get together in Bratislava to discuss their projects, processes and ideas. Sensorium is a first-of-its-kind educational event in Slovakia on the crossover of art, design and technology.
+Nechajte sa vtiahnuť do sveta dynamických a interaktívnych inštalácií, grafík, vizualizácií dát a generatívneho dizajnu. Medinárodne uznávaní umelci a dizajnéri sa stretnú v Bratislave, aby odprezentovali svoje projekty, procesy a myšlienky. 
 
-[read more](/about)
+[čítaj viac](/about)

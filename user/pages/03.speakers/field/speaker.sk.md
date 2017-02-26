@@ -1,14 +1,16 @@
 ---
 title: Field
-subtitle: Generative Audio-visual Experiences
-date: 10/02/2017
+subtitle: 'Generatívne audiovizuálne zážitky'
+date: 02/10/2017
 taxonomy:
-    category: speakers
+    category: umelci
 process:
     twig: true
 ---
 
-They are masters of beautiful aesthetics and generative art. Based in London, they combine art + technology to create immersive audio-visual experiences and powerful new formats of visual communication. We are extremely pleased to announce the first speakers of Sensorium 2017 - FIELD.IO. 
+Sú majstrami krásnej estetiky a generatívneho umenia. Londýnske štúdio kombinuje umenie + technológiu pre vytváranie imersívnych audiovizuálnych zážitkov a silných nových formátov vizuálnej komunikácie. 
+Pracujúc s vybranými značkami a kultúrnymi inštitúciami po celom svete produkujú umelecké diela vo forme [pohyblivého obrazu](https://www.field.io/moving-image/), [interaktívnych zážitkov](https://www.field.io/interactive/) a kinetických inštalácií.
+www.field.io
 
-Field works with selected brands and cultural institutions world-wide, producing artworks across moving image, interactive experiences, screen-based and kinetic installations.
+
 
