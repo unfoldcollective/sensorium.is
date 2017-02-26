@@ -16,6 +16,9 @@
 @import "template-customized/core";
 @import "template-customized/blog";
 
+// Load Vendor Components
+@import "vendor/tilt-hover-effects.scss";
+
 /* tachyons */
 .grow {
   -moz-osx-font-smoothing: grayscale !important;
@@ -31,15 +34,17 @@
 
 /* template: typography */
 h1 {
-	text-align: inherit;
+	text-align: inherit !important;
 	letter-spacing: 0;
 }
 
 h2 {
+  text-align: inherit !important;
 	letter-spacing: 0;
 }
 
 h3 {
+  text-align: inherit !important;
 	letter-spacing: 0;
 }
 
