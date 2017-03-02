@@ -42,7 +42,7 @@ a {
 	@extend .default-animation;
 	@extend .padding-horiz;
 	
-	background: $page-bg;
+	background: none;
 	// padding-top: $header-height + $padding-vert;
 	padding-top: $header-height;
 	padding-bottom: $footer-height + $padding-vert + 2rem;

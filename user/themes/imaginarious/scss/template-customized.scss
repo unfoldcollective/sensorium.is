@@ -33,6 +33,10 @@
 }
 
 /* template: typography */
+// Body Base
+html, body, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
+  font-weight: 800;
+}
 h1 {
 	text-align: inherit !important;
 	letter-spacing: 0;
@@ -94,13 +98,13 @@ blockquote {
 
 @mixin button-color($color) {
   // background: $white;
-  background: lighten($page-bg, 5%);
+  background: none; //lighten($page-bg, 5%);
   color: $color;
   border: 1px solid $color;
   border-radius: 3px;
   &:hover {
     background: $color;
-    color: lighten($page-bg, 5%);
+    color: none; //lighten($page-bg, 5%);
   }
   &:active {
     box-shadow: 0 1px 0 darken($color, 12%);
@@ -120,7 +124,7 @@ blockquote {
 /* template: showcase */
 .modular {
   .showcase {
-    background-color: $page-bg;
+    background: none;
     img.sensorium-arcs {
       position: absolute;
       max-width: none;
@@ -148,4 +152,14 @@ iframe.animatedLogotype {
       width: 750px;
       height: 300px;
     }
+}
+
+/* interactive spline loops */
+#sb-site {
+  background: none !important;
+}
+#defaultCanvas0 {
+  position: fixed;
+  top: 0;
+  z-index: 0;
 }
