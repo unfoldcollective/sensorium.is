@@ -7,6 +7,9 @@
 			</a>
 		{% endfor %}
 	</div>
+	{% if page.header.mainPartnersSubtitle %}
+		<p>{{page.header.mainPartnersSubtitle}}</p>
+	{% endif %}
 	<h2>{{page.header.partnersTitle}}</h2>
 	<div>
 		{% for partner in page.header.partners %}

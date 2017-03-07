@@ -2,6 +2,7 @@
 title: Partners
 menu: Partners
 mainPartnersTitle: Main Partner
+mainPartnersSubtitle: Sensorium is supported by the Public Fund for the Arts
 mainPartners:
     -
         name: FPU
