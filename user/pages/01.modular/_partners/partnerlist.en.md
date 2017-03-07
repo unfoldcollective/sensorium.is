@@ -22,4 +22,10 @@ partners:
         name: Goethe Institut
         url: https://www.goethe.de/ins/sk/sk/index.html
         logo: logo-goethe-institut.png
+sponsorsTitle: Sponsors
+sponsors:
+    -
+        name: Studio 727
+        url: http://www.727.sk/
+        logo: logo-727.svg
 ---

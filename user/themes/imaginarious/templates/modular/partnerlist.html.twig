@@ -18,4 +18,12 @@
 			</a>
 		{% endfor %}
 	</div>
+	<h2>{{page.header.sponsorsTitle}}</h2>
+	<div>
+		{% for sponsor in page.header.sponsors %}
+			<a class="glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{sponsor.url}}" title="{{sponsor.name}}" target="_blank" >
+				<img title="{{sponsor.name}}" class="dib w4" src="{{ page.media[sponsor.logo].url }}" alt="{{sponsor.name}}">
+			</a>
+		{% endfor %}
+	</div>
 </section>
