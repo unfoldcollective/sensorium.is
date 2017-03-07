@@ -1,0 +1,13 @@
+<section id="section-speakers" class="ph3 tl tc-ns center f4 measure">
+	<div class="tl tc-ns">
+		{{ content }}
+	</div>
+
+	<div>
+		{% for partner in page.header.partners %}
+			<a class="glow pointer o-80 link inline-flex items-center ma2 tc br2 pa2" href="{{partner.url}}" title="{{partner.name}}" target="_blank" >
+				<img title="{{partner.name}}" class="dib w4" src="{{ page.media[partner.logo].url }}" alt="{{partner.name}}">
+			</a>
+		{% endfor %}
+	</div>
+</section>

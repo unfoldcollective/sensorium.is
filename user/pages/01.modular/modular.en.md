@@ -16,5 +16,6 @@ content:
             - _about
             - _programme
             - _location
+            - _partners
 ---
 
