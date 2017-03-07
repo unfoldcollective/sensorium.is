@@ -1,6 +1,13 @@
 ---
 title: Partners
 menu: Partners
+mainPartnersTitle: Main Partner
+mainPartners:
+    -
+        name: FPU
+        url: http://www.fpu.sk/
+        logo: logo-fpu.jpg
+partnersTitle: Partners
 partners:
     -
         name: Multiplace
@@ -15,4 +22,3 @@ partners:
         url: https://www.goethe.de/ins/sk/sk/index.html
         logo: logo-goethe-institut.png
 ---
-## Partners

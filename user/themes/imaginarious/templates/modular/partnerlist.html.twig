@@ -1,8 +1,13 @@
 <section id="section-speakers" class="ph3 tl tc-ns center f4 measure">
-	<div class="tl tc-ns">
-		{{ content }}
+	<h2>{{page.header.mainPartnersTitle}}</h2>
+	<div>
+		{% for mainPartner in page.header.mainPartners %}
+			<a class="glow pointer o-80 link inline-flex items-center ma2 tc br2 pa2" href="{{mainPartner.url}}" title="{{mainPartner.name}}" target="_blank" >
+				<img title="{{mainPartner.name}}" class="dib w5" src="{{ page.media[mainPartner.logo].url }}" alt="{{mainPartner.name}}">
+			</a>
+		{% endfor %}
 	</div>
-
+	<h2>{{page.header.partnersTitle}}</h2>
 	<div>
 		{% for partner in page.header.partners %}
 			<a class="glow pointer o-80 link inline-flex items-center ma2 tc br2 pa2" href="{{partner.url}}" title="{{partner.name}}" target="_blank" >
