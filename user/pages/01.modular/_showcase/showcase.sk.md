@@ -10,6 +10,6 @@ buttons:
 showAnimatedLogotype: true
 ---
 
-## Dva dni prednášok a workshopov v oblastiach kde umenie, dizajn a performance, využíva výpočtovú techniku. .
-### 28-29 apríl 2017
+## Dva dni prednášok a workshopov v oblastiach kde umenie, dizajn a performance využíva výpočtovú techniku
+### 28-30 apríl 2017
 ### Bratislava

@@ -1,6 +1,6 @@
 ---
 title: About
-body_classes: header-image fullwidth
+body_classes: 'header-image fullwidth'
 ---
 
 <div class="f3 f2-ns">
