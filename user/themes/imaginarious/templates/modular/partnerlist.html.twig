@@ -1,0 +1,29 @@
+<section id="section-speakers" class="ph3 tl tc-ns center f4 measure">
+	<h2>{{page.header.mainPartnersTitle}}</h2>
+	<div>
+		{% for mainPartner in page.header.mainPartners %}
+			<a class="glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{mainPartner.url}}" title="{{mainPartner.name}}" target="_blank" >
+				<img title="{{mainPartner.name}}" class="dib w5" src="{{ page.media[mainPartner.logo].url }}" alt="{{mainPartner.name}}">
+			</a>
+		{% endfor %}
+	</div>
+	{% if page.header.mainPartnersSubtitle %}
+		<p>{{page.header.mainPartnersSubtitle}}</p>
+	{% endif %}
+	<h2>{{page.header.partnersTitle}}</h2>
+	<div>
+		{% for partner in page.header.partners %}
+			<a class="glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{partner.url}}" title="{{partner.name}}" target="_blank" >
+				<img title="{{partner.name}}" class="dib w4" src="{{ page.media[partner.logo].url }}" alt="{{partner.name}}">
+			</a>
+		{% endfor %}
+	</div>
+	<h2>{{page.header.sponsorsTitle}}</h2>
+	<div>
+		{% for sponsor in page.header.sponsors %}
+			<a class="glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{sponsor.url}}" title="{{sponsor.name}}" target="_blank" >
+				<img title="{{sponsor.name}}" class="dib w4" src="{{ page.media[sponsor.logo].url }}" alt="{{sponsor.name}}">
+			</a>
+		{% endfor %}
+	</div>
+</section>

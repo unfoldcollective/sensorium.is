@@ -1,24 +1,10 @@
 <footer class="bg-black">
-    <div class="bt mw9 center ph5-l cf pa4">
+    <div class="bt mw9 center ph5-l cf pa3">
             <div class="fl w-100 w-third-ns pa2">
-                <h4 class="f4">Sensorium is brought to you by</h4>
-                <div class="mw4">
-                    {% include 'partials/atoms/logo-unfold.html.twig' with {
-                        'classes': 'mw-100'
-                    }%}
-                </div>
-                <h4 class="f5">This page is proudly hosted by</h4>
-                <a class="dim" href="https://www.websupport.sk/" target="_blank">
-                    <img class="w-100 mw5" src="{{ url('theme://images/logos/logo-websupport-black.jpg') }}" alt="WebSupport">
+                <h4 class="f4">Sensorium is produced by</h4>
+                <a class="dim" href="http://www.unfold.is/" target="_blank">
+                    <img class="w4" src="{{ url('theme://images/logos/logo-unfold-white.png') }}" alt="Unfold">
                 </a>
-            </div>
-            <div class="fl w-100 w-third-ns pa2">
-                <h4 class="f4">Contact</h4>
-                <p><i class="fa fa-envelope w1"></i> <a href="mailto:hello@sensorium.is">hello@sensorium.is</a></p>
-                <p><i class="fa fa-facebook w1"></i> <a target="_blank" href="https://www.facebook.com/sensoriumsvk">Sensorium Conference</a></p>
-                <p><i class="fa fa-link w1"></i> <a target="_blank" href="http://unfold.is">unfold.is</a></p>
-            </div>
-            <div class="fl w-100 w-third-ns pa2">
                 <h4 class="f4">Newsletter</h4>
                 {% include 'partials/atoms/button.html.twig' with {
                     'button': {
@@ -29,10 +15,33 @@
                     }
                 }%}
                 <p>
-                    <a href="/2016">Sensorium 2016</a>
+                    {# <a href="/2016">Sensorium 2016</a> #}
                 </p>
                 
             </div>
-
+            <div class="fl w-100 w-third-ns pa2">
+                <h4 class="f4">Contact</h4>
+                <p class="mv3"><i class="fa fa-envelope w1"></i> <a href="mailto:hello@sensorium.is">hello@sensorium.is</a></p>
+                <p class="mv3"><i class="fa fa-facebook w1"></i> <a target="_blank" href="https://www.facebook.com/sensoriumsvk">Sensorium Conference</a></p>
+                <p class="mv3"><i class="fa fa-link w1"></i> <a target="_blank" href="http://unfold.is">unfold.is</a></p>
+            </div>
+            <div class="fl w-100 w-third-ns pa2">
+                <h4 class="f5">Graphic Design by</h4>
+                <a class="dim" href="http://www.436.sk/" target="_blank">
+                    <img class="w3" src="{{ url('theme://images/logos/logo-436.svg') }}" alt="Studio 436">
+                </a>
+                <h4 class="f5">Sensorium Logotype by</h4>
+                <i class="fa fa-envelope ml1 w1"></i>
+                <a href="mailto:mato.pysny@gmail.com">
+                    Martin Pyšný
+                </a>
+                <h4 class="f5">Website by</h4>
+                <i class="fa fa-link w1"></i>
+                <a href="http://www.unfold.is/" target="_blank">Unfold</a>
+                <h4 class="f5">Webhosting provided by</h4>
+                <a class="dim" href="https://www.websupport.sk/" target="_blank">
+                    <img class="w5" src="{{ url('theme://images/logos/logo-websupport-white.jpg') }}" alt="WebSupport">
+                </a>
+            </div>
     </div>
 </footer>
