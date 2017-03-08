@@ -415,14 +415,17 @@ html, body, button, input, select, textarea, .pure-g, .pure-g [class*="pure-u"] 
 
 h1 {
   text-align: inherit !important;
+  font-weight: inherit !important;
   letter-spacing: 0; }
 
 h2 {
   text-align: inherit !important;
+  font-weight: inherit !important;
   letter-spacing: 0; }
 
 h3 {
   text-align: inherit !important;
+  font-weight: inherit !important;
   letter-spacing: 0; }
 
 blockquote p {
@@ -437,7 +440,7 @@ blockquote cite {
   #header #logo img {
     height: 2rem; }
   #header.scrolled {
-    background-color: rgba(156, 252, 207, 0.9) !important; }
+    background-color: #9CFCCF !important; }
     #header.scrolled #navbar a {
       color: #A463F2 !important; }
       #header.scrolled #navbar a:hover {
