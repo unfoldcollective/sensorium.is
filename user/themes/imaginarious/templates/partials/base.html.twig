@@ -4,7 +4,12 @@
 <head>
 {% block head %}
     <meta charset="utf-8" />
-    <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    <title> 
+        {% if page.slug != 'modular' %}
+            {% if header.title %}{{ header.title|e('html') }} | {% endif %}
+        {% endif %}
+        {{ site.title|e('html') }}
+    </title>
     {% include 'partials/metadata.html.twig' %}
     {% include 'partials/favicons.html.twig' %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
