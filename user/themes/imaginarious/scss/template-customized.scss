@@ -75,7 +75,7 @@ blockquote {
 	}
   // scroll based changes
   &.scrolled {
-    background-color: rgba($light-green,0.90) !important;
+    background-color: $light-green !important;
     #navbar a {
       color: $core-accent !important;
       &:hover {
