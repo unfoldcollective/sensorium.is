@@ -1,7 +1,15 @@
 title: Sensorium 2017
 author:
   name: Unfold
-  email: 'hello@unfold.is'
+  email: hello@unfold.is
 metadata:
-    description: 'The first Slovak conference making sense of creative technology in art and design'
-
+    description: Two days of workshops and talks bridging the fields of computational art, design and performance
+    'og:title': Sensorium 2017
+    'og:description': Two days of workshops and talks bridging the fields of computational art, design and performance
+    'og:type': website
+    'og:url': http://sensorium.is/
+    'og:site_name': Sensorium 2017
+    'og:image': http://sensorium.is/user/themes/imaginarious/images/social/sensorium-cover.jpg
+    'og:locale': en_GB
+    'og:locale:alternate': sk_SK
+    'twitter:card' : summary_large_image
