@@ -476,6 +476,9 @@ blockquote cite {
 /* template: showcase */
 .modular .showcase {
   background: none; }
+  @media (max-width: 480px) {
+    .modular .showcase {
+      line-height: 1.4; } }
   .modular .showcase img.sensorium-arcs {
     position: absolute;
     max-width: none;
