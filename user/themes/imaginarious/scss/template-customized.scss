@@ -38,17 +38,20 @@ html, body, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"
   font-weight: 800;
 }
 h1 {
-	text-align: inherit !important;
+  text-align: inherit !important;
+	font-weight: inherit !important;
 	letter-spacing: 0;
 }
 
 h2 {
   text-align: inherit !important;
+  font-weight: inherit !important;
 	letter-spacing: 0;
 }
 
 h3 {
   text-align: inherit !important;
+  font-weight: inherit !important;
 	letter-spacing: 0;
 }
 
@@ -75,7 +78,7 @@ blockquote {
 	}
   // scroll based changes
   &.scrolled {
-    background-color: rgba($light-green,0.90) !important;
+    background-color: $light-green !important;
     #navbar a {
       color: $core-accent !important;
       &:hover {
@@ -124,6 +127,9 @@ blockquote {
 /* template: showcase */
 .modular {
   .showcase {
+    @media (max-width: 480px) {
+      line-height: 1.4;
+    }
     background: none;
     img.sensorium-arcs {
       position: absolute;
@@ -156,8 +162,14 @@ iframe.animatedLogotype {
 
 /* interactive spline loops */
 #sb-site {
-  background: none !important;
+  transition: all 1s ease !important;
+  background-color: rgba(0,0,0,0) !important;
 }
+#sb-site.scrolled {
+  transition: all 1s ease;
+  background: rgba(0,0,0,0.5) !important;
+}
+
 #defaultCanvas0 {
   position: fixed;
   top: 0;
