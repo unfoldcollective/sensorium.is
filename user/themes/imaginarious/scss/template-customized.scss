@@ -162,8 +162,14 @@ iframe.animatedLogotype {
 
 /* interactive spline loops */
 #sb-site {
-  background: none !important;
+  transition: all 1s ease !important;
+  background-color: rgba(0,0,0,0) !important;
 }
+#sb-site.scrolled {
+  transition: all 1s ease;
+  background: rgba(0,0,0,0.5) !important;
+}
+
 #defaultCanvas0 {
   position: fixed;
   top: 0;
