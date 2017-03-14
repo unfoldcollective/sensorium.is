@@ -19,6 +19,11 @@
 // Load Vendor Components
 @import "vendor/tilt-hover-effects.scss";
 
+/* general */
+a {
+  transition: all 0.1s ease;
+}
+
 /* tachyons */
 .grow {
   -moz-osx-font-smoothing: grayscale !important;
@@ -79,10 +84,11 @@ blockquote {
   // scroll based changes
   &.scrolled {
     background-color: $light-green !important;
-    #navbar a {
+    #navbar a, #navbar span {
       color: $core-accent !important;
+      transition: all 0.25s;
       &:hover {
-        color: $core-accent !important;
+        color: lighten($core-accent, 10%) !important;
       }
     }
   }

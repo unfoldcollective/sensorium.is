@@ -40,7 +40,7 @@ body {
 a {
   color: #A463F2; }
   a:hover {
-    color: #6e12dd; }
+    color: #bf92f6; }
 
 #container {
   min-height: 100%;
@@ -398,6 +398,10 @@ ul.pagination {
 .tilter--8 .tilter__figure::before {
   box-shadow: none; }
 
+/* general */
+a {
+  transition: all 0.1s ease; }
+
 /* tachyons */
 .grow {
   -moz-osx-font-smoothing: grayscale !important;
@@ -441,10 +445,11 @@ blockquote cite {
     height: 2rem; }
   #header.scrolled {
     background-color: #9CFCCF !important; }
-    #header.scrolled #navbar a {
-      color: #A463F2 !important; }
-      #header.scrolled #navbar a:hover {
-        color: #A463F2 !important; }
+    #header.scrolled #navbar a, #header.scrolled #navbar span {
+      color: #A463F2 !important;
+      transition: all 0.25s; }
+      #header.scrolled #navbar a:hover, #header.scrolled #navbar span:hover {
+        color: #bf92f6 !important; }
 
 /* template: buttons */
 .button, .button-secondary {
