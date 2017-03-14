@@ -81,6 +81,13 @@ blockquote {
 		    height: 2rem;
 		}
 	}
+  #navbar a {
+      color: white;
+  }
+  #navbar ul.navigation li a::after, #navbar ul.navigation li a::before {
+      background-color: white;
+  }
+
   // scroll based changes
   &.scrolled {
     background-color: $light-green !important;
@@ -88,7 +95,7 @@ blockquote {
       color: $core-accent !important;
       transition: all 0.25s;
       &:hover {
-        color: lighten($core-accent, 10%) !important;
+        color: $core-accent !important;
       }
     }
   }

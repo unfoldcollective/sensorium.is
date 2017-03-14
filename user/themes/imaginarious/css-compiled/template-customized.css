@@ -443,13 +443,17 @@ blockquote cite {
   box-shadow: none; }
   #header #logo img {
     height: 2rem; }
+  #header #navbar a {
+    color: white; }
+  #header #navbar ul.navigation li a::after, #header #navbar ul.navigation li a::before {
+    background-color: white; }
   #header.scrolled {
     background-color: #9CFCCF !important; }
     #header.scrolled #navbar a, #header.scrolled #navbar span {
       color: #A463F2 !important;
       transition: all 0.25s; }
       #header.scrolled #navbar a:hover, #header.scrolled #navbar span:hover {
-        color: #bf92f6 !important; }
+        color: #A463F2 !important; }
 
 /* template: buttons */
 .button, .button-secondary {
