@@ -2,7 +2,6 @@ var isTouch = window.DocumentTouch && document instanceof DocumentTouch;
 
 function dimBackground() {
     var zvalue = $(document).scrollTop();
-    console.log(zvalue);
     if ( zvalue > 800 )
         $("#sb-site").addClass("scrolled");
     else
@@ -21,7 +20,7 @@ jQuery(document).ready(function($){
     // TOUCH SCROLL
     $(document).on({
         'touchmove': function(e) {
-            dimBackground(); // Replace this with your code.
+            dimBackground();
         }
     });
 });
