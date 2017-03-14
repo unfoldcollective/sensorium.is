@@ -1,7 +1,7 @@
 ---
 title: Partners
 menu: Partners
-hide_in_menu
+hide_in_menu: true
 mainPartnersTitle: Main Partner
 mainPartnersSubtitle: Sensorium is supported by the Public Fund for the Arts
 mainPartners:
