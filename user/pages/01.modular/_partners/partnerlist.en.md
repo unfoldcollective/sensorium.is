@@ -23,10 +23,23 @@ partners:
         name: Goethe Institut
         url: https://www.goethe.de/ins/sk/sk/index.html
         logo: logo-goethe-institut.png
+    -
+        name: Mladý pes
+        url: http://www.mladypes.sk/
+        logo: logo-mladypes.png
+    -
+        name: lab.SNG
+        url: http://lab.sng.sk/
+        logo: logo-lab-sng.png
+
 sponsorsTitle: Sponsors
 sponsors:
     -
         name: Studio 727
         url: http://www.727.sk/
         logo: logo-727.svg
+    -
+        name: Nethemba
+        url: https://nethemba.com/
+        logo: logo-nethemba.png
 ---
