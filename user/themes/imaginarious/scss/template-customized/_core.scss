@@ -12,7 +12,7 @@ body {
 a {
 	color: $core-accent;
 	&:hover {
-		color: darken($core-accent, 20%);
+		color: lighten($core-accent, 10%);
 	}
 }
 

@@ -2,14 +2,14 @@
 title: Partners
 menu: Partners
 hide_in_menu: true
-mainPartnersTitle: Main Partner
-mainPartnersSubtitle: Sensorium is supported by the Public Fund for the Arts
+mainPartnersTitle: Hlavný partner
+mainPartnersSubtitle: Sensorium z verejných zdrojov podporil Fond na podporu umenia
 mainPartners:
     -
         name: FPU
         url: http://www.fpu.sk/
         logo: logo-fpu.jpg
-partnersTitle: Partners
+partnersTitle: Partneri
 partners:
     -
         name: Multiplace
@@ -32,7 +32,7 @@ partners:
         url: http://lab.sng.sk/
         logo: logo-lab-sng.png
 
-sponsorsTitle: Sponsors
+sponsorsTitle: Sponzori
 sponsors:
     -
         name: Studio 727
