@@ -4,7 +4,7 @@ body_classes: 'header-image fullwidth'
 ---
 
 <div class="f3 f2-ns">
-Sensorium sú dva dni prednášok a workshopov v oblastiach kde umenie, dizajn a performance, využíva výpočtovú techniku. 
+Sensorium je festival s konferenciou a workshopmi v oblastiach kde umenie, dizajn a performance, využíva výpočtovú techniku. 
 </div>
 
 Nechajte sa vtiahnuť do sveta dynamických a interaktívnych inštalácií, grafík, vizualizácií dát a generatívneho dizajnu. Medinárodne uznávaní umelci a dizajnéri sa stretnú v Bratislave, aby odprezentovali svoje projekty, procesy a myšlienky. 
