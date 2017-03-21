@@ -1,6 +1,6 @@
 ---
 title: 'Je to len algoritmus, no machine learning mi pripomína mágiu'
-date: 10/03/2017
+date: 12/03/2017
 taxonomy:
     category:
         - blog
@@ -13,9 +13,11 @@ Andrej Boleslavský je nezávislý umelec, ktorý aplikuje technológiu v oblast
 
 ===
 
+/Pozri aj Sensorium [Machine Learning for Artists and Designers workshop](http://sensorium.is/workshops/machine-learning)\
+
 Vytvoril mnoho interaktívnych inštalácií a učil o open source softvére, programovacích platformách VVVV a Arduino. Často na svojich projektoch spolupracuje  s umelkyňou [Máriou Júdovou](http://mariajudova.net/).
 
-S Andrejom so sa rozprávala o jeho zážitku z intenzívneho týždňového workshopu s Gene-om Kogan-om v Taliansku, kde vytvorili [Invisible Cities](https://opendot.github.io/ml4a-invisible-cities/) - projekt, kde vycvičili neurálnu sieť prekladať kúsky mapy na generatívne satelitové obrázky.
+S [Andrejom](id144.org) som sa rozprávala o jeho zážitku z intenzívneho týždňového workshopu s Gene-om Kogan-om v Taliansku, kde vytvorili [Invisible Cities](https://opendot.github.io/ml4a-invisible-cities/) - projekt, kde vycvičili neurálnu sieť prekladať kúsky mapy na generatívne satelitové obrázky.
 
 ![](LA-33_8203--118_1651--176_000.jpg)
 
@@ -51,7 +53,7 @@ Bolo to samozrejme technicky dosť náročné. Okrem frameworkov som sa celkom p
 Mal som veľké plány, ale potom sme sa hneď ponorili do [Dust-u](http://vrdust.org.uk/) (imersívny VR zážitok), ktorý žiaden machine learning zatiaľ nepoužíva aj keď by mohol. Machine learning má zaujímavé aplikácie takmer vo všetkom. Je to tým, ako vystupuje z územia toho, čo normálne vedia počítače a vstupuje do územia toho, čo bežne vedia ľudia. Počítače začínajú mať schopnosti, o ktorých si kedysi netušila, že ich niekedy budú mať. Tá komplexita narastá takým spôsobom, že veci sú nielen rýchlejšie, ale začínajú byť neuveriteľne sofistikované. 
 
 ![](screenshot.18.jpg)
-Dust
+[Dust](http://vrdust.org.uk/)
 
 ##### Čo ťa na machine learningu fascinuje?
 
@@ -66,7 +68,8 @@ Nie. To sa nedá. Neviem si predstaviť, že by niekto začal navrhovať vlastn�
 Fantasticky. Bol to najzásadnejší workshop na akom som za posledný rok bol. Tým, že to bolo pre mňa niečo nové a zároveň je to diskutovaná oblasť aj v médiách.  Vidieť drive tých ľudí, ktorí tam boli, ako sa všetci snažili nespadnúť z toho rýchlo idúceho vlaku bolo energizujúce. Gene mal veľmi zaujímavo pripravené prezentácie. Mal ich napísané v OpenFrameworks a slidy boli interaktívne. Podával to veľmi jasne a zrozumiteľne. Vie sa dostať akokoľvek hlboko, ako to obecenstvo potrebuje. Vie spraviť veľmi dobrú prednášku a vysvetliť to úplným laikom a zároveň vie tie veci prezentovať aj ľuďom, ktorí majú firmu na machine learning. Je príjemný aj v ľudskej rovine. Nie je to nafúknutá sova napriek tomu, že je to najväčší človek aký momentálne v machine learningu v kontexte umenia existuje.
 
 
-Kredity - obrázky: Andrej Boleslavský, [Gene Kogan](http://genekogan.com/), Gabriele Gambotto, Ambhika Samsen, Michele Ferretti, Damiano Gui, Fabian Frei
+Kredity - obrázky: [Andrej Boleslavský](id144.org), [Gene Kogan](http://genekogan.com/), Gabriele Gambotto, Ambhika Samsen, Michele Ferretti, Damiano Gui, Fabian Frei
+Autor: Lucia Dubačová
 
 {% include 'partials/atoms/button.html.twig' with {
     'button': {

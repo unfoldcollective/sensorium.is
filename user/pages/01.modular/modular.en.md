@@ -12,6 +12,7 @@ content:
             - _showcase
             - _speakers
             - _workshops
+            - _lab
             - _news
             - _about
             - _programme
