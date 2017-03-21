@@ -3,7 +3,7 @@
 {% for module in page.collection() %}
     {% if not (module.header.disabled or module.header.hide_in_menu) %}
         {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
-        <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
+        <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}" class="sb-close">{{ module.menu }}</a></li>
     {% endif %}
 {% endfor %}
 {% for mitem in site.menu %}

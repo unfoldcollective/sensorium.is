@@ -46,25 +46,25 @@
 {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
-    <div id="sb-site">
-        {% block header %}
-        <header id="header">
-            <div id="logo">
-                <a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://images/logos/logo-sensorium-circle.png') }}" alt="{{site.title}}"></a>
-            </div>
-            <div id="navbar">
-                {% block header_extra %}{% endblock %}
-                {% if config.plugins.langswitcher.enabled %}
-                {% include 'partials/langswitcher.html.twig' %}
-                {% endif %}
-                {% block header_navigation %}
-                {% include 'partials/navigation.html.twig' %}
-                {% endblock %}
-                <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
-            </div>
-        </header>
-        {% endblock %}
-
+    <div id="splineLoops" canvas=""></div>
+    {% block header %}
+    <header id="header" class="sb-close" canvas="">
+        <div id="logo">
+            <a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://images/logos/logo-sensorium-circle.png') }}" alt="{{site.title}}"></a>
+        </div>
+        <div id="navbar">
+            {% block header_extra %}{% endblock %}
+            {% if config.plugins.langswitcher.enabled %}
+            {% include 'partials/langswitcher.html.twig' %}
+            {% endif %}
+            {% block header_navigation %}
+            {% include 'partials/navigation.html.twig' %}
+            {% endblock %}
+            <span class="panel-activation sb-toggle-left menu-btn fa fa-bars"></span>
+        </div>
+    </header>
+    {% endblock %}
+    <div id="sb-site" class="sb-close" canvas="container">
         {% block showcase %}{% endblock %}
 
         {% block body %}
@@ -77,7 +77,7 @@
             {% include 'partials/organisms/footer.html.twig' %}
         {% endblock %}
     </div>
-    <div class="sb-slidebar sb-left sb-width-thin">
+    <div off-canvas="sb-slidebar left reveal">
         <div id="panel">
         {% block slidebar_navigation %}
             {% include 'partials/navigation.html.twig' %}
@@ -87,14 +87,27 @@
     {% block bottom %}
         {{ assets.js('bottom') }}
         <script>
-        $(function () {
-            $(document).ready(function() {
-              $.slidebars({
-                hideControlClasses: true,
-                scrollLock: true
-              });
-            });
-        });
+        ( function ( $ ) {
+            // Initialize Slidebars
+            var controller = new slidebars();
+            controller.init();
+            // Toggle Slidebars
+            $( '.sb-toggle-left' ).on( 'click', function ( event ) {
+                // Stop default action and bubbling
+                event.stopPropagation();
+                event.preventDefault();
+
+                // Toggle the Slidebar with id 'sb-slidebar'
+                controller.toggle( 'sb-slidebar' );
+            } );
+            // Close
+            $( '.sb-close' ).on( 'click', function ( event ) {
+                // event.preventDefault();
+                // event.stopPropagation();
+
+                controller.close();
+            } );
+        } ) ( jQuery );
         </script>
     {% endblock %}
 </body>
