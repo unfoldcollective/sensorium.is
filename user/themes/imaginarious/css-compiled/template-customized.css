@@ -526,6 +526,9 @@ iframe.animatedLogotype {
   transition: all 1s ease;
   background: rgba(0, 0, 0, 0.5) !important; }
 
+.sb-slidebar {
+  background-color: transparent !important; }
+
 #defaultCanvas0 {
   position: fixed;
   top: 0;

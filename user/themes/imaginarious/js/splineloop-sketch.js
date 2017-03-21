@@ -1,5 +1,6 @@
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    var myCanvas = createCanvas(windowWidth, windowHeight);
+    myCanvas.parent('splineLoops');
     background(0);
     frameRate(30);
     smooth();
