@@ -4,8 +4,10 @@
   "description": "Website for Sensorium Conference",
   "main": "index.js",
   "scripts": {
-    "watch-sass": "sass --watch user/themes/imaginarious/scss:user/themes/imaginarious/css",
-    "watch": "npm run watch-sass"
+    "watch-sass": "sass --watch user/themes/imaginarious/scss/template-customized.scss:user/themes/imaginarious/css-compiled/template-customized.css",
+    "watch": "npm run watch-sass",
+    "browser-sync": "browser-sync start --proxy 'http://localhost/' --files 'user'",
+    "dev": "npm run watch & npm run browser-sync"
   },
   "repository": {
     "type": "git",
