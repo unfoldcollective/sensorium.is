@@ -31,6 +31,19 @@
         });
         </script>
     {% endif %}
+    <script>
+    // smooth scroll internal links
+    $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if( target.length ) {
+            event.preventDefault();
+            container= $("#sb-site");
+            container.animate({
+                scrollTop: target.offset().top - container.offset().top + container.scrollTop()
+            });
+        }
+    });
+    </script>
 {% endblock %}
 
 {% block header_navigation %}
@@ -42,7 +55,9 @@
 {% endblock %}
 
 {% block slidebar_navigation %}
-    {% include 'partials/organisms/navigation-onpage.html.twig' %}
+    {% include 'partials/organisms/navigation-onpage.html.twig' with {
+        is_side_bar: true
+    }%}
 {% endblock %}
 
 {% block content %}

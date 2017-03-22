@@ -1,8 +1,8 @@
 var isTouch = window.DocumentTouch && document instanceof DocumentTouch;
 
-function scrollHeader() {
+function scrollHeader($container) {
     // Has scrolled class on header
-    var zvalue = $(document).scrollTop();
+    var zvalue = $container.scrollTop();
     if ( zvalue > 75 )
         $("#header").addClass("scrolled");
     else
@@ -11,17 +11,19 @@ function scrollHeader() {
 
 jQuery(document).ready(function($){
 
+    var $container = $('#sb-site');
+    
     // ON SCROLL EVENTS
     if (!isTouch){
-        $(document).scroll(function() {
-            scrollHeader();
+        $container.scroll(function() {
+            scrollHeader($container);
         });
     };
 
     // TOUCH SCROLL
-    $(document).on({
+    $container.on({
         'touchmove': function(e) {
-            scrollHeader(); // Replace this with your code.
+            scrollHeader($container); // Replace this with your code.
         }
     });
 

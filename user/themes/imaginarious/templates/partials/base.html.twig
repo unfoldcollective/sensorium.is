@@ -48,7 +48,7 @@
 <body id="top" class="{{ page.header.body_classes }}">
     <div id="splineLoops" canvas=""></div>
     {% block header %}
-    <header id="header" class="sb-close" canvas="">
+    <header id="header" canvas="" class="sb-close">
         <div id="logo">
             <a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://images/logos/logo-sensorium-circle.png') }}" alt="{{site.title}}"></a>
         </div>
@@ -92,19 +92,16 @@
             var controller = new slidebars();
             controller.init();
             // Toggle Slidebars
-            $( '.sb-toggle-left' ).on( 'click', function ( event ) {
+            $( '.sb-toggle-left' ).on( 'click', function ( event ) {  
                 // Stop default action and bubbling
                 event.stopPropagation();
                 event.preventDefault();
 
-                // Toggle the Slidebar with id 'sb-slidebar'
-                controller.toggle( 'sb-slidebar' );
+                // Open the Slidebar with id 'sb-slidebar'
+                controller.open( 'sb-slidebar' );
             } );
             // Close
             $( '.sb-close' ).on( 'click', function ( event ) {
-                // event.preventDefault();
-                // event.stopPropagation();
-
                 controller.close();
             } );
         } ) ( jQuery );
