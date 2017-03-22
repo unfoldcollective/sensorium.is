@@ -1,6 +1,6 @@
 ---
 title: 'Homepage Showcase'
-menu: Top
+hide_in_menu: true
 buttons:
     -
         text: 'Registruj sa teraz'
