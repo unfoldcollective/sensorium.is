@@ -1,3 +1,14 @@
+var splineLoop1, splineLoop2, splineLoop3;
+var hasMouseMoved;
+
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("sb-site").addEventListener('mousemove', function onFirstMouseMove() {
+        hasMouseMoved = true;
+        // stop listening
+        document.getElementById("sb-site").removeEventListener('mousemove', onFirstMouseMove, false);
+    }, false);    
+});
+
 function setup() {
     var myCanvas = createCanvas(windowWidth, windowHeight);
     myCanvas.parent('splineLoops');
@@ -14,7 +25,7 @@ function setup() {
     var colorCombo2 = [teal, green];
     var colorCombo3 = [purple, pink];
 
-    splineSettings1 = {
+    var splineSettings1 = {
         nPoints: 10,
         origin: {
             x: 0.33 * width,
@@ -33,7 +44,7 @@ function setup() {
     }
     splineLoop1 = new SplineLoop(splineSettings1);
 
-    splineSettings2 = {
+    var splineSettings2 = {
         nPoints: 10,
         origin: {
             x: 0.7 * width,
@@ -44,15 +55,15 @@ function setup() {
         colors: colorCombo2,
         interpolationSteps: 4,
         movement: {
-            moveFactor: -0.2,    // 0 == no positional animation
-            noiseFactor: 0.6,     // 0 == no noise
+            moveFactor: -0.2,   // 0 == no positional animation
+            noiseFactor: 0.6,   // 0 == no noise
             easeFactor: 0.05,   // 1 == no easing
             tightnessFactor: 0  // 0 == no tightness animation 
         }
     }
     splineLoop2 = new SplineLoop(splineSettings2);
 
-    splineSettings3 = {
+    var splineSettings3 = {
         nPoints: 10,
         origin: {
             x: 0.5 * width,
@@ -63,26 +74,32 @@ function setup() {
         colors: colorCombo3,
         interpolationSteps: 4,
         movement: {
-            moveFactor: -0.2,    // 0 == no positional animation
-            noiseFactor: 0.6,     // 0 == no noise
+            moveFactor: -0.2,   // 0 == no positional animation
+            noiseFactor: 0.6,   // 0 == no noise
             easeFactor: 0.05,   // 1 == no easing
             tightnessFactor: 0  // 0 == no tightness animation 
         }
     }
     splineLoop3 = new SplineLoop(splineSettings3);
+
+    splineLoop1.drawSplines();
+    splineLoop2.drawSplines();
+    splineLoop3.drawSplines();
 }
 
 function draw() {
-    background(0);
-    splineLoop1.update();
-    splineLoop1.drawSplines();
+    // update if mousemove event has been detected
+    if (hasMouseMoved) {
+        background(0);
+        splineLoop1.update();
+        splineLoop1.drawSplines();
 
-    splineLoop2.update();
-    splineLoop2.drawSplines();
+        splineLoop2.update();
+        splineLoop2.drawSplines();
 
-    splineLoop3.update();
-    splineLoop3.drawSplines();
-
+        splineLoop3.update();
+        splineLoop3.drawSplines();
+    }
 }
 
 function windowResized() {
