@@ -11,7 +11,7 @@ process:
 subtitle: 'Data Physicalisation'
 ---
 
-[**APPLY**](https://goo.gl/forms/RVLXywVzEtTGQlcQ2)
+APPLICATIONS ARE CLOWED NOW.
 
 Registration deadline: **24th March**
 

@@ -3,11 +3,10 @@ title: 'Homepage Showcase'
 hide_in_menu: true
 buttons:
     -
-        text: 'Get tickets now'
+        text: 'Get pre-sale tickets until April 1st!'
         url: 'https://ti.to/sensorium2017/sensorium2017'
         newTab: true
-        classes: bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 dib
-
+        classes: 'bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 dib'
 showAnimatedLogotype: true
 ---
 
