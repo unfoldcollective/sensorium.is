@@ -1,6 +1,6 @@
 ---
 title: 'It’s just an algorithm, but machine learning reminds me of magic'
-date: 03/12/2017
+date: 12/03/2017
 taxonomy:
     category:
         - blog
