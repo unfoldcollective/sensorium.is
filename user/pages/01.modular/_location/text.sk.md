@@ -4,4 +4,4 @@ image_align: left
 ---
 
 ## Miesto
-### Prednášky ****Pisztoryho palác Bratislava****
+### Prednášky: **Pisztoryho palác Bratislava**
