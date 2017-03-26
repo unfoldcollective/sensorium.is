@@ -1,11 +1,15 @@
 var splineLoop1, splineLoop2, splineLoop3;
-var hasMouseMoved;
+var hasMouseMoved, mouseTimeout;
 
 document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("sb-site").addEventListener('mousemove', function onFirstMouseMove() {
         hasMouseMoved = true;
-        // stop listening
-        document.getElementById("sb-site").removeEventListener('mousemove', onFirstMouseMove, false);
+
+        clearTimeout(mouseTimeout);
+        mouseTimeout = setTimeout(function () {
+            hasMouseMoved = false;
+        }, 5000);
+        
     }, false);    
 });
 

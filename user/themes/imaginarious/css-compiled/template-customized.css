@@ -413,6 +413,15 @@ a {
 .grow:focus {
   transform: scale(1.05) !important; }
 
+.teal {
+  color: #0096AC; }
+
+.b--teal {
+  border-color: #0096AC; }
+
+.mw24rem {
+  max-width: 24rem; }
+
 /* template: typography */
 html, body, button, input, select, textarea, .pure-g, .pure-g [class*="pure-u"] {
   font-weight: 800; }

@@ -13,9 +13,9 @@ content:
             - _speakers
             - _workshops
             - _lab
+            - _programme
             - _news
             - _about
-            - _programme
             - _location
             - _partners
 ---

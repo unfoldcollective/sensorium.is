@@ -4,4 +4,4 @@ image_align: left
 ---
 
 ## Location
-### Talks ****Pisztory Palace Bratislava****
+#### Conference: Pisztory Palace Bratislava
