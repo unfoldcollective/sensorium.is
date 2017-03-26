@@ -11,9 +11,9 @@ content:
         custom:
             - _showcase
             - _speakers
+            - _programme
             - _workshops
             - _lab
-            - _programme
             - _news
             - _about
             - _location
