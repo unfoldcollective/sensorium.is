@@ -1,5 +1,5 @@
 ---
-title: Workshops
+title: Take part
 published: true
 process:
     markdown: true
@@ -8,4 +8,4 @@ content:
       - '@page': '/lab'
       - '@page': '/workshops'
 ---
-## Workshops
+## Take part

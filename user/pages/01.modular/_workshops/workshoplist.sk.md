@@ -1,5 +1,5 @@
 ---
-title: Workshopy
+title: Zúčastni sa
 published: true
 process:
     markdown: true
@@ -8,4 +8,4 @@ content:
       - '@page': '/lab'
       - '@page': '/workshops'
 ---
-## Workshopy
+## Zúčastni sa
