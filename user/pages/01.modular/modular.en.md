@@ -12,10 +12,9 @@ content:
             - _showcase
             - _speakers
             - _programme
-            - _workshops
-            - _lab
-            - _news
             - _about
+            - _workshops
+            - _news
             - _location
             - _partners
 ---
