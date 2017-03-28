@@ -20,7 +20,7 @@ This year Goethe-Institut (German Cultural Institute operating all over the worl
 
 Invited to join the Lab are all **creative practitioners in the fields of graphic, design, architecture, art, media, theater and technology**. We are looking to bring together a rich international multidisciplinary group who would get together for a day to brainstorm, workshop, research and design with the guidance of the guest facilitators.
 
-The **Goethe-Institut bears for all expenses of the participants of the workshop** (travel, 3 nights hostel, workshop fee, fee for conference ).
+The **Goethe-Institut bears for all expenses of the participants of the workshop** (travel, 3 nights hostel, lab fee, fee for conference ).
 
 The base and input for the Lab activities will be current practical challenges that all libraries face with their digital content: How to present it? How to make people more aware of it?
 How to communicate the specific value of it to each individual visitor?
