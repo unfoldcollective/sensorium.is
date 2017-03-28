@@ -18,6 +18,10 @@
     {% do assets.addJs('theme://js/scroll-background-dim.js') %}
 {% endblock %}
 
+{% block background %}
+    <div id="splineLoops" canvas=""></div>
+{% endblock %}
+
 {% block bottom %}
     {{ parent() }}
     {% if show_onpage_menu %}
