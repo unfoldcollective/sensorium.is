@@ -1,6 +1,7 @@
 ---
 title: 'Machine Learning for Artists and Designers'
-date: 02/10/2017
+date: 30/04/2017
+time: 10.30 - 17.30
 taxonomy:
     category:
         - workshops
@@ -9,6 +10,7 @@ process:
     markdown: true
     twig: true
 subtitle: 'Gene Kogan'
+description: Gene Kogan will introduce the theory and application of machine learning for creative and artistic practice. Coding experience is welcome but not required.
 ---
 
 **Sunday 30 April 2017, 10.30 - 17.30**

@@ -1,0 +1,41 @@
+<section class="ph3 tl tc-ns center">
+  {{ content }}
+
+  {% for p in page.collection %}
+    <article class="dib v-top ba bw1 b--light-green mv4 mh3-ns w-100 w-40-m w-33-l mw6 overflow-hidden measure f6">
+      <a href="{{p.url}}">
+        <img src="{{ p.media.images|first.url }}" class="db w-100 grow" alt="Photo of a kitten looking menacing.">
+      </a>
+      <div class="pa2 ph3-ns pb3-ns tl">
+        <div class="dt w-100 h3 mt1 light-green">
+          <div class="dtc">
+            <h1 class="f4 f5-m mv0">{{ p.title }}</h1>
+          </div>
+          <div class="dtc tr w2">
+            <h2 class="f5 f6-m mv0">
+              <time class="dt-published" datetime="{{ p.date|date("c") }}">
+                <span>{{ p.date|date("d") }}</span>
+                <span>{{ p.date|date("M") }}</span>
+              </time>
+            </h2>
+          </div>
+        </div>
+        <p class="f6 lh-copy measure mt2 mb2">
+          {{ p.header.description }}
+        </p>
+        <div class="dt w-100 mt1">
+          <div class="dtc">
+            <span class="f5 mv0"><a href="{{p.url}}">more info...</a></span>
+          </div>
+          <div class="dtc tr">
+            <span class="f5 mv0"><a href="{{site.ticket_url}}">tickets</a></span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  {% endfor %}
+
+  
+
+</section>

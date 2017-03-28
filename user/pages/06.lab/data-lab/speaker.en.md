@@ -1,6 +1,6 @@
 ---
-title: 'Data Lab'
-date: 02/10/2017
+title: Data Physicalisation Lab
+date: 28/04/2017
 taxonomy:
     category:
         - lab
@@ -9,6 +9,7 @@ process:
     markdown: true
     twig: true
 subtitle: 'Data Physicalisation'
+description: A hands-on exploration of new techniques to communicate data in physical space, facilitated by Domestic Data Streamers. Applications are now closed.
 ---
 
 APPLICATIONS ARE CLOWED NOW.
