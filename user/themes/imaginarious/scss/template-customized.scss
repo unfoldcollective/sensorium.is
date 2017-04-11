@@ -25,6 +25,27 @@ a {
 }
 
 /* tachyons */
+$medium-start: 30em;
+$large-start: 60em;
+
+@mixin not-small {
+  @media (min-width: #{$medium-start}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (min-width: #{$medium-width}) and (max-width: #{$large-start - 1px}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$large-start}) {
+    @content;
+  }
+}
+
 .grow {
   -moz-osx-font-smoothing: grayscale !important;
   backface-visibility: hidden !important;
@@ -40,11 +61,23 @@ a {
 .teal {
   color: $sensorium-teal;
 }
+.pink {
+  color: $sensorium-pink !important;
+}
 .b--teal {
   border-color: $sensorium-teal;
 }
+.bg-teal {
+  background-color: $sensorium-teal;
+}
 .mw24rem {
   max-width: 24rem;
+}
+.mh-7px-ns {
+  @include not-small {
+    margin-left: -7px;
+    margin-right: -7px;
+  }
 }
 
 /* template: typography */

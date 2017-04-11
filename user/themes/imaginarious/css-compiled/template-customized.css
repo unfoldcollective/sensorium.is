@@ -416,11 +416,22 @@ a {
 .teal {
   color: #0096AC; }
 
+.pink {
+  color: #FBD2CE !important; }
+
 .b--teal {
   border-color: #0096AC; }
 
+.bg-teal {
+  background-color: #0096AC; }
+
 .mw24rem {
   max-width: 24rem; }
+
+@media (min-width: 30em) {
+  .mh-7px-ns {
+    margin-left: -7px;
+    margin-right: -7px; } }
 
 /* template: typography */
 html, body, button, input, select, textarea, .pure-g, .pure-g [class*="pure-u"] {
