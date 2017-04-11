@@ -16,10 +16,10 @@ title: Programme
         </div>
         <div class="dt w-100 mt1 f6 f5-l">
           <div class="dtc">
-            <span class="mv0"><a href="/lab/data-lab">more info...</a></span>
+            <span class="mv0 b"><a href="/lab/data-lab">more info...</a></span>
           </div>
           <div class="dtc tr">
-            <span class="mv0 bg-teal pa1">Applications Closed</span>
+            <span class="mv0 bg-teal pa1 b">Applications Closed</span>
           </div>
         </div>
     </article>
@@ -51,10 +51,10 @@ title: Programme
         </div>
         <div class="dt w-100 mt1 f6 f5-l">
           <div class="dtc">
-            <span class="mv0"><a href="/workshops/machine-learning">more info...</a></span>
+            <span class="mv0 b"><a href="/workshops/machine-learning">more info...</a></span>
           </div>
           <div class="dtc tr">
-            <span class="mv0 bg-teal pa1">Sold Out</span>
+            <span class="mv0 bg-teal pa1 b">Sold Out</span>
           </div>
         </div>
     </article>

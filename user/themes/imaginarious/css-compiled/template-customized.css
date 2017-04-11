@@ -434,9 +434,6 @@ a {
     margin-right: -7px; } }
 
 /* template: typography */
-html, body, button, input, select, textarea, .pure-g, .pure-g [class*="pure-u"] {
-  font-weight: 800; }
-
 h1 {
   text-align: inherit !important;
   font-weight: inherit !important;

@@ -82,21 +82,16 @@ $large-start: 60em;
 
 /* template: typography */
 // Body Base
-html, body, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
-  font-weight: 800;
-}
 h1 {
   text-align: inherit !important;
 	font-weight: inherit !important;
 	letter-spacing: 0;
 }
-
 h2 {
   text-align: inherit !important;
   font-weight: inherit !important;
 	letter-spacing: 0;
 }
-
 h3 {
   text-align: inherit !important;
   font-weight: inherit !important;
