@@ -10,6 +10,7 @@ process:
     twig: true
 subtitle: 'Data Physicalisation'
 description: A hands-on exploration of new techniques to communicate data in physical space, facilitated by Domestic Data Streamers. Applications are now closed.
+ticket_markup: <strong>Applications Closed</strong>
 ---
 
 APPLICATIONS ARE CLOWED NOW.

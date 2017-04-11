@@ -11,6 +11,7 @@ process:
     twig: true
 subtitle: 'Gene Kogan'
 description: Gene Kogan will introduce the theory and application of machine learning for creative and artistic practice. Coding experience is welcome but not required.
+ticket_markup: <strong>Sold Out</strong>
 ---
 
 **Sunday 30 April 2017, 10.30 - 17.30**
