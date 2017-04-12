@@ -1,5 +1,8 @@
 ---
 title: Programme
+process:
+    markdown: true
+    twig: true
 ---
 
 ## Programme
@@ -38,6 +41,12 @@ title: Programme
                 <li>Mária Júdová</li>
                 <li>Domestic Data Streamers</li>
             </ul>
+            {% include 'partials/atoms/button.html.twig' with {'button': {
+              'text': 'Get tickets',
+              'url': 'https://ti.to/sensorium2017/sensorium2017',
+              'newTab': true,
+              'classes': 'bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 mt3 dib '
+            }} %}
         </div>
     </article>
     <article class="mw24rem dib v-top w-100 w-30-ns pa3 mv2 ba tl b--teal bw1">
