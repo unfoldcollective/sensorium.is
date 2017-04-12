@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function(){
-    console.log("countdown.js!")
     var finalDate = "2017/03/31 23:59:59";
 
     $('div#clock').countdown('2017/04/01')
@@ -13,7 +12,4 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         $(this).html(event.strftime(format));
     });
-    
-    console.log("countdown initialised")
-
 });
