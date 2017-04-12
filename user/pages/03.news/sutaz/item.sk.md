@@ -1,6 +1,6 @@
 ---
 title: 'Súťaž o miesto na workshope Machine learning pre umelcov a dizajnérov!'
-date: 12/03/2017
+date: 10/04/2017
 taxonomy:
     category:
         - blog
