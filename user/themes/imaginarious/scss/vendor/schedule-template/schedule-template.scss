@@ -347,6 +347,15 @@ Main Components
 	margin-bottom: .2em;
 }
 
+.cd-schedule .event-title {
+	display: block;
+	color: white;
+	@include font-smoothing;
+	@include MQ(L) {
+		padding-left: 7.25em;
+	}
+}
+
 .cd-schedule .single-event[data-event="event-0"] {
 	border-left: 1px solid $border-color;
 	border-right: 1px solid $border-color;

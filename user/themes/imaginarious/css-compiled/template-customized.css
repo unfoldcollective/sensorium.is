@@ -534,7 +534,7 @@ Main Components
       .cd-schedule .events .top-info {
         /* vertically center its content */
         display: table;
-        height: 60px;
+        height: 65px;
         border-bottom: 1px solid #444;
         /* reset style */
         padding: 0; }
@@ -548,7 +548,7 @@ Main Components
           font-weight: normal;
           margin-bottom: 0; }
       .cd-schedule .events .events-group > ul {
-        height: 1140px;
+        height: 1235px;
         /* reset style */
         display: block;
         overflow: visible;
@@ -641,6 +641,15 @@ Main Components
   opacity: .7;
   line-height: 1.2;
   margin-bottom: .2em; }
+
+.cd-schedule .event-title {
+  display: block;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  @media only screen and (min-width: 500px) {
+    .cd-schedule .event-title {
+      padding-left: 7.25em; } }
 
 .cd-schedule .single-event[data-event="event-0"] {
   border-left: 1px solid #444;
