@@ -39,6 +39,7 @@ jQuery(document).ready(function($){
 	};
 
 	SchedulePlan.prototype.scheduleReset = function() {
+		console.log("scheduleReset!!!");
 		var mq = this.mq();
 		
 		this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
@@ -90,6 +91,7 @@ jQuery(document).ready(function($){
 	};
 
 	SchedulePlan.prototype.placeEvents = function() {
+		console.log('placeEvents!!!')
 		var self = this;
 		this.singleEvents.each(function(){
 			//place each event in the grid -> need to set top position and height
@@ -147,6 +149,9 @@ jQuery(document).ready(function($){
 
 			var modalWidth = ( windowWidth*.8 > self.modalMaxWidth ) ? self.modalMaxWidth : windowWidth*.8,
 				modalHeight = ( windowHeight*.8 > self.modalMaxHeight ) ? self.modalMaxHeight : windowHeight*.8;
+			
+			var modalHeaderWidth = 150;
+			// console.log("modalWidth: " + modalWidth);
 
 			var modalTranslateX = parseInt((windowWidth - modalWidth)/2 - eventLeft),
 				modalTranslateY = parseInt((windowHeight - modalHeight)/2 - eventTop);
@@ -165,24 +170,27 @@ jQuery(document).ready(function($){
 
 			//set modalHeader width
 			self.modalHeader.css({
-				width: eventWidth+'px',
+				// width: eventWidth+'px',
+				width: modalHeaderWidth+'px',
 			});
 			//set modalBody left margin
 			self.modalBody.css({
-				marginLeft: eventWidth+'px',
+				// marginLeft: eventWidth+'px',
+				marginLeft: modalHeaderWidth+'px',
 			});
 
-			//change modalBodyBg height/width ans scale it
+			//change modalBodyBg height/width and scale it
 			self.modalBodyBg.css({
 				height: eventHeight+'px',
-				width: '1px',
+				width: modalWidth - modalHeaderWidth+'px',
 			});
-			transformElement(self.modalBodyBg, 'scaleY('+HeaderBgScaleY+') scaleX('+BodyBgScaleX+')');
+			// transformElement(self.modalBodyBg, 'scaleY('+HeaderBgScaleY+') scaleX('+BodyBgScaleX+')');
+			transformElement(self.modalBodyBg, 'scaleY('+HeaderBgScaleY+')');
 
 			//change modal modalHeaderBg height/width and scale it
 			self.modalHeaderBg.css({
 				height: eventHeight+'px',
-				width: eventWidth+'px',
+				// width: eventWidth+'px',
 			});
 			transformElement(self.modalHeaderBg, 'scaleY('+HeaderBgScaleY+')');
 			
@@ -199,6 +207,7 @@ jQuery(document).ready(function($){
 	};
 
 	SchedulePlan.prototype.closeModal = function(event) {
+		console.log('closeModal!!!')
 		var self = this;
 		var mq = self.mq();
 
@@ -213,6 +222,7 @@ jQuery(document).ready(function($){
 				event.removeClass('selected-event');
 			});
 		} else {
+			console.log('!mobile')
 			var eventTop = event.offset().top - $(window).scrollTop(),
 				eventLeft = event.offset().left,
 				eventHeight = event.innerHeight(),
@@ -291,6 +301,8 @@ jQuery(document).ready(function($){
 			var modalWidth = ( windowWidth*.8 > self.modalMaxWidth ) ? self.modalMaxWidth : windowWidth*.8,
 				modalHeight = ( windowHeight*.8 > self.modalMaxHeight ) ? self.modalMaxHeight : windowHeight*.8;
 
+			var modalHeaderWidth = 150;
+
 			var HeaderBgScaleY = modalHeight/eventHeight,
 				BodyBgScaleX = (modalWidth - eventWidth);
 
@@ -302,24 +314,34 @@ jQuery(document).ready(function($){
 					left: (windowWidth/2 - modalWidth/2)+'px',
 				});
 				transformElement(self.modal, 'translateY(0) translateX(0)');
+				
 				//change modal modalBodyBg height/width
+				// self.modalBodyBg.css({
+				// 	height: modalHeight+'px',
+				// 	width: '1px',
+				// });
+				// transformElement(self.modalBodyBg, 'scaleX('+BodyBgScaleX+')');
 				self.modalBodyBg.css({
-					height: modalHeight+'px',
-					width: '1px',
+					height: eventHeight+'px',
+					width: modalWidth - modalHeaderWidth+'px',
 				});
-				transformElement(self.modalBodyBg, 'scaleX('+BodyBgScaleX+')');
+				// transformElement(self.modalBodyBg, 'scaleY('+HeaderBgScaleY+') scaleX('+BodyBgScaleX+')');
+				transformElement(self.modalBodyBg, 'scaleY('+HeaderBgScaleY+')');
+
 				//set modalHeader width
 				self.modalHeader.css({
-					width: eventWidth+'px',
+					// width: '150px',
+					width: modalHeaderWidth+'px',
 				});
 				//set modalBody left margin
 				self.modalBody.css({
-					marginLeft: eventWidth+'px',
+					// marginLeft: eventWidth+'px',
+					marginLeft: modalHeaderWidth+'px',
 				});
 				//change modal modalHeaderBg height/width and scale it
 				self.modalHeaderBg.css({
 					height: eventHeight+'px',
-					width: eventWidth+'px',
+					// width: eventWidth+'px',
 				});
 				transformElement(self.modalHeaderBg, 'scaleY('+HeaderBgScaleY+')');
 			}, 10);

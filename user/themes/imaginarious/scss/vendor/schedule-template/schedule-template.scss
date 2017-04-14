@@ -523,6 +523,9 @@ Main Components
 	.event-date {
 		display: none;
 	}
+	.event-name {
+		padding-left: 0;
+	}
 
 	&.no-transition {
 		transition: none;

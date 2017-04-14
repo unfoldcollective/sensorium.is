@@ -779,6 +779,8 @@ Main Components
       transform: translateX(-50%) translateY(-50%) rotate(-45deg); }
   .cd-schedule .event-modal .event-date {
     display: none; }
+  .cd-schedule .event-modal .event-name {
+    padding-left: 0; }
   .cd-schedule .event-modal.no-transition {
     transition: none; }
     .cd-schedule .event-modal.no-transition .header-bg, .cd-schedule .event-modal.no-transition .body-bg {
