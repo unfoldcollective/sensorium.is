@@ -10,19 +10,19 @@ $text-color: #EAEAEA; // #222222;
 $border-color: #444; // #EAEAEA;
 $bg-color: black; //white;
 
-$event-color-0: $bg-color; // White
-$event-color-1: $sensorium-teal; // #577F92; // Smalt Blue
-$event-color-2: $light-purple; // #443453; // Martinique
-$event-color-3: darken($sensorium-pink, 10%); // #A2B9B2; // Edward
+$event-color-0: $bg-color; 
+$event-color-1: $sensorium-teal; 
+$event-color-2: $light-purple; 
+$event-color-3: darken($sensorium-pink, 10%);
 $event-color-4: $event-color-1;
 
 $link-color: $event-color-3;
 
 // fonts 
-
 $primary-font: 'Source Sans Pro', sans-serif;
 
 //colum number
-
 $columns-number: 1;
+
 $row-height: 60px;
+$row-height-large: 40px;

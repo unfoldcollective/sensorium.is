@@ -40,6 +40,9 @@ jQuery(document).ready(function($){
 
 	SchedulePlan.prototype.scheduleReset = function() {
 		var mq = this.mq();
+		
+		this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
+		this.placeEvents();
 		if( mq == 'desktop' && !this.element.hasClass('js-full') ) {
 			//in this case you are on a desktop version (first load or resize from mobile)
 			this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
