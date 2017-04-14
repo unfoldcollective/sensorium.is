@@ -39,7 +39,6 @@ jQuery(document).ready(function($){
 	};
 
 	SchedulePlan.prototype.scheduleReset = function() {
-		console.log("scheduleReset!!!");
 		var mq = this.mq();
 		
 		this.eventSlotHeight = this.eventsGroup.eq(0).children('.top-info').outerHeight();
@@ -91,7 +90,6 @@ jQuery(document).ready(function($){
 	};
 
 	SchedulePlan.prototype.placeEvents = function() {
-		console.log('placeEvents!!!')
 		var self = this;
 		this.singleEvents.each(function(){
 			//place each event in the grid -> need to set top position and height
@@ -151,7 +149,6 @@ jQuery(document).ready(function($){
 				modalHeight = ( windowHeight*.8 > self.modalMaxHeight ) ? self.modalMaxHeight : windowHeight*.8;
 			
 			var modalHeaderWidth = 150;
-			// console.log("modalWidth: " + modalWidth);
 
 			var modalTranslateX = parseInt((windowWidth - modalWidth)/2 - eventLeft),
 				modalTranslateY = parseInt((windowHeight - modalHeight)/2 - eventTop);
@@ -207,7 +204,6 @@ jQuery(document).ready(function($){
 	};
 
 	SchedulePlan.prototype.closeModal = function(event) {
-		console.log('closeModal!!!')
 		var self = this;
 		var mq = self.mq();
 
@@ -222,7 +218,6 @@ jQuery(document).ready(function($){
 				event.removeClass('selected-event');
 			});
 		} else {
-			console.log('!mobile')
 			var eventTop = event.offset().top - $(window).scrollTop(),
 				eventLeft = event.offset().left,
 				eventHeight = event.innerHeight(),
