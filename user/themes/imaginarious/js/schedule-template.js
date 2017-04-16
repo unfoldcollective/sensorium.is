@@ -140,7 +140,9 @@ jQuery(document).ready(function($){
 				self.animating = false;
 			});
 		} else {
-			var eventTop = event.offset().top - $(window).scrollTop(),
+			// var eventTop = event.offset().top - $(window).scrollTop(),
+			var scrollTopY = $('#sb-site').scrollTop(),
+				eventTop = event.offset().top + scrollTopY,
 				eventLeft = event.offset().left,
 				eventHeight = event.innerHeight(),
 				eventWidth = event.innerWidth();
@@ -154,7 +156,9 @@ jQuery(document).ready(function($){
 			var modalHeaderWidth = 150;
 
 			var modalTranslateX = parseInt((windowWidth - modalWidth)/2 - eventLeft),
-				modalTranslateY = parseInt((windowHeight - modalHeight)/2 - eventTop);
+				// modalTranslateY = parseInt((windowHeight - modalHeight)/2 - eventTop);
+				modalTranslateY = parseInt((windowHeight - modalHeight)/2 - eventTop + scrollTopY);
+				
 			
 			var HeaderBgScaleY = modalHeight/eventHeight,
 				BodyBgScaleX = (modalWidth - eventWidth);
