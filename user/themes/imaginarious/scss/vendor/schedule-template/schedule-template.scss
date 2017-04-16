@@ -364,6 +364,13 @@ Main Components
 	}
 }
 
+.cd-schedule .single-event[data-content=""] {
+	pointer-events: none;
+	// a {
+	// 	pointer-events: none;
+	// }
+}
+
 .cd-schedule .single-event[data-event="event-0"],
 .cd-schedule [data-event="event-0"] .header-bg {
 	/* this is used to set a background color for the event and the modal window */
