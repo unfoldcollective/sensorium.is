@@ -837,7 +837,7 @@ Main Components
           height: 16px; } }
   @media only screen and (min-width: 500px) {
     .cd-schedule .event-modal .header .content {
-      padding: 1.2em; } }
+      padding: 2em 1.2em; } }
 
 .cd-schedule.modal-is-open .event-modal {
   /* .modal-is-open class is added as soon as an event is selected */
