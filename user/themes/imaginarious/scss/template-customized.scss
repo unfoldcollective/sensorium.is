@@ -232,3 +232,9 @@ iframe.animatedLogotype {
   top: 0;
   z-index: 0;
 }
+
+/* programme */
+// prevent schedule event-modal to extend width of #sb-site
+.sb-site-overflow-x-hidden #sb-site {
+  overflow-x: hidden;
+}

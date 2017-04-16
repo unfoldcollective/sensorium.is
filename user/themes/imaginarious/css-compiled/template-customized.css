@@ -1029,4 +1029,8 @@ iframe.animatedLogotype {
   top: 0;
   z-index: 0; }
 
+/* programme */
+.sb-site-overflow-x-hidden #sb-site {
+  overflow-x: hidden; }
+
 /*# sourceMappingURL=template-customized.css.map */
