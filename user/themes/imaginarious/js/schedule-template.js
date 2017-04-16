@@ -119,10 +119,13 @@ jQuery(document).ready(function($){
 		this.modal.attr('data-event', event.parent().attr('data-event'));
 
 		//update event content
-		this.modalBody.find('.event-info').load(event.parent().attr('data-content')+'.html .event-info > *', function(data){
-			//once the event content has been loaded
-			self.element.addClass('content-loaded');
-		});
+		var contentSourceName = event.parent().attr('data-content');
+		if (contentSourceName) {
+			this.modalBody.find('.event-info').load(contentSourceName+'.html .event-info > *', function(data){
+				//once the event content has been loaded
+				self.element.addClass('content-loaded');
+			});
+		}
 
 		this.element.addClass('modal-is-open');
 
