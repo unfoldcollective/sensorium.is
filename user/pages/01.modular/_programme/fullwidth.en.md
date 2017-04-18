@@ -47,6 +47,7 @@ process:
               'newTab': true,
               'classes': 'bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 mt3 dib '
             }} %}
+            <span class="mv0 b dib f5 f4-l"><a class="light-green" href="/programme">see detailed schedule...</a></span>
         </div>
     </article>
     <article class="mw24rem dib v-top w-100 w-30-ns pa3 mv2 ba tl b--teal bw1">
