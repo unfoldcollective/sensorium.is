@@ -465,9 +465,10 @@ Main Components
       .cd-schedule::after {
         clear: both;
         content: "";
-        display: block; }
-      .cd-schedule::before {
-        content: 'desktop'; } }
+        display: block; } }
+  @media only screen and (min-width: 500px) {
+    .cd-schedule::before {
+      content: 'desktop'; } }
 
 .cd-schedule .timeline {
   display: none; }
@@ -788,7 +789,7 @@ Main Components
     transition: none; }
     .cd-schedule .event-modal.no-transition .header-bg, .cd-schedule .event-modal.no-transition .body-bg {
       transition: none; }
-  @media only screen and (min-width: 11px) {
+  @media only screen and (min-width: 500px) {
     .cd-schedule .event-modal {
       /* reset style */
       right: auto;
@@ -847,7 +848,7 @@ Main Components
     /* smooth scroll on iOS touch devices */
     -webkit-overflow-scrolling: touch; }
 
-@media only screen and (min-width: 11px) {
+@media only screen and (min-width: 500px) {
   .cd-schedule.animation-completed .event-modal .close,
   .cd-schedule.content-loaded.animation-completed .event-modal .event-info {
     /* 	the .animation-completed class is added when the modal animation is completed

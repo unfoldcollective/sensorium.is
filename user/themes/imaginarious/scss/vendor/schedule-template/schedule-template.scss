@@ -55,6 +55,9 @@ Main Components
 		margin: 2em auto;
 		@include clearfix;
 
+	}
+
+	@include MQ(L) {
 		&::before {
 			content: 'desktop';
 		}
@@ -542,7 +545,7 @@ Main Components
 		}
 	}
 
-	@include MQ(M) {
+	@include MQ(L) {
 		/* reset style */
 		right: auto;
 		width: auto;
@@ -630,7 +633,7 @@ Main Components
 	}
 }
 
-@include MQ(M) {
+@include MQ(L) {
 	.cd-schedule.animation-completed  .event-modal .close,
 	.cd-schedule.content-loaded.animation-completed  .event-modal .event-info {
 		/* 	the .animation-completed class is added when the modal animation is completed

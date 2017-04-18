@@ -135,6 +135,17 @@ jQuery(document).ready(function($){
 		}, 10);
 
 		if( mq == 'mobile' ) {
+			/********/
+			/* HACK */
+			/********/
+			// decrease z-index of header (in different stacking context) while modal is open
+			$('header#header').css('z-index', '1');
+			// disable scrolling on body while modal is open 
+			$('#sb-site').css('overflow', 'hidden');
+			// set CSS position
+			var scrollTopY = $('#sb-site').scrollTop();
+			self.modal.css('top', scrollTopY+'px');
+
 			self.modal.one(transitionEnd, function(){
 				self.modal.off(transitionEnd);
 				self.animating = false;
@@ -217,6 +228,14 @@ jQuery(document).ready(function($){
 		this.animating = true;
 
 		if( mq == 'mobile' ) {
+			/********/
+			/* HACK */
+			/********/
+			// increase z-index of header (in different stacking context) while modal is open
+			$('header#header').css('z-index', '10');
+			// enable scrolling on body
+			$('#sb-site').css('overflow', 'auto');
+
 			this.element.removeClass('modal-is-open');
 			this.modal.one(transitionEnd, function(){
 				self.modal.off(transitionEnd);
