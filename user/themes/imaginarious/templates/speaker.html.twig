@@ -12,15 +12,17 @@
         <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">{{ page.title }}</h3>
         <h4 class="f3 fw4 i lh-title mt0">{{ page.header.subtitle }}</h4>
       </header>
-      <section class="pt5 pb4 lh-copy measure f4 mt0">
-      	{{ page.content }}
-        {% include 'partials/atoms/button.html.twig' with {'button': {
-          'text': 'Get tickets now',
-          'url': 'https://ti.to/sensorium2017/sensorium2017',
-          'newTab': true,
-          'classes': 'bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 dib'
-        }} %}
+      <section class="pt5 pb4 lh-copy measure f4 mt0 event-info">
+        <div>
+        	{{ page.content }}
+        </div>
       </section>
+      {% include 'partials/atoms/button.html.twig' with {'button': {
+        'text': 'Get tickets now',
+        'url': 'https://ti.to/sensorium2017/sensorium2017',
+        'newTab': true,
+        'classes': 'bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 dib'
+      }} %}
     </div>
   </div>
 </article>
