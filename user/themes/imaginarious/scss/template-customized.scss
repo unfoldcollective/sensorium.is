@@ -18,6 +18,8 @@
 
 // Load Vendor Components
 @import "vendor/tilt-hover-effects.scss";
+@import "vendor/schedule-template/reset.scss";
+@import "vendor/schedule-template/schedule-template.scss";
 
 /* general */
 a {
@@ -229,4 +231,13 @@ iframe.animatedLogotype {
   position: fixed;
   top: 0;
   z-index: 0;
+}
+
+/* programme */
+// prevent schedule event-modal to extend width of #sb-site
+.sb-site-overflow-x-hidden #sb-site {
+  overflow-x: hidden;
+}
+body.no-measure section#body > .measure {
+  max-width: none;
 }
