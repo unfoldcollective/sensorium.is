@@ -238,3 +238,6 @@ iframe.animatedLogotype {
 .sb-site-overflow-x-hidden #sb-site {
   overflow-x: hidden;
 }
+body.no-measure section#body > .measure {
+  max-width: none;
+}

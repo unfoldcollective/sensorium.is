@@ -51,7 +51,7 @@ Main Components
 
 	@include MQ(M) {
 		width: 90%;
-		max-width: 500px;
+		max-width: 550px;
 		margin: 2em auto;
 		@include clearfix;
 
@@ -333,6 +333,7 @@ Main Components
 	display: block;
 	@include MQ(L) {
 		display: inline;
+		display: inline-flex;
 		padding-left: 1.2em;
 	}
 }

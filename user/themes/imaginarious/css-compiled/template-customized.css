@@ -460,13 +460,13 @@ Main Components
   @media only screen and (min-width: 11px) {
     .cd-schedule {
       width: 90%;
-      max-width: 500px;
+      max-width: 550px;
       margin: 2em auto; }
       .cd-schedule::after {
         clear: both;
         content: "";
         display: block; } }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 600px) {
     .cd-schedule::before {
       content: 'desktop'; } }
 
@@ -581,7 +581,7 @@ Main Components
         .cd-schedule .events .single-event.selected-event {
           /* the .selected-event class is added when an user select the event */
           visibility: hidden; } }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 600px) {
     .cd-schedule .events .top-info {
       /* vertically center its content */
       display: table;
@@ -628,9 +628,10 @@ Main Components
 
 .cd-schedule .event-name {
   display: block; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 600px) {
     .cd-schedule .event-name {
       display: inline;
+      display: inline-flex;
       padding-left: 1.2em; } }
 
 .cd-schedule .event-name.event-name-inline {
@@ -648,7 +649,7 @@ Main Components
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 600px) {
     .cd-schedule .event-title {
       padding-left: 7.25em; } }
 
@@ -789,7 +790,7 @@ Main Components
     transition: none; }
     .cd-schedule .event-modal.no-transition .header-bg, .cd-schedule .event-modal.no-transition .body-bg {
       transition: none; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 600px) {
     .cd-schedule .event-modal {
       /* reset style */
       right: auto;
@@ -836,7 +837,7 @@ Main Components
         .cd-schedule .event-modal .close::after, .cd-schedule .event-modal .close::before {
           background: #EAEAEA;
           height: 16px; } }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 600px) {
     .cd-schedule .event-modal .header .content {
       padding: 2em 1.2em; } }
 
@@ -848,7 +849,7 @@ Main Components
     /* smooth scroll on iOS touch devices */
     -webkit-overflow-scrolling: touch; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .cd-schedule.animation-completed .event-modal .close,
   .cd-schedule.content-loaded.animation-completed .event-modal .event-info {
     /* 	the .animation-completed class is added when the modal animation is completed
@@ -1033,5 +1034,8 @@ iframe.animatedLogotype {
 /* programme */
 .sb-site-overflow-x-hidden #sb-site {
   overflow-x: hidden; }
+
+body.no-measure section#body > .measure {
+  max-width: none; }
 
 /*# sourceMappingURL=template-customized.css.map */
