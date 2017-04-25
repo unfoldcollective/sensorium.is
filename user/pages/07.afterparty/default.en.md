@@ -7,7 +7,8 @@ See you at [Refresh Club](https://www.google.sk/maps/place/RE:FRESH+music+club+%
 
 **Dead Janitor**
 
-A movie director who shall not be named once said he'd rather shoot film about man walking his dog than make a film about a Chinese emperor. Dead Janitor's prolific body of work seems like a sonic extract of this idea. There's no spectacular narratives, no massive synth blasts, instead the his latest output sees the producers focus turn towards crispy sonic micro worlds full of vibrant textures and dystopian atmospheres which carry momentum peppered with electric detail. 
+A movie director who shall not be named once said he'd rather shoot film about man walking his dog than make a film about a Chinese emperor. Dead Janitor's prolific body of work acts like a sonic extract of this idea. There's no spectacular narratives, no massive synth blasts, instead his latest output sees the producers focus turn towards crispy sonic micro worlds full of vibrant textures and dystopian atmospheres which carry momentum peppered with electric detail.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QbU_eyeGqps" frameborder="0" allowfullscreen></iframe>
 
