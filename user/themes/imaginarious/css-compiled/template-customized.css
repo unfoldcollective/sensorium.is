@@ -653,6 +653,10 @@ Main Components
     .cd-schedule .event-title {
       padding-left: 7.25em; } }
 
+@media only screen and (min-width: 600px) {
+  .cd-schedule .event-title.pl0-l {
+    padding-left: 0; } }
+
 .cd-schedule .single-event[data-event="event-0"] {
   border-left: 1px solid #444;
   border-right: 1px solid #444; }
