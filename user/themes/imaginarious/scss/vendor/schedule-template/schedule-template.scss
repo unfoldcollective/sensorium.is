@@ -360,6 +360,12 @@ Main Components
 	}
 }
 
+.cd-schedule .event-title.pl0-l {
+	@include MQ(L) {
+		padding-left: 0;
+	}
+}
+
 .cd-schedule .single-event[data-event="event-0"] {
 	border-left: 1px solid $border-color;
 	border-right: 1px solid $border-color;
