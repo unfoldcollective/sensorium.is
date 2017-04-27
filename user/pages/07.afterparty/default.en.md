@@ -3,7 +3,15 @@ title: Afterparty
 body_classes: 'header-image fullwidth'
 ---
 
-See you at [Refresh Club](https://www.google.sk/maps/place/RE:FRESH+music+club+%26+restaurant/@48.1426876,17.1042189,17z/data=!3m1!4b1!4m5!3m4!1s0x476c895d3600526d:0x227e556b66efc568!8m2!3d48.1426876!4d17.1064076?hl=en) from 22.00 on Saturday 29.4. The entrance is free if you have the presale ticket (bought before 1.4.2017) or 2 eur if you have the regular ticket and can be bought [online](https://ti.to/sensorium2017/sensorium2017), at the conference or at the venue. 
+See you at [Refresh Club](https://www.google.sk/maps/place/RE:FRESH+music+club+%26+restaurant/@48.1426876,17.1042189,17z/data=!3m1!4b1!4m5!3m4!1s0x476c895d3600526d:0x227e556b66efc568!8m2!3d48.1426876!4d17.1064076?hl=en) from 22.00 on Saturday 29.4. The entrance is free if you have the presale ticket (bought before 1.4.2017) or 2 eur if you have the regular ticket and can be bought [online](https://ti.to/sensorium2017/sensorium2017), at the conference or at the venue for 4 eur. 
+
+22:00 - 23:00 Dead Janitor
+
+23:00 - 00:30 FVLCRVM
+
+00:30 - 02:00 Stratasoul
+
+02:00 - 04:00 Kabal (Junction)
 
 **Dead Janitor**
 
