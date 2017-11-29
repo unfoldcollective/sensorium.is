@@ -1,6 +1,7 @@
 ---
 title: 'Sensorium 2017'
 menu: Home
+slug: '2017'
 onpage_menu: true
 body_classes: 'modular header-image fullwidth'
 content:
