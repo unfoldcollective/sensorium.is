@@ -44,8 +44,8 @@ process:
                 <li>Domestic Data Streamers</li>
             </ul>
             {% include 'partials/atoms/button.html.twig' with {'button': {
-              'text': 'Get tickets',
-              'url': 'https://ti.to/sensorium2017/sensorium2017',
+              'text': 'Sold out',
+              'url': '',
               'newTab': true,
               'classes': 'bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 mt3 dib '
             }} %}
@@ -72,9 +72,7 @@ process:
                 <div class="dtc">
                     <span class="mv0 b"><a href="/afterparty">more info...</a></span>
                 </div>
-                <div class="dtc tr">
-                    <span class="mv0 b"><a href="{{site.ticket_url}}" target="_blank">tickets</a></span>
-                </div>
+                
             </div>
         </article>
         <article class="pa3 mv2 ba tl b--teal bw1">
