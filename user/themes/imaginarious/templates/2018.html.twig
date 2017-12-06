@@ -15,14 +15,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
-    <link href="/user/themes/imaginarious/css/fonts.css" type="text/css" rel="stylesheet" />
     {% block stylesheets %}
-     
         {% do assets.addCss('theme://css/fonts.css') %}    
         {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
         {% do assets.addCss('theme://css/tachyons.min.css') %}
         {% do assets.addCss('theme://css/2018.landing.css') %}    
-
     {% endblock %}
     {{ assets.css() }}
 
@@ -38,7 +35,7 @@
     <div class="peall fixed " id="sketch-container"></div>
     <div class="penone min-h-100 relative white mh2 mh4-m mh5-l">
         <header>
-            <a class="fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular" href="https://ti.to/sensorium/sensorium-2018" title="Sensorium Conference Tickets">
+            <a class="fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular" href="{{config.site.ticket_url}}" title="Sensorium Conference Tickets">
                 Tickets
             </a>
             {% include 'partials/atoms/animatedLogotype.html.twig' %}
@@ -49,7 +46,7 @@
             <h3 class="peall f5 f4-ns fw1">4-5 May 2018, Bratislava</h3>
         </header>
         <main>
-            <a class="bg-purple light-green hover-light-green f5 f3-m f2-l tc link grow ba bw1 ph3 pv2 mv3 dib light" href="https://ti.to/sensorium/sensorium-2018" title="Sensorium Conference Tickets">
+            <a class="bg-purple light-green hover-light-green f5 f3-m f2-l tc link grow ba bw1 ph3 pv2 mv3 dib light" href="{{config.site.ticket_url}}" title="Sensorium Conference Tickets">
                 Get super early-bird tickets
             </a>
         </main>
