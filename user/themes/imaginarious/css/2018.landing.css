@@ -10,6 +10,8 @@ html, body {
     -webkit-font-smoothing: antialiased;
     background: #000;
 }
+
+/* Pointer Events*/
 .penone {
     pointer-events: none;
 }
@@ -19,6 +21,8 @@ html, body {
 a {
     pointer-events: all;
 }
+
+/* Fonts*/
 .regular {
     font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
@@ -32,16 +36,26 @@ a {
     font-family: "Montserrat-ExtraLight", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
 }
 
+/* Links*/
 a {
     color: #A463F2;
 }
 a:hover {
     color: #bf92f6;
 }
-a.grow:hover {
-    color: #A463F2;
+
+.grow {
+  -moz-osx-font-smoothing: grayscale !important;
+  backface-visibility: hidden !important;
+  transform: translateZ(0) !important;
+  transition: transform 0.25s ease-out !important;
+}
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05) !important;
 }
 
+/* Custom Margins */
 .mh-2 {
     margin-left: -.5rem;
     margin-right: -.5rem;
