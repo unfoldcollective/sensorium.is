@@ -1,3 +1,6 @@
+# Apache
+.htaccess
+
 # Grav Specific
 .sass-cache
 composer.lock
