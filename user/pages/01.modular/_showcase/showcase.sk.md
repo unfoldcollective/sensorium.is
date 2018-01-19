@@ -1,15 +1,16 @@
 ---
-title: 'Homepage Showcase'
+title: Homepage Showcase
 buttons:
     -
-        text: 'Sleduj nás'
-        url: 'https://www.facebook.com/sensoriumsvk'
-        primary: true
+        text: Get tickets now
+        url: https://ti.to/sensorium/sensorium-2018
+        newTab: true
         classes: 'bg-purple light-green hover-light-green f4 link grow ba bw1 ph3 pv2 mb2 dib'
 hide_in_menu: true
 showAnimatedLogotype: true
 ---
 
-## Festival prednášok a workshopov na témy umenia, dizajnu a kreatívnych technológií.
-### 28-30 apríl 2017
-### Pisztoryho palác, Bratislava
+## The first Slovak festival making sense of creative technology
+### For the third year, a multidisciplinary community comes together to envision the future of art, design & performance and its impact on society.
+### Join the conversation!
+#### 4-5 May 2018, Bratislava

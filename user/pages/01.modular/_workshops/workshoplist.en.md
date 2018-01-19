@@ -1,6 +1,6 @@
 ---
 title: Take part
-published: true
+published: false
 process:
     markdown: true
 content:
