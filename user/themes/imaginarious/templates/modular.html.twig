@@ -12,16 +12,21 @@
     {% do assets.addJs('theme://js/imagesloaded.pkgd.min.js', {group: 'bottom'}) %}
     {% do assets.addJs('theme://js/tilt-hover-effects.js', {group: 'bottom'}) %}
     {% do assets.addJs('theme://js/start-tilt-hover-effects.js', {group: 'bottom'}) %}
-    {% do assets.addJs('theme://js/p5js/p5.js') %}
+
+    {% do assets.addJs('theme://js/libs/bitlib_1_0_9.min.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/libs/perlin.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/170417-sensorium.js', {group: 'bottom'}) %}
+
+    {# {% do assets.addJs('theme://js/p5js/p5.js') %}
     {% do assets.addJs('theme://js/splineloop.js') %}
-    {% do assets.addJs('theme://js/splineloop-sketch.js') %}
+    {% do assets.addJs('theme://js/splineloop-sketch.js') %} #}
     {% do assets.addJs('theme://js/scroll-background-dim.js') %}
-    {% do assets.addJs('theme://js/jquery.countdown.js') %}
-    {% do assets.addJs('theme://js/start-countdown.js') %}
+    {# {% do assets.addJs('theme://js/jquery.countdown.js') %} #}
+    {# {% do assets.addJs('theme://js/start-countdown.js') %} #}
 {% endblock %}
 
 {% block background %}
-    <div id="splineLoops" canvas=""></div>
+    <div id="bg-canvas" canvas=""></div>
 {% endblock %}
 
 {% block bottom %}
