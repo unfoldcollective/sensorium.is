@@ -7,7 +7,7 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-.default-animation, #body, #header #logo img {
+.default-animation, #body, .modular .showcase .button, #header #logo img {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -32,8 +32,8 @@ html, body {
   height: 100%; }
 
 body {
-  background: black;
-  color: white;
+  background: lightgray;
+  color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -61,6 +61,9 @@ a {
 .right {
   float: right; }
 
+footer {
+  color: #fff; }
+
 .blog-header {
   padding-top: 2rem;
   padding-bottom: 2rem; }
@@ -68,7 +71,7 @@ a {
     background-size: cover;
     background-position: center; }
     .blog-header.blog-header-image h1, .blog-header.blog-header-image h2 {
-      color: #FFFFFF; }
+      color: #000; }
   .blog-header h1 {
     font-size: 4rem;
     margin-top: 0; }
@@ -93,7 +96,7 @@ a {
     .list-item .list-blog-header h4 {
       margin-bottom: 0.5rem; }
       .list-item .list-blog-header h4 a {
-        color: white; }
+        color: #000; }
         .list-item .list-blog-header h4 a:hover {
           color: #A463F2; }
     .list-item .list-blog-header img {
@@ -171,6 +174,44 @@ ul.pagination {
 .prev-next {
   margin-top: 5rem;
   text-align: center; }
+
+.modular.header-image #header {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none; }
+  .modular.header-image #header #logo h3 {
+    color: #000; }
+  .modular.header-image #header #navbar a {
+    color: #000; }
+.modular .showcase {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #666;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #000; }
+  .modular .showcase h1 {
+    font-size: 4rem;
+    margin-top: 0; }
+    @media only all and (min-width: 48em) and (max-width: 59.938em) {
+      .modular .showcase h1 {
+        font-size: 3rem; } }
+    @media only all and (max-width: 47.938em) {
+      .modular .showcase h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin-bottom: 2.5rem; } }
+  .modular .showcase .button {
+    color: #000;
+    padding: 0.7rem 2rem;
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 1.3rem; }
+    .modular .showcase .button:hover {
+      background: rgba(255, 255, 255, 0.2); }
 
 .tilter {
   display: block;
@@ -1021,7 +1062,7 @@ iframe.animatedLogotype {
 /* interactive spline loops */
 #sb-site {
   transition: background-color 1s ease !important;
-  background-color: transparent !important; }
+  background-color: rgba(0, 0, 0, 0) !important; }
 
 #sb-site.scrolled {
   transition: background-color 1s ease;
