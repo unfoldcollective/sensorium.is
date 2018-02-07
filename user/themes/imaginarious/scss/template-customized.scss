@@ -16,6 +16,7 @@
 @import "template-customized/core";
 @import "template-customized/blog";
 @import "template-customized/showcase";
+@import "template-customized/header";
 
 // Load Vendor Components
 @import "vendor/tilt-hover-effects.scss";
@@ -72,6 +73,12 @@ $large-start: 60em;
 }
 .bg-teal {
   background-color: $sensorium-teal;
+}
+.bg-light-gray {
+  background-color: $light-gray !important;
+}
+.bg-dark-gray {
+  background-color: $dark-gray !important;
 }
 .mw24rem {
   max-width: 24rem;
