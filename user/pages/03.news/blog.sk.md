@@ -1,4 +1,5 @@
 ---
+published: false
 title: News
 blog_url: blog
 slug: blog

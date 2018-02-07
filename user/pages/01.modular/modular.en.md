@@ -1,5 +1,8 @@
 ---
-title: 'Sensorium Festival 2017'
+title: 'Sensorium 2018'
+menu: Home
+onpage_menu: true
+body_classes: 'modular header-image fullwidth'
 content:
     items: '@self.modular'
     order:
