@@ -5,6 +5,10 @@ $sensorium-pink: 				#FBD2CE;
 $light-green: 					#9CFCCF;
 $sensorium-gray: 				#CDCCCB;
 
+// 2018 theme
+$light-gray:            lightgray;
+$dark-gray:             darkgray;
+
 // Core
 $core-text:						#000;
 $core-accent:					$light-purple; 
@@ -24,14 +28,14 @@ $core-box-shadow: 				inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
 $core-box-shadow-focus: 		$core-box-shadow, 0 0 5px rgba(darken($core-border-color-focus, 5), 0.7);
 
 // Background
-$page-bg:						lightgray;
+$page-bg:						$light-gray;
 
 // Header
 $header-text: 					#000;
 
 // Nav
-$navbar-text: 					#75879A;
-$navbar-bg: 					#FFFFFF;
+$navbar-text: 					$black;
+$navbar-bg: 					$dark-gray;
 
 // Showcase
 $showcase-bg:					none; //lighten($core-accent, 6%);

@@ -131,12 +131,12 @@ blockquote {
 
   // scroll based changes
   &.scrolled {
-    background-color: $light-green !important;
+    background-color: $navbar-bg !important;
     #navbar a, #navbar span {
-      color: $core-accent !important;
+      color: $navbar-text !important;
       transition: all 0.25s;
       &:hover {
-        color: $core-accent !important;
+        color: $navbar-text !important;
       }
     }
   }

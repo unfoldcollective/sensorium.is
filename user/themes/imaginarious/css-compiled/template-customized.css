@@ -32,7 +32,7 @@ html, body {
   height: 100%; }
 
 body {
-  background: lightgray;
+  background: #CDCCCB;
   color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -990,12 +990,12 @@ blockquote cite {
   #header #navbar ul.navigation li a::after, #header #navbar ul.navigation li a::before {
     background-color: white; }
   #header.scrolled {
-    background-color: #9CFCCF !important; }
+    background-color: darkgray !important; }
     #header.scrolled #navbar a, #header.scrolled #navbar span {
-      color: #A463F2 !important;
+      color: #000 !important;
       transition: all 0.25s; }
       #header.scrolled #navbar a:hover, #header.scrolled #navbar span:hover {
-        color: #A463F2 !important; }
+        color: #000 !important; }
 
 /* template: buttons */
 .button, .button-secondary {
