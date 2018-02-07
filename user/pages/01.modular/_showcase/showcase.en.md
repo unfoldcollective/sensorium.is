@@ -10,7 +10,7 @@ hide_in_menu: true
 showAnimatedLogotype: true
 ---
 
-## The first Slovak festival making sense of creative technology
-### For the third year, a multidisciplinary community comes together to envision the future of art, design & performance and its impact on society.
-### Join the conversation!
-#### 4-5 May 2018, Bratislava
+# The first Slovak festival making sense of creative technology
+## For the third year, a multidisciplinary community comes together to envision the future of art, design & performance and its impact on society.
+## Join the conversation!
+### 4-5 May 2018, Bratislava

@@ -28,14 +28,16 @@
         text-align: center;
         color: $header-text;
         h1 {
-            font-size: 4rem;
+            font-size: $h1-font-size * 1.05;
             margin-top: 0;
+            line-height: 1.4;
             @include breakpoint(tablet-range) {
-                font-size: 3rem;
+                font-size: $h1-font-size * 0.9;
+                line-height: 1.2;
             }
             @include breakpoint(mobile-only) {
-                font-size: 2.5rem;
-                line-height: 1.2;
+                font-size: $h1-font-size * 0.6;
+                line-height: 1.1;
                 margin-bottom: 2.5rem;
             }
         }
