@@ -1,4 +1,5 @@
 ---
+published: false
 title: First speaker announced!
 date: 10/02/2017
 taxonomy:
@@ -9,11 +10,11 @@ process:
     twig: true
 ---
 
-They are masters of beautiful aesthetics and generative art. Based in London, they combine art + technology to create immersive audio-visual experiences, and powerful new formats of visual communication. We are extremely pleased to announce Field as the first speakers of Sensorium 2017.
+Joachim Sauter ...
 
 ===
 
-[Field](http://field.io/) works with selected brands and cultural institutions world-wide, they produce artworks across moving image, interactive experiences, screen-based and kinetic installations.
+Joachim Sauter ...
 
 {% include 'partials/atoms/button.html.twig' with {
     'button': {

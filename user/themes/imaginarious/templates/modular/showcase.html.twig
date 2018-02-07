@@ -1,13 +1,7 @@
 <div class="relative modular-row showcase">
-	{% if page.header.showAnimatedLogotype %}
-		{% include 'partials/atoms/animatedLogotype.html.twig' %}
-	{% endif %}
     {{ content }}
 
     {% for button in page.header.buttons %}
     	{% include 'partials/atoms/button.html.twig' with {'button': button} %}
     {% endfor %}
-
-	<div id="clock" class="f3 light-green"></div>
-
 </div>

@@ -1,4 +1,5 @@
 ---
+published: false
 title: Partners
 menu: Partners
 hide_in_menu: true

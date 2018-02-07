@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 function setup() {
     var myCanvas = createCanvas(windowWidth, windowHeight);
-    myCanvas.parent('splineLoops');
+    myCanvas.parent('bg-canvas');
     background(0);
     frameRate(30);
     smooth();

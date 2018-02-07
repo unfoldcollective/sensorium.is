@@ -1,4 +1,5 @@
 ---
+published: false
 title: Novinky
 menu: Novinky
 content:

@@ -1,4 +1,4 @@
-#header #logo img {
+#header #logo h3, #header #navbar .panel-activation, #header #logo img {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -7,20 +7,20 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-.default-animation, #body, #header #logo img {
+.default-animation, #body, .modular .showcase .button, #header, #header #logo h3, #header #navbar ul.navigation, #header #logo img {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-.padding-horiz, #body {
+.padding-horiz, #body, #header {
   padding-left: 7rem;
   padding-right: 7rem; }
   @media only all and (max-width: 59.938em) {
-    .padding-horiz, #body {
+    .padding-horiz, #body, #header {
       padding-left: 4rem;
       padding-right: 4rem; } }
   @media only all and (max-width: 47.938em) {
-    .padding-horiz, #body {
+    .padding-horiz, #body, #header {
       padding-left: 1rem;
       padding-right: 1rem; } }
 
@@ -32,8 +32,8 @@ html, body {
   height: 100%; }
 
 body {
-  background: black;
-  color: white;
+  background: #CDCCCB;
+  color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -61,6 +61,9 @@ a {
 .right {
   float: right; }
 
+footer {
+  color: #fff; }
+
 .blog-header {
   padding-top: 2rem;
   padding-bottom: 2rem; }
@@ -68,7 +71,7 @@ a {
     background-size: cover;
     background-position: center; }
     .blog-header.blog-header-image h1, .blog-header.blog-header-image h2 {
-      color: #FFFFFF; }
+      color: #000; }
   .blog-header h1 {
     font-size: 4rem;
     margin-top: 0; }
@@ -93,7 +96,7 @@ a {
     .list-item .list-blog-header h4 {
       margin-bottom: 0.5rem; }
       .list-item .list-blog-header h4 a {
-        color: white; }
+        color: #000; }
         .list-item .list-blog-header h4 a:hover {
           color: #A463F2; }
     .list-item .list-blog-header img {
@@ -171,6 +174,412 @@ ul.pagination {
 .prev-next {
   margin-top: 5rem;
   text-align: center; }
+
+.modular.header-image #header {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none; }
+  .modular.header-image #header #logo h3 {
+    color: #000; }
+  .modular.header-image #header #navbar a {
+    color: #000; }
+.modular .showcase {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #666;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #000; }
+  .modular .showcase h1 {
+    font-size: 5.67rem;
+    margin-top: 0;
+    line-height: 1.4; }
+    @media only all and (min-width: 48em) and (max-width: 59.938em) {
+      .modular .showcase h1 {
+        font-size: 4.86rem;
+        line-height: 1.2; } }
+    @media only all and (max-width: 47.938em) {
+      .modular .showcase h1 {
+        font-size: 3.24rem;
+        line-height: 1.1;
+        margin-bottom: 2.5rem; } }
+  .modular .showcase .button {
+    color: #000;
+    padding: 0.7rem 2rem;
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 1.3rem; }
+    .modular .showcase .button:hover {
+      background: rgba(255, 255, 255, 0.2); }
+
+#header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15); }
+  #header.scrolled {
+    height: 3rem;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15) !important; }
+    #header.scrolled #logo h3 {
+      color: #000 !important;
+      font-size: 1.6rem !important; }
+    #header.scrolled #logo a, #header.scrolled #navbar span {
+      color: #000 !important; }
+    #header.scrolled #navbar a {
+      color: #000 !important; }
+      #header.scrolled #navbar a:hover {
+        color: black !important; }
+    #header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
+      background-color: #000 !important; }
+    #header.scrolled .navigation {
+      margin-top: 0.5rem !important; }
+  #header > .grid, #header #logo, #header #navbar {
+    height: 100%; }
+  #header #logo {
+    float: left; }
+    #header #logo h3 {
+      font-size: 2rem;
+      line-height: 2rem;
+      margin: 0;
+      text-transform: uppercase; }
+      #header #logo h3 a {
+        color: #000; }
+  #header #navbar {
+    font-size: 0.9rem;
+    /* Child Indicator */ }
+    #header #navbar .has-children > a > span {
+      display: inline-block;
+      padding-right: 8px; }
+      #header #navbar .has-children > a > span:after {
+        font-family: FontAwesome;
+        content: '\f107';
+        position: absolute;
+        display: inline-block;
+        right: 8px;
+        top: 4px; }
+    #header #navbar .has-children > a:after, #header #navbar .has-children > a:before {
+      display: none; }
+    #header #navbar .has-children .has-children > a > span:after {
+      content: '\f105'; }
+    #header #navbar .navigation > .has-children:hover > a {
+      background: #f6f6f6;
+      border: 1px solid #ececec;
+      border-bottom-color: #f6f6f6;
+      margin: -1px -1px 0 -1px;
+      z-index: 1000;
+      position: relative;
+      padding-bottom: 1px; }
+    #header #navbar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      #header #navbar ul.navigation {
+        display: inline-block;
+        float: right;
+        margin-top: 1.4rem; }
+        #header #navbar ul.navigation li {
+          float: left;
+          position: relative;
+          /*Active dropdown nav item */
+          /* Dropdown CSS */
+          /* Active on Hover */ }
+          #header #navbar ul.navigation li a {
+            font-family: "Druk", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            font-size: 1.5rem;
+            line-height: 23px;
+            -webkit-backface-visibility: hidden; }
+            #header #navbar ul.navigation li a:before, #header #navbar ul.navigation li a:after {
+              content: "";
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              bottom: 0;
+              left: 0;
+              background-color: #A463F2;
+              visibility: hidden;
+              -webkit-transform: scaleX(0);
+              -moz-transform: scaleX(0);
+              -ms-transform: scaleX(0);
+              -o-transform: scaleX(0);
+              transform: scaleX(0);
+              -webkit-transition: all 0.2s ease;
+              -moz-transition: all 0.2s ease;
+              transition: all 0.2s ease; }
+            #header #navbar ul.navigation li a:hover:before {
+              visibility: visible;
+              -webkit-transform: scaleX(0.75);
+              -moz-transform: scaleX(0.75);
+              -ms-transform: scaleX(0.75);
+              -o-transform: scaleX(0.75);
+              transform: scaleX(0.75); }
+            #header #navbar ul.navigation li a.active:after {
+              top: 0;
+              visibility: visible;
+              -webkit-transform: scaleX(0.75);
+              -moz-transform: scaleX(0.75);
+              -ms-transform: scaleX(0.75);
+              -o-transform: scaleX(0.75);
+              transform: scaleX(0.75); }
+          #header #navbar ul.navigation li.active a:after {
+            top: 0;
+            visibility: visible;
+            -webkit-transform: scaleX(0.75);
+            -moz-transform: scaleX(0.75);
+            -ms-transform: scaleX(0.75);
+            -o-transform: scaleX(0.75);
+            transform: scaleX(0.75); }
+          #header #navbar ul.navigation li ul {
+            position: absolute;
+            background-color: #f6f6f6;
+            border: 1px solid #ececec;
+            border-top: 0;
+            min-width: 12rem;
+            text-align: left;
+            z-index: 999;
+            left: -1px;
+            display: none; }
+          #header #navbar ul.navigation li ul li {
+            display: block;
+            float: none;
+            /* Active Dropdown nav item */ }
+            #header #navbar ul.navigation li ul li.active > a {
+              background-color: #ececec;
+              color: #A463F2; }
+            #header #navbar ul.navigation li ul li:hover > a {
+              background-color: #A463F2;
+              color: #fff; }
+            #header #navbar ul.navigation li ul li a {
+              display: block;
+              margin: 0 -1px; }
+              #header #navbar ul.navigation li ul li a:after, #header #navbar ul.navigation li ul li a:before {
+                display: none; }
+          #header #navbar ul.navigation li ul ul {
+            left: 100%;
+            top: 0px; }
+          #header #navbar ul.navigation li:hover > ul {
+            display: block; }
+        @media only all and (max-width: 59.938em) {
+          #header #navbar ul.navigation {
+            display: none; } }
+    #header #navbar .panel-activation {
+      padding: 1rem;
+      display: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+      float: right; }
+      @media only all and (max-width: 59.938em) {
+        #header #navbar .panel-activation {
+          display: inline-block; } }
+
+.header-image.fullwidth #body {
+  padding-left: 0;
+  padding-right: 0; }
+  .header-image.fullwidth #body > .listing-row {
+    padding-left: 7rem;
+    padding-right: 7rem; }
+.header-image .listing-row:last-child {
+  margin-bottom: 2rem; }
+.header-image #body .flush-top {
+  margin-top: -9.5rem;
+  padding-top: 9rem; }
+.header-image #breadcrumbs {
+  margin-top: 1rem; }
+.header-image #header {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: none; }
+  .header-image #header .navigation .has-children:hover a {
+    color: #A463F2; }
+  .header-image #header #logo h3, .header-image #header #logo a {
+    color: #000; }
+  .header-image #header a, .header-image #header .menu-btn {
+    color: #000; }
+  .header-image #header a:before, .header-image #header a:after {
+    background-color: rgba(0, 0, 0, 0.7) !important; }
+
+html, body, button, input, select, textarea, .pure-g, .pure-g [class*="pure-u"] {
+  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 400; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Druk", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0px; }
+
+h1 {
+  font-size: 5.4rem; }
+  @media only all and (max-width: 47.938em) {
+    h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin-bottom: 2.5rem; } }
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  h2 {
+    font-size: 3.6rem; } }
+@media only all and (max-width: 47.938em) {
+  h2 {
+    font-size: 3.5rem; } }
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  h3 {
+    font-size: 2.8rem; } }
+@media only all and (max-width: 47.938em) {
+  h3 {
+    font-size: 2.7rem; } }
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  h4 {
+    font-size: 2.1rem; } }
+@media only all and (max-width: 47.938em) {
+  h4 {
+    font-size: 2rem; } }
+
+h1 {
+  text-align: center;
+  letter-spacing: -3px; }
+
+h2 {
+  letter-spacing: -2px; }
+
+h3 {
+  letter-spacing: -1px; }
+
+h1 + h2 {
+  margin: -2rem 0 2rem 0;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 300; }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    h1 + h2 {
+      font-size: 1.6rem; } }
+  @media only all and (max-width: 47.938em) {
+    h1 + h2 {
+      font-size: 1.5rem; } }
+
+h2 + h3 {
+  margin: 0.5rem 0 2rem 0;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 300; }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    h2 + h3 {
+      font-size: 1.6rem; } }
+  @media only all and (max-width: 47.938em) {
+    h2 + h3 {
+      font-size: 1.5rem; } }
+
+blockquote {
+  border-left: 10px solid #F0F2F4; }
+  blockquote p {
+    font-size: 1.1rem;
+    color: #999; }
+  blockquote cite {
+    display: block;
+    text-align: right;
+    color: #666;
+    font-size: 1.2rem; }
+
+blockquote > blockquote > blockquote {
+  margin: 0; }
+  blockquote > blockquote > blockquote p {
+    padding: 15px;
+    display: block;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem; }
+  blockquote > blockquote > blockquote > p {
+    margin-left: -71px;
+    border-left: 10px solid #F0AD4E;
+    background: #FCF8F2;
+    color: #df8a13; }
+    blockquote > blockquote > blockquote > p a {
+      color: #b06d0f; }
+      blockquote > blockquote > blockquote > p a:hover {
+        color: #f2b866; }
+  blockquote > blockquote > blockquote > blockquote > p {
+    margin-left: -94px;
+    border-left: 10px solid #D9534F;
+    background: #FDF7F7;
+    color: #b52b27; }
+    blockquote > blockquote > blockquote > blockquote > p a {
+      color: #8b211e; }
+      blockquote > blockquote > blockquote > blockquote > p a:hover {
+        color: #de6764; }
+  blockquote > blockquote > blockquote > blockquote > blockquote > p {
+    margin-left: -118px;
+    border-left: 10px solid #5BC0DE;
+    background: #F4F8FA;
+    color: #28a1c5; }
+    blockquote > blockquote > blockquote > blockquote > blockquote > p a {
+      color: #1f7e9a; }
+      blockquote > blockquote > blockquote > blockquote > blockquote > p a:hover {
+        color: #70c8e2; }
+  blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
+    margin-left: -142px;
+    border-left: 10px solid #5CB85C;
+    background: #F1F9F1;
+    color: #3d8b3d; }
+    blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p a {
+      color: #2d672d; }
+      blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p a:hover {
+        color: #6ec06e; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "Inconsolata", monospace; }
+
+code {
+  background: #f9f2f4;
+  color: #9c1d3d; }
+
+pre {
+  padding: 2rem;
+  background: #f0f0f0;
+  border: 1px solid #FBD2CE;
+  border-radius: 3px; }
+  pre code {
+    color: #237794;
+    background: inherit; }
+
+hr {
+  border-bottom: 4px solid #F0F2F4; }
+
+.page-title {
+  margin-top: -25px;
+  padding: 25px;
+  float: left;
+  clear: both;
+  background: #A463F2;
+  color: #fff; }
+
+.label {
+  vertical-align: middle;
+  background: #A463F2;
+  border-radius: 100%;
+  color: #fff;
+  height: 1rem;
+  min-width: 1rem;
+  line-height: 1rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: "Druk", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  margin-right: 0.75rem; }
 
 .tilter {
   display: block;
@@ -341,13 +750,13 @@ ul.pagination {
 .tilter--6,
 .tilter--6:hover,
 .tilter--6:focus {
-  color: #003d46; }
+  color: #000; }
 
 .tilter--6 .tilter__deco--overlay {
-  background-image: linear-gradient(45deg, rgba(251, 210, 206, 0.8), rgba(172, 22, 0, 0.5)); }
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(164, 99, 242, 0.5)); }
 
 .tilter--6 .tilter__deco--lines {
-  stroke: #003d46;
+  stroke: #000;
   stroke-width: 6px;
   top: -50px;
   left: -50px; }
@@ -398,490 +807,6 @@ ul.pagination {
 .tilter--8 .tilter__figure::before {
   box-shadow: none; }
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-.cd-schedule {
-  /* HTML5 display-role reset for older browsers */ }
-  .cd-schedule html, .cd-schedule body, .cd-schedule div, .cd-schedule span, .cd-schedule applet, .cd-schedule object, .cd-schedule iframe,
-  .cd-schedule h1, .cd-schedule h2, .cd-schedule h3, .cd-schedule h4, .cd-schedule h5, .cd-schedule h6, .cd-schedule p, .cd-schedule blockquote, .cd-schedule pre,
-  .cd-schedule a, .cd-schedule abbr, .cd-schedule acronym, .cd-schedule address, .cd-schedule big, .cd-schedule cite, .cd-schedule code,
-  .cd-schedule del, .cd-schedule dfn, .cd-schedule em, .cd-schedule img, .cd-schedule ins, .cd-schedule kbd, .cd-schedule q, .cd-schedule s, .cd-schedule samp,
-  .cd-schedule small, .cd-schedule strike, .cd-schedule strong, .cd-schedule sub, .cd-schedule sup, .cd-schedule tt, .cd-schedule var,
-  .cd-schedule b, .cd-schedule u, .cd-schedule i, .cd-schedule center,
-  .cd-schedule dl, .cd-schedule dt, .cd-schedule dd, .cd-schedule ol, .cd-schedule ul, .cd-schedule li,
-  .cd-schedule fieldset, .cd-schedule form, .cd-schedule label, .cd-schedule legend,
-  .cd-schedule table, .cd-schedule caption, .cd-schedule tbody, .cd-schedule tfoot, .cd-schedule thead, .cd-schedule tr, .cd-schedule th, .cd-schedule td,
-  .cd-schedule article, .cd-schedule aside, .cd-schedule canvas, .cd-schedule details, .cd-schedule embed,
-  .cd-schedule figure, .cd-schedule figcaption, .cd-schedule footer, .cd-schedule header, .cd-schedule hgroup,
-  .cd-schedule menu, .cd-schedule nav, .cd-schedule output, .cd-schedule ruby, .cd-schedule section, .cd-schedule summary,
-  .cd-schedule time, .cd-schedule mark, .cd-schedule audio, .cd-schedule video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline; }
-  .cd-schedule article, .cd-schedule aside, .cd-schedule details, .cd-schedule figcaption, .cd-schedule figure,
-  .cd-schedule footer, .cd-schedule header, .cd-schedule hgroup, .cd-schedule menu, .cd-schedule nav, .cd-schedule section, .cd-schedule main {
-    display: block; }
-  .cd-schedule body {
-    line-height: 1; }
-  .cd-schedule ol, .cd-schedule ul {
-    list-style: none; }
-  .cd-schedule blockquote, .cd-schedule q {
-    quotes: none; }
-  .cd-schedule blockquote:before, .cd-schedule blockquote:after,
-  .cd-schedule q:before, .cd-schedule q:after {
-    content: '';
-    content: none; }
-  .cd-schedule table {
-    border-collapse: collapse;
-    border-spacing: 0; }
-
-/* -------------------------------- 
-
-Primary style
-
--------------------------------- */
-/* -------------------------------- 
-
-Main Components 
-
--------------------------------- */
-.cd-schedule {
-  position: relative;
-  margin: 2em 0; }
-  .cd-schedule::before {
-    /* never visible - this is used in js to check the current MQ */
-    content: 'mobile';
-    display: none; }
-  @media only screen and (min-width: 11px) {
-    .cd-schedule {
-      width: 90%;
-      max-width: 550px;
-      margin: 2em auto; }
-      .cd-schedule::after {
-        clear: both;
-        content: "";
-        display: block; } }
-  @media only screen and (min-width: 600px) {
-    .cd-schedule::before {
-      content: 'desktop'; } }
-
-.cd-schedule .timeline {
-  display: none; }
-
-.cd-schedule .events {
-  position: relative;
-  z-index: 1; }
-  .cd-schedule .events .events-group {
-    margin-bottom: 30px; }
-  .cd-schedule .events .top-info {
-    width: 100%;
-    padding: 0 5%; }
-    .cd-schedule .events .top-info > span {
-      display: inline-block;
-      line-height: 1.2;
-      margin-bottom: 10px;
-      font-weight: bold; }
-  .cd-schedule .events .events-group > ul {
-    position: relative;
-    padding: 0 5%;
-    /* force its children to stay on one line */
-    display: flex;
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch; }
-    .cd-schedule .events .events-group > ul::after {
-      /* never visible - used to add a right padding to .events-group > ul */
-      display: inline-block;
-      content: '-';
-      width: 1px;
-      height: 100%;
-      opacity: 0;
-      color: transparent; }
-  .cd-schedule .events .single-event {
-    /* force them to stay on one line */
-    flex-shrink: 0;
-    float: left;
-    height: 150px;
-    width: 70%;
-    max-width: 300px;
-    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
-    margin-right: 20px;
-    transition: opacity .2s, background .2s; }
-    .cd-schedule .events .single-event:last-of-type {
-      margin-right: 5%; }
-    .cd-schedule .events .single-event a {
-      display: block;
-      height: 100%;
-      padding: .8em; }
-  @media only screen and (min-width: 10px) {
-    .cd-schedule .events .single-event {
-      width: 40%; } }
-  @media only screen and (min-width: 11px) {
-    .cd-schedule .events {
-      float: left;
-      width: 100%; }
-      .cd-schedule .events .events-group {
-        width: 100%;
-        float: left;
-        border: 1px solid #444;
-        /* reset style */
-        margin-bottom: 0; }
-        .cd-schedule .events .events-group:not(:first-of-type) {
-          border-left-width: 0; }
-      .cd-schedule .events .top-info {
-        /* vertically center its content */
-        display: table;
-        height: 65px;
-        border-bottom: 1px solid #444;
-        /* reset style */
-        padding: 0; }
-        .cd-schedule .events .top-info > span {
-          /* vertically center inside its parent */
-          display: table-cell;
-          vertical-align: middle;
-          padding: 0 .5em;
-          text-align: center;
-          /* reset style */
-          font-weight: normal;
-          margin-bottom: 0; }
-      .cd-schedule .events .events-group > ul {
-        height: 1235px;
-        /* reset style */
-        display: block;
-        overflow: visible;
-        padding: 0; }
-        .cd-schedule .events .events-group > ul::after {
-          clear: both;
-          content: "";
-          display: block; }
-        .cd-schedule .events .events-group > ul::after {
-          /* reset style */
-          display: none; }
-      .cd-schedule .events .single-event {
-        position: absolute;
-        z-index: 3;
-        /* top position and height will be set using js */
-        width: calc(100% + 2px);
-        left: -1px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 -3px 0 rgba(0, 0, 0, 0.2);
-        /* reset style */
-        flex-shrink: 1;
-        height: auto;
-        max-width: none;
-        margin-right: 0; }
-        .cd-schedule .events .single-event a {
-          padding: 1em; }
-        .cd-schedule .events .single-event:last-of-type {
-          /* reset style */
-          margin-right: 0; }
-        .cd-schedule .events .single-event.selected-event {
-          /* the .selected-event class is added when an user select the event */
-          visibility: hidden; } }
-  @media only screen and (min-width: 600px) {
-    .cd-schedule .events .top-info {
-      /* vertically center its content */
-      display: table;
-      height: 40px;
-      border-bottom: 1px solid #444;
-      /* reset style */
-      padding: 0; }
-      .cd-schedule .events .top-info > span {
-        /* vertically center inside its parent */
-        display: table-cell;
-        vertical-align: middle;
-        padding: 0 .5em;
-        text-align: center;
-        /* reset style */
-        font-weight: normal;
-        margin-bottom: 0; }
-    .cd-schedule .events .events-group > ul {
-      height: 760px;
-      /* reset style */
-      display: block;
-      overflow: visible;
-      padding: 0; }
-      .cd-schedule .events .events-group > ul::after {
-        clear: both;
-        content: "";
-        display: block; }
-      .cd-schedule .events .events-group > ul::after {
-        /* reset style */
-        display: none; }
-    .cd-schedule .events .single-event a {
-      padding: 0.5em 1em; } }
-
-.cd-schedule.loading .events .single-event {
-  /* the class .loading is added by default to the .cd-schedule element
-     it is removed as soon as the single events are placed in the schedule plan (using javascript) */
-  opacity: 0; }
-
-.cd-schedule .event-name,
-.cd-schedule .event-date {
-  color: white;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-.cd-schedule .event-name {
-  display: block; }
-  @media only screen and (min-width: 600px) {
-    .cd-schedule .event-name {
-      display: inline;
-      display: inline-flex;
-      padding-left: 1.2em; } }
-
-.cd-schedule .event-name.event-name-inline {
-  display: inline;
-  padding-left: 1em; }
-
-.cd-schedule .event-date {
-  /* they are not included in the the HTML but added using JavScript */
-  opacity: .7;
-  line-height: 1.2;
-  margin-bottom: .2em; }
-
-.cd-schedule .event-title {
-  display: block;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-  @media only screen and (min-width: 600px) {
-    .cd-schedule .event-title {
-      padding-left: 7.25em; } }
-
-@media only screen and (min-width: 600px) {
-  .cd-schedule .event-title.pl0-l {
-    padding-left: 0; } }
-
-.cd-schedule .single-event[data-event="event-0"] {
-  border-left: 1px solid #444;
-  border-right: 1px solid #444; }
-  .cd-schedule .single-event[data-event="event-0"] a {
-    pointer-events: none; }
-
-.cd-schedule .single-event[data-content=""] {
-  pointer-events: none; }
-
-.cd-schedule .single-event[data-event="event-0"],
-.cd-schedule [data-event="event-0"] .header-bg {
-  /* this is used to set a background color for the event and the modal window */
-  background: black; }
-
-.cd-schedule .single-event[data-event="event-0"]:hover {
-  background: #0d0d0d; }
-
-.cd-schedule .single-event[data-event="event-1"],
-.cd-schedule [data-event="event-1"] .header-bg {
-  /* this is used to set a background color for the event and the modal window */
-  background: #0096AC; }
-
-.cd-schedule .single-event[data-event="event-1"]:hover {
-  background: #00acc6; }
-
-.cd-schedule .single-event[data-event="event-2"],
-.cd-schedule [data-event="event-2"] .header-bg {
-  background: #A463F2; }
-
-.cd-schedule .single-event[data-event="event-2"]:hover {
-  background: #b27bf4; }
-
-.cd-schedule .single-event[data-event="event-3"],
-.cd-schedule [data-event="event-3"] .header-bg {
-  background: #f7a79f; }
-
-.cd-schedule .single-event[data-event="event-3"]:hover {
-  background: #f9bcb6; }
-
-.cd-schedule .single-event[data-event="event-4"],
-.cd-schedule [data-event="event-4"] .header-bg {
-  background: #0096AC; }
-
-.cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #00acc6; }
-
-.cd-schedule .event-modal {
-  position: fixed;
-  z-index: 3;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  visibility: hidden;
-  /* Force Hardware acceleration */
-  transform: translateZ(0);
-  transform: translateX(100%);
-  transition: transform .4s, visibility .4s;
-  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); }
-  .cd-schedule .event-modal .header {
-    position: relative;
-    height: 70px;
-    /* vertically center its content */
-    display: table;
-    width: 100%; }
-    .cd-schedule .event-modal .header .content {
-      position: relative;
-      z-index: 3;
-      /* vertically center inside its parent */
-      display: table-cell;
-      vertical-align: middle;
-      padding: .6em 5%; }
-  .cd-schedule .event-modal .body {
-    position: relative;
-    width: 100%;
-    /* 70px is the .header height */
-    height: calc(100% - 70px); }
-  .cd-schedule .event-modal .event-info {
-    position: relative;
-    z-index: 2;
-    line-height: 1.4;
-    height: 100%;
-    overflow: hidden; }
-    .cd-schedule .event-modal .event-info > div {
-      overflow: auto;
-      height: 100%;
-      padding: 1.4em 5%; }
-  .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
-    /* these are the morphing backgrounds - visible on desktop only */
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%; }
-  .cd-schedule .event-modal .body-bg {
-    z-index: 1;
-    background: black;
-    transform-origin: top left; }
-  .cd-schedule .event-modal .header-bg {
-    z-index: 2;
-    transform-origin: top center; }
-  .cd-schedule .event-modal .close {
-    /* this is the 'X' icon */
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 3;
-    background: rgba(0, 0, 0, 0.1);
-    /* replace text with icon */
-    color: transparent;
-    white-space: nowrap;
-    text-indent: 100%;
-    height: 70px;
-    width: 70px; }
-    .cd-schedule .event-modal .close::before, .cd-schedule .event-modal .close::after {
-      /* these are the two lines of the 'X' icon */
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 2px;
-      height: 22px;
-      background: black;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden; }
-    .cd-schedule .event-modal .close::before {
-      transform: translateX(-50%) translateY(-50%) rotate(45deg); }
-    .cd-schedule .event-modal .close::after {
-      transform: translateX(-50%) translateY(-50%) rotate(-45deg); }
-  .cd-schedule .event-modal .event-date {
-    display: none; }
-  .cd-schedule .event-modal .event-name {
-    padding-left: 0; }
-  .cd-schedule .event-modal.no-transition {
-    transition: none; }
-    .cd-schedule .event-modal.no-transition .header-bg, .cd-schedule .event-modal.no-transition .body-bg {
-      transition: none; }
-  @media only screen and (min-width: 600px) {
-    .cd-schedule .event-modal {
-      /* reset style */
-      right: auto;
-      width: auto;
-      height: auto;
-      transform: translateX(0);
-      will-change: transform, width, height;
-      transition: height .4s, width .4s, transform .4s, visibility .4s;
-      transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); }
-      .cd-schedule .event-modal .header {
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 0;
-        height: 100%; }
-        .cd-schedule .event-modal .header .content {
-          /* reset style */
-          display: block;
-          padding: .8em; }
-      .cd-schedule .event-modal .event-info > div {
-        padding: 2em 3em 2em 2em; }
-      .cd-schedule .event-modal .body {
-        height: 100%;
-        width: auto; }
-      .cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
-        /* Force Hardware acceleration */
-        transform: translateZ(0);
-        will-change: transform;
-        backface-visibility: hidden; }
-      .cd-schedule .event-modal .header-bg {
-        transition: transform .4s;
-        transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); }
-      .cd-schedule .event-modal .body-bg {
-        opacity: 0;
-        transform: none; }
-      .cd-schedule .event-modal .event-date {
-        display: block; }
-      .cd-schedule .event-modal .close, .cd-schedule .event-modal .event-info {
-        opacity: 0; }
-      .cd-schedule .event-modal .close {
-        width: 40px;
-        height: 40px;
-        background: transparent; }
-        .cd-schedule .event-modal .close::after, .cd-schedule .event-modal .close::before {
-          background: #EAEAEA;
-          height: 16px; } }
-  @media only screen and (min-width: 600px) {
-    .cd-schedule .event-modal .header .content {
-      padding: 2em 1.2em; } }
-
-.cd-schedule.modal-is-open .event-modal {
-  /* .modal-is-open class is added as soon as an event is selected */
-  transform: translateX(0);
-  visibility: visible; }
-  .cd-schedule.modal-is-open .event-modal .event-info > div {
-    /* smooth scroll on iOS touch devices */
-    -webkit-overflow-scrolling: touch; }
-
-@media only screen and (min-width: 600px) {
-  .cd-schedule.animation-completed .event-modal .close,
-  .cd-schedule.content-loaded.animation-completed .event-modal .event-info {
-    /* 	the .animation-completed class is added when the modal animation is completed
-    	the .content-loaded class is added when the modal content has been loaded (using ajax) */
-    opacity: 1;
-    transition: opacity .2s; }
-
-  .cd-schedule.modal-is-open .body-bg {
-    opacity: 1;
-    transition: transform .4s;
-    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1); } }
-.cd-schedule .cover-layer {
-  /* layer between the content and the modal window */
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .4s, visibility .4s; }
-
-.cd-schedule.modal-is-open .cover-layer {
-  opacity: 1;
-  visibility: visible; }
-
 /* general */
 a {
   transition: all 0.1s ease; }
@@ -909,6 +834,12 @@ a {
 .bg-teal {
   background-color: #0096AC; }
 
+.bg-light-gray {
+  background-color: #CDCCCB !important; }
+
+.bg-dark-gray {
+  background-color: #96989c !important; }
+
 .mw24rem {
   max-width: 24rem; }
 
@@ -933,6 +864,59 @@ h3 {
   font-weight: inherit !important;
   letter-spacing: 0; }
 
+h1 {
+  font-size: 5.4rem; }
+
+h2 {
+  font-size: 4rem; }
+
+h3 {
+  font-size: 3.2rem; }
+
+h4 {
+  font-size: 2.5rem; }
+
+h5 {
+  font-size: 1.7rem; }
+
+h6 {
+  font-size: 1.3rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Druk", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  letter-spacing: -0px; }
+
+h1 {
+  font-size: 5.4rem; }
+  @media only all and (max-width: 47.938em) {
+    h1 {
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin-bottom: 2.5rem; } }
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  h2 {
+    font-size: 3.6rem; } }
+@media only all and (max-width: 47.938em) {
+  h2 {
+    font-size: 3.5rem; } }
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  h3 {
+    font-size: 2.8rem; } }
+@media only all and (max-width: 47.938em) {
+  h3 {
+    font-size: 2.7rem; } }
+
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  h4 {
+    font-size: 2.1rem; } }
+@media only all and (max-width: 47.938em) {
+  h4 {
+    font-size: 2rem; } }
+
 blockquote p {
   color: #444; }
 blockquote cite {
@@ -949,12 +933,12 @@ blockquote cite {
   #header #navbar ul.navigation li a::after, #header #navbar ul.navigation li a::before {
     background-color: white; }
   #header.scrolled {
-    background-color: #9CFCCF !important; }
+    background-color: #96989c !important; }
     #header.scrolled #navbar a, #header.scrolled #navbar span {
-      color: #A463F2 !important;
+      color: #000 !important;
       transition: all 0.25s; }
       #header.scrolled #navbar a:hover, #header.scrolled #navbar span:hover {
-        color: #A463F2 !important; }
+        color: #000 !important; }
 
 /* template: buttons */
 .button, .button-secondary {
@@ -991,7 +975,7 @@ blockquote cite {
   background: none; }
   @media (max-width: 480px) {
     .modular .showcase {
-      line-height: 1.4; } }
+      line-height: 1.2; } }
   .modular .showcase img.sensorium-arcs {
     position: absolute;
     max-width: none;
@@ -1021,7 +1005,7 @@ iframe.animatedLogotype {
 /* interactive spline loops */
 #sb-site {
   transition: background-color 1s ease !important;
-  background-color: transparent !important; }
+  background-color: rgba(0, 0, 0, 0) !important; }
 
 #sb-site.scrolled {
   transition: background-color 1s ease;

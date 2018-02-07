@@ -1,6 +1,6 @@
 ---
 title: Zúčastni sa
-published: true
+published: false
 process:
     markdown: true
 content:
