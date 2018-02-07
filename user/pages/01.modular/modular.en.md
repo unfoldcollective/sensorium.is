@@ -1,9 +1,5 @@
 ---
-title: 'Sensorium 2017'
-menu: Home
-slug: '2017'
-onpage_menu: true
-body_classes: 'modular header-image fullwidth'
+title: 'Sensorium Festival 2017'
 content:
     items: '@self.modular'
     order:
@@ -18,5 +14,9 @@ content:
             - _news
             - _location
             - _partners
+body_classes: 'modular header-image fullwidth'
+menu: Home
+slug: '2017'
+onpage_menu: true
 ---
 
