@@ -25,13 +25,13 @@ $dropdown-color: #f6f6f6;
 			color: $core-text !important;
 		}
 		#navbar a {
-			color: $core-accent !important;
+			color: $navbar-text !important;
             &:hover {
-                color: darken($core-accent, 20%) !important;
+                color: darken($navbar-text, 20%) !important;
             }
 		}
 		#navbar a:before, #navbar a:after {
-			background-color: $core-accent !important;
+			background-color: $navbar-text !important;
 		}
 
 		.navigation {

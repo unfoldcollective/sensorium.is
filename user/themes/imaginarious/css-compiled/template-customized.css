@@ -230,11 +230,11 @@ ul.pagination {
     #header.scrolled #logo a, #header.scrolled #navbar span {
       color: #000 !important; }
     #header.scrolled #navbar a {
-      color: #A463F2 !important; }
+      color: #000 !important; }
       #header.scrolled #navbar a:hover {
-        color: #6e12dd !important; }
+        color: black !important; }
     #header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
-      background-color: #A463F2 !important; }
+      background-color: #000 !important; }
     #header.scrolled .navigation {
       margin-top: 0.5rem !important; }
   #header > .grid, #header #logo, #header #navbar {
