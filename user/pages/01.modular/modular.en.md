@@ -17,5 +17,9 @@ content:
             - _news
             - _location
             - _partners
+body_classes: 'modular header-image fullwidth'
+menu: Home
+slug: '2017'
+onpage_menu: true
 ---
 
