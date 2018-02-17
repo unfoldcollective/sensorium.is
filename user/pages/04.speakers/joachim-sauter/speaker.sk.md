@@ -1,5 +1,5 @@
 ---
-title: Joachim Sauter
+title: 'Joachim Sauter'
 date: 10/02/2017
 taxonomy:
     category:
@@ -10,7 +10,6 @@ process:
 subtitle: 'New Media Spaces'
 ---
 
-Joachim Sauter
-
+[joachimsauter.com](http://www.joachimsauter.com)
 [artcom.de](https://artcom.de/en/)
  

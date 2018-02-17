@@ -1,28 +1,21 @@
 ---
-title: 'Machine Learning for Artists and Designers'
-date: 30/04/2017
-time: 10.30 - 17.30
+title: 'Choreographic Coding Lab'
+date: 05/01/2018
+time: '10.00 - 18.00'
 taxonomy:
     category:
         - workshops
-slug: machine-learning
+slug: ccl
 process:
     markdown: true
     twig: true
-subtitle: 'Gene Kogan'
-description: Gene Kogan will introduce the theory and application of machine learning for creative and artistic practice. Coding experience is welcome but not required.
-ticket_markup: <strong>Sold Out</strong>
+description: 'Is an opportunity for digital media creatives who are interested in translating aspects of choreography and dance into digital form and applying choreographic thinking to their own practice.'
+ticket_markup: '<strong>Get ticket</strong>'
 ---
 
-**Sunday 30 April 2017, 10.30 - 17.30**
+**Tuesday 1 May 2018 - Friday 4 May 2018**
 
-Are you curious about how machines can gain human-like capabilities? Would you like to know how to teach your computer to recognise and respond to its environment? [Gene Kogan](http://genekogan.com/) will introduce you to these techniques in the context of art and design during an all day workshop: Machine learning for artists and designers on 30th April in Bratislava. 
+The [Choreographic Coding Lab](http://choreographiccoding.org/) (CCL) format offers unique opportunities of exchange and collaboration for digital media ‘code savvy’ artists who have an interest in translating aspects of choreography and dance into digital form and applying choreographic thinking to their own practice. Working with patterns in movement scores and structures through finding, generating and applying them with results ranging from prototypes for artworks to new plug-ins for working with dance related datasets. CCLs also seek to support a sustainable collaborative practice among its participants encouraging ongoing exchange in a growing artistic research community.
 
-**Limited number of participants. No coding experience required.**
-
-Gene Kogan will introduce the theory and application of machine learning for creative and artistic practice. It will focus on core algorithms used for parsing, visualizing, and discovering patterns in complex multimedia data, including images, sounds, and text. We will learn how to use neural networks to create real-time, cross-modal interactions for use in video and installation, as well as live music performance. We will also provide tools and code for clustering and visualizing large collections of multimedia. Prior coding experience in a text-based (Python, Java, C++) or patch-based (Max/MSP) programming environment is helpful but not necessary.
-
-This workshop is SUITABLE FOR BEGINNERS, no prior experience with programming or machine learning is required! If you have experience you can still join the workshop and you will be able to dive deeper into the topics with Gene's support.
-
-For more info on the topics covered in this workshop, see this [article by Gene on teaching Machine Learning for Artists](https://medium.com/@genekogan/machine-learning-for-artists-e93d20fdb097#.4v6qhs1bh).
+**Limited number of participants.**
 
