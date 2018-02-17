@@ -63,22 +63,22 @@ h3 {
 
 h1 + h2 {
 	margin: -2rem 0 2rem 0;
-	font-size: 2rem;
+	font-size: 3rem;
 	@include breakpoint(tablet-range) {
-		font-size: 1.6rem;
+		font-size: 2.8rem;
 	}
 	@include breakpoint(mobile-only) {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
 	}
 	line-height: 1;
 	text-align: center;
-	font-family: $font-family-default;
+	font-family: $font-family-header;
 	font-weight: 300;
 }
 
 h2 + h3 {
 	margin: 0.5rem 0 2rem 0;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	@include breakpoint(tablet-range) {
 		font-size: 1.6rem;
 	}

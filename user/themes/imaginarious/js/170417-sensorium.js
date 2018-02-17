@@ -21,108 +21,74 @@ var context = bitlib.context(0, 0, canvasParent),
 
 canvasParent.firstElementChild.setAttribute('id', 'defaultCanvas0');
 
+var state = {
+    scale:          0.01,
+    speed:          0.02,
+    max_scale:      10,
+    count:          200,
+    hue_shift:      50,
+    hue:            bitlib.random.int(0, 360),
+    saturation:     1,
+    lightness:      0.6,
+    bg_hue:         bitlib.random.int(0, 360),
+    bg_saturation:  0.4,
+    bg_lightness:   1,
+    bg_transparent: false,
+    z:              0,
+}
 
-var scale = 0.01,
-    speed = 0.03,
-    max_scale = 10,
-    count = 500,
-    hue_shift = 50,
-    hue = 150,
-    saturation = 1,
-    lightness = 0.6,
-    bg_hue = 270,
-    bg_saturation = 0.3,
-    bg_lightness = 1,
-    bg_transparent = false,
-    z = 0;
+function set_slider_params(prop, min, max, step, value) {
+    var sliders = document.getElementsByClassName('slider '+prop);
+    for (var i = 0; i < sliders.length; i++) {
+        sliders[i].min       = min;
+        sliders[i].max       = max;
+        sliders[i].step      = step;
+        sliders[i].value     = value;
+    }    
+}
 
-// document.getElementById("scale").min           = 0.001;
-// document.getElementById("scale").max           = 0.02;
-// document.getElementById("scale").step          = 0.001;
-// document.getElementById("scale").value         = scale;
-// function set_scale(value) { scale = parseFloat(value); }
+// set parameters of input elements on load
+set_slider_params('max_scale',     0.25, 30.0,   0.01, state.max_scale);
+set_slider_params('count',         1.0,  1000.0, 1.0,  state.count);
+set_slider_params('hue',           0.0,  360.0,  1.0,  state.hue);
+set_slider_params('bg_hue',        0.0,  360.0,  1.0,  state.bg_hue);
+set_slider_params('bg_saturation', 0.0,  1.0,    0.01, state.bg_saturation);
 
-// document.getElementById("speed").min           = 0.0;
-// document.getElementById("speed").max           = 0.1;
-// document.getElementById("speed").step          = 0.01;
-// document.getElementById("speed").value         = speed;
-// function set_speed(value) { speed = parseFloat(value); }
+// handler for all sliders
+function set_state(prop, value) {
+    // set js var value
+    propVal = parseFloat(value);
+    state[prop] = propVal;
 
-// document.getElementById("max_scale").min       = 0.25;
-// document.getElementById("max_scale").max       = 30.0;
-// document.getElementById("max_scale").step      = 0.01;
-// document.getElementById("max_scale").value     = max_scale;
-// function set_max_scale(value) { max_scale = parseFloat(value); }
+    // sync all slider inputs
+    var sliders_for_prop = document.getElementsByClassName('slider '+prop);
+    for (var i = 0; i < sliders_for_prop.length; i++) {
+        sliders_for_prop[i].value = propVal;
+    }
+}
 
-// document.getElementById("count").min           = 1.0,
-// document.getElementById("count").max           = 1000.0;
-// document.getElementById("count").step          = 1.0;
-// document.getElementById("count").value         = count;
-// function set_count(value) { count = parseFloat(value); }
-
-// document.getElementById("hue_shift").min       = 0.0;
-// document.getElementById("hue_shift").max       = 100.0;
-// document.getElementById("hue_shift").step      = 1.0;
-// document.getElementById("hue_shift").value     = hue_shift;
-// function set_hue_shift(value) { hue_shift = parseFloat(value); }
-
-// document.getElementById("hue").min             = 0.0;
-// document.getElementById("hue").max             = 360.0;
-// document.getElementById("hue").step            = 1.0;
-// document.getElementById("hue").value           = hue;
-// function set_hue(value) { hue = parseFloat(value); }
-
-// document.getElementById("saturation").min      = 0.0;
-// document.getElementById("saturation").max      = 1.0;
-// document.getElementById("saturation").step     = 0.01;
-// document.getElementById("saturation").value    = saturation;
-// function set_saturation(value) { saturation = parseFloat(value); }
-
-// document.getElementById("lightness").min       = 0.0;
-// document.getElementById("lightness").max       = 1.0;
-// document.getElementById("lightness").step      = 0.01;
-// document.getElementById("lightness").value     = lightness;
-// function set_lightness(value) { lightness = parseFloat(value); }
-
-// document.getElementById("bg_hue").min          = 0.0;
-// document.getElementById("bg_hue").max          = 360.0;
-// document.getElementById("bg_hue").step         = 1.0;
-// document.getElementById("bg_hue").value        = bg_hue;
-// function set_bg_hue(value) { bg_hue = parseFloat(value); }
-
-// document.getElementById("bg_saturation").min   = 0.0;
-// document.getElementById("bg_saturation").max   = 1.0;
-// document.getElementById("bg_saturation").step  = 0.01;
-// document.getElementById("bg_saturation").value = bg_saturation;
-// function set_bg_saturation(value) { bg_saturation = parseFloat(value); }
-
-// document.getElementById("bg_lightness").min    = 0.0;
-// document.getElementById("bg_lightness").max    = 1.0;
-// document.getElementById("bg_lightness").step   = 0.01;
-// document.getElementById("bg_lightness").value  = bg_lightness;
-// function set_bg_lightness(value) { bg_lightness = parseFloat(value); }
 
 bitlib.anim(update).start();
 
 function update() {
     bitlib.random.seed(0);
     context.save();
-    if (bg_transparent) {
+    if (state.bg_transparent) {
         context.clear();
     }
     else {
-        context.clear(bitlib.color.hsv(bg_hue, bg_saturation, bg_lightness));
+        context.clear(bitlib.color.hsv(state.bg_hue, state.bg_saturation, state.bg_lightness));
     }    
     context.globalCompositeOperation = "lighten";
 
     
 
-    for(var i = 0; i < count; i++) {
+    for(var i = 0; i < state.count; i++) {
         draw();
     }
 
     context.restore();
-    z += speed;
+    state.z += state.speed;
 
 }
 
@@ -131,11 +97,11 @@ function draw() {
         a = bitlib.random.float(Math.PI * 2),
         x = width / 2 + Math.cos(a) * r,
         y = height / 2 + Math.sin(a) * r,
-        s   = bitlib.math.map(noise.perlin3(x * scale, y * scale, z), -1, 1, 0, max_scale);
+        s   = bitlib.math.map(noise.perlin3(x * state.scale, y * state.scale, state.z), -1, 1, 0, state.max_scale);
 
     var gradient = context.createLinearGradient(0, -5, 0, 5);
     gradient.addColorStop(0, "#ffffff");
-    gradient.addColorStop(1, bitlib.color.hsv(hue + (s * hue_shift), saturation, lightness));
+    gradient.addColorStop(1, bitlib.color.hsv(state.hue + (s * state.hue_shift), state.saturation, state.lightness));
     context.fillStyle = gradient;
 
     context.save();
