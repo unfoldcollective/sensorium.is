@@ -1,7 +1,7 @@
 ---
 title: 'O nás'
 ---
-
+<input type="range" class="slider count"         oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
 ## O nás
 
 <div class="f3">
