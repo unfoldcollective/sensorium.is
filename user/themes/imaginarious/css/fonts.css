@@ -44,11 +44,11 @@
 
 @font-face {
     font-family: 'Druk';
-    src: url('Druk-Medium.eot');
-    src: url('Druk-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Druk-Medium.woff2') format('woff2'),
-        url('Druk-Medium.woff') format('woff'),
-        url('Druk-Medium.ttf') format('truetype');
+    src: url('../fonts/Druk-Medium.eot');
+    src: url('../fonts/Druk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Druk-Medium.woff2') format('woff2'),
+        url('../fonts/Druk-Medium.woff') format('woff'),
+        url('../fonts/Druk-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
