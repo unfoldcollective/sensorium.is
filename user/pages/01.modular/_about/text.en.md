@@ -5,9 +5,11 @@ title: About
 ## About
 
 <div class="f3">
-Sensorium Festival is workshops and talks bridging the fields of computational art, design and performance.
+Sensorium Festival is workshops, talks and performances bridging the fields of computational art, design and performance.
 </div>
 
-Immerse yourself in the world of dynamic and interactive installations, graphics, data visualisations and generative design. Internationally established artists and designers who use computation as a creative practice will get together in Bratislava to discuss their projects, processes and ideas. Sensorium is a first-of-its-kind educational event in Slovakia on the crossover of art, design and technology.
+It was founded in 2016 as the genre-defining platform to experience the future of the creative industry on the crossover of art, design and technology.
+Sensorium brings together a community of internationally renowned creative minds to raise the level of multidisciplinary creative practice and its impact on society through discussion and showcasing of ground breaking work.
+
 
 **[read more](/about)**

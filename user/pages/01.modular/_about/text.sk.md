@@ -5,9 +5,10 @@ title: 'O nás'
 ## O nás
 
 <div class="f3">
-Sensorium sú tri dni workshopov a prednášok v oblastiach kde umenie, dizajn a performance, využíva výpočtovú techniku.
+Sensorium festival je podujatie workshopov, prednášok a predstavení na prieniku umenia, dizajnu a performance s technológiami.
 </div>
 
-Nechajte sa vtiahnuť do sveta dynamických a interaktívnych inštalácií, grafík, vizualizácií dát a generatívneho dizajnu. Medinárodne uznávaní umelci a dizajnéri sa stretnú v Bratislave, aby odprezentovali svoje projekty, procesy a myšlienky. 
+Festival bol založený v roku 2016 ako žáner definujúca platforma o budúcnosti kreatívneho priemyslu. Vytvára a prepája komunitu medzinárodných kreatívcov, ktorí prostredníctvom konverzácie a predstavenia prác neustále zvyšujú level medziodborovej kreatívnej praxe.
+
 
 [čítaj viac](/about)

@@ -1,30 +1,19 @@
 ---
-title: 'Machine learning pre umelcov a dizajnérov'
-date: 30/04/2017
-time: 10.30 - 17.30
+title: 'Choreographic Coding Lab'
+date: 05/01/2018
+time: '10.00 - 18.00'
 taxonomy:
     category:
         - workshopy
-slug: machine-learning
+slug: ccl
 process:
     markdown: true
     twig: true
-subtitle: 'Gene Kogan'
-description: Gene Kogan will introduce the theory and application of machine learning for creative and artistic practice. Coding experience is welcome but not required.
-ticket_markup: <strong>Vypredané</strong>
+ticket_markup: '<strong>Vypredané</strong>'
 ---
 
-Dátum: 30.4.2017
+**Tuesday 1 May 2018 - Friday 4 May 2018**
 
-Čas: 10.30 - 17.30
+The [Choreographic Coding Lab](http://choreographiccoding.org/) (CCL) format offers unique opportunities of exchange and collaboration for digital media ‘code savvy’ artists who have an interest in translating aspects of choreography and dance into digital form and applying choreographic thinking to their own practice. Working with patterns in movement scores and structures through finding, generating and applying them with results ranging from prototypes for artworks to new plug-ins for working with dance related datasets. CCLs also seek to support a sustainable collaborative practice among its participants encouraging ongoing exchange in a growing artistic research community.
 
-
-Si zvedavý/á ako dať prístrojom ľudské schopnosti? Chceš vedieť naučiť svoj počítač rozpoznávať čo je okolo neho? Gene Kogan predstaví tieto techniky v kontexte umenia a dizajnu počas celodenného workshopu 30 Apríla. Nie sú potrebné ŽIADNE PREDOŠLÉ SKÚSENOSTI S MACHINE LEARNINGOM ani PROGRAMOVANÍM. Počet miest je limitovaný!
-
-Gene Kogan nás prevedie teórou a technikami strojového učenia aplikovaného na kreatívnu prax. Workshop sa bude sústrediť na algoritmy používané pre parsovanie (syntaktická analýza), vizualizovanie a objav paternov v komplexných multimediálnych dátach vrátane obrazu, zvuku a textu. Taktiež preskúmame široké spektrum využitia zaujímavých pre umelcov, dizajnérov hier, filmárov a zvukových dizajnérov.
-
-Zatiaľ si môžete prečítať tento [Medium článok](https://medium.com/@genekogan/machine-learning-for-artists-e93d20fdb097#.hum1oucth) od Gene Kogana o učení Machine learning pre umelcov.
-
-
-
-
+**Limited number of participants.**
