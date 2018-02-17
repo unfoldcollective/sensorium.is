@@ -48,8 +48,8 @@ function set_slider_params(prop, min, max, step, value) {
 }
 
 // set parameters of input elements on load
-set_slider_params('max_scale',     0.25, 30.0,   0.01, state.max_scale);
-set_slider_params('count',         1.0,  1000.0, 1.0,  state.count);
+set_slider_params('max_scale',     1.0,  30.0,   0.01, state.max_scale);
+set_slider_params('count',         1.0,  700.0, 1.0,  state.count);
 set_slider_params('hue',           0.0,  360.0,  1.0,  state.hue);
 set_slider_params('bg_hue',        0.0,  360.0,  1.0,  state.bg_hue);
 set_slider_params('bg_saturation', 0.0,  1.0,    0.01, state.bg_saturation);
