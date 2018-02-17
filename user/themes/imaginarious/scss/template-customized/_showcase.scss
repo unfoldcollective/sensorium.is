@@ -25,18 +25,18 @@
         background-size: cover;
         background-position: center;
 
-        text-align: center;
+        text-align: left;
         color: $header-text;
         h1 {
-            font-size: $h1-font-size * 1.05;
+            font-size: $h1-font-size * 1.2;
             margin-top: 0;
             line-height: 1.4;
             @include breakpoint(tablet-range) {
-                font-size: $h1-font-size * 0.9;
+                font-size: $h1-font-size * 1.0;
                 line-height: 1.2;
             }
             @include breakpoint(mobile-only) {
-                font-size: $h1-font-size * 0.6;
+                font-size: $h1-font-size * 0.9;
                 line-height: 1.1;
                 margin-bottom: 2.5rem;
             }
@@ -55,6 +55,50 @@
 
             &:hover {
                 background: rgba(255,255,255,0.2);
+            }
+        }
+        .rotated-right {
+            position: absolute;
+
+            // rotate 90 degrees and vertically aligned to Sensorium heading 1
+            transform-origin: right top;
+            transform: rotate(90deg) translateX(420px);
+            @include breakpoint(tablet-range) {
+                transform: rotate(90deg) translateX(304px);
+            }
+            @include breakpoint(mobile-only) {
+                transform: rotate(90deg) translateX(218px);
+            }
+
+            // horizontally aligned to hamburger icon (following {...}/themes/antimatter/scss/template/_extensions.scss)
+            right: 0px;
+            padding-top: $padding-horiz;
+            @include breakpoint(desktop-only) {
+                padding-top: $padding-horiz - 3rem;
+            }
+            @include breakpoint(mobile-only) {
+                padding-top: $padding-horiz - 6rem;
+            }
+
+            // font size
+            font-size: 4rem;
+            @include breakpoint(tablet-range) {
+                font-size: 3rem;
+            }
+            @include breakpoint(mobile-only) {
+                font-size: 2.2rem;
+            }
+            
+        }
+        .description {
+            @include breakpoint(tablet-range) {
+                width: 50%;
+            }
+            @include breakpoint(desktop-range) {
+                width: 40%;
+            }
+            @include breakpoint(large-desktop-range) {
+                width: 30%;
             }
         }
     }
