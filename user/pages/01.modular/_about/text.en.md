@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-
+<input type="range" class="slider count"         oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
 ## About
 
 <div class="f3">

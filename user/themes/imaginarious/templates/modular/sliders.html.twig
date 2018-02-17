@@ -1,0 +1,10 @@
+<section class="modular-row">
+  {{ content }}
+  <div class="measure">
+    <input type="range" class="slider max_scale"     oninput="set_state('max_scale', this.value)" onchange="set_state('max_scale', this.value)">
+    <input type="range" class="slider count"         oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
+    <input type="range" class="slider hue"           oninput="set_state('hue', this.value)" onchange="set_state('hue', this.value)">
+    <input type="range" class="slider bg_hue"        oninput="set_state('bg_hue', this.value)" onchange="set_state('bg_hue', this.value)">
+    <input type="range" class="slider bg_saturation" oninput="set_state('bg_saturation', this.value)" onchange="set_state('bg_saturation', this.value)">
+  </div>
+</section>
