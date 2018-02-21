@@ -7,18 +7,17 @@ body_classes: 'header-image fullwidth'
 Sensorium festival je podujatie workshopov, prednášok a predstavení na prieniku umenia, dizajnu a performance s technológiami.
 </div>
 
-Má dve hlavné programové zložky: konferencia a showcase.
-Konferencia pozostáva zo širokého programu prednášok a intenzívnych workshopov. Pozývame multidisciplinárnych dizajnérov/dizajnérky, umelcov/umelkyne a mysliteľov/myliteľky z medzinárodnej scény aby odprezentovali svoje myšlienky a skúsenoti. Cieľom je zhromaždiť úzku komunitu profesionálov v danej oblasti.  
-Showcase prezentuje v živej forme audio-vizuálne predstavenia a inštalácie. 
+Festival bol založený v roku 2016 kreatívnym štúdiom [Unfold Collective](http://unfold.is) ako žáner definujúca platforma o **možnej budúcnosti kreatívneho priemyslu**. Vytvára a prepája komunitu medzinárodných kreatívcov, ktorí prostredníctvom konverzácie a predstavenia prác neustále inšpirujú medziodborovú kreatívnu prax. Cieľom festivalu je prispievať k vypĺňaniu medzery vo vzdelávaní v oblasti kreatívnych technológií na Slovensku a v centrálnej Európe.
 
-Témy festivalu sa sústredia na momentálne najrelevantnejšie témy spoločensko-ekonomického diania. Často zahrňujú umelú inteligenciu, internet, IoT, generatívny dizajn, architektúru, video, VR, filozofiu, hudbu, divadlo, tanec a módu.
+Program má dve hlavné zložky: **konferenciu** a **showcase**.
+Na konferenciu pozývame multidisciplinárnych dizajnérov/dizajnérky, umelcov/umelkyne a mysliteľov/myliteľky z medzinárodnej scény aby odprezentovali svoje myšlienky a skúsenoti. Má za cieľ zhromažďovať a prepájať komunitu v daných oblastiach. Dôležitou súčasťou v príprave na konferenciu je séria workshopov. ktoré sprostredkúvajú návštevníkom praktické skúsenosti kretívnej aplikácie nových technológií.
+Showcase prezentuje v živej forme výnimočné audio-vizuálne predstavenia a inštalácie. 
+
+Festival sa sústreďuje na **nové praktiky v digitálnom umení, dizajne a preformance**. Časté témy festivalu zahrňujú umelú inteligenciu, prepojenú spoločnosť, IoT, generatívny dizajn, architektúru, video, VR, "embodiment", experimentálnu hudbu, divadlo, tanec a módu.
  
-Festival bol založený v roku 2016 kreatívnym štúdiom [Unfold Collective](http://unfold.is) ako žáner definujúca platforma o budúcnosti kreatívneho priemyslu. Vytvára a prepája komunitu medzinárodných kreatívcov, ktorí prostredníctvom konverzácie a predstavenia prác neustále zvyšujú level medziodborovej kreatívnej praxe.
 
-Od svojho vzniku, Sensorium spolupracuje so spoluzakladateľom festivalu [Resonate](http://resonate.io) - Eduard Prats Molner, ktorý je aj pravidelným spolukurátorom programu. Festival Sensorium spolupracuje aj s medzinárodnými organizáciami [TodaysArt](http://todaysart.nl) v Holandsku a [EMARE](http://www.emare.eu/). Odbornou konzultantkou festivalu je kreatívna producentka a kurátorka pôsobiaca v Londýne, [Carmen Salas](http://carmensp.com/).
+Od svojho vzniku, Sensorium spolupracuje so spoluzakladateľom festivalu [Resonate](http://resonate.io) - Eduard Prats Molner, ktorý je aj pravidelným spolukurátorom programu Sensoria. Festival spolupracuje aj s medzinárodnými organizáciami ako [TodaysArt](http://todaysart.nl) v Holandsku. Od tohto roku je kreatívna producentka a kurátorka pôsobiaca v Londýne, [Carmen Salas](http://carmensp.com/) odbornou konzultantkou festivalu.
 
-
-Sensorium zaujíma pozíciu platformy pre internacionálnu a interdisciplinárnu komunikáciu a rozvoj pre odbornú komunitu v oblastiach, kde sa technológie stretávajú s dizajnom a umením. Pôsobí ako priestor pre edukáciu, inšpiráciu a konverzáciu.
 
 Tešíme sa na vás 4 - 5 mája 2018!
 
