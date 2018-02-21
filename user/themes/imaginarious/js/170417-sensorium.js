@@ -35,7 +35,28 @@ var state = {
     bg_lightness:   1,
     bg_transparent: false,
     z:              0,
+    operatorIndex:  6,
 }
+
+var operators = [
+    'destination-out',
+    'xor',
+    'multiply',
+    'screen',
+    'overlay',
+    'darken',
+    'lighten',
+    'color-dodge',
+    'color-burn',
+    'hard-light',
+    'soft-light',
+    'difference',
+    'exclusion',
+    'hue',
+    'saturation',
+    'color',
+    'luminosity',
+]
 
 function set_slider_params(prop, min, max, step, value) {
     var sliders = document.getElementsByClassName('slider '+prop);
@@ -53,6 +74,7 @@ set_slider_params('count',         1.0,  700.0, 1.0,  state.count);
 set_slider_params('hue',           0.0,  360.0,  1.0,  state.hue);
 set_slider_params('bg_hue',        0.0,  360.0,  1.0,  state.bg_hue);
 set_slider_params('bg_saturation', 0.0,  1.0,    0.01, state.bg_saturation);
+set_slider_params('operatorIndex', 0,  operators.length, 1, state.operatorIndex);
 
 // handler for all sliders
 function set_state(prop, value) {
@@ -78,8 +100,8 @@ function update() {
     }
     else {
         context.clear(bitlib.color.hsv(state.bg_hue, state.bg_saturation, state.bg_lightness));
-    }    
-    context.globalCompositeOperation = "lighten";
+    }
+    context.globalCompositeOperation = operators[state.operatorIndex];
 
     
 
