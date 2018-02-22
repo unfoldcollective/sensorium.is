@@ -1,9 +1,9 @@
 ---
-title: Zúčastni sa
+title: Workshopy
 process:
     markdown: true
 content:
     items:
       - '@page': '/workshops'
 ---
-## Zúčastni sa
+## Workshopy

@@ -50,9 +50,3 @@ Contact for further questions: <br>
     'newTab': true,
     'classes': 'bg-dark-gray white hover-white f4 fw5 link grow ba bw1 ph3 pv2 mb2 dib'
 }} %}
-
---------------------------------------------------------
-
-
-
-
