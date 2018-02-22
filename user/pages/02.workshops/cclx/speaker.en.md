@@ -1,6 +1,6 @@
 ---
 title: 'Choreographic Coding Labx'
-date: 01/05/2018
+date: 05/01/2018
 taxonomy:
     category:
         - workshops
@@ -16,6 +16,7 @@ ticket_markup: '<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9pu-
 **Tuesday 1 May 2018 - Friday 4 May 2018**
 
 **Limited number of participants.**
+
 **[Register here](https://goo.gl/forms/U0FOeCKNIgMKWZBq1)** Submissions deadline is on 15th of March.
 
 Are you an artist working creatively with digital media and/or code and you are interested in movement or contemporary dance? Then come join the next Choreographic Coding Lab hosted by Sensorium Festival and artists Mária Júdová and Toby K Bratislava on May 1sth -4th, 2018.
