@@ -1,0 +1,11 @@
+email: juris@sensorium.is
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Juraj Hoppan'
+title: null
+state: enabled
+hashed_password: $2y$10$uMeCSvF6gcCx8.Fi4SQbsO6o2x.obl2x1ltNRHuM45BDKytzH9ET6
