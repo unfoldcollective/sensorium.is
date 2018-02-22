@@ -10,7 +10,7 @@ process:
     twig: true
 time: '10.00 - 18.00'
 description: 'Is an opportunity for digital media creatives who are interested in translating aspects of choreography and dance into digital form and applying choreographic thinking to their own practice.'
-ticket_markup: '<strong>Register</strong>'
+ticket_markup: '<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9pu-_210JGZ7mMPUwp8d9gHfpW-0qEWpMaQF5vSEstqdOzA/viewform" target="_blank">Register</a></strong>'
 ---
 
 **Tuesday 1 May 2018 - Friday 4 May 2018**
@@ -28,7 +28,7 @@ Coding skills are NOT a requirement to participate but you need to have basic aw
 CCLs were originally an outcome of Motion Bank, a four-year research project of The Forsythe Company focused on the creation of on line digital scores with guest choreographers.
 CCLx Bratislava is an independent edition of Choreographic Coding Lab. This edition will be facilitated by Mária Júdová and Toby K, supported by Motion Bank and presented by Sensorium Festival.
 
-See the CCL Berlin video [here](https://vimeo.com/136657251).
+<iframe src="https://player.vimeo.com/video/136657251?byline=0&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 **Contributions and Working Process**
 This CCL will be one of a series of workshops that happen in the framework of **Sensorium festival** and that will allow for opportunities of high-level expert exchange. During the lab, everyone will work on their ideas, exchange and discuss new ideas.
@@ -39,14 +39,17 @@ The CCL will result in an **open lab session on its last day 4th of May in Piszt
 **Apply and Join CCL Bratislava!**
 We are looking for diverse participants with a range of practices across choreographic and technical fields. We are looking for both emerging and experienced artists. Collaborative teams involving coders, choreographers, object, sound and filmmakers interested in the Motion Bank research approach are very much encouraged to apply. Participation in the CCL is free, but a selection will be made to ensure the right balance of participants and what they bring to the lab including specialized software and hardware for working with movement data. The space and basic equipment (projectors and cables) will be provided, any specific equipment needs to be carried by the participants. We have a quick and easy application process that's only open for two weeks, so [apply today](https://goo.gl/forms/U0FOeCKNIgMKWZBq1)! **Applications close on Thursday 15th March.**
 
-
 The CCL Bratislava is supported by **[Goethe Institut Bratislava](http://www.goethe.de/ins/sk/bra)**.
-**Sensorium Festival** is the first Slovak festival making sense of creative technology. It is workshops, talks and performances bridging the fields of computational art, design and performance.
-Sensorium is the genre-defining platform to experience possible futures of the creative industry on the crossover of art, design and technology. It brings together a community of internationally renowned creative minds to inspire multidisciplinary creative practice through discussion and showcasing of ground-breaking work. The festival aims to contribute to filling the educational gap in the field of creative technology in Slovakia and the wider Central European area.
-[Read more about Sensorium](https://www.sensorium.is/about).
 
-Contact for further questions and concerns:
-Lubica Drangova (lubica @ sensorium.is)
+Contact for further questions: <br>
+Ľubica Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
+
+{% include 'partials/atoms/button.html.twig' with {'button': {
+    'text': 'Register for CCLx',
+    'url': 'https://docs.google.com/forms/d/e/1FAIpQLSc9pu-_210JGZ7mMPUwp8d9gHfpW-0qEWpMaQF5vSEstqdOzA/viewform',
+    'newTab': true,
+    'classes': 'bg-dark-gray white hover-white f4 fw5 link grow ba bw1 ph3 pv2 mb2 dib'
+}} %}
 
 --------------------------------------------------------
 
