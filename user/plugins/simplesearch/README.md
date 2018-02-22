@@ -33,13 +33,16 @@ To effectively use the plugin, you first need to create an override config. To d
 ```
 enabled: true
 built_in_css: true
+built_in_js: true
 display_button: false
 min_query_length: 3
 route: /search
+search_content: rendered
 template: simplesearch_results
 filters:
     category: blog
 filter_combinator: and
+ignore_accented_characters: false
 order:
     by: date
     dir: desc
@@ -131,6 +134,10 @@ For further help with the `filters` and `order` settings, please refer to our [T
 Multiple filters can be provided, and in order to search in the page's **Tag** field you would add `- @taxonomy: [tag]` as shown in the configuration example above.
 
 The only thing needed to provide this functionality is a search box that points to the current page and appends the `query` parameter.  You can again simple include the sample `simplesearch_searchbox.html.twig` file or add your own. Because the route is configured to point to the blog page, and because the blog page already iterates over a collection, SimpleSearch will replace the page collection with the search-filtered collection.  No results page is required.
+
+## Performance
+
+Simple search is not a full-fledged index-powered search engine.  It merely iterates over the pages and searches the content and title for matching strings.  That's it.  This is not going to result in screaming fast searches if your site has lots of content.  One way to optimize things a little is to change the `search_content` configuration option from `rendered` to `raw`.  This means the `rawMarkdown()` method is used rather than the `content()` method, to retrieve the page content, and in turn means plugin events, markdown processing, image processing, and other time consuming tasks are not performed.  This can often yield adequate search results without the need for all this extra work. 
 
 ## Searching Taxonomy
 

@@ -1,5 +1,5 @@
 name: Login
-version: 2.3.0
+version: 2.5.0
 description: Enables user authentication and login screen.
 icon: sign-in
 author:
@@ -13,7 +13,7 @@ bugs: https://github.com/getgrav/grav-plugin-login/issues
 license: MIT
 
 dependencies:
-  - { name: grav, version: '>=1.2.3' }
+  - { name: grav, version: '>=1.3.9' }
   - { name: form, version: '>=2.4.0' }
   - { name: email, version: '~2.0' }
 
@@ -99,6 +99,18 @@ form:
               validate:
                 type: bool
 
+            dynamic_page_visibility:
+              type: toggle
+              label: PLUGIN_LOGIN.DYNAMIC_VISIBILITY
+              highlight: 0
+              default: 0
+              help: PLUGIN_LOGIN.DYNAMIC_VISIBILITY_HELP
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
             protect_protected_page_media:
               type: toggle
               label: PLUGIN_LOGIN.PROTECT_PROTECTED_PAGE_MEDIA_LABEL
@@ -110,6 +122,55 @@ form:
                 0: PLUGIN_ADMIN.DISABLED
               validate:
                 type: bool
+
+            routes:
+              type: section
+              title: PLUGIN_LOGIN.ROUTES
+
+              fields:
+
+                route_activate:
+                  type: text
+                  size: medium
+                  label: PLUGIN_LOGIN.ROUTE_ACTIVATE
+                  placeholder: '/activate_user'
+
+                route_forgot:
+                  type: text
+                  size: medium
+                  label: PLUGIN_LOGIN.ROUTE_FORGOT
+                  placeholder: '/forgot_password'
+
+                route_reset:
+                  type: text
+                  size: medium
+                  label: PLUGIN_LOGIN.ROUTE_RESET
+                  placeholder: '/reset_password'
+
+                route_profile:
+                  type: text
+                  size: medium
+                  label: PLUGIN_LOGIN.ROUTE_PROFILE
+                  placeholder: '/user_profile'
+
+                route_register:
+                  type: text
+                  size: medium
+                  label: PLUGIN_LOGIN.ROUTE_REGISTER
+                  help: PLUGIN_LOGIN.ROUTE_REGISTER_HELP
+                  placeholder: "/register"
+
+                user_registration.redirect_after_registration:
+                  type: text
+                  label: PLUGIN_LOGIN.REDIRECT_AFTER_REGISTRATION
+                  help: PLUGIN_LOGIN.REDIRECT_AFTER_REGISTRATION_HELP
+                  placeholder: "/page-to-show-after-registration"
+
+                user_registration.redirect_after_activation:
+                  type: text
+                  label: PLUGIN_LOGIN.REDIRECT_AFTER_ACTIVATION
+                  help: PLUGIN_LOGIN.REDIRECT_AFTER_ACTIVATION_HELP
+                  placeholder: "/page-to-show-after-activation"
 
             rememberme:
               type: section
@@ -158,25 +219,6 @@ form:
                   0: PLUGIN_ADMIN.NO
               validate:
                   type: bool
-
-            route_register:
-              type: text
-              size: medium
-              label: PLUGIN_LOGIN.ROUTE_REGISTER
-              help: PLUGIN_LOGIN.ROUTE_REGISTER_HELP
-              placeholder: "/register"
-
-            user_registration.redirect_after_registration:
-              type: text
-              label: PLUGIN_LOGIN.REDIRECT_AFTER_REGISTRATION
-              help: PLUGIN_LOGIN.REDIRECT_AFTER_REGISTRATION_HELP
-              placeholder: "/page-to-show-after-registration"
-
-            user_registration.redirect_after_activation:
-              type: text
-              label: PLUGIN_LOGIN.REDIRECT_AFTER_ACTIVATION
-              help: PLUGIN_LOGIN.REDIRECT_AFTER_ACTIVATION_HELP
-              placeholder: "/page-to-show-after-activation"
 
             registration_fields:
               type: section

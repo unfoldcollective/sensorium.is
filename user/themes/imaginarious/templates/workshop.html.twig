@@ -1,0 +1,23 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block background %}
+<div class="fixed z-0 w-100 h-100" style="background: url({{ page.media.images|first.url }}) no-repeat center center fixed; background-size: cover;"></div>
+{% endblock %}
+
+{% block body %}
+<article>
+  <div class="cf pa3 pa4-m pa6-l">
+    <div class="mt6 fl pa3 pa4-ns bg-white-80 black-70 measure-narrow f3">
+      <header class="bb b--black-70 pv4">
+        <h3 class="f2 fw7 ttu tracked lh-title mt0 mb3 avenir">{{ page.title }}</h3>
+        <h4 class="f3 fw4 i lh-title mt0">{{ page.header.subtitle }}</h4>
+      </header>
+      <section class="pt5 pb4 lh-copy measure f4 mt0 event-info">
+        <div>
+        	{{ page.content }}
+        </div>
+      </section>
+    </div>
+  </div>
+</article>
+{% endblock %}
