@@ -121,10 +121,21 @@ class SimplesearchPlugin extends Plugin
         $operator = $this->config->get('plugins.simplesearch.filter_combinator', 'and');
         $new_approach = false;
 
-        if (!$filters || $query === false || (count($filters) == 1 && !reset($filters))) {
+        // if @none found, skip processing taxonomies
+        $should_process = true;
+        if (is_array($filters)) {
+            $the_filter = reset($filters);
+
+            if (is_array($the_filter)) {
+                if (in_array(reset($the_filter), ['@none', 'none@'])) {
+                    $should_process = false;
+                }
+            }
+        }
+
+        if (!$should_process || !$filters || $query === false || (count($filters) == 1 && !reset($filters))) {
             /** @var \Grav\Common\Page\Pages $pages */
             $pages = $this->grav['pages'];
-
             $this->collection = $pages->all();
         } else {
 
@@ -284,6 +295,10 @@ class SimplesearchPlugin extends Plugin
         if ($this->config->get('plugins.simplesearch.built_in_css')) {
             $this->grav['assets']->add('plugin://simplesearch/css/simplesearch.css');
         }
+
+        if ($this->config->get('plugins.simplesearch.built_in_js')) {
+            $this->grav['assets']->addJs('plugin://simplesearch/js/simplesearch.js', [ 'group' => 'bottom' ]);
+        }
     }
 
     private function matchText($haystack, $needle) {
@@ -301,10 +316,18 @@ class SimplesearchPlugin extends Plugin
         }
     }
 
+    /**
+     * @param $query
+     * @param Page $page
+     * @param $taxonomies
+     * @return bool
+     */
     private function notFound($query, $page, $taxonomies)
     {
         $searchable_types = ['title', 'content', 'taxonomy'];
         $results = true;
+        $search_content = $this->config->get('plugins.simplesearch.search_content');
+
         foreach ($searchable_types as $type) {
             if ($type === 'title') {
                 $result = $this->matchText(strip_tags($page->title()), $query) === false;
@@ -328,7 +351,12 @@ class SimplesearchPlugin extends Plugin
                 }
                 $result = !$taxonomy_match;
             } else {
-                $result = $this->matchText(strip_tags($page->content()), $query) === false;
+                if ($search_content == 'raw') {
+                    $content = $page->rawMarkdown();
+                } else {
+                    $content = $page->content();
+                }
+                $result = $this->matchText(strip_tags($content), $query) === false;
             }
             $results = $results && $result;
             if ($results === false ) {
