@@ -1,9 +1,9 @@
 ---
-title: Take part
+title: Workshops
 process:
     markdown: true
 content:
     items:
       - '@page': '/workshops'
 ---
-## Take part
+## Workshops
