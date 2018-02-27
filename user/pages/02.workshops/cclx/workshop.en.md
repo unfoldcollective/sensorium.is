@@ -1,6 +1,6 @@
 ---
 title: 'Choreographic Coding Labx'
-date: 01/05/2018
+date: 05/01/2018
 taxonomy:
     category:
         - workshops
@@ -15,7 +15,10 @@ ticket_markup: '<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9pu-
 
 **Tuesday 1 May 2018 - Friday 4 May 2018**
 
-**Limited number of participants.**
+**Limited number of participants. Submissions deadline is 15th of March.
+**
+
+**Workshop is for free.**
 
 {% include 'partials/atoms/button.html.twig' with {'button': {
     'text': 'Register now',
@@ -24,9 +27,7 @@ ticket_markup: '<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9pu-
     'classes': 'bg-dark-gray white hover-white f4 fw5 link grow ba bw1 ph3 pv2 mb2 dib'
 }} %}
 
-Submissions deadline is 15th of March.
-
-Are you an artist working creatively with digital media and/or code and you are interested in movement or contemporary dance? Then come join the next Choreographic Coding Lab hosted by Sensorium Festival and artists Mária Júdová and Toby K Bratislava on May 1sth -4th, 2018.
+Are you a dancer or an artist working creatively with digital media and/or code and you are interested in movement or contemporary dance? Then come join the next Choreographic Coding Lab hosted by Sensorium Festival and artists Mária Júdová and Toby K Bratislava on May 1sth -4th, 2018.
 Coding skills are NOT a requirement to participate but you need to have basic awareness in the area of digital media.
 
 **Choreographic Coding Lab (CCLx)**
@@ -50,7 +51,7 @@ We are looking for diverse participants with a range of practices across choreog
 The CCL Bratislava is supported by **[Goethe Institut Bratislava](http://www.goethe.de/ins/sk/bra)**.
 
 Contact for further questions: <br>
-Ľubica Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
+Ľubica Fandl Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
 
 {% include 'partials/atoms/button.html.twig' with {'button': {
     'text': 'Register for CCLx',

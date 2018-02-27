@@ -1,6 +1,6 @@
 ---
 title: 'Choreographic Coding Labx'
-date: 01/05/2018
+date: 05/01/2018
 taxonomy:
     category:
         - workshops
@@ -50,7 +50,7 @@ We are looking for diverse participants with a range of practices across choreog
 The CCL Bratislava is supported by **[Goethe Institut Bratislava](http://www.goethe.de/ins/sk/bra)**.
 
 Contact for further questions: <br>
-Ľubica Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
+Ľubica Fandl Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
 
 {% include 'partials/atoms/button.html.twig' with {'button': {
     'text': 'Register for CCLx',
