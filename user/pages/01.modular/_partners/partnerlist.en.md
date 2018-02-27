@@ -1,6 +1,7 @@
 ---
-published: false
 title: Partners
+media_order: 'cr.png,eset.png,logo-goethe-institut.png,logo-sdc.jpg,siu_light.svg,Logo_web_black.png,logo_727_CB_ENG.png,KAPITAL_LOGO_CB.png,hlavicka_cierna.png'
+published: false
 menu: Partners
 hide_in_menu: true
 mainPartnersTitle: 'Main Partner'
