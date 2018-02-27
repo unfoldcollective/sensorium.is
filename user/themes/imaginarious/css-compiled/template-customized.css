@@ -967,7 +967,7 @@ blockquote cite {
   #header #navbar ul.navigation li a::after, #header #navbar ul.navigation li a::before {
     background-color: white; }
   #header.scrolled {
-    background-color: #96989c !important; }
+    background-color: #fff !important; }
     #header.scrolled #navbar a, #header.scrolled #navbar span {
       color: #000 !important;
       transition: all 0.25s; }

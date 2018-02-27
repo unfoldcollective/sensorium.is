@@ -5,7 +5,7 @@ buttons:
         text: Get tickets now
         url: https://ti.to/sensorium/sensorium-2018
         newTab: true
-        classes: 'bg-dark-gray white hover-white f4 fw5 link grow ba bw1 ph3 pv2 mb2 dib'
+        classes: 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
 hide_in_menu: true
 showAnimatedLogotype: true
 ---
