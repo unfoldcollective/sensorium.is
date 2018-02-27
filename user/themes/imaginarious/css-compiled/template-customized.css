@@ -354,6 +354,8 @@ ul.pagination {
               -ms-transform: scaleX(0.75);
               -o-transform: scaleX(0.75);
               transform: scaleX(0.75); }
+            #header #navbar ul.navigation li a.external:hover:before {
+              visibility: hidden; }
             #header #navbar ul.navigation li a.active:after {
               top: 0;
               visibility: visible;
@@ -881,6 +883,9 @@ a {
   .mh-7px-ns {
     margin-left: -7px;
     margin-right: -7px; } }
+
+.mt-1 {
+  margin-top: -.125rem; }
 
 /* template: typography */
 h1 {

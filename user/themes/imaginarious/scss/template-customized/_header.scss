@@ -145,6 +145,10 @@ $dropdown-color: #f6f6f6;
 							visibility: visible;
 							@include transform(scaleX(0.75));
 						}
+						
+						&.external:hover:before {
+							visibility: hidden;
+						}
 
 						&.active:after {
 							top: 0;

@@ -8,7 +8,7 @@
 {% endfor %}
 {% for mitem in site.menu %}
     <li>
-        <a href="{{ mitem.url }}">
+        <a class="{{ mitem.classes }}" href="{{ mitem.url }}" {% if mitem.newTab %} target="_blank" {% endif %}>
             {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
             {{ mitem.text }}
         </a>
