@@ -1,86 +1,86 @@
 // Sensorium Colors
-$sensorium-teal: 				#0096AC;
-$light-purple: 					#A463F2;
-$sensorium-pink: 				#FBD2CE;
-$light-green: 					#9CFCCF;
-$sensorium-gray: 				#CDCCCB;
+$sensorium-teal:          #0096AC;
+$light-purple:            #A463F2;
+$sensorium-pink:          #FBD2CE;
+$light-green:             #9CFCCF;
+$sensorium-gray:          #CDCCCB;
 
 // 2018 theme
-$light-gray:            rgba(189,189,190,1);
-$dark-gray:             rgba(150,152,156,1);
+$light-gray:              rgba(189,189,190,1);
+$dark-gray:               rgba(150,152,156,1);
 
 // Core
-$core-text:						#000;
-$core-accent:					$light-purple; 
-$secondary-link:				$sensorium-teal;
-$white:							#fff;
-$black:							#000;
-$light-gray:					$sensorium-gray;
-$border-color: 					$sensorium-pink;
+$core-text:               #000;
+$core-accent:             $light-purple; 
+$secondary-link:          $sensorium-teal;
+$white:                   #fff;
+$black:                   #000;
+$light-gray:              $sensorium-gray;
+$border-color:            $sensorium-pink;
 
 // Borders
-$core-border-color:				$border-color; // $light-gray;
-$core-border-color-hover: 		darken($core-border-color, 10);
-$core-border-color-focus: 		$core-accent;
+$core-border-color:       $border-color;
+$core-border-color-hover: darken($core-border-color, 10);
+$core-border-color-focus: $core-accent;
 
 // Shadows
-$core-box-shadow: 				inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$core-box-shadow-focus: 		$core-box-shadow, 0 0 5px rgba(darken($core-border-color-focus, 5), 0.7);
+$core-box-shadow:         inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
+$core-box-shadow-focus:   $core-box-shadow, 0 0 5px rgba(darken($core-border-color-focus, 5), 0.7);
 
 // Background
-$page-bg:						$light-gray;
+$page-bg:                 $light-gray;
 
 // Header
-$header-text: 					#000;
+$header-text:             #000;
 
 // Nav
-$navbar-text: 					$black;
-$navbar-bg: 					$dark-gray;
+$navbar-text:             $black;
+$navbar-bg:               $white;
 
 // Showcase
-$showcase-bg:					none; //lighten($core-accent, 6%);
-$showcase-text:					#000;
+$showcase-bg:             none;
+$showcase-text:           #000;
 
 // Feature
-$feature-bg:					#fff;
+$feature-bg:              #fff;
 
 // Main Body
-$main-bg:						none; //#f7f7f7;
-$body-border:					none; //darken($main-bg, 5%);
+$main-bg:                 none;
+$body-border:             none;
 
 // Sidebar
-$sidebar-text:					#aaa;
+$sidebar-text:            #aaa;
 
 // Bottom
-$bottom-bg:						#f7f7f7;
-$bottom-text:					$core-text;
+$bottom-bg:               #f7f7f7;
+$bottom-text:             $core-text;
 
 // Footer
-$footer-bg:						#333;
-$footer-text:					#999;
+$footer-bg:               #333;
+$footer-text:             #999;
 
-$rule-color: 					#F0F2F4;
-$code-text:						#c7254e;
-$code-bg:						#f9f2f4;
-$pre-text:						#237794;
-$pre-bg:						#f0f0f0;
+$rule-color:              #F0F2F4;
+$code-text:               #c7254e;
+$code-bg:                 #f9f2f4;
+$pre-text:                #237794;
+$pre-bg:                  #f0f0f0;
 
 // Dark Contrast variation
-$dark-navbar-text:				#999;
-$dark-sidebar:					#222;
-$dark-sidebar-text:				#999;
-$dark-main-bg:					#333;
-$dark-body-border:				#666;
+$dark-navbar-text:        #999;
+$dark-sidebar:            #222;
+$dark-sidebar-text:       #999;
+$dark-main-bg:            #333;
+$dark-body-border:        #666;
 
 // Info - Yellow
-$notes-info-border:     #F0AD4E;
-$notes-info-bg:         #FCF8F2;
-// Warning - Red
-$notes-warning-border:  #D9534F;
-$notes-warning-bg:      #FDF7F7;
-// Note - Blue
-$notes-note-border:     #5BC0DE;
-$notes-note-bg:         #F4F8FA;
-// Success - Green
-$notes-success-border:  #5CB85C;
-$notes-success-bg:      #F1F9F1;
+$notes-info-border:       #F0AD4E;
+$notes-info-bg:           #FCF8F2;
+// Warning - right: 
+$notes-warning-border:    #D9534F;
+$notes-warning-bg:        #FDF7F7;
+// Note - border-length: 
+$notes-note-border:       #5BC0DE;
+$notes-note-bg:           #F4F8FA;
+// Success - G: reen: 
+$notes-success-border:    #5CB85C;
+$notes-success-bg:        #F1F9F1;

@@ -354,6 +354,8 @@ ul.pagination {
               -ms-transform: scaleX(0.75);
               -o-transform: scaleX(0.75);
               transform: scaleX(0.75); }
+            #header #navbar ul.navigation li a.external:hover:before {
+              visibility: hidden; }
             #header #navbar ul.navigation li a.active:after {
               top: 0;
               visibility: visible;
@@ -882,6 +884,9 @@ a {
     margin-left: -7px;
     margin-right: -7px; } }
 
+.mt-1 {
+  margin-top: -.125rem; }
+
 /* template: typography */
 h1 {
   text-align: inherit !important;
@@ -967,7 +972,7 @@ blockquote cite {
   #header #navbar ul.navigation li a::after, #header #navbar ul.navigation li a::before {
     background-color: white; }
   #header.scrolled {
-    background-color: #96989c !important; }
+    background-color: #fff !important; }
     #header.scrolled #navbar a, #header.scrolled #navbar span {
       color: #000 !important;
       transition: all 0.25s; }

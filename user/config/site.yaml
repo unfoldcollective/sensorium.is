@@ -16,3 +16,8 @@ metadata:
     'og:locale': en_GB
     'og:locale:alternate': sk_SK
     'twitter:card' : summary_large_image
+menu:
+   - text: Tickets
+     url: https://ti.to/sensorium/sensorium-2018
+     classes: 'external link grow ba-l bw1 mt-1'
+     newTab: true
