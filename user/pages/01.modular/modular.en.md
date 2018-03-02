@@ -16,8 +16,8 @@ content:
             - _workshops
             - _news
             - _location
-            - _partners
             - _sliders
+            - _partners
 body_classes: 'modular header-image fullwidth'
 menu: Home
 slug: '2017'
