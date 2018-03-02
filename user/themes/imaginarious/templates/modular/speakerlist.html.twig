@@ -4,16 +4,16 @@
 	</div>
 
 	<div>
-		{% for p in page.collection %}
+		{% for speaker in page.collection %}
 		<section class="dib smooth">
-			<a href="{{p.url}}" class="tilter tilter--6">
+			<a href="{{speaker.url}}" class="tilter tilter--6">
 				<figure class="tilter__figure">
-					<img class="tilter__image bg-center cover" style="background-image:url({{ p.media.images|first.url }});" />
+					<img class="tilter__image bg-center cover" style="background-image:url({{ speaker.media.images[speaker.header.bio_image].url }});" />
 					<div class="tilter__deco tilter__deco--shine"><div></div></div>
 					<div class="tilter__deco tilter__deco--overlay"></div>
 					<figcaption class="tilter__caption">
-						<h3 class="tilter__title">{{ p.title }}</h3>
-						<p class="tilter__description">{{ p.header.subtitle }}</p>
+						<h3 class="tilter__title">{{ speaker.title }}</h3>
+						<p class="tilter__description">{{ speaker.header.subtitle }}</p>
 					</figcaption>
 					<svg class="tilter__deco tilter__deco--lines" viewBox="0 0 300 415">
 						<path d="M20.5,20.5h260v375h-260V20.5z" />
