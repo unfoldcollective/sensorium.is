@@ -1,7 +1,7 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block background %}
-<div class="fixed z-0 w-100 h-100" style="background: url({{ page.media.images|first.url }}) no-repeat center center fixed; background-size: cover;"></div>
+<div class="fixed z-0 w-100 h-100" style="background: url({{ page.media.images[page.header.background_image].url }}) no-repeat center center fixed; background-size: cover;"></div>
 {% endblock %}
 
 {% block body %}

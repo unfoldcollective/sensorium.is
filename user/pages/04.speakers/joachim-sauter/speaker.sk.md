@@ -8,6 +8,8 @@ process:
     markdown: true
     twig: true
 subtitle: 'New Media Spaces'
+background_image: a-la-recherche.jpg
+bio_image: joachim-sauter.jpg
 ---
 
 After graduating from the academy of fine arts in Berlin, Joachim Sauter studied at the 'German Academy for Film and Television', Berlin. Since mid of the 1980s, he has been working as a media artist and designer. From the beginning, Joachim Sauter has focussed on digital technologies and is experimenting how they can be used to express content, form, and narration. Fueled by this interest, he founded ART+COM in 1988 together with other artists, designers, scientists, hackers and technicians. Their goal was to practically research this new up-and-coming medium in the realm of art and design. Until now, he is leading this interdisciplinary group.
