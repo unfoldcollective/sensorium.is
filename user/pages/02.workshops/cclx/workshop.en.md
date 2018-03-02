@@ -18,7 +18,7 @@ ticket_markup: '<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9pu-
 **Limited number of participants. Submissions deadline is 15th of March.
 **
 
-**Workshop is for free.**
+**Workshop is free of charge thanks to the support of the **[Goethe Institut Bratislava](http://www.goethe.de/ins/sk/bra)**..**
 
 {% include 'partials/atoms/button.html.twig' with {'button': {
     'text': 'Register now',
@@ -48,7 +48,6 @@ The CCL will result in an **open lab session on its last day 4th of May in Piszt
 **Apply and Join CCL Bratislava!**
 We are looking for diverse participants with a range of practices across choreographic and technical fields. We are looking for both emerging and experienced artists. Collaborative teams involving coders, choreographers, object, sound and filmmakers interested in the Motion Bank research approach are very much encouraged to apply. Participation in the CCL is free, but a selection will be made to ensure the right balance of participants and what they bring to the lab including specialized software and hardware for working with movement data. The space and basic equipment (projectors and cables) will be provided, any specific equipment needs to be carried by the participants. We have a quick and easy application process that's only open for two weeks, so [apply today](https://goo.gl/forms/U0FOeCKNIgMKWZBq1)! **Applications close on Thursday 15th March.**
 
-The CCL Bratislava is supported by **[Goethe Institut Bratislava](http://www.goethe.de/ins/sk/bra)**.
 
 Contact for further questions: <br>
 Ľubica Fandl Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
