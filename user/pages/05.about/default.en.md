@@ -4,17 +4,16 @@ body_classes: 'header-image fullwidth'
 ---
 
 <div class="f3 f2-ns">
-Sensorium Festival is workshops, talks and performances bridging the fields of computational art, design and performance.
+Sensorium is a festival with conference, workshops & performance bridging the fields of computational art, design and performance.
 </div>
+Sensorium is a festival with conference, workshops & performance bridging the fields of computational art, design and performance. It is the genre-defining platform to **experience possible futures of the creative industry on the crossover of art, design and technology**.
+Immerse yourself in the world of dynamic and interactive installations, AI, graphics, data visualisations, generative architecture, design and virtual reality. Internationally established artists and designers who use computation as a creative practice will get together in Bratislava to discuss their projects, processes and ideas. Sensorium is a first-of-its-kind educational event in Slovakia on the crossover of art, design and technology.
 
-Sensorium is the genre-defining platform to **experience possible futures of the creative industry on the crossover of art, design and technology**. It brings together a community of internationally renowned creative minds to inspire multidisciplinary creative practice through discussion and showcasing of ground-breaking work. The festival aims to contribute to filling the educational gap in the field of creative technology in Slovakia and the wider Central European area.
+Since it’s beginning, Sensorium has been collaborating with [Resonate](http://resonate.io) festival, whose co-founder Eduard Prats Molner is regularly co-curating Sensorium's programme. The festival also collaborates with international organisations such as [TodaysArt](http://todaysart.nl) in the Netherlands. Since this year, London-based creative producer and curator [Carmen Salas](http://carmensp.com/) is a consulting advisor.
 
-The programme has two main parts: **conference** and **showcase**. The conference invites international speakers from multidisciplinary fields to present their ideas and research. It aims to gather a niche community of professionals in the field. An integral part in the run up to the conference is a series of workshops, giving participants hands-on experience with the creative application of emerging technology. The showcase programme presents extraordinary audio-visual performances and installations.
+We believe the program will amaze you. Sensorium invites ground-breaking works of art employing cutting-edge technology, but mainly the opportunity to meet and connect with innovative artists and designers. The aim of the event is to give creators a space to present their work and through that to stir a forward-thinking debate of ideas, opinions and visions connecting technology and art.
 
-The festival is focussed on **emerging practices in computational art, design and performance**. Common themes are artificial intelligence, generative design, architecture, networked society, virtual reality, IoT, embodiment, experimental music and performance, sensors and wearables.
+We can’t wait to see you!
 
-Since it’s beginning, Sensorium has been collaborating with [Resonate](http://resonate.io) festival, whose co-founder Eduard Prats Molner is one of Sensorium's regular programme curators. The festival also collaborates with international organisations such as [TodaysArt](http://todaysart.nl) in the Netherlands. Since this year, London-based creative producer and curator [Carmen Salas](http://carmensp.com/) is a consulting advisor.
-
-We can’t wait to see you 4-5 May 2018!
 
 
