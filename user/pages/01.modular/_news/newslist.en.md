@@ -4,7 +4,7 @@ title: News
 menu: News
 content:
     items:
-      '@page': '/news'
+        '@page': /news
     order:
         by: date
         dir: desc

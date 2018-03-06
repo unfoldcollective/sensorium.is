@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: News
 blog_url: blog
 slug: blog
