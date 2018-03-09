@@ -45,8 +45,8 @@ partners:
     #     name: ADMA
     #     url: http://www.sdc.sk/
     #     logo: logo-sdc.jpg
-mediapartnersTitle: 'Media partners'
-mediapartners:
+mediaPartnersTitle: 'Media partners'
+mediaPartners:
     # -
     #     name: Radio FM
     #     url: 
