@@ -1,4 +1,4 @@
-// Sensorium Colors
+// Sensorium Colors 2017
 $sensorium-teal:          #0096AC;
 $light-purple:            #A463F2;
 $sensorium-pink:          #FBD2CE;
@@ -7,16 +7,16 @@ $sensorium-gray:          #CDCCCB;
 
 // 2018 theme
 $light-gray:              rgba(189,189,190,1);
-$dark-gray:               rgba(150,152,156,1);
+$dark-gray:               #56575a;
 
 // Core
 $core-text:               #000;
-$core-accent:             $light-purple; 
-$secondary-link:          $sensorium-teal;
+$core-accent:             $sensorium-teal;
+$secondary-link:          $light-gray;
 $white:                   #fff;
 $black:                   #000;
 $light-gray:              $sensorium-gray;
-$border-color:            $sensorium-pink;
+$border-color:            $black;
 
 // Borders
 $core-border-color:       $border-color;
