@@ -38,9 +38,9 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 a {
-  color: #A463F2; }
+  color: #0096AC; }
   a:hover {
-    color: #bf92f6; }
+    color: #00c2df; }
 
 #container {
   min-height: 100%;
@@ -87,7 +87,7 @@ footer {
     padding-top: 3rem; }
 
 .list-item {
-  border-bottom: 1px solid #FBD2CE;
+  border-bottom: 3px solid #000;
   margin-bottom: 3rem; }
   .list-item:last-child {
     border-bottom: 0; }
@@ -98,7 +98,7 @@ footer {
       .list-item .list-blog-header h4 a {
         color: #000; }
         .list-item .list-blog-header h4 a:hover {
-          color: #A463F2; }
+          color: #0096AC; }
     .list-item .list-blog-header img {
       display: block;
       margin-top: 1rem;
@@ -113,7 +113,7 @@ footer {
       line-height: 110%; }
     .list-item .list-blog-date em {
       display: block;
-      border-top: 1px solid #FBD2CE;
+      border-top: 1px solid #000;
       font-style: normal;
       text-transform: uppercase; }
 
@@ -123,7 +123,7 @@ footer {
 .tags a {
   display: inline-block;
   font-size: 0.8rem;
-  border: 1px solid #A463F2;
+  border: 1px solid #0096AC;
   border-radius: 3px;
   padding: 0.1rem 0.4rem;
   margin-bottom: 0.2rem;
@@ -133,7 +133,7 @@ footer {
   padding: 0;
   list-style: none; }
   .archives li, .related-pages li {
-    border-bottom: 1px solid #FBD2CE;
+    border-bottom: 1px solid #000;
     line-height: 2rem; }
     .archives li:last-child, .related-pages li:last-child {
       border-bottom: 0; }
@@ -337,7 +337,7 @@ ul.pagination {
               height: 1px;
               bottom: 0;
               left: 0;
-              background-color: #A463F2;
+              background-color: #0096AC;
               visibility: hidden;
               -webkit-transform: scaleX(0);
               -moz-transform: scaleX(0);
@@ -388,9 +388,9 @@ ul.pagination {
             /* Active Dropdown nav item */ }
             #header #navbar ul.navigation li ul li.active > a {
               background-color: #ececec;
-              color: #A463F2; }
+              color: #0096AC; }
             #header #navbar ul.navigation li ul li:hover > a {
-              background-color: #A463F2;
+              background-color: #0096AC;
               color: #fff; }
             #header #navbar ul.navigation li ul li a {
               display: block;
@@ -432,7 +432,7 @@ ul.pagination {
   background-color: rgba(0, 0, 0, 0);
   box-shadow: none; }
   .header-image #header .navigation .has-children:hover a {
-    color: #A463F2; }
+    color: #0096AC; }
   .header-image #header #logo h3, .header-image #header #logo a {
     color: #000; }
   .header-image #header a, .header-image #header .menu-btn {
@@ -586,7 +586,7 @@ code {
 pre {
   padding: 2rem;
   background: #f0f0f0;
-  border: 1px solid #FBD2CE;
+  border: 1px solid #000;
   border-radius: 3px; }
   pre code {
     color: #237794;
@@ -600,12 +600,12 @@ hr {
   padding: 25px;
   float: left;
   clear: both;
-  background: #A463F2;
+  background: #0096AC;
   color: #fff; }
 
 .label {
   vertical-align: middle;
-  background: #A463F2;
+  background: #0096AC;
   border-radius: 100%;
   color: #fff;
   height: 1rem;
@@ -789,7 +789,7 @@ hr {
   color: #000; }
 
 .tilter--6 .tilter__deco--overlay {
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(164, 99, 242, 0.5)); }
+  background-image: linear-gradient(45deg, rgba(86, 87, 90, 0.8), rgba(255, 255, 255, 0.5)); }
 
 .tilter--6 .tilter__deco--lines {
   stroke: #000;
@@ -874,7 +874,7 @@ a {
   background-color: #CDCCCB !important; }
 
 .bg-dark-gray {
-  background-color: #96989c !important; }
+  background-color: #56575a !important; }
 
 .mw24rem {
   max-width: 24rem; }
@@ -989,25 +989,25 @@ blockquote cite {
 
 .button {
   background: none;
-  color: #A463F2;
-  border: 1px solid #A463F2;
-  border-radius: 3px; }
-  .button:hover {
-    background: #A463F2;
-    color: none; }
-  .button:active {
-    box-shadow: 0 1px 0 #832bed; }
-
-.button-secondary {
-  background: none;
   color: #0096AC;
   border: 1px solid #0096AC;
   border-radius: 3px; }
-  .button-secondary:hover {
+  .button:hover {
     background: #0096AC;
     color: none; }
-  .button-secondary:active {
+  .button:active {
     box-shadow: 0 1px 0 #00616f; }
+
+.button-secondary {
+  background: none;
+  color: #bdbdbe;
+  border: 1px solid #bdbdbe;
+  border-radius: 3px; }
+  .button-secondary:hover {
+    background: #bdbdbe;
+    color: none; }
+  .button-secondary:active {
+    box-shadow: 0 1px 0 #9e9ea0; }
 
 /* template: showcase */
 .modular .showcase {

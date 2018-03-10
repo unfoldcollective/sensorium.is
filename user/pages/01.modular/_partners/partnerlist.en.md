@@ -1,6 +1,5 @@
 ---
 title: Partners
-media_order: 'logo-capturing_reality.png,logo-eset.png,logo-fpu.png,logo-kapital.png,logo-liftago.png,logo-sdc.jpg,logo-start_it_up.png,logo-start_it_up.svg,logo-studio_727.png,logo-swine_daily.png,logo-tyzden.png,logo-venaco_group.png,New_GI_logo_vertical_Black_sRGB.png'
 menu: Partners
 hide_in_menu: true
 mainPartnersTitle: 'Main Partner'
@@ -44,9 +43,13 @@ partners:
     -
         name: ADMA
         url: 'http://www.adma.sk/'
-        logo: logo.png
-mediapartnersTitle: 'Media partners'
-mediapartners:
+        logo: logo-adma.png
+mediaPartnersTitle: 'Media partners'
+mediaPartners:
+    # -
+    #     name: Radio FM
+    #     url: 
+    #     logo: 
     -
         name: Tyzden
         url: 'http://www.tyzden.sk/'
