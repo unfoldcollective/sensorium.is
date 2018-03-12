@@ -14,6 +14,7 @@ content:
             - _programme
             - _about
             - _workshops
+            - _warmup
             - _news
             - _location
             - _sliders

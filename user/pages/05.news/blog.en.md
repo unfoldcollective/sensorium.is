@@ -1,8 +1,7 @@
 ---
 published: true
 title: News
-blog_url: blog
-slug: blog
+blog_url: news
 body_classes: 'header-image fullwidth'
 sitemap:
     changefreq: monthly
