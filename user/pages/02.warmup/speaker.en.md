@@ -1,15 +1,16 @@
 ---
 title: 'Sensorium Warm up'
-menu: Warm up
+media_order: FingerReadingClubBig1Sml.jpg
 date: 04/04/2018
-background_image: sensorium-warmup.png
 taxonomy:
     category:
         - workshops
+menu: 'Warm up'
 slug: warmup
 process:
     markdown: true
     twig: true
+background_image: FingerReadingClubBig1Sml.jpg
 time: '18.00 - 20.00'
 description: 'Join us to get the vibes for Sensorium Festival ready. We have prepared a warmup programme at Satori Stage on 4th April from 18.00. Stuart Nolan will be talking about and workshopping 1000 Mindreaders.'
 ticket_markup: '<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9pu-_210JGZ7mMPUwp8d9gHfpW-0qEWpMaQF5vSEstqdOzA/viewform" target="_blank">Register</a></strong>'
@@ -30,6 +31,7 @@ Entry to the event is for a voluntary donation.
 At this event you can buy your Sensorium Pass on special offer for 34 eur!
 The event will be held in English language.
 
+FB: https://www.facebook.com/events/172720173371318/
 
 #### STUART NOLAN: 1000 MINDREADERS
 

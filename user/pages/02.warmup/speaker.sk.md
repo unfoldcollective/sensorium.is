@@ -2,7 +2,7 @@
 title: 'Sensorium Warmup'
 menu: Warmup
 date: 04/04/2018
-background_image: sensorium-warmup.png
+background_image: FingerReadingClubBig1Sml.jpg
 taxonomy:
     category:
         - workshops
@@ -28,7 +28,7 @@ Záväzná REGISTRÁCIA cez [https://ti.to/sensorium/sensorium-2018 ](ti.to/sens
 
 Napodujatí si môžete zakúpiť Sensorium pas za výhodnú cenu 34 eur!
 Podujatie prebehne v anglickom jazyku.
-
+FB: https://www.facebook.com/events/172720173371318/
 
 #### Stuart Nolan: 1000 Mindreaders Workshop
 

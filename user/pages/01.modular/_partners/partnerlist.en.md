@@ -1,5 +1,6 @@
 ---
 title: Partners
+media_order: 'logo-adma.png,logo-capturing_reality.png,logo-eset.png,logo-fpu.png,logo-kapital.png,logo-liftago.png,logo-radiofm.jpg,logo-sdc.jpg,logo-start_it_up.png,logo-start_it_up.svg,logo-studio_727.png,logo-swine_daily.png,logo-tyzden.png,logo-venaco_group.png,New_GI_logo_horizontal_Black_sRGB.png,todaysart.png'
 menu: Partners
 hide_in_menu: true
 mainPartnersTitle: 'Main Partner'
@@ -30,12 +31,16 @@ supporters:
         name: 'Capturing Reality'
         url: 'https://www.capturingreality.com/'
         logo: logo-capturing_reality.png
+    -
+        name: 'Ars Bratislavensis'
+        url: 'http://www.bratislava.sk/grantovy-program-ars-bratislavensis'
+        logo: Logo_ARS-BW.png
 partnersTitle: Partners
 partners:
     -
-        name: Liftago
-        url: 'https://www.liftago.sk/'
-        logo: logo-liftago.png
+        name: TodaysArt
+        url: 'https://http://todaysart.nl/'
+        logo: todaysart.png
     -
         name: 'Slovak Design Center'
         url: 'http://www.sdc.sk/'
@@ -44,16 +49,20 @@ partners:
         name: ADMA
         url: 'http://www.adma.sk/'
         logo: logo-adma.png
+    -
+        name: Liftago
+        url: 'https://www.liftago.sk/'
+        logo: logo-liftago.png
 mediaPartnersTitle: 'Media partners'
 mediaPartners:
-    # -
-    #     name: Radio FM
-    #     url: 
-    #     logo: 
     -
         name: Tyzden
         url: 'http://www.tyzden.sk/'
         logo: logo-tyzden.png
+    -
+        name: 'Radio FM'
+        url: 'http://fm.rtvs.sk/'
+        logo: logo-radiofm.jpg
     -
         name: 'Start It Up'
         url: 'http://www.startitup.sk/'

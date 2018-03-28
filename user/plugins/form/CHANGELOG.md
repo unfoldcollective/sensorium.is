@@ -1,3 +1,39 @@
+# v2.13.1
+## 03/21/2018
+
+1. [](#improved)
+    * CAPTCHA fallback to `cURL` if `Fopen` is not allowed [#224](https://github.com/getgrav/grav-plugin-form/pull/244)
+    * Use `visibility:hidden` rather than `display:none` for honeypot field [#235](https://github.com/getgrav/grav-plugin-form/pull/235)
+    * Added support for markdown in checkbox field [#233](https://github.com/getgrav/grav-plugin-form/pull/233)
+    * Added option to control `inline_css: true|false` for fields such as honeypot
+    * Added class and CSS for honeypot field    
+
+# v2.13.0
+## 03/09/2018
+
+1. [](#new)
+    * Forced registration of `Form` page template for admin
+    * Implemented support for `resolution` setting for images in file field
+    * Implemented support for `resizeWidth`, `resizeHeight`, `resizeQuality` and updated Dropzone to latest version
+    * Added a new `signature` field
+1. [](#improved)
+    * Force an `onPageProcessed()` event if page cache expires before form cache [#240](https://github.com/getgrav/grav-plugin-form/pull/240)
+1. [](#bugfix)
+    * Fixed an issue where unlimited size `0` was not being set properly in File field
+    * `field.description` now translated and displays properly
+    
+# v2.12.0
+## 02/22/2018
+
+1. [](#new)
+    * Added toggle to enable/disable client-side HTML5 validation
+    * Added toggle to enable/disable inline-error messages
+1. [](#improved)
+    * Reformatted `form.php` plugin class for better readability  
+1. [](#bugfix)
+    * Fixed an issue with in-content Twig forms not working because forms were not initialized yet
+  
+
 # v2.11.5
 ## 02/16/2018
 
