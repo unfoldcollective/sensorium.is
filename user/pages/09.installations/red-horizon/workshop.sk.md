@@ -1,6 +1,7 @@
 ---
 title: 'Červený Horizont'
-date: 02/05/2018
+date_days: 3 - 5
+date_month: May
 taxonomy:
     category:
         - workshops

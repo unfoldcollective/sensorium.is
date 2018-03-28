@@ -1,6 +1,7 @@
 ---
 title: 'Red Horizon'
-date: 05/02/2018
+date_days: 3 - 5
+date_month: May
 taxonomy:
     category:
         - workshops

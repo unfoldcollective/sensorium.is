@@ -1,6 +1,7 @@
 ---
 title: 'Choreographic Coding Labx'
-date: 01/05/2018
+date_days: 1 - 4
+date_month: May
 taxonomy:
     category:
         - workshops
