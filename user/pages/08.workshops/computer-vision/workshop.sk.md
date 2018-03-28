@@ -1,6 +1,7 @@
 ---
 title: 'Computer Vision Workshop by Joshua Noble'
-date: 05/02/2018
+date_days: 2 - 3
+date_month: May
 taxonomy:
     category:
         - workshops

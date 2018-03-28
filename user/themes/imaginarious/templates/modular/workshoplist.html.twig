@@ -1,41 +1,6 @@
 <section class="modular-row tl">
   {{ content }}
-
   {% for p in page.collection %}
-    <article class="dib v-top ba bw2 b--black mv4 mh3-ns w-100 w-40-m w-33-l mw6 overflow-hidden measure f6">
-      <a href="{{p.url}}">
-        <img src="{{ p.media.images|first.url }}" class="db w-100 grow" alt="Photo of a kitten looking menacing.">
-      </a>
-      <div class="pa2 ph3-ns pb3-ns tl">
-        <div class="dt w-100 h3 mt1">
-          <div class="dtc">
-            <h3 class="f2 f3-m mv0 lh-title">{{ p.title }}</h3>
-          </div>
-          <div class="dtc tr w2">
-            <h2 class="f3 f4-m mv0">
-              <time class="dt-published" datetime="{{ p.date|date("c") }}">
-                <span>{{ p.date|date("d") }}</span>
-                <span>{{ p.date|date("M") }}</span>
-              </time>
-            </h2>
-          </div>
-        </div>
-        <p class="f6 lh-copy measure mt2 mb2 b">
-          {{ p.header.description }}
-        </p>
-        <div class="dt w-100 mt1 b">
-          <div class="dtc">
-            <span class="f5 mv0"><a href="{{p.url}}">more info...</a></span>
-          </div>
-          <div class="dtc tr">
-            <span class="f5 mv0">{{p.header.ticket_markup}}</span>
-          </div>
-        </div>
-      </div>
-    </article>
-
+    {% include 'partials/organisms/workshop-preview.html.twig' %}
   {% endfor %}
-
-  
-
 </section>
