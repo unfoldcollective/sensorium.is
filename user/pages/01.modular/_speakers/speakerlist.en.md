@@ -1,11 +1,12 @@
 ---
-title: Speakers
-menu: Speakers
+title: 'Speakers & Artists'
+menu: 'Speakers & Artists'
 content:
     items:
-      '@page': '/speakers'
+        '@page': /speakers-artists
 ---
+
 <div class="measure">
     <input type="range" class="slider max_scale" oninput="set_state('max_scale', this.value)" onchange="set_state('max_scale', this.value)">
 </div>
-## Speakers
+## Speakers & Artists

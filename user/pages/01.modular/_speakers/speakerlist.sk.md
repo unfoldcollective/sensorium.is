@@ -1,9 +1,9 @@
 ---
-title: Umelci
-menu: Umelci
+title: 'Spíkri & Umelci'
+menu: 'Spíkri & Umelci'
 content:
     items:
-        '@page': /speakers
+        '@page': /spikri-umelci
 ---
 
-## Umelci
+## Spíkri & Umelci

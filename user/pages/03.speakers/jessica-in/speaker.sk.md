@@ -1,6 +1,6 @@
 ---
 title: 'Jessica In'
-date: 10/02/2017
+date: 02/10/2017
 taxonomy:
     category:
         - speakers
@@ -9,7 +9,7 @@ process:
     twig: true
 subtitle: 'Interaktívna Architektúra'
 background_image: symmetry.jpg
-bio_image: jessicain.jpg
+bio_image: jessicainbw.jpg
 ---
 
 **Jessica In je architektka, dizajnérka, kreatívna kóderka a pedagogička vyučujúca v Bartlett Interactive Architecture Lab, teda [Bartlettovom laboratóriu interaktívnej architektúry](http://www.interactivearchitecture.org/). Jej architektonické špecializácie a záujmy spočívajú vo výpočtových, interakčných a výrobných metodikách pre architektúru, s osobitným dôrazom na výrazný potenciál technológie ako prostriedku na preskúmanie zákazkového dizajnu.**

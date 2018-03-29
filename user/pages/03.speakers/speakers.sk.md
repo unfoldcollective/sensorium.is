@@ -1,6 +1,6 @@
 ---
-title: Umelci
-slug: umelci
+title: 'Spíkri & umelci'
+slug: spikri-umelci
 hide_in_menu: true
 body_classes: 'header-image fullwidth'
 content:
@@ -11,4 +11,4 @@ content:
     pagination: false
 ---
 
-# Umelci
+# Spíkri & umelci

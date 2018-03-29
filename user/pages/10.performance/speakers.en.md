@@ -1,6 +1,6 @@
 ---
-title: 'Speakers & Artists'
-slug: speakers-artists
+title: Performance
+slug: performance
 hide_in_menu: true
 body_classes: 'header-image fullwidth'
 content:
@@ -11,4 +11,4 @@ content:
     pagination: false
 ---
 
-# Speakers & Artists
+# Performance

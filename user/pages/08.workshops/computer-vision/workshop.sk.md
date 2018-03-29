@@ -1,6 +1,6 @@
 ---
 title: 'Computer Vision Workshop by Joshua Noble'
-date_days: 2 - 3
+date_days: '2 - 3'
 date_month: May
 taxonomy:
     category:
@@ -11,7 +11,7 @@ process:
     twig: true
 time: '10.00 - 18.00'
 description: 'This workshop is designed for anyone interested in learning about how machines can see and learn about the world around them.'
-ticket_markup: '<strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9pu-_210JGZ7mMPUwp8d9gHfpW-0qEWpMaQF5vSEstqdOzA/viewform" target="_blank">Registrovať</a></strong>'
+ticket_markup: '<strong><a href="https://ti.to/sensorium/sensorium-2018/"_blank">Registrovať</a></strong>'
 ---
 
 **Streda 2. máj 2018 - štvrtok 3. máj 2018**
@@ -36,7 +36,7 @@ Ohľadom ďalších informácií kontaktuj: <br>
 Ľubica Fandl Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
 
 {% include 'partials/atoms/button.html.twig' with {'button': {
-    'text': 'Regiruj sa',
+    'text': 'Registruj sa',
     'url': 'https://ti.to/sensorium/sensorium-2018/',
     'newTab': true,
     'classes': 'bg-dark-gray white hover-white f4 fw5 link grow ba bw1 ph3 pv2 mb2 dib'
