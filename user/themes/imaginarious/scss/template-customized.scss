@@ -96,6 +96,12 @@ $large-start: 60em;
     margin-right: -0.5rem;
   }
 }
+.mh-1-ns {
+  @include not-small {
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+  }
+}
 .mt-1 {
   margin-top: -.125rem;
 }

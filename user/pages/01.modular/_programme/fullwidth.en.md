@@ -8,7 +8,7 @@ process:
 
 <section class="fullwidth cf w-100 tl tc-ns mt4-ns">
     <div class="mw24rem dib v-top w-100 w-30-ns">
-        <article class="pa3 mv2 ba tl b--black bw2">
+        <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div class="lh-title">
                 <h3 class="f2 f1-ns ma0">
                     Computer Vision Workshop
@@ -16,20 +16,24 @@ process:
                 <h4 class="tr f3 f2-ns ma0 mt2 mt0-ns">
                     Wed 2 - Thurs 3 May
                 </h4>
-                {% include 'partials/atoms/button.html.twig' with {'button': {
-                  'text': 'Tickets',
-                  'url': config.site.ticket_url,
-                  'newTab': true,
-                  'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
-                }} %}
-            </div>
-            <div class="dt mt1 f6 f5-l">
-              <div class="dtc">
-                <span class="mv0 b"><a href="/workshops/computer-vision">more info...</a></span>
-              </div>
+                <div class="dt w-100 mt1 f6 f5-l">
+                    <div class="dtc">
+                        <span class="mv0 b">
+                            <a href="/workshops/computer-vision">more info...</a>
+                        </span>
+                    </div>
+                    <div class="dtc tr">
+                        {% include 'partials/atoms/button.html.twig' with {'button': {
+                            'text': 'Tickets',
+                            'url': config.site.ticket_url,
+                            'newTab': true,
+                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+                        }} %}
+                    </div>
+                </div>
             </div>
         </article>
-        <article class="pa3 mv2 ba tl b--black bw2">
+        <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div>
                 <h3 class="f2 f1-ns lh-title ma0">
                     Choreographic Coding Lab Presents
@@ -55,7 +59,7 @@ process:
         </article>
     </div>
     <div class="mw24rem dib v-top w-100 w-34-ns">
-        <article class="mh-2-ns relative top--1-ns pa3 mv2 ba tl b--black bw2 bgi-radialgrad">
+        <article class="mh-1-ns relative top--2-ns pa3 mv2 bgi-radialgrad tl b--black bw2">
             <div>
                 <h3 class="f1 lh-title ma0 f4rem">
                     Conference
@@ -81,18 +85,24 @@ process:
                     <li>Andrej Boleslavsky</li>
                     <li>Joachim Sauter</li>
                 </ul>
-                {% include 'partials/atoms/button.html.twig' with {'button': {
-                  'text': 'Tickets',
-                  'url': config.site.ticket_url,
-                  'newTab': true,
-                  'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
-                }} %}
-                <span class="mv0 b dib f5 f4-l"><a class="" href="/programme">see detailed schedule...</a></span>
+                <div class="dt w-100 mt1 f6 f5-l">
+                    <div class="dtc">
+                        <span class="mv0 b"><a class="" href="/programme">see detailed schedule...</a></span>
+                    </div>
+                    <div class="dtc tr">
+                        {% include 'partials/atoms/button.html.twig' with {'button': {
+                            'text': 'Tickets',
+                            'url': config.site.ticket_url,
+                            'newTab': true,
+                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+                        }} %}
+                    </div>
+                </div>
             </div>
         </article>
     </div>
     <div class="mw24rem dib w-100 w-30-ns">
-        <article class="pa3 mv2 ba tl b--black bw2">
+        <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div class="lh-title">
                 <h3 class="f2 f1-ns ma0">
                     Opening & Lanark Artefax
@@ -108,19 +118,25 @@ process:
                         <a href="http://www.a4.sk/">A4</a>
                     </h5>
                 </div>
-                {% include 'partials/atoms/button.html.twig' with {'button': {
-                  'text': 'Tickets',
-                  'url': config.site.ticket_url,
-                  'newTab': true,
-                  'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
-                }} %}
+                <div class="dt w-100 mt1 f6 f5-l">
+                    <div class="dtc">
+                    </div>
+                    <div class="dtc tr">
+                        {% include 'partials/atoms/button.html.twig' with {'button': {
+                            'text': 'Tickets',
+                            'url': config.site.ticket_url,
+                            'newTab': true,
+                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+                        }} %}
+                    </div>
+                </div>
             </div>
             <div class="dt mt1 f6 f5-l">
               <div class="dtc">
               </div>
             </div>
         </article>
-        <article class="pa3 mv2 ba tl b--black bw2">
+        <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div class="lh-title">
                 <h3 class="f2 f1-ns ma0">
                     Music for your plants
@@ -136,12 +152,20 @@ process:
                         Fuga
                     </h5>
                 </div>
-                {% include 'partials/atoms/button.html.twig' with {'button': {
-                  'text': 'Tickets',
-                  'url': config.site.ticket_url,
-                  'newTab': true,
-                  'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
-                }} %}
+                <div class="dt w-100 mt1 f6 f5-l">
+                    <div class="dtc">
+                        <span class="mv0 b">
+                        </span>
+                    </div>
+                    <div class="dtc tr">
+                        {% include 'partials/atoms/button.html.twig' with {'button': {
+                            'text': 'Tickets',
+                            'url': config.site.ticket_url,
+                            'newTab': true,
+                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+                        }} %}
+                    </div>
+                </div>
             </div>
             <div class="dt mt1 f6 f5-l">
               <div class="dtc">

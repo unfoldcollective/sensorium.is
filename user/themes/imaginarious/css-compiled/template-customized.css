@@ -889,6 +889,11 @@ a {
     margin-left: -0.5rem;
     margin-right: -0.5rem; } }
 
+@media (min-width: 30em) {
+  .mh-1-ns {
+    margin-left: -0.25rem;
+    margin-right: -0.25rem; } }
+
 .mt-1 {
   margin-top: -.125rem; }
 
