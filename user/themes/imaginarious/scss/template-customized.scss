@@ -90,9 +90,17 @@ $large-start: 60em;
     margin-right: -7px;
   }
 }
-
+.mh-2-ns {
+  @include not-small {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+}
 .mt-1 {
   margin-top: -.125rem;
+}
+.f4rem {
+  font-size: 4rem;
 }
 
 /* template: typography */
@@ -364,4 +372,7 @@ iframe.animatedLogotype {
 }
 body.no-measure section#body > .measure {
   max-width: none;
+}
+.bgi-radialgrad {
+  background-image: radial-gradient(at 100% 100%, transparent 20%, white 80%);
 }
