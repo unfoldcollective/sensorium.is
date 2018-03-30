@@ -205,7 +205,8 @@ $text-color: $core-text;
 }
 
 .tilter--6 .tilter__deco--overlay {
-	background-image: linear-gradient(45deg, rgba($dark-gray, 0.8), rgba($white, 0.5));
+	background-image: radial-gradient(at 100% 100%, transparent 33%, white 92%);
+
 }
 
 .tilter--6 .tilter__deco--lines {
