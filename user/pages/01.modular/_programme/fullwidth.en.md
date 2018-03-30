@@ -87,7 +87,7 @@ process:
                 </ul>
                 <div class="dt w-100 mt1 f6 f5-l">
                     <div class="dtc">
-                        <span class="mv0 b"><a class="" href="/programme">see detailed schedule...</a></span>
+                        <!-- <span class="mv0 b"><a class="" href="/programme">see detailed schedule...</a></span> -->
                     </div>
                     <div class="dtc tr">
                         {% include 'partials/atoms/button.html.twig' with {'button': {
