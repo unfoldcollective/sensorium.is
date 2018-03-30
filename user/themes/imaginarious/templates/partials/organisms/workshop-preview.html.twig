@@ -1,4 +1,4 @@
-<article class="dib v-top ba bw2 b--black mv4 mh3-ns w-100 w-40-m w-33-l mw6 overflow-hidden measure f6">
+<article class="bgi-radialgrad dib v-top bw2 b--black mv4 mh3-ns w-100 w-40-m w-33-l mw6 overflow-hidden measure f6">
   <a href="{{p.url}}">
     <img src="{{ p.media.images|first.url }}" class="db w-100 grow" alt="{{p.title}}">
   </a>
@@ -27,9 +27,16 @@
       <div class="dtc">
         <span class="f5 mv0"><a href="{{p.url}}">more info...</a></span>
       </div>
+      {% if p.header.ticket_text %}
       <div class="dtc tr">
-        <span class="f5 mv0">{{p.header.ticket_markup}}</span>
+        {% include 'partials/atoms/button.html.twig' with {'button': {
+            'text': p.header.ticket_text,
+            'url': config.site.ticket_url,
+            'newTab': true,
+            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+        }} %}
       </div>
+      {% endif %}
     </div>
   </div>
 </article>

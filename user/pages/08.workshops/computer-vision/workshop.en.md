@@ -11,7 +11,7 @@ date_days: '2 - 3'
 date_month: May
 time: '09.00 - 18.00'
 description: 'This workshop is designed for anyone interested in learning about how machines can see and learn about the world around them.'
-ticket_markup: '<strong><a href="https://ti.to/sensorium/sensorium-2018"_blank">Register</a></strong>'
+ticket_text: Tickets
 ---
 
 #### Wednesday 2nd May 2018 - Thursday 3rd May 2018 (9am - 5pm)

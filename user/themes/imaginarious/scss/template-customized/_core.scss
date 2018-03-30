@@ -33,7 +33,13 @@ a {
 		padding-right: 0;
 	}
 	#header, #breadcrumbs, .blog-header, .blog-content-item, .content-wrapper, ul.pagination, #body > .modular-row {
-		// @extend .padding-horiz;
+		@extend .padding-horiz;
+	}
+}
+
+.template-fullwidth {
+	& > h1, & > h2, & > h3, & > h4, & > h5, & > h6, {
+		@extend .padding-horiz;
 	}
 }
 
