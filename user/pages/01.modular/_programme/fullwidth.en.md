@@ -35,7 +35,7 @@ process:
         </article>
         <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div>
-                <h3 class="f2 f1-ns lh-title ma0">
+                <h3 class="f2 f1-ns lh-title ma0 break-word">
                     Choreographic Coding Lab Presents
                 </h3>
                 <h4 class="tr f3 f2-ns ma0 mt2 mt0-ns">

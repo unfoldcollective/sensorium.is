@@ -900,6 +900,9 @@ a {
 .f4rem {
   font-size: 4rem; }
 
+.break-word {
+  overflow-wrap: break-word; }
+
 /* template: typography */
 h1 {
   text-align: inherit !important;
