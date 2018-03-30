@@ -105,7 +105,7 @@ process:
         <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div class="lh-title">
                 <h3 class="f2 f1-ns ma0">
-                    Opening & Lanark Artefax
+                    Opening & Lanark Artefax & Tomáš Prištiak
                 </h3>
                 <div class="tr">
                     <h4 class="f3 f2-ns ma0 mt2 mt0-ns">
