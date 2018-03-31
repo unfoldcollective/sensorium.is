@@ -1,6 +1,6 @@
 ---
 title: 'Spíkri & umelci'
-slug: spikri-umelci
+slug: speakers
 hide_in_menu: true
 body_classes: 'header-image fullwidth'
 content:
@@ -8,7 +8,7 @@ content:
     order:
         by: folder
         dir: asc
-    pagination: false
+    pagination: true
 ---
 
 # Spíkri & umelci

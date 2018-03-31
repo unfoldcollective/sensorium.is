@@ -1,6 +1,6 @@
 ---
-title: 'Speakers & Artists'
-slug: speakers-artists
+title: Speakers & Artists
+slug: speakers
 hide_in_menu: true
 body_classes: 'header-image fullwidth'
 content:
@@ -8,7 +8,7 @@ content:
     order:
         by: folder
         dir: asc
-    pagination: false
+    pagination: true
 ---
 
 # Speakers & Artists
