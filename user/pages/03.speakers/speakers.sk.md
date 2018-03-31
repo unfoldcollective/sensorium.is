@@ -1,14 +1,14 @@
 ---
 title: 'Spíkri & umelci'
-slug: spikri-umelci
+slug: speakers
 hide_in_menu: true
 body_classes: 'header-image fullwidth'
 content:
     items: '@self.children'
     order:
-        by: date
-        dir: desc
-    pagination: false
+        by: folder
+        dir: asc
+    pagination: true
 ---
 
 # Spíkri & umelci
