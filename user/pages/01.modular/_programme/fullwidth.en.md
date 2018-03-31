@@ -13,6 +13,9 @@ process:
                 <h3 class="f2 f1-ns ma0">
                     Computer Vision Workshop
                 </h3>
+                <h4 class="f3 f2-ns ma0">
+                    by Joschua Noble
+                </h4>
                 <h4 class="tr f3 f2-ns ma0 mt2 mt0-ns">
                     Wed 2 - Thurs 3 May
                 </h4>
@@ -107,6 +110,9 @@ process:
                 <h3 class="f2 f1-ns ma0">
                     Opening & Lanark Artefax & Tomáš Prištiak
                 </h3>
+                <h4 class="f3 f2-ns ma0">
+                    Performance
+                </h4>
                 <div class="tr">
                     <h4 class="f3 f2-ns ma0 mt2 mt0-ns">
                         Fri 4 May
@@ -141,6 +147,9 @@ process:
                 <h3 class="f2 f1-ns ma0">
                     Music for your plants
                 </h3>
+                <h4 class="f3 f2-ns ma0">
+                    Performance
+                </h4>
                 <div class="tr">
                     <h4 class="f3 f2-ns ma0 mt2 mt0-ns">
                         Sat 5 May
