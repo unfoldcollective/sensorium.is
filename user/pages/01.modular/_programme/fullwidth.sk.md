@@ -72,7 +72,7 @@ process:
                         Sat 5 May
                     </h4>
                     <h5 class="f4 f3-ns ma0">
-                        09:00 - 18:00
+                        09:30 - 18:00
                     </h5>
                     <h5 class="f4 f3-ns ma0">
                         Pisztory Palace Main hall
