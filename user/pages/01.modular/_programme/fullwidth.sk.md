@@ -1,10 +1,10 @@
 ---
-title: Programme
+title: Program
 process:
     markdown: true
     twig: true
 ---
-<h2>Programme</h2>
+<h2>Program</h2>
 
 <section class="fullwidth cf w-100 tl tc-ns mt4-ns">
     <div class="mw24rem dib v-top w-100 w-30-ns">

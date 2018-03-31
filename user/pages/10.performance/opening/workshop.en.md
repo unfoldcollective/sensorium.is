@@ -21,7 +21,7 @@ ticket_markup: '<strong><a href="https://ti.to/sensorium/sensorium-2018"_blank">
 Scotish producer **Lanark Artefax** - Calum MacRae has drawn attention thanks to his last LP Whities 11, occupying every second best music chart for 2017. He is characteristic for his fragmented chorals, frenetic breakbeats, surgerically deconstructed elements of techno and electro composed into an accurate mosaic. MacRae has quickly gained interest of genre veterans like Aphex Twin and Björk.
 
 
-**Tomáš Prištiak** (aka 1/2 Tante Elze) as a supporting act will introduce his new project Mechanical Heart Valve, working exclusively with live sampling of artificial heart valve.
+**Tomáš Prištiak** (aka 1/2 Tante Elze) as a supporting act will introduce his new project Mechanical Heart Valve, working exclusively with live sampling of an artificial heart valve.
 
 [Facebook event.](https://facebook.com/events/422344588215896/)
 

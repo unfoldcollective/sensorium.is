@@ -14,7 +14,7 @@ content:
     limit: 5
     pagination: true
 feed:
-    description: 'Sample Blog Description'
+    description: 'Find out about the latest Sensorium developments'
     limit: 10
 pagination: true
 ---
