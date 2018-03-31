@@ -1,7 +1,5 @@
 ---
 title: 'Červený Horizont'
-date_days: 3 - 5
-date_month: May
 taxonomy:
     category:
         - workshops
@@ -9,6 +7,8 @@ slug: cerveny-horizont
 process:
     markdown: true
     twig: true
+date_days: '3 - 5'
+date_month: May
 time: '10.00 - 18.00'
 description: 'Red Horizon creates a swarm of light and sound; a combination of chaos and precision, appearance and intention.'
 ---
@@ -16,18 +16,21 @@ description: 'Red Horizon creates a swarm of light and sound; a combination of c
 **Gabey Tjon a Tham**
 
 
-Red Horizon creates a swarm of light and sound; a combination of chaos and precision, appearance and intention. When viewing for a longer period, lucid afterimages reveal themselves; new forms and drawings appear arbitrarily on the retina and are painted by the brain. The entities seem to originate from a night-like reality.
+**Inštalácia Red Horizon vytvára spleť svetla a zvuku, kombináciu chaosu a precíznosti, vzhľadu a zámeru. Pri dlhšom pozorovaní inštalácie sa odhalia jasné paobrazy. Nové tvary a kresby namaľované mozgom sa ľubovoľne objavujú na sietnici. Tieto entity pripomínajú nočnú oblohu.**
 
-The kinetic/light/sound installation consists of 15 meticulously controlled double pendulums that form a field of visual and sonic particles in a three dimensional space.
+Kinetická, svetelná a zvuková inštalácia pozostáva z 15 dôsledne ovládaných dvojitých kyvadiel, ktoré tvoria pole vizuálnych a akustických častíc v trojrozmernom priestore.
 
-Each arm of the pendulum contains a white light and a small speaker that moves along the unpredictability of the mechanism. The emergence of complex behavior – a phenomenon that occurs in for example a swarm of individuals which, through simple rules, display complex behavior, patterns and intelligence as a whole – is taken as a starting point.
+Na každom ramene sa nachádza biele svetlo a malý reproduktor, ktoré sa pohybujú spolu s nepredvídateľnosťou mechanizmu. Vytvorenie zložitého správania sa považuje za východiskový bod. Tento jav sa prejavuje napríklad v dave ľudí, kde prostredníctvom jednoduchých pravidiel vykazujú zložité správanie, vzory a inteligenciu ako celok.
 
-The installation is a customised system that integrates this principle in the spatialisation of the sound, the development in time and the mechanism of the double pendulums.
+Inštalácia je prispôsobená systému, ktorý integruje tento princíp do priestorového rozloženia zvuku, vývoja v čase a mechanizmu dvojitých kyvadiel.
 
-Red Horizon was created in close collaboration with software artist Marcus Graf. It is a co- production of TodaysArt (the Hague) and Museum of Transitory Art (MoTA, Ljubljana).
+Inštalácia Red Horizon vznikla v úzkej spolupráci so softvérovým umelcom Marcusom Grafom. Ide o koprodukciu medzi hudobným festivalom TodaysArt (Haag) a múzeom tranzitórneho umenia MoTA (Ľubľana).
 
-**The Red Horizon installtion can be seen in the Pisztory Palace 3rd - 5th May.**
+**Inštaláciu Red Horizon môžete vidieť v Pistoriho paláci od 3. do 5. mája.**
+
+Zdroj fotografií: Marleen Sleeuwits/Maurice Tjon a Tham
+
+
 
 [http://www.gabeytjonatham.com]([http://www.gabeytjonatham.com])
 
-Photos: Marleen Sleeuwits / Maurice Tjon a Tham
