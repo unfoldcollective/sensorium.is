@@ -12,7 +12,7 @@ background_image: whities.jpg
 bio_image: lanark.jpg
 ---
 
-Lanark Artefax aka Calum MacRae has drawn attention thanks to his last LP Whities 11, occupying every second best music chart for 2017. He is characteristic for his fragmented chorals, frenetic breakbeats, surgerically deconstructed elements of techno and electro composed into an accurate mosaic. MacRae has quickly gained interest of genre veterans like Aphex Twin and Björk. 
+Lanark Artefax aka Calum MacRae has drawn attention thanks to his last LP Whities 11, occupying a high place in every other music chart for 2017. He is characteristic for his fragmented chorals, frenetic breakbeats, surgerically deconstructed elements of techno and electro composed into an accurate mosaic. MacRae has quickly gained interest of genre veterans like Aphex Twin and Björk. 
 
 [Sensorium Opening: A/V w/ Lanark Artefax (Whities / UIQ) / Tomáš Prištiak](https://www.sensorium.is/performance/opening)
 
