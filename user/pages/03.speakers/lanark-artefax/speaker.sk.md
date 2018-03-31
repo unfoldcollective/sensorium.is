@@ -1,5 +1,5 @@
 ---
-title: 'Joshua Noble'
+title: 'Lanark Artefax'
 date: 10/02/2017
 taxonomy:
     category:
@@ -7,14 +7,17 @@ taxonomy:
 process:
     markdown: true
     twig: true
-subtitle: 'Navrhovanie menej reálneho'
-background_image: bracket.png
-bio_image: joshua-noble-bw.jpg
+subtitle: 'AV performance'
+background_image: whities.jpg
+bio_image: lanark.jpg
 ---
 
-**Joshua Noble je dizajnér a inžinier, ktorého práca sa pohybuje na priesečníku kódovania, dizajnu a fikcie. Sídli v San Franciscu a pracuje na vytváraní prototypov lietadiel, automobilov, šatníkov, budíkov a alternatívnych vízií súčastnosti a blízkej budúcnosti. Je bývalým zamestnanecom spoločnosti [frog](https://www.frogdesign.com/), kde viedol prax v oblasti rýchleho navrhovania prototypov v meste Seattle.** 
+Lanark Artefax aka Calum MacRae has drawn attention thanks to his last LP Whities 11, occupying every second best music chart for 2017. He is characteristic for his fragmented chorals, frenetic breakbeats, surgerically deconstructed elements of techno and electro composed into an accurate mosaic. MacRae has quickly gained interest of genre veterans like Aphex Twin and Björk. 
+
+[Sensorium Opening: A/V w/ Lanark Artefax (Whities / UIQ) / Tomáš Prištiak](https://www.sensorium.is/performance/opening)
 
 
-V spoločnosti [Teague](https://www.teague.com/) vytváral nové spôsoby interakcie v oblasti priemyslu a produktového dizajnu. Joshua je autorom šiestich kníh o kódovaní a elektronike pre umelcov a dizajnérov vrátane titulov „[Programming Interactivity](https://www.bookdepository.com/Programming-Interactivity-Joshua-Noble/9780596154141)“ a „[Arduino in Action](https://www.goodreads.com/book/show/13245568-arduino-in-action)“. Vyučuje v Interaction Design Program na vzdelávacom inštitúte [CIID](http://ciid.dk/) so sídlom v hlavnom meste Dánska.
+[Lanark Artefax - Touch Absence (Video)](https://www.youtube.com/watch?v=eo0l0yQ2OsQ)
+[Lanark Artefax - Voices Near the Hypocentre (Video)](https://www.youtube.com/watch?v=nIYTAQJQjUk&t=139s)
+[Björk - Arisen My Senses - Lanark Artefax Remix (Audio)](https://open.spotify.com/track/2OokkYOnEEGPiOHyD7vhb3?si=M3rhVUQpTze_Z5D45DNwIg)
 
-[http://thefactoryfactory.com](http://thefactoryfactory.com)
