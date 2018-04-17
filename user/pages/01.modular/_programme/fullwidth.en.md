@@ -4,6 +4,7 @@ process:
     markdown: true
     twig: true
 ---
+
 <h2>Programme</h2>
 
 <section class="fullwidth cf w-100 tl tc-ns mt4-ns">
@@ -45,7 +46,7 @@ process:
                     Fri 04 May
                 </h4>
                 <h5 class="tr f4 f3-ns ma0">
-                    16:00 - 20:00
+                    18:00 - 20:00
                 </h5>
                 <h5 class="tr f4 f3-ns ma0">
                     Pisztory Palace Main hall
@@ -72,7 +73,7 @@ process:
                         Sat 5 May
                     </h4>
                     <h5 class="f4 f3-ns ma0">
-                        09:30 - 18:00
+                        09:30 - 19:30
                     </h5>
                     <h5 class="f4 f3-ns ma0">
                         Pisztory Palace Main hall
@@ -84,9 +85,12 @@ process:
                     <li>Annette Mees</li>
                     <li>Joshua Noble</li>
                     <li>Jessica In</li>
-                    <li>Gabey Tjon a Tham</li>
+                    <li>Panel Discussion</li>
                     <li>Andrej Boleslavsky</li>
-                    <li>Joachim Sauter</li>
+                    <li>Jan Nikolai Nelles</li>
+                    <li>TodaysArt presents:</li>
+                    <li>Gabey Tjon a Tham</li>
+                    <li>Joachim Sauter</li>                
                 </ul>
                 <div class="dt w-100 mt1 f6 f5-l">
                     <div class="dtc">
@@ -118,7 +122,7 @@ process:
                         Fri 4 May
                     </h4>
                     <h5 class="f4 f3-ns ma0">
-                        20:30 - 22:00
+                        20:30 - 00:00
                     </h5>
                     <h5 class="f4 f3-ns ma0">
                         <a href="http://www.a4.sk/">A4</a>
@@ -145,7 +149,7 @@ process:
         <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div class="lh-title">
                 <h3 class="f2 f1-ns ma0">
-                    Music for your plants
+                    Music for your plants & more
                 </h3>
                 <h4 class="f3 f2-ns ma0">
                     Performance

@@ -1,6 +1,6 @@
 ---
 title: Partners
-media_order: 'logo-adma.png,logo-capturing_reality.png,logo-eset.png,logo-fpu.png,logo-kapital.png,logo-liftago.png,logo-radiofm.jpg,logo-sdc.jpg,logo-start_it_up.png,logo-start_it_up.svg,logo-studio_727.png,logo-swine_daily.png,logo-tyzden.png,logo-venaco_group.png,New_GI_logo_horizontal_Black_sRGB.png,todaysart.png'
+media_order: 'logo-adma.png,logo-capturing_reality.png,logo-eset.png,logo-fpu.png,logo-kapital.png,logo-radiofm.jpg,logo-sdc.jpg,logo-start_it_up.png,logo-start_it_up.svg,logo-studio_727.png,logo-swine_daily.png,logo-tyzden.png,logo-venaco_group.png,New_GI_logo_horizontal_Black_sRGB.png,todaysart.png,Logo_ARS-BW.png,hopin_logo_black_transparent_bcg.png'
 menu: Partners
 hide_in_menu: true
 mainPartnersTitle: 'Main Partner'
@@ -23,6 +23,10 @@ supporters:
         name: 'Goethe Institut'
         url: 'https://www.goethe.de/ins/sk/sk/index.html'
         logo: New_GI_logo_horizontal_Black_sRGB.png
+    -
+        name: 'Stroom Den Haag'
+        url: 'https://www.stroom.nl/'
+        logo: StroomLogobw.png
     -
         name: 'Studio 727'
         url: 'http://www.727.sk/'
@@ -50,9 +54,17 @@ partners:
         url: 'http://www.adma.sk/'
         logo: logo-adma.png
     -
-        name: Liftago
-        url: 'https://www.liftago.sk/'
-        logo: logo-liftago.png
+        name: Hopin
+        url: 'https://www.hopintaxi.com/'
+        logo: hopin_logo_black_transparent_bcg.png
+    -
+        name: 'Hotel Tatra'
+        url: 'https://www.hoteltatra.sk/en/'
+        logo: hoteltatra.png
+    -
+        name: Webexpo
+        url: 'https://webexpo.net'
+        logo: webexpo.png
 mediaPartnersTitle: 'Media partners'
 mediaPartners:
     -

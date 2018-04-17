@@ -1,7 +1,5 @@
 ---
 title: 'Red Horizon'
-date_days: 3 - 5
-date_month: May
 taxonomy:
     category:
         - workshops
@@ -9,6 +7,8 @@ slug: red-horizon
 process:
     markdown: true
     twig: true
+date_days: '3 - 5'
+date_month: May
 time: '10.00 - 18.00'
 description: 'Red Horizon creates a swarm of light and sound; a combination of chaos and precision, appearance and intention.'
 ---
@@ -28,6 +28,6 @@ Red Horizon was created in close collaboration with software artist Marcus Graf.
 
 **The Red Horizon installtion can be seen in the Pisztory Palace 3rd - 5th May.**
 
-[http://www.gabeytjonatham.com]([http://www.gabeytjonatham.com])
+[www.gabeytjonatham.com](http://www.gabeytjonatham.com)
 
 Photos: Marleen Sleeuwits / Maurice Tjon a Tham

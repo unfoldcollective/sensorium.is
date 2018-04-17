@@ -1,7 +1,5 @@
 ---
 title: 'Computer Vision Workshop by Joshua Noble'
-date_days: '2 - 3'
-date_month: May
 taxonomy:
     category:
         - workshops
@@ -9,6 +7,8 @@ slug: computer-vision
 process:
     markdown: true
     twig: true
+date_days: '2 - 3'
+date_month: May
 time: '10.00 - 18.00'
 description: 'This workshop is designed for anyone interested in learning about how machines can see and learn about the world around them.'
 ticket_markup: '<strong><a href="https://ti.to/sensorium/sensorium-2018/"_blank">Registrovať</a></strong>'
@@ -30,10 +30,14 @@ ticket_markup: '<strong><a href="https://ti.to/sensorium/sensorium-2018/"_blank"
 
 Počas tohto workshopu preskúmaš, ako sa počítačové videnie používa na vytváranie rozšírenej a zmiešanej reality, rozpoznávanie objektov a na pochopenie obrazového kontextu. Taktiež sa pozrieš na konkrétne typy kamier a na stratégie pre prácu s počítačovým videním pri tvorbe umenia, pri natáčaní videí a filmov, pri budovaní inteligentných priestorov a pri práci s robotikou.
 
+Workshop je určený ľuďom zaujímajúcich sa o strojové učenie, signal processing a dátovú vedu ale aj dizajnérom, umelcom, stratégom, fotografom.
+
 Na workshop si prines notebook s kamerou a s nainštalovaným programovacím jazykom s názvom Processing, a taktiež s nainštalovanou videoknižnicou (najprv si skúste prejsť niekoľko príkladov, aby ste sa uistili, že programy fungujú). Processing si môžeš stiahnuť na stránke [http://processing.org](http://processing.org) a videoknižnicu na [tejto stránke](https://processing.org/reference/libraries/video/index.html).
 
 Ohľadom ďalších informácií kontaktuj: <br>
 Ľubica Fandl Drangová at <a href="mailto:{{'lubica@sensorium.is'|safe_email}}">{{'lubica@sensorium.is'|safe_email}}</a>
+
+[Facebook event tu.](https://www.facebook.com/events/550109335382145/)
 
 {% include 'partials/atoms/button.html.twig' with {'button': {
     'text': 'Registruj sa',

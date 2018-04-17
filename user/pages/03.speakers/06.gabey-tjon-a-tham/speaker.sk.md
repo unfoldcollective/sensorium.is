@@ -1,6 +1,6 @@
 ---
 title: 'Gabey Tjon a Tham'
-date: 02/10/2017
+date: 10/02/2017
 taxonomy:
     category:
         - speakers
@@ -12,10 +12,10 @@ background_image: repetition.jpg
 bio_image: Gabeybw.jpg
 ---
 
-**Gabey Tjon a Tham is an installation artist working and living in the Hague, The Netherlands. She transforms spaces into sensory and immersive environments through kinetic machines, light, and sound.**
+**Gabey Tjon a Tham je inštalačná umelkyňa, ktorá pracuje a žije v holandskom meste Haag. Pomocou kinetických zariadení, svetla a zvuku pretvára priestory na zmyslové a pohlcujúce prostredia.**
 
-Gabey observes behaviours in nature from where she extracts and assembles underlying structures. Technology is a natural occurrence for Tjon a Tham: “While what we have traditionally called nature is increasingly being influenced by human action, our technological environment is becoming increasingly complex and untameable, we almost have to relate to it as a new nature.
+Gabey pozoruje správanie v prírode, odkiaľ získava potrebné informácie na zostavenie základných štruktúr. Tvrdí, že technológia je práve prírodou inšpirovaná: „Príroda, ako ju dnes poznáme, je čoraz viac ovplyvňovaná ľudskou činnosťou, no naše technologické prostredie sa stáva čoraz zložitejším a neskrotnejším, až pre nás predstavuje takzvanú novú prírodu.“
 
-In her works the technology has a logic on its own, it conflicts and harmonizes. The artist develops techniques and invents mechanical sculptures that embed different materials and perform at different poetic levels. Hereby natural-mechanical choreographies arise. The works invite us to wonder at, contemplate, and investigate.
+Technológia skrytá v jej tvorbe má vlastnú logiku. Neznázorňuje len harmóniu, ale aj nedokonalosti. Umelkyňa objavuje nové techniky a vytvára mechanické sochy, ktoré sú postavené z rôznych materiálov a pôsobia na rôznych poetických úrovniach. Takto vznikajú choreografie kombinujúce technológiu s prírodou. Jej diela nás nabádajú premýšľať, rozjímať a skúmať.
 
 [http://www.gabeytjonatham.com](http://www.gabeytjonatham.com)
