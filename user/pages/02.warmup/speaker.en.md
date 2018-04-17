@@ -24,14 +24,14 @@ REGISTRATION required through [ti.to/sensorium/sensorium-2018](https://ti.to/sen
 
 ##### 19.15 - 20.00 Stuart Nolan TALK
 
-REGISTRATION required through [https://ti.to/sensorium/sensorium-2018](https://ti.to/sensorium/sensorium-2018). 
+REGISTRATION required through [ti.to/sensorium/sensorium-2018](https://ti.to/sensorium/sensorium-2018). 
 
 Entry to the event is for a voluntary donation.
 
 At this event you can buy your Sensorium Pass on special offer for 34 eur!
 The event will be held in English language.
 
-FB: https://www.facebook.com/events/172720173371318/
+FB event: [facebook.com/events/172720173371318/](https://www.facebook.com/events/172720173371318/)
 
 #### STUART NOLAN: 1000 MINDREADERS
 
