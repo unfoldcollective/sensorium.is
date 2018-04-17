@@ -1,5 +1,6 @@
 ---
 title: 'Sensorium Warmup'
+hide_in_menu: true
 menu: Warmup
 date: 04/04/2018
 background_image: FingerReadingClubBig1Sml.jpg
