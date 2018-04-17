@@ -1,5 +1,6 @@
 ---
 title: 'Sensorium Warm up'
+hide_in_menu: true
 media_order: FingerReadingClubBig1Sml.jpg
 date: 04/04/2018
 taxonomy:
