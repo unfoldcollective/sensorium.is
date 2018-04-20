@@ -1,6 +1,7 @@
 ---
 title: 'O nás'
 ---
+
 <input type="range" class="slider count"         oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
 ## O nás
 
@@ -8,7 +9,8 @@ title: 'O nás'
 Sensorium festival je podujatie workshopov, prednášok a predstavení na prieniku umenia, dizajnu a performance s technológiami.
 </div>
 
-Festival bol založený v roku 2016 ako žáner definujúca platforma o budúcnosti kreatívneho priemyslu. Vytvára a prepája komunitu medzinárodných kreatívcov, ktorí prostredníctvom konverzácie a predstavenia prác neustále zvyšujú level medziodborovej kreatívnej praxe.
+Témou tretieho ročníka festivalu Sensorium je _Homo Arbiter Formae_ a teda človek, ktorý robí estetické rozhodnutia. Ide o vývoj role tvorcov od “tých čo vyrábajú” k “tým, čo robia estetické rozhodnutia”... 
+
 
 
 [čítaj viac](/about)

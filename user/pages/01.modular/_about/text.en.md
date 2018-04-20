@@ -1,6 +1,7 @@
 ---
 title: About
 ---
+
 <input type="range" class="slider count"         oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
 ## About
 
@@ -8,7 +9,9 @@ title: About
 Sensorium Festival is workshops, talks and performances bridging the fields of computational art, design and performance.
 </div>
 
-The festival was founded in 2016 as a platform to experience possible futures of the creative industry on the crossover of art, design and technology.
-Sensorium brings together a community of internationally renowned creative minds to inspire multidisciplinary creative practice through discussion and showcasing of ground-breaking work.
+This year's theme is _Homo Arbiter Formae_ (Latin for 'Man the maker of aesthetic decisions', after Jack Burnham's 1968 System Aesthetics).
+
+Through this theme, we'd like to address the shifting role of creators from 'Man the maker' to 'Man the maker of aesthetic decisions'. We recognize this progression - which Burnham traces back to the start of the industrial revolution - in the speakers' work in several ways...
+
 
 **[read more](/about)**

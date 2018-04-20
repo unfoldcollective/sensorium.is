@@ -54,6 +54,10 @@ partners:
         url: 'http://www.adma.sk/'
         logo: logo-adma.png
     -
+        name: A4
+        url: 'http://www.a4.sk/'
+        logo: a4logo.png
+    -
         name: Hopin
         url: 'https://www.hopintaxi.com/'
         logo: hopin_logo_black_transparent_bcg.png
