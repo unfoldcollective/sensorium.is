@@ -9,7 +9,7 @@ process:
     twig: true
 date_days: '3 - 4'
 date_month: May
-time: '09.00 - 18.00'
+time: '09.00 - 17.00'
 description: 'This workshop is designed for anyone interested in learning about how machines can see and learn about the world around them.'
 ticket_text: Tickets
 ---

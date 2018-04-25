@@ -18,7 +18,7 @@ process:
                     by Joschua Noble
                 </h4>
                 <h4 class="tr f3 f2-ns ma0 mt2 mt0-ns">
-                    Wed 2 - Thurs 3 May
+                    Thurs 3 - Fri 4 May
                 </h4>
                 <div class="dt w-100 mt1 f6 f5-l">
                     <div class="dtc">
@@ -149,7 +149,7 @@ process:
         <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div class="lh-title">
                 <h3 class="f2 f1-ns ma0">
-                    Music for your plants & more
+                    Club night: Music for your plants & more
                 </h3>
                 <h4 class="f3 f2-ns ma0">
                     Performance

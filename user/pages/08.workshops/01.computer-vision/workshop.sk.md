@@ -9,8 +9,8 @@ process:
     twig: true
 date_days: '3 - 4'
 date_month: May
-time: '10.00 - 18.00'
-description: 'This workshop is designed for anyone interested in learning about how machines can see and learn about the world around them.'
+time: '09.00 - 17.00'
+description: 'Workshop je  dizajnérov, umelcov, fotografov, dáta analytikov, stratégov a developerov s Joshua Noble - autor _Programming Interactivity_ a _Arduino in Action_.'
 ticket_markup: '<strong><a href="https://ti.to/sensorium/sensorium-2018/"_blank">Registrovať</a></strong>'
 ---
 
