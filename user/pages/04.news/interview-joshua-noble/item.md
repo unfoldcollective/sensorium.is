@@ -10,7 +10,7 @@ process:
 ---
 
 <span class="f4">
-    During this year’s Sensorium Festival Joshua Noble will be joining us from San Francisco to give a talk and lead a workshop on Computer Vision for Mixed Reality. We sat down with Joshua to talk about his fascination for Computer Vision, its wider implications for society and the complicity he feels as a designer working with technological systems.
+    During this year’s Sensorium Festival Joshua Noble will be joining us from San Francisco to give a talk and lead [a workshop on Computer Vision for Mixed Reality](https://sensorium.is/workshops/computer-vision). We sat down with Joshua to talk about his fascination for Computer Vision, its wider implications for society and the complicity he feels as a designer working with technological systems.
 </span>
 
 PvK:<br>
@@ -52,7 +52,7 @@ What can people expect from your workshop at Sensorium?
 
 My goal is to make Computer Vision as approachable as possible for anyone interested in working with images, in the sense of both vision and space. To me the real power of Computer Vision has always been enabling a program to understand, to a certain degree, what's around us.
 
-In the workshop we're going to talk about techniques for detecting different kinds of objects and doing image replacement on live streams of video. We’ll look at how those techniques are used in augmented reality devices that are available right now as well as the more social and philosophical implications of mixed to an augmented reality.
+In [the workshop](https://sensorium.is/workshops/computer-vision) we're going to talk about techniques for detecting different kinds of objects and doing image replacement on live streams of video. We’ll look at how those techniques are used in augmented reality devices that are available right now as well as the more social and philosophical implications of mixed to an augmented reality.
 
 I've specifically selected a programming environment and a toolset that's built for designers and artists and people without a strong software engineering background. Because I think it's good to know what the surveillance camera on the street corners sees. I think it's interesting to understand what a car that drives itself sees around it. And I think the understandings and the subversions that are going to be the most important for us in the future will come as much from people who have more of an art, design or political background than purely a technological or engineering background.
 
