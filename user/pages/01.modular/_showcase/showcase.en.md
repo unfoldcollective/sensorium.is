@@ -6,8 +6,12 @@ buttons:
         url: https://ti.to/sensorium/sensorium-2018
         newTab: true
         classes: 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
+    -
+        text: Computer Vision Workshop
+        url: /workshops/computer-vision
+        newTab: false
+        classes: 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
 hide_in_menu: true
-showAnimatedLogotype: true
 ---
 
 <h2 class="rotated-right">4-5 May 2018, Bratislava</h2>
