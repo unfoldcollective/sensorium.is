@@ -13,7 +13,7 @@ Since it’s beginning, Sensorium has been collaborating with [Resonate](http://
 
 We believe the program will amaze you. Sensorium invites ground-breaking works of art employing cutting-edge technology, but mainly the opportunity to meet and connect with innovative artists and designers. The aim of the event is to give creators a space to present their work and through that to stir a forward-thinking debate of ideas, opinions and visions connecting technology and art.
 
-### Sensorium 2018 Theme
+<h3 id="theme">Homo Arbiter Formae</h3>
 
 Throughout this year’s conference, we will examine contemporary innovation in creative practice in the wider context of the changing role of ‘the creator’. Building on Jack Burnham’s 1968 essay ['System Aesthetics'](https://www.are.na/block/2081303), we will investigate the shift from “Homo Faber” (Man the Maker) to **“Homo Arbiter Formae”** (Man the Maker of Aesthetic Decisions). 
 

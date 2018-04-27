@@ -1,5 +1,6 @@
 ---
-title: 'Computer Vision Workshop by Joshua Noble'
+title: Computer Vision Workshop for Mixed Reality
+subtitle: 'by <a href="/speakers/joshua-noble">Joshua Noble</a>'
 taxonomy:
     category:
         - workshops
