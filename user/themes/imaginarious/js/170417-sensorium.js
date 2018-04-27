@@ -134,3 +134,9 @@ function draw() {
     context.restore();
 
 }
+
+function resize() {
+    width = context.width  = context.canvas.width = window.innerWidth;
+    height = context.height = context.canvas.height = window.innerHeight;
+}
+window.onresize = resize;
