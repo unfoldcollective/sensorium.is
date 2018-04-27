@@ -23,7 +23,7 @@ process:
                 <div class="dt w-100 mt1 f6 f5-l">
                     <div class="dtc">
                         <span class="mv0 b">
-                            <a href="/workshops/computer-vision">more info...</a>
+                            <a href="/workshops/computer-vision">more info ...</a>
                         </span>
                     </div>
                     <div class="dtc tr">
@@ -31,7 +31,7 @@ process:
                             'text': 'Tickets',
                             'url': config.site.ticket_url,
                             'newTab': true,
-                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 ph2-m pv2 mv2 dib'
                         }} %}
                     </div>
                 </div>
@@ -54,7 +54,7 @@ process:
             </div>
             <div class="dt w-100 mt1 f6 f5-l">
               <div class="dtc">
-                <span class="mv0 b"><a href="/workshops/cclx">more info...</a></span>
+                <span class="mv0 b"><a href="/workshops/cclx">more info ...</a></span>
               </div>
               <div class="dtc tr">
                 <span class="mv0 bg-white pa1 b">Open to public</span>
@@ -88,8 +88,7 @@ process:
                     <li>Panel Discussion</li>
                     <li>Andrej Boleslavsky</li>
                     <li>Jan Nikolai Nelles</li>
-                    <li>TodaysArt presents:</li>
-                    <li>Gabey Tjon a Tham</li>
+                    <li class="lh-title"><span class="db">TodaysArt presents:</span>Gabey Tjon a Tham</li>
                     <li>Joachim Sauter</li>                
                 </ul>
                 <div class="dt w-100 mt1 f6 f5-l">
@@ -101,7 +100,7 @@ process:
                             'text': 'Tickets',
                             'url': config.site.ticket_url,
                             'newTab': true,
-                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+                            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 ph2-m pv2 mv2 dib'
                         }} %}
                     </div>
                 </div>
