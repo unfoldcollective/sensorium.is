@@ -378,7 +378,7 @@ iframe.animatedLogotype {
 /* programme */
 // prevent schedule event-modal to extend width of #sb-site
 .sb-site-overflow-x-hidden #sb-site {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 body.no-measure section#body > .measure {
   max-width: none;

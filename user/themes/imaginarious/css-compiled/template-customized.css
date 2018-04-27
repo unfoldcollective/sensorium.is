@@ -1564,7 +1564,7 @@ iframe.animatedLogotype {
 
 /* programme */
 .sb-site-overflow-x-hidden #sb-site {
-  overflow-x: hidden; }
+  overflow-x: hidden !important; }
 
 body.no-measure section#body > .measure {
   max-width: none; }
