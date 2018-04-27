@@ -82,6 +82,7 @@ process:
             </div>
             <div class="f4 f3-l fw6 mt5 mt2-ns">
                 <ul class="list pa0 mb0 mt3">
+                    <li>Christian "Mio" Loclaire</li>
                     <li>Annette Mees</li>
                     <li>Joshua Noble</li>
                     <li>Jessica In</li>
