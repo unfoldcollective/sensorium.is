@@ -2,16 +2,16 @@
 title: About
 ---
 
-<input type="range" class="slider count"         oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
 ## About
 
 <div class="f3">
 Sensorium Festival is workshops, talks and performances bridging the fields of computational art, design and performance.
 </div>
 
-This year's theme is _Homo Arbiter Formae_ (Latin for 'Man the maker of aesthetic decisions', after Jack Burnham's 1968 System Aesthetics).
+Throughout this year’s conference, we will examine contemporary innovation in creative practice in the wider context of the changing role of ‘the creator’. Building on Jack Burnham’s 1968 essay “System Aesthetics”, we will investigate the shift from “Homo Faber” (Man the Maker) to **“Homo Arbiter Formae”** (Man the Maker of Aesthetic Decisions).
 
-Through this theme, we'd like to address the shifting role of creators from 'Man the maker' to 'Man the maker of aesthetic decisions'. We recognize this progression - which Burnham traces back to the start of the industrial revolution - in the speakers' work in several ways...
+We invite you to explore the system behind the animations you see running in the background and make your own aesthetic decisions using sliders like this:
 
+<input type="range" class="slider count" oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
 
 **[read more](/about)**

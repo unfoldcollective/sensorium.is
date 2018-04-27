@@ -24,8 +24,8 @@ canvasParent.firstElementChild.setAttribute('id', 'defaultCanvas0');
 var state = {
     scale:          0.01,
     speed:          0.02,
-    max_scale:      10,
-    count:          200,
+    max_scale:      15,
+    count:          100,
     hue_shift:      50,
     hue:            bitlib.random.int(0, 360),
     saturation:     1,
@@ -69,11 +69,11 @@ function set_slider_params(prop, min, max, step, value) {
 }
 
 // set parameters of input elements on load
-set_slider_params('max_scale',     1.0,  30.0,   0.01, state.max_scale);
-set_slider_params('count',         1.0,  700.0, 1.0,  state.count);
-set_slider_params('hue',           0.0,  360.0,  1.0,  state.hue);
-set_slider_params('bg_hue',        0.0,  360.0,  1.0,  state.bg_hue);
-set_slider_params('bg_saturation', 0.0,  1.0,    0.01, state.bg_saturation);
+set_slider_params('max_scale',     1.0,   30.0,  0.01, state.max_scale);
+set_slider_params('count',         1.0,  500.0,  1.00, state.count);
+set_slider_params('hue',           0.0,  360.0,  1.00, state.hue);
+set_slider_params('bg_hue',        0.0,  360.0,  1.00, state.bg_hue);
+set_slider_params('bg_saturation', 0.0,    1.0,  0.01, state.bg_saturation);
 set_slider_params('operatorIndex', 0,  operators.length, 1, state.operatorIndex);
 
 // handler for all sliders

@@ -13,16 +13,20 @@ Since it’s beginning, Sensorium has been collaborating with [Resonate](http://
 
 We believe the program will amaze you. Sensorium invites ground-breaking works of art employing cutting-edge technology, but mainly the opportunity to meet and connect with innovative artists and designers. The aim of the event is to give creators a space to present their work and through that to stir a forward-thinking debate of ideas, opinions and visions connecting technology and art.
 
-## Sensorium 2018 Theme
-This year's conference theme 'Homo Arbiter Formae' (Latin for 'Man the maker of aesthetic decisions', after Jack Burnham's 1968 System Aesthetics).
+### Sensorium 2018 Theme
 
-Through this theme, we'd like to address the shifting role of creators from 'Man the maker' to 'Man the maker of aesthetic decisions'. We recognize this progression - which Burnham traces back to the start of the industrial revolution - in the speakers' work in several ways:
+Throughout this year’s conference, we will examine contemporary innovation in creative practice in the wider context of the changing role of ‘the creator’. Building on Jack Burnham’s 1968 essay ['System Aesthetics'](https://www.are.na/block/2081303), we will investigate the shift from “Homo Faber” (Man the Maker) to **“Homo Arbiter Formae”** (Man the Maker of Aesthetic Decisions). 
 
-*     a more distanced relationship between the creator and their work (or part of their work process), in the sense that creators often work on tools or frameworks which in turn produce/render/generate the work.
-*     a changing role of the creator, which becomes more akin to 'system thinker' as they are more involved with defining a system of rules, procedures and parameters that can be bring forth instantiations of the work.
-*     in the work of this year's speakers (and many of the previous ones) we see traces of an aesthetic that seems to embody this changing relation.
+This is a shift away from the materiality of the conventional art object and the direct control of the creator making that object. A shift towards conceptuality and a more distanced stance towards the object itself, allowing for focus on the systems and processes that bring forth the work.
 
-We can’t wait to see you!
+What is lost in this shift? What is gained? <br>
+We look forward to explore this theme together with you!
+
+#### Exploring Sensorium's system aesthetics
+
+We invite you to explore the system behind the animations you see running on the [home page background](/#about) and make your own aesthetic decisions using the black sliders on the page. 
+
+These animations are created by [bit101 (Keith Peters)](http://www.bit-101.com/) and we are grateful that he's given us the oportunity to build on his open-source work. Check out his [BIT-101 Lab](https://bit101.github.io/lab/thumbs.html), which has an amazing collection of daily sketches built using HTML5 Canvas.
 
 
 
