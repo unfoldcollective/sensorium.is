@@ -6,12 +6,13 @@ $light-green: 	 #9CFCCF;
 $sensorium-gray: #CDCCCB;
 
 
-$text-color: #EAEAEA; // #222222;
-$border-color: #444; // #EAEAEA;
-$bg-color: black; //white;
+$text-color: #333; // #222222;
+$border-color: #000; // #EAEAEA;
+$bg-color: $sensorium-gray; //white;
 
 $event-color-0: $bg-color; 
-$event-color-1: $sensorium-teal; 
+$event-bg-1: radial-gradient(at 100% 100%, transparent 20%, white 80%) ;
+$event-color-1: white; 
 $event-color-2: $light-purple; 
 $event-color-3: darken($sensorium-pink, 10%);
 $event-color-4: $event-color-1;
@@ -24,5 +25,5 @@ $primary-font: 'Source Sans Pro', sans-serif;
 //colum number
 $columns-number: 1;
 
-$row-height: 65px;
-$row-height-large: 40px;
+$row-height: 70px;
+$row-height-large: 70px;
