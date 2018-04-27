@@ -1213,7 +1213,7 @@ Main Components
     top: 0;
     right: 0;
     z-index: 3;
-    background: rgba(0, 0, 0, 0.1);
+    background: none;
     /* replace text with icon */
     color: transparent;
     white-space: nowrap;
@@ -1228,7 +1228,7 @@ Main Components
       left: 50%;
       width: 2px;
       height: 22px;
-      background: #CDCCCB;
+      background: #333;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; }
     .cd-schedule .event-modal .close::before {
