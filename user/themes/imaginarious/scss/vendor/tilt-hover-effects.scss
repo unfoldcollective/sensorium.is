@@ -3,13 +3,29 @@
 	position: relative;
 	width: 300px;
 	height: 415px;
-	margin: 1.5em 2.5em;
-	color: #fff;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	margin-left: 3rem;
+	margin-right: 1rem;
+	color: #000;
 	flex: none;
 	perspective: 1000px;
 
 	@include breakpoint(mobile-only) {
 		width: 220px;
+		height: 350px;
+	}
+	@include breakpoint(large-mobile-range) {
+		width: 181px;
+		height: 263px;
+		margin-left: 1.5rem;
+	}
+	@include breakpoint(tablet-range) {
+		width: 250px;
+		height: 345px;
+	}
+	@include breakpoint(large-desktop-range) {
+		width: 255px;
 		height: 350px;
 	}
 
@@ -214,11 +230,23 @@ $text-color: $core-text;
 	stroke-width: 6px;
 	top: -50px;
 	left: -50px;
+
+	@include breakpoint(large-mobile-range) {
+		top: -48px;
+		left: -24px;
+	}
 }
 
 .tilter--6 .tilter__caption {
-	padding: 0 4em 5.5em 1em;
 	text-align: left;
+	padding: 0 4em 5.5em 1em;
+
+	@include breakpoint(large-mobile-range) {
+		padding: 0 4em 2.5em 1em;
+	}
+	@include breakpoint(large-desktop-range) {
+		padding: 0 4.5em 5.5em 1em;
+	}
 
 	.tilter__description {
 		font-weight: 800;
