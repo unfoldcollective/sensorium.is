@@ -38,6 +38,21 @@ var state = {
     operatorIndex:  6,
 }
 
+// get URL Parameters and merge with state
+var urlParams = new URLSearchParams(window.location.search);
+var urlState = {
+    max_scale:     parseFloat(urlParams.get('max_scale')),
+    count:         parseFloat(urlParams.get('count')),
+    hue:           parseFloat(urlParams.get('hue')),
+    bg_hue:        parseFloat(urlParams.get('bg_hue')),
+    bg_saturation: parseFloat(urlParams.get('bg_saturation')),
+    operatorIndex: parseInt(  urlParams.get('operatorIndex')),
+}
+// remove null values
+Object.keys(urlState).forEach((key) => (urlState[key] == null || isNaN(urlState[key])) && delete urlState[key]);
+
+var state = Object.assign(state, urlState);
+
 var operators = [
     'destination-out',
     'xor',
@@ -69,12 +84,12 @@ function set_slider_params(prop, min, max, step, value) {
 }
 
 // set parameters of input elements on load
-set_slider_params('max_scale',     1.0,   30.0,  0.01, state.max_scale);
-set_slider_params('count',         1.0,  500.0,  1.00, state.count);
-set_slider_params('hue',           0.0,  360.0,  1.00, state.hue);
-set_slider_params('bg_hue',        0.0,  360.0,  1.00, state.bg_hue);
-set_slider_params('bg_saturation', 0.0,    1.0,  0.01, state.bg_saturation);
-set_slider_params('operatorIndex', 0,  operators.length, 1, state.operatorIndex);
+set_slider_params('max_scale',     1.0,              30.0,  0.01, state.max_scale);
+set_slider_params('count',         1.0,             500.0,  1.00, state.count);
+set_slider_params('hue',           0.0,             360.0,  1.00, state.hue);
+set_slider_params('bg_hue',        0.0,             360.0,  1.00, state.bg_hue);
+set_slider_params('bg_saturation', 0.0,               1.0,  0.01, state.bg_saturation);
+set_slider_params('operatorIndex', 0  ,  operators.length,     1, state.operatorIndex);
 
 // handler for all sliders
 function set_state(prop, value) {
@@ -82,12 +97,38 @@ function set_state(prop, value) {
     propVal = parseFloat(value);
     state[prop] = propVal;
 
+    // set URLParameter
+    set_url_parameter(prop, value, urlParams);
+
     // sync all slider inputs
     var sliders_for_prop = document.getElementsByClassName('slider '+prop);
     for (var i = 0; i < sliders_for_prop.length; i++) {
         sliders_for_prop[i].value = propVal;
     }
 }
+
+function set_url_parameter(prop, value, urlParams) {
+    urlParams.set(prop, value);
+    window.history.replaceState({}, '', '/?' + urlParams);
+}
+
+function set_href_twitter(element) {
+    element.setAttribute('href', "https://twitter.com/intent/tweet?url=" 
+        + encodeURIComponent(window.location.href)
+        + "&text=Exploring+Sensorium+System+Aesthetics"
+        + "&hashtags=HomoArbiterFormae,sensorium18"
+    )
+    return true;
+}
+
+function set_href_facebook(element) {
+    element.setAttribute('href', "https://www.facebook.com/sharer.php?u="
+        + encodeURIComponent(window.location.href)
+    )
+    return true;
+}
+
+
 
 
 bitlib.anim(update).start();
