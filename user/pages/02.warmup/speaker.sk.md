@@ -20,12 +20,12 @@ Príď sa naladiť na Sensorium Festival už onedlho do Satori Stage. Pripravili
 
 #####  18:00 - 19:00: WORKSHOP "1000 Mindreaders"
 
-Záväzná REGISTRÁCIA vopred je nutná. Prihlásiť sa môžete emailom na cez [https://ti.to/sensorium/sensorium-2018](ti.to/sensorium/sensorium-2018)
+Záväzná REGISTRÁCIA vopred je nutná. Prihlásiť sa môžete emailom na cez [https://ti.to/sensorium/sensorium-2018](https://ti.to/sensorium/sensorium-2018)
 K dispozícií je 30 miest. Vstup za dobrovoľný príspevok. 
 
 ##### 19:15 - 20:00: PREDNÁŠKA Stuarta Nolana
 
-Záväzná REGISTRÁCIA cez [https://ti.to/sensorium/sensorium-2018 ](ti.to/sensorium/sensorium-2018)je nutná. Vstup za dobrovoľný príspevok. 
+Záväzná REGISTRÁCIA cez [https://ti.to/sensorium/sensorium-2018 ](https://ti.to/sensorium/sensorium-2018)je nutná. Vstup za dobrovoľný príspevok. 
 
 Napodujatí si môžete zakúpiť Sensorium pas za výhodnú cenu 34 eur!
 Podujatie prebehne v anglickom jazyku.

@@ -6,6 +6,9 @@
     <div class="dt w-100 h3 mt1">
       <div class="dtc">
         <h3 class="f2 f3-m mv0 lh-title">{{ p.title }}</h3>
+        {% if p.header.subtitle %}
+        <h4 class="f3 f4-m mv0 lh-title">{{ p.header.subtitle }}</h4>
+        {% endif %}
       </div>
       <div class="dtc tr w2 relative">
         <h2 class="f3 f4-m mv0">

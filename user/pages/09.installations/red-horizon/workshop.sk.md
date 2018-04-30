@@ -30,7 +30,5 @@ Inštalácia Red Horizon vznikla v úzkej spolupráci so softvérovým umelcom M
 
 Zdroj fotografií: Marleen Sleeuwits/Maurice Tjon a Tham
 
-
-
-[http://www.gabeytjonatham.com]([http://www.gabeytjonatham.com])
+[www.gabeytjonatham.com](http://www.gabeytjonatham.com)
 

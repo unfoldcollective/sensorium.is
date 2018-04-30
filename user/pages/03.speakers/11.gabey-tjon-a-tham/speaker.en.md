@@ -18,4 +18,4 @@ Gabey observes behaviours in nature from where she extracts and assembles underl
 
 In her works the technology has a logic on its own, it conflicts and harmonizes. The artist develops techniques and invents mechanical sculptures that embed different materials and perform at different poetic levels. Hereby natural-mechanical choreographies arise. The works invite us to wonder at, contemplate, and investigate.
 
-[http://www.gabeytjonatham.com](http://www.gabeytjonatham.com)
+[www.gabeytjonatham.com](http://www.gabeytjonatham.com)
