@@ -113,11 +113,10 @@ function set_url_parameter(prop, value, urlParams) {
 }
 
 function set_href_twitter(element) {
-    element.setAttribute('href', "https://twitter.com/intent/tweet?url=" 
+    element.href = "https://twitter.com/intent/tweet?url=" 
         + encodeURIComponent(window.location.href)
         + "&text=Exploring+Sensorium+System+Aesthetics"
         + "&hashtags=HomoArbiterFormae,sensorium18"
-    )
     return true;
 }
 
@@ -128,8 +127,14 @@ function set_href_facebook(element) {
     return true;
 }
 
-
-
+/**
+ * Call downloadCanvas from within a onclick event.
+ * params: this ref to element (passed by anchor element), canvasID, filename
+*/
+function downloadCanvas(element, canvasId, filename) {
+    element.href = document.getElementById(canvasId).toDataURL();
+    element.download = filename;
+}
 
 bitlib.anim(update).start();
 
