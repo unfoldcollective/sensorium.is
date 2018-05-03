@@ -100,16 +100,21 @@ function set_state(prop, value) {
     // set URLParameter
     set_url_parameter(prop, value, urlParams);
 
-    // // set background color
-    // if (prop == 'bg_hue' || prop == 'bg_saturation' || prop == 'bg_lightness') {
-    //     document.querySelector('body').style.backgroundColor = "hsl("+state.bg_hue+","+state.bg_saturation*100+"%,"+state.bg_lightness*100+"%)";
-    // }
+    // set background color
+    if (prop == 'bg_hue' || prop == 'bg_saturation' || prop == 'bg_lightness') {
+        set_css_bg();
+    }
 
     // sync all slider inputs
     var sliders_for_prop = document.getElementsByClassName('slider '+prop);
     for (var i = 0; i < sliders_for_prop.length; i++) {
         sliders_for_prop[i].value = propVal;
     }
+}
+
+function set_css_bg() {
+    bgColorString = "hsl("+state.bg_hue+", "+state.bg_saturation*250+"%, "+state.bg_lightness*80+"%)";
+    document.querySelector('body').style.backgroundColor = bgColorString;
 }
 
 function set_url_parameter(prop, value, urlParams) {
@@ -140,9 +145,6 @@ function downloadCanvas(element, canvasId, filename) {
     element.href = document.getElementById(canvasId).toDataURL();
     element.download = filename;
 }
-
-// set_state('bg_hue', bitlib.random.int(0, 360));
-bitlib.anim(update).start();
 
 function update() {
     bitlib.random.seed(0);
@@ -192,3 +194,7 @@ function resize() {
     height = context.height = context.canvas.height = window.innerHeight;
 }
 window.onresize = resize;
+
+// set_state('bg_hue', bitlib.random.int(0, 360));
+set_css_bg();
+bitlib.anim(update).start();
