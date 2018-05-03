@@ -1,5 +1,6 @@
 ---
 title: 'Red Horizon'
+subtitle: 'Gabey Tjon a Tham'
 taxonomy:
     category:
         - workshops
@@ -13,8 +14,14 @@ time: '10.00 - 18.00'
 description: 'Red Horizon creates a swarm of light and sound; a combination of chaos and precision, appearance and intention.'
 ---
 
-**Gabey Tjon a Tham**
+**The Red Horizon installation can be seen at the [Pisztory Palace at Stefanikova 25, Bratislava](https://goo.gl/maps/RXjCi49tvoo) during these times**:
 
+Thursday 3rd May 16.00 - 20.00 <br/>
+Friday 4th May 16.00 - 20.00 <br/>
+Saturday 5th May 10.00 - 19.00
+
+**3-4 May free public entry. <br/>
+5 May for conference attendees only.**
 
 Red Horizon creates a swarm of light and sound; a combination of chaos and precision, appearance and intention. When viewing for a longer period, lucid afterimages reveal themselves; new forms and drawings appear arbitrarily on the retina and are painted by the brain. The entities seem to originate from a night-like reality.
 
@@ -25,8 +32,6 @@ Each arm of the pendulum contains a white light and a small speaker that moves a
 The installation is a customised system that integrates this principle in the spatialisation of the sound, the development in time and the mechanism of the double pendulums.
 
 Red Horizon was created in close collaboration with software artist Marcus Graf. It is a co- production of TodaysArt (the Hague) and Museum of Transitory Art (MoTA, Ljubljana).
-
-**The Red Horizon installtion can be seen in the Pisztory Palace 3rd - 5th May.**
 
 [www.gabeytjonatham.com](http://www.gabeytjonatham.com)
 

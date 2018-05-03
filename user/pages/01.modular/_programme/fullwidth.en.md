@@ -122,7 +122,7 @@ process:
                         Fri 4 May
                     </h4>
                     <h5 class="f4 f3-ns ma0">
-                        20:30 - 00:00
+                        21:00 - 00:00
                     </h5>
                     <h5 class="f4 f3-ns ma0">
                         <a href="http://www.a4.sk/">A4</a>

@@ -62,9 +62,17 @@ partners:
         url: 'https://www.hopintaxi.com/'
         logo: hopin_logo_black_transparent_bcg.png
     -
+        name: 'Botanical Lab'
+        url: 'https://www.facebook.com/lab.botanical/'
+        logo: botanical.hpg
+    -
         name: 'Hotel Tatra'
         url: 'https://www.hoteltatra.sk/en/'
         logo: hoteltatra.png
+    -
+        name: PHC
+        url: 'https://www.phc.sk/'
+        logo: logo_greyww.jpg
     -
         name: Webexpo
         url: 'https://webexpo.net'
