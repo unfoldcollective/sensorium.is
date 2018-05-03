@@ -10,6 +10,57 @@ process:
 <section class="fullwidth cf w-100 tl tc-ns mt4-ns">
     <div class="mw24rem dib v-top w-100 w-30-ns">
         <article class="pa3 bgi-radialgrad tl b--black bw2">
+            <div>
+                <h3 class="f2 f1-ns lh-title ma0 break-word">
+                    Installations
+                </h3>
+                <h4 class="tr f3 f2-ns ma0 mt2 mt0-ns">
+                    Thurs 3 May 16.00&nbsp;-&nbsp;20.00<br>
+                    Fri 4 May 16.00&nbsp;-&nbsp;20.00<br>
+                    Sat 5 May 10.00&nbsp;-&nbsp;19.00<br>
+                </h4>
+                <h5 class="tr f4 f3-ns ma0">
+                    3-4 May free public entry<br>
+                    5 May for conference attendees only<br>
+                </h5>
+                <h5 class="tr f4 f3-ns ma0">
+                    <a href="https://goo.gl/maps/RXjCi49tvoo">Pisztory Palace</a>
+                </h5>
+            </div>
+            <div class="dt w-100 mt1 f6 f5-l">
+              <div class="dtc">
+                <span class="mv0 b"><a href="/workshops/cclx">more info ...</a></span>
+              </div>
+              <div class="dtc tr">
+                <span class="mv0 bg-white pa1 b">Open to public</span>
+              </div>
+            </div>
+        </article>
+        <article class="pa3 bgi-radialgrad tl b--black bw2">
+            <div>
+                <h3 class="f2 f1-ns lh-title ma0 break-word">
+                    Choreographic Coding Lab Presents
+                </h3>
+                <h4 class="tr f3 f2-ns ma0 mt2 mt0-ns">
+                    Fri 04 May
+                </h4>
+                <h5 class="tr f4 f3-ns ma0">
+                    18:00 - 19:30
+                </h5>
+                <h5 class="tr f4 f3-ns ma0">
+                    <a href="https://goo.gl/maps/RXjCi49tvoo">Pisztory Palace</a> Main hall
+                </h5>
+            </div>
+            <div class="dt w-100 mt1 f6 f5-l">
+              <div class="dtc">
+                <span class="mv0 b"><a href="/workshops/cclx">more info ...</a></span>
+              </div>
+              <div class="dtc tr">
+                <span class="mv0 bg-white pa1 b">Open to public</span>
+              </div>
+            </div>
+        </article>
+        <article class="pa3 bgi-radialgrad tl b--black bw2">
             <div class="lh-title">
                 <h3 class="f2 f1-ns ma0">
                     Computer Vision Workshop
@@ -37,30 +88,6 @@ process:
                 </div>
             </div>
         </article>
-        <article class="pa3 bgi-radialgrad tl b--black bw2">
-            <div>
-                <h3 class="f2 f1-ns lh-title ma0 break-word">
-                    Choreographic Coding Lab Presents
-                </h3>
-                <h4 class="tr f3 f2-ns ma0 mt2 mt0-ns">
-                    Fri 04 May
-                </h4>
-                <h5 class="tr f4 f3-ns ma0">
-                    18:00 - 20:00
-                </h5>
-                <h5 class="tr f4 f3-ns ma0">
-                    Pisztory Palace Main hall
-                </h5>
-            </div>
-            <div class="dt w-100 mt1 f6 f5-l">
-              <div class="dtc">
-                <span class="mv0 b"><a href="/workshops/cclx">more info ...</a></span>
-              </div>
-              <div class="dtc tr">
-                <span class="mv0 bg-white pa1 b">Open to public</span>
-              </div>
-            </div>
-        </article>
     </div>
     <div class="mw24rem dib v-top w-100 w-34-ns">
         <article class="mh-1-ns relative top--2-ns pa3 mv2 bgi-radialgrad tl b--black bw2">
@@ -76,7 +103,7 @@ process:
                         09:30 - 19:30
                     </h5>
                     <h5 class="f4 f3-ns ma0">
-                        Pisztory Palace Main hall
+                        <a href="https://goo.gl/maps/RXjCi49tvoo">Pisztory Palace</a> Main hall
                     </h5>
                 </div>
             </div>
