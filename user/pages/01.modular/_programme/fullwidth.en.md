@@ -29,7 +29,7 @@ process:
             </div>
             <div class="dt w-100 mt1 f6 f5-l">
               <div class="dtc">
-                <span class="mv0 b"><a href="/workshops/cclx">more info ...</a></span>
+                <span class="mv0 b"><a href="#installations">more info ...</a></span>
               </div>
               <div class="dtc tr">
                 <span class="mv0 bg-white pa1 b">Open to public</span>
