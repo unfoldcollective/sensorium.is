@@ -26,7 +26,16 @@ Inštalácia je prispôsobená systému, ktorý integruje tento princíp do prie
 
 Inštalácia Red Horizon vznikla v úzkej spolupráci so softvérovým umelcom Marcusom Grafom. Ide o koprodukciu medzi hudobným festivalom TodaysArt (Haag) a múzeom tranzitórneho umenia MoTA (Ľubľana).
 
-**Inštaláciu Red Horizon môžete vidieť v Pistoriho paláci od 3. do 5. mája.**
+**Inštaláciu Red Horizon môžete vidieť v Pistoriho paláci, Štefánikova 25 Bratislava od 3. do 5. mája v týchto časoch.**
+
+Štvrtok 3. mája 16.00 - 20.00
+
+Piatok 4. mája 16.00 - 20.00
+
+Sobota 5. mája 10.00 - 19.00
+
+**3-4 mája je vstup voľný. 5. mája vstup len pre návštevníkov konferencie.**
+
 
 Zdroj fotografií: Marleen Sleeuwits/Maurice Tjon a Tham
 
