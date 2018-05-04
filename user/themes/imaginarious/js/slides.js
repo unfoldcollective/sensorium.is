@@ -6,7 +6,10 @@ var slides = document.querySelectorAll('.slide');
 
 function key_handler(e) {
     var key = window.event ? e.keyCode : e.which;
-    if (key >= 65 && key <= 90) {
+    if (e.shiftKey || e.altKey || e.ctrlKey || e.metaKey) {
+        return false;
+    }
+    else if (key >= 65 && key <= 90) {
         controls.classList.toggle('dn');
     }
     else if (key >= 48 && key <= 57) {
