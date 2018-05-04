@@ -1,14 +1,15 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+{% set partners_page = page.find('/modular/_partners') %}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getLanguage ?: 'en' }}">
 <head>
-{% block head %}
+  {% block head %}
     <meta charset="utf-8" />
     <title> 
-        {% if page.slug != 'modular' %}
-            {% if header.title %}{{ header.title|e('html') }} | {% endif %}
-        {% endif %}
-        {{ site.title|e('html') }}
+    {% if page.slug != 'modular' %}
+      {% if header.title %}{{ header.title|e('html') }} | {% endif %}
+      {% endif %}
+      {{ site.title|e('html') }}
     </title>
     {% include 'partials/metadata.html.twig' %}
     {% include 'partials/favicons.html.twig' %}
@@ -16,74 +17,112 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/fonts.css') %}
-        {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
-        {% do assets.addCss('theme://css-compiled/nucleus.css', 102) %}
-        {% do assets.addCss('theme://css-compiled/template.css', 101) %}
-        {% do assets.addCss('theme://css-compiled/template-customized.css', 101) %}
-        {% do assets.addCss('theme://css/custom.css', 100) %}
-        {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
-        {% do assets.addCss('theme://css/slidebars.min.css') %}
-        {% do assets.addCss('theme://css/tachyons.min.css') %}
-        {% do assets.addCss('theme://css/slider.css') %}
+      {% do assets.addCss('theme://css/fonts.css') %}
+      {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
+      {% do assets.addCss('theme://css-compiled/nucleus.css', 102) %}
+      {% do assets.addCss('theme://css-compiled/template.css', 101) %}
+      {% do assets.addCss('theme://css-compiled/template-customized.css', 101) %}
+      {% do assets.addCss('theme://css/custom.css', 100) %}
+      {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
+      {% do assets.addCss('theme://css/slidebars.min.css') %}
+      {% do assets.addCss('theme://css/tachyons.min.css') %}
+      {% do assets.addCss('theme://css/slider.css') %}
 
-        {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
-            {% do assets.addCss('theme://css/nucleus-ie10.css') %}
-        {% endif %}
-        {% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}
-            {% do assets.addCss('theme://css/nucleus-ie9.css') %}
-            {% do assets.addJs('theme://js/html5shiv-printshiv.min.js') %}
-        {% endif %}
+      {% if browser.getBrowser == 'msie' and browser.getVersion == 10 %}
+        {% do assets.addCss('theme://css/nucleus-ie10.css') %}
+      {% endif %}
+      {% if browser.getBrowser == 'msie' and browser.getVersion >= 8 and browser.getVersion <= 9 %}
+        {% do assets.addCss('theme://css/nucleus-ie9.css') %}
+        {% do assets.addJs('theme://js/html5shiv-printshiv.min.js') %}
+      {% endif %}
     {% endblock %}
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery', 101) %}
-        {% do assets.addJs('theme://js/libs/bitlib_1_0_9.min.js', {group: 'bottom'}) %}
-        {% do assets.addJs('theme://js/libs/perlin.js', {group: 'bottom'}) %}
-        {% do assets.addJs('theme://js/slides-sketch.js', {group: 'bottom'}) %}
-        {% do assets.addJs('theme://js/slides.js', {group: 'bottom'}) %}
+      {% do assets.addJs('jquery', 101) %}
+      {% do assets.addJs('theme://js/libs/bitlib_1_0_9.min.js', {group: 'bottom'}) %}
+      {% do assets.addJs('theme://js/libs/perlin.js', {group: 'bottom'}) %}
+      {% do assets.addJs('theme://js/slides-sketch.js', {group: 'bottom'}) %}
+      {% do assets.addJs('theme://js/slides.js', {group: 'bottom'}) %}
     {% endblock %}
     {{ assets.js() }}
 
-{% endblock head %}
+  {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }}">
 
-    {% block background %}
-        <div id="bg-canvas" canvas="" style="z-index: 1;"></div>
-    {% endblock %}
+  {% block background %}
+    <div id="bg-canvas" canvas="" style="z-index: 1;"></div>
+  {% endblock %}
 
-    <section class="w-100 h-100">
-        <div class="slide index0 ph6 relative w-100 h-100">
-            <div class="absolute bottom-0 lh-title">
-                <h1 class="mb0" style="font-size: 9rem;">{{page.header.thankyou.title}}</h1>
-                <h2 class="mt0 mb6 f-subheadline" >{{page.header.thankyou.subtitle}}</h2>
-            </div>
+  <section class="w-100 h-100">
+    <div class="slide index0 ph6 relative w-100 h-100">
+      <div class="absolute bottom-0 lh-title mb5">
+
+        <h2>{{partners_page.header.mainPartnersTitle}}</h2>
+        <div>
+          {% for mainPartner in partners_page.header.mainPartners %}
+            <a class="glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{mainPartner.url}}" title="{{mainPartner.name}}" target="_blank" >
+              <img title="{{mainPartner.name}}" class="dib w5" src="{{ partners_page.media[mainPartner.logo].url }}" alt="{{mainPartner.name}}">
+            </a>
+          {% endfor %}
         </div>
-        {% for slide in page.header.slides %}
-            <div class="slide index{{loop.index}} ph6 relative w-100 h-100">
-                <div class="absolute bottom-0 lh-title">
-                    <h1 class="mb0" style="font-size: 9rem;">{{slide.title}}</h1>
-                    <h2 class="mt0 mb6 f-subheadline" >{{slide.subtitle}}</h2>
-                </div>
-            </div>
-        {% endfor %}
-    </section>
+        {% if partners_page.header.mainPartnersSubtitle %}
+          <p>{{partners_page.header.mainPartnersSubtitle}}</p>
+        {% endif %}
+        
+        <h3>{{partners_page.header.supportersTitle}}</h3>
+        <div>
+          {% for supporter in partners_page.header.supporters %}
+            <a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{supporter.url}}" title="{{supporter.name}}" target="_blank" >
+              <img title="{{supporter.name}}" class="dib w4" src="{{ partners_page.media[supporter.logo].url }}" alt="{{supporter.name}}">
+            </a>
+          {% endfor %}
+        </div>
+        
+        <h3>{{partners_page.header.partnersTitle}}</h3>
+        <div>
+          {% for partner in partners_page.header.partners %}
+            <a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{partner.url}}" title="{{partner.name}}" target="_blank" >
+              <img title="{{partner.name}}" class="dib w4" src="{{ partners_page.media[partner.logo].url }}" alt="{{partner.name}}">
+            </a>
+          {% endfor %}
+        </div>
+        
 
-    <section class="slides-controls dn absolute w-100 h-100 top-0 z-2">
-      <div>
-        <input type="range" class="slider max_scale"     oninput="set_state('max_scale', this.value)"     onchange="set_state('max_scale', this.value)">
-        <input type="range" class="slider count"         oninput="set_state('count', this.value)"         onchange="set_state('count', this.value)">
-        <input type="range" class="slider hue"           oninput="set_state('hue', this.value)"           onchange="set_state('hue', this.value)">
-        <input type="range" class="slider bg_hue"        oninput="set_state('bg_hue', this.value)"        onchange="set_state('bg_hue', this.value)">
-        <input type="range" class="slider bg_saturation" oninput="set_state('bg_saturation', this.value)" onchange="set_state('bg_saturation', this.value)">
-        <input type="range" class="slider operatorIndex" oninput="set_state('operatorIndex', this.value)" onchange="set_state('operatorIndex', this.value)">
       </div>
-    </section>    
-    
-    {% block bottom %}
-        {{ assets.js('bottom') }}
-    {% endblock %}
+      <div class="absolute top-0 right-0 mr6 mt4">
+        {% if page.header.thankyou.title %}
+        <h1 class="ma0" style="font-size: 7rem;">{{page.header.thankyou.title}}</h1>
+        {% endif %}
+        {% if page.header.thankyou.subtitle %}
+        <h2 class="ma0 f-subheadline" >{{page.header.thankyou.subtitle}}</h2>
+        {% endif %}
+      </div>
+    </div>
+    {% for slide in page.header.slides %}
+      <div class="slide index{{loop.index}} ph6 relative w-100 h-100">
+        <div class="absolute bottom-0 lh-title">
+          <h1 class="mb0" style="font-size: 9rem;">{{slide.title}}</h1>
+          <h2 class="mt0 mb6 f-subheadline" >{{slide.subtitle}}</h2>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+
+  <section class="slides-controls dn absolute w-100 h-100 top-0 z-2">
+    <div>
+      <input type="range" class="slider max_scale"     oninput="set_state('max_scale', this.value)"     onchange="set_state('max_scale', this.value)">
+      <input type="range" class="slider count"         oninput="set_state('count', this.value)"         onchange="set_state('count', this.value)">
+      <input type="range" class="slider hue"           oninput="set_state('hue', this.value)"           onchange="set_state('hue', this.value)">
+      <input type="range" class="slider bg_hue"        oninput="set_state('bg_hue', this.value)"        onchange="set_state('bg_hue', this.value)">
+      <input type="range" class="slider bg_saturation" oninput="set_state('bg_saturation', this.value)" onchange="set_state('bg_saturation', this.value)">
+      <input type="range" class="slider operatorIndex" oninput="set_state('operatorIndex', this.value)" onchange="set_state('operatorIndex', this.value)">
+    </div>
+  </section>    
+
+  {% block bottom %}
+    {{ assets.js('bottom') }}
+  {% endblock %}
 </body>
 </html>

@@ -4,7 +4,6 @@ hide_in_menu: true
 body_classes: 'modular header-image fullwidth'
 thankyou:
     title: Thank you
-    subtitle: to our partners and sponsors
 slides:    
     - 
         title: 'Christian "Mio" Loclaire'
