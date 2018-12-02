@@ -1,0 +1,119 @@
+/*
+$sensorium-teal: #0096AC;
+$light-purple:   #A463F2;
+$sensorium-pink: #FBD2CE;
+$light-green:    #9CFCCF;
+$sensorium-gray: #CDCCCB;
+*/
+html, body {
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased;
+    /*background: #000;*/
+}
+
+.text-shadow {
+  text-shadow: 0 0 10px #000;
+}
+
+/* Pointer Events*/
+.penone {
+    pointer-events: none;
+}
+.peall {
+    pointer-events: all;
+}
+a {
+    pointer-events: all;
+}
+
+/* Fonts*/
+.regular {
+    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.semi-bold {
+    font-family: "Montserrat-SemiBold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.light {
+    font-family: "Montserrat-Light", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.extra-light {
+    font-family: "Montserrat-ExtraLight", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+/* Links*/
+a {
+    color: #FFF;
+    text-shadow: 0 0 30px #000;
+}
+a:hover {
+    color: #FFF;
+    text-shadow: 0 0 8px #000;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale !important;
+  backface-visibility: hidden !important;
+  transform: translateZ(0) !important;
+  transition: transform 0.25s ease-out !important;
+}
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05) !important;
+}
+
+/* Custom Margins */
+.mh-2 {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+
+@screen and (min-width: 30em) and (max-width: 60em) {
+    .mh-4-m {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }    
+}
+
+@screen and (min-width: 60em) {
+    .mh-5-l {
+        margin-left: -4rem;
+        margin-right: -4rem;
+    }
+}
+
+/* Animated Logotype */
+iframe.animatedLogotype, img.logotype {
+    width: 290px;
+    height: 116px;
+}
+img.logotype {
+  margin-top: 29px;
+}
+
+@media (min-width: 480px) {
+    iframe.animatedLogotype, img.logotype {
+      width: 450px;
+      height: 180px;
+    }
+    img.logotype {
+      margin-top: 45px;
+    }
+}
+@media (min-width: 768px) {
+    iframe.animatedLogotype, img.logotype {
+      width: 630px;
+      height: 252px;
+    }
+    img.logotype {
+      margin-top: 63px;
+    }
+}
+@media (min-width: 960px) {
+    iframe.animatedLogotype, img.logotype {
+      width: 750px;
+      height: 300px;
+    }
+    img.logotype {
+      margin-top: 75px;
+    }
+}
