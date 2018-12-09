@@ -150,6 +150,19 @@
             }
             $(this).toggleClass('muted');
         });
+
+        /* preload control icons */
+        var icons = [];
+        function preload() {
+            for (var i = 0; i < arguments.length; i++) {
+                icons[i] = new Image();
+                icons[i].src = preload.arguments[i];
+            }
+        }
+        preload(
+            '/user/themes/imaginarious/images/icons/icon-pause.svg',
+            '/user/themes/imaginarious/images/icons/icon-unmute.svg'
+        );
     </script>
 </body>
 
