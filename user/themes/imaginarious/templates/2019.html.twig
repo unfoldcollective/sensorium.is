@@ -1,0 +1,169 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+<!DOCTYPE html>
+<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<head>
+{% block head %}
+    <meta charset="utf-8" />
+    <title> 
+        {% if page.slug != 'modular' %}
+            {% if header.title %}{{ header.title|e('html') }} | {% endif %}
+        {% endif %}
+        {{ site.title|e('html') }}
+    </title>
+    {% include 'partials/metadata.html.twig' %}
+    {% include 'partials/favicons.html.twig' %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css/fonts.css') %}    
+        {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
+        {% do assets.addCss('theme://css/tachyons.min.css') %}
+        {% do assets.addCss('theme://css/2019.landing.css') %}
+        {% do assets.addCss('theme://css/bg-video.css') %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    <script
+              src="https://code.jquery.com/jquery-3.3.1.min.js"
+              integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    {% block javascripts %}
+        {#{% do assets.addJs('theme://js/sketch.min.js') %}#}
+
+        {#{% do assets.addJs('https://player.vimeo.com/api/player.js') %}#}
+    {% endblock %}
+    {{ assets.js() }}
+
+{% endblock head %}
+</head>
+
+<body class="h-100 pa0 ma0 extra-light bg-black">
+    <div class="vimeo-wrapper blurred">
+        <iframe
+        id="bg-video"
+        src="https://player.vimeo.com/video/286525537?background=1&autoplay=0&loop=1&byline=0&title=0" 
+        frameborder="0" 
+        webkitallowfullscreen mozallowfullscreen allowfullscreen
+        ></iframe>
+    </div>
+    <div class="min-h-100 relative white mh2 mh4-m mh5-l">
+        <header class="js-video-fade">
+            <a class="bg-black-50 fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular mr6 mr6-l" href="{{page.header.previousButtonHref}}" title="{{page.header.previousButtonTitle}}">
+                {{page.header.previousButtonText}}
+            </a>
+            <a class="bg-black-50 fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular" href="{{config.site.ticket_url}}" title="Sensorium Festival Tickets">
+                Tickets
+            </a>
+            <img class="logotype" src="{{ url('theme://images/logos/logo-sensorium-white.svg') }}" alt="Sensorium logo">
+            
+            <div class="text-shadow">
+                {% if page.header.heading1 %}
+                    <h1 class="peall f3 f2-ns fw1 lh-title measure regular">{{page.header.heading1}}</h1>
+                {% endif %}
+                {% if page.header.heading2 %}
+                    <h2 class="peall f4 f3-ns fw1 lh-title measure regular">{{page.header.heading2}}</h2>
+                {% endif %}
+                {% if page.header.heading2sub %}
+                    <h2 class="peall f4 f3-ns fw1">{{page.header.heading2sub}}</h2>
+                {% endif %}
+                {% if page.header.heading3 %}
+                    <h3 class="peall f5 f4-ns fw1">{{page.header.heading3}}</h3>
+                {% endif %}
+            </div>
+        </header>
+        
+        <div class="control-wrapper">
+            <!-- video control : play/pause -->
+            <a class="dib video-control js-video-control" href="#" ></a>
+            <!-- audio control : mute/unmute -->
+            <a class="dib audio-control js-audio-control" href="#"></a>
+        </div>
+
+        <main class="js-video-fade">
+            <a class="bg-black-50 white f5 f3-m f2-l tc link grow ba bw1 ph3 pv2 mv3 dib light" href="{{config.site.ticket_url}}" title="Sensorium Festival Tickets">
+                {{page.header.ticketButtonText}}
+            </a>
+        </main>
+        <div class="mt4 mt5-l pb6 pb7-l"></div>
+        <footer class="js-video-fade absolute bottom-0 w-100 h4 h5-l tc">
+            <div class="text-shadow regular">{{page.header.disclaimer}}</div>
+            <nav class="tc dib v-mid f3 f2-l ma2 relative">
+                <div class="dib mr2">
+                    <a class="link dib v-mid" href="mailto:hello@sensorium.is">
+                        <i class="mv3 fa fa-envelope pr2"></i>
+                    </a>
+                    <a class="link dib v-mid" target="_blank" href="https://www.facebook.com/sensoriumis" title="Sensorium Festival">
+                        <i class="mv3 fa fa-facebook ph1"></i>
+                    </a>
+                    <a class="link dib v-mid" target="_blank" href="https://twitter.com/SensoriumIs" title="@SensoriumIs">
+                        <i class="mv3 fa fa-twitter ph1"></i>
+                    </a>
+                    <a class="link dib v-mid" target="_blank" href="https://www.instagram.com/sensorium.is/" title="sensorium.is">
+                        <i class="mv3 fa fa-instagram ph1"></i>
+                    </a>
+                </div>
+                <a class="bg-black-50 light link dib v-mid f6 f5-l link grow ba bw1 ph3 pv2 dib white" href="http://eepurl.com/cAuT-X" target="_blank">
+                    Newsletter
+                </a>
+                <a class="dib f6 f5-l light ph3 mv3" href="https://2017.sensorium.is">Sensorium 2017</a>
+                <a class="dib f6 f5-l light ph3 mv3" href="https://2018.sensorium.is">Sensorium 2018</a>
+            </nav>
+            <h4 class="mb3 text-shadow">Brought to you by</h4>
+            <a class="link dib v-mid dim mv2 mv3-l " href="http://www.unfold.is/" target="_blank">
+                <img class="w3 w4-l" src="{{ url('theme://images/logos/logo-unfold-white.png') }}" alt="Unfold">
+            </a>
+        </footer>
+    </div>
+
+    <script type="text/javascript">
+        var vimeoIframe = document.querySelector('#bg-video');
+        var player = new Vimeo.Player(vimeoIframe);
+
+        $(".js-video-control").click(function(e) {
+            e.preventDefault();
+            isPlaying = $(this).hasClass('playing');
+            if (!isPlaying) {
+                player.play();
+                $('.js-video-fade').fadeTo(800, 0);
+            }
+            else {
+                player.pause();
+                $('.js-video-fade').fadeTo(400, 1);
+            }
+            $(this).toggleClass('playing');
+            $(this).parent().toggleClass('playing');
+            $('body').toggleClass('overflow-hidden');
+            $('.vimeo-wrapper').toggleClass('blurred');
+        });
+
+        $(".js-audio-control").click(function(e) {
+            e.preventDefault();
+            isMuted = $(this).hasClass('muted');
+            if (!isMuted) {
+                player.setVolume(0);
+            }
+            else {
+                player.setVolume(1);
+            }
+            $(this).toggleClass('muted');
+        });
+
+        /* preload control icons */
+        var icons = [];
+        function preload() {
+            for (var i = 0; i < arguments.length; i++) {
+                icons[i] = new Image();
+                icons[i].src = preload.arguments[i];
+            }
+        }
+        preload(
+            '/user/themes/imaginarious/images/icons/icon-pause.svg',
+            '/user/themes/imaginarious/images/icons/icon-unmute.svg'
+        );
+    </script>
+</body>
+
+</html>
