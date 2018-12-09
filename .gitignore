@@ -13,7 +13,7 @@ user/data/*
 # OS Generated
 .DS_Store*
 ehthumbs.db
-Icon?
+# Icon?
 Thumbs.db
 *.swp
 
