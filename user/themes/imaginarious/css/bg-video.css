@@ -26,7 +26,6 @@
 
 /* controls */
 .video-control {
-  /*display: block;*/
   width: 44px; /*fallback*/
   height: 44px; /*fallback*/
   width: 10vw;
@@ -44,6 +43,7 @@
   opacity: 1 !important;
 }
 .video-control.playing {
+  opacity: 0.3;
   background-image: url('../images/icons/icon-pause.svg');
 }
 
@@ -64,6 +64,9 @@
 }
 .audio-control:hover {
   opacity: 1 !important;
+}
+.playing > .audio-control {
+  opacity: 0.3;
 }
 .audio-control.muted {
   background-image: url('../images/icons/icon-unmute.svg');

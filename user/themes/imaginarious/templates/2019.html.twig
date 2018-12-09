@@ -40,9 +40,8 @@
 {% endblock head %}
 </head>
 
-<body class="h-100 pa0 ma0 extra-light">
-    <!-- <div class="peall fixed " id="sketch-container"></div> -->
-    <div class="vimeo-wrapper">
+<body class="h-100 pa0 ma0 extra-light bg-black">
+    <div class="vimeo-wrapper blurred">
         <iframe
         id="bg-video"
         src="https://player.vimeo.com/video/286525537?background=1&autoplay=0&loop=1&byline=0&title=0" 
@@ -76,10 +75,12 @@
             </div>
         </header>
         
-        <!-- video control : play/pause -->
-        <a class="dib video-control js-video-control" href="#" ></a>
-        <!-- audio control : mute/unmute -->
-        <a class="dib audio-control js-audio-control" href="#"></a>
+        <div class="control-wrapper">
+            <!-- video control : play/pause -->
+            <a class="dib video-control js-video-control" href="#" ></a>
+            <!-- audio control : mute/unmute -->
+            <a class="dib audio-control js-audio-control" href="#"></a>
+        </div>
 
         <main class="js-video-fade">
             <a class="bg-black-50 white f5 f3-m f2-l tc link grow ba bw1 ph3 pv2 mv3 dib light" href="{{config.site.ticket_url}}" title="Sensorium Festival Tickets">
@@ -117,40 +118,37 @@
         </footer>
     </div>
 
-    <script>
+    <script type="text/javascript">
         var vimeoIframe = document.querySelector('#bg-video');
         var player = new Vimeo.Player(vimeoIframe);
 
         $(".js-video-control").click(function(e) {
+            e.preventDefault();
             isPlaying = $(this).hasClass('playing');
             if (!isPlaying) {
                 player.play();
-                $(this).addClass('playing');
-                e.preventDefault();
                 $('.js-video-fade').fadeTo(800, 0);
-                $('body').toggleClass('overflow-hidden');
             }
             else {
                 player.pause();
-                $(this).removeClass('playing');
-                e.preventDefault();
                 $('.js-video-fade').fadeTo(400, 1);
-                $('body').toggleClass('overflow-hidden');
             }
+            $(this).toggleClass('playing');
+            $(this).parent().toggleClass('playing');
+            $('body').toggleClass('overflow-hidden');
+            $('.vimeo-wrapper').toggleClass('blurred');
         });
 
         $(".js-audio-control").click(function(e) {
+            e.preventDefault();
             isMuted = $(this).hasClass('muted');
             if (!isMuted) {
                 player.setVolume(0);
-                $(this).addClass('muted');
-                e.preventDefault();
             }
             else {
                 player.setVolume(1);
-                $(this).removeClass('muted');
-                e.preventDefault();
             }
+            $(this).toggleClass('muted');
         });
     </script>
 </body>
