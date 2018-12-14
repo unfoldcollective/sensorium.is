@@ -30,9 +30,7 @@
               crossorigin="anonymous"></script>
 
     {% block javascripts %}
-        {#{% do assets.addJs('theme://js/sketch.min.js') %}#}
-
-        {% do assets.addJs('theme://js/easy_background.min.js') %}
+        {% do assets.addJs('theme://js/jquery.chocolate.js') %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -107,24 +105,22 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            easy_background(
-                "#carousel",
-                {
-                    slide: [
-                        "user/themes/imaginarious/images/carousel/1.jpg",
-                        "user/themes/imaginarious/images/carousel/2.jpg",
-                        "user/themes/imaginarious/images/carousel/3.jpg",
-                        "user/themes/imaginarious/images/carousel/4.jpg",
-                        "user/themes/imaginarious/images/carousel/5.jpg",
-                        "user/themes/imaginarious/images/carousel/6.jpg",
-                        "user/themes/imaginarious/images/carousel/7.jpg",
-                        "user/themes/imaginarious/images/carousel/8.jpg",
-                        "user/themes/imaginarious/images/carousel/9.jpg"
-                    ],
-                    delay: [
-                        5000
-                    ]}
-            );
+            $('#carousel').chocolate({
+                images    : [
+                    "user/themes/imaginarious/images/carousel/1.jpg",
+                    "user/themes/imaginarious/images/carousel/2.jpg",
+                    "user/themes/imaginarious/images/carousel/3.jpg",
+                    "user/themes/imaginarious/images/carousel/4.jpg",
+                    "user/themes/imaginarious/images/carousel/5.jpg",
+                    "user/themes/imaginarious/images/carousel/6.jpg",
+                    "user/themes/imaginarious/images/carousel/7.jpg",
+                    "user/themes/imaginarious/images/carousel/8.jpg",
+                    "user/themes/imaginarious/images/carousel/9.jpg"
+                ],
+                interval  : 5000,
+                speed     : 1000
+          });
+
         });
     </script>
 </body>
