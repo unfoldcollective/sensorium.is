@@ -1,0 +1,11 @@
+email: andrej@plusko.net
+fullname: Andrej
+title: 'Wannabe admin'
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$A1xCHCCi7nVj4NDjB2lwueBy8iZymxRoFnV9rh4HXTQZcMU0lplsm
