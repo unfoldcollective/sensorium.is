@@ -1,4 +1,5 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+{% set asser_ver = date().timestamp %} {# TODO remove for production to allow caching #}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getLanguage ?: 'en' }}">
 <head>
@@ -16,11 +17,11 @@
     <link rel="canonical" href="{{ page.url(true, true) }}" />
 
     {% block stylesheets %}
-        {% do assets.addCss('theme://css/fonts.css') %}
+        {% do assets.addCss('theme://css/fonts.css?v=20190210') %}
         {% do assets.addCss('theme://css/pure-0.5.0/grids-min.css', 103) %}
         {% do assets.addCss('theme://css-compiled/nucleus.css', 102) %}
         {% do assets.addCss('theme://css-compiled/template.css', 101) %}
-        {% do assets.addCss('theme://css-compiled/template-customized.css', 101) %}
+        {% do assets.addCss('theme://css-compiled/template-customized.css?v=20190210', 101) %}
         {% do assets.addCss('theme://css/custom.css', 100) %}
         {% do assets.addCss('theme://css/font-awesome.min.css', 100) %}
         {% do assets.addCss('theme://css/slidebars.min.css') %}
