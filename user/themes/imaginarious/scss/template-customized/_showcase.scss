@@ -28,9 +28,10 @@
         text-align: left;
         color: $header-text;
         h1 {
-            font-size: $h1-font-size * 1.2;
+            font-size: 6rem;
             margin-top: 0;
-            line-height: 1.4;
+            line-height: 5.25rem;
+            font-weight: bold;
             @include breakpoint(tablet-range) {
                 font-size: $h1-font-size * 1.0;
                 line-height: 1.2;
@@ -42,21 +43,37 @@
             }
         }
 
-        .button {
-            @extend .default-animation;
-            color: $header-text;
-            padding: 0.7rem 2rem;
-            margin-top: 2rem;
-            background: rgba(255,255,255,0);
-            border: 1px solid $header-text;
-            border-radius: $border-radius;
-            box-shadow: none;
-            font-size: $core-font-size + 0.3rem;
-
-            &:hover {
-                background: rgba(255,255,255,0.2);
-            }
+        h2 {
+            font-weight: $core-font-weight-light !important;
         }
+
+        h3 {
+            font-size: 2rem;
+            line-height: 2.5rem;
+            font-weight: 500;
+        }
+
+        // .button {
+        //     @extend .default-animation;
+        //     color: $header-text;
+        //     padding: 0.7rem 2rem;
+        //     margin-top: 2rem;
+        //     background: rgba(255,255,255,0);
+        //     border: 1px solid $header-text;
+        //     border-radius: $border-radius;
+        //     box-shadow: none;
+        //     font-size: $core-font-size + 0.3rem;
+
+        //     &:hover {
+        //         background: rgba(255,255,255,0.2);
+        //     }
+        // }
+
+        .link {
+            font-weight: $core-font-weight-medium;
+            border: 0.1rem solid black;
+        }
+
         .rotated-right {
             position: absolute;
 

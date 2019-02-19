@@ -116,31 +116,23 @@ $large-start: 60em;
 /* template: typography */
 // Body Base
 h1 {
-  text-align: inherit !important;
-	font-weight: inherit !important;
-	letter-spacing: 0;
-}
-h2 {
-  text-align: inherit !important;
-  font-weight: inherit !important;
-	letter-spacing: 0;
-}
-h3 {
-  text-align: inherit !important;
-  font-weight: inherit !important;
-	letter-spacing: 0;
-}
-
-h1 {
   font-size: $h1-font-size;
+  text-align: inherit !important;
+  // font-weight: inherit !important;
+  letter-spacing: 0;
 }
-
 h2 {
   font-size: $h2-font-size;
+  font-weight: $core-font-weight-bold !important;
+  text-align: inherit !important;
+  letter-spacing: 0;
+  line-height: $h2-line-height;
 }
-
 h3 {
   font-size: $h3-font-size;
+  text-align: inherit !important;
+  // font-weight: inherit !important;
+  letter-spacing: 0;
 }
 
 h4 {

@@ -1,14 +1,28 @@
 // Base Sizes
 $core-font-size:				1rem !default;
-$core-line-height:				1.7 !default;
+$core-line-height:				1rem !default;
 
 // Heading Sizes
-$h1-font-size:					$core-font-size + (2.20 * 2) !default;
-$h2-font-size:					$core-font-size + (1.50 * 2) !default;
+$h1-font-size:					$core-font-size * 6 !default;
+$h2-font-size:					$core-font-size * 3 !default;
 $h3-font-size:					$core-font-size + (1.10 * 2) !default;
 $h4-font-size:					$core-font-size + (0.75 * 2) !default;
 $h5-font-size:					$core-font-size + (0.35 * 2) !default;
 $h6-font-size:					$core-font-size + (0.15 * 2) !default;
 
+// line height
+$h1-line-height:					$core-line-height * 5.25 !default;
+$h2-line-height:					$core-line-height * 3.5 !default;
+$h3-line-height:					$core-line-height + (1.10 * 2) !default;
+$h4-line-height:					$core-line-height + (0.75 * 2) !default;
+$h5-line-height:					$core-line-height + (0.35 * 2) !default;
+$h6-line-height:					$core-line-height + (0.15 * 2) !default;
+
 // Spacing
 $leading-margin:				$core-line-height * 1rem !default;
+
+// Font weights
+$core-font-weight-light: 300;
+$core-font-weight-normal: normal;
+$core-font-weight-medium: 500;
+$core-font-weight-bold: bold;
