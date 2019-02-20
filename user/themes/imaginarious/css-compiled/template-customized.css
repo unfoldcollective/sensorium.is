@@ -9,7 +9,11 @@
   transform: translateY(-50%);
 }
 
+<<<<<<< HEAD
 .default-animation, #header #logo img, #header #navbar ul.navigation, #header #logo h3, #header, #body {
+=======
+.default-animation, #header #logo img, #header #navbar ul.navigation, #header #logo h3, #header, .modular .showcase .button, #body {
+>>>>>>> labpage-edits
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -39,7 +43,10 @@
 
 html, body {
   height: 100%;
+<<<<<<< HEAD
   font-size: 125%;
+=======
+>>>>>>> labpage-edits
 }
 
 body {
@@ -252,6 +259,7 @@ ul.pagination {
   color: #000;
 }
 .modular .showcase h1 {
+<<<<<<< HEAD
   font-size: 6rem;
   margin-top: 0;
   line-height: 5.25rem;
@@ -260,16 +268,30 @@ ul.pagination {
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
   .modular .showcase h1 {
     font-size: 6rem;
+=======
+  font-size: 6.48rem;
+  margin-top: 0;
+  line-height: 1.4;
+}
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .modular .showcase h1 {
+    font-size: 5.4rem;
+>>>>>>> labpage-edits
     line-height: 1.2;
   }
 }
 @media only all and (max-width: 47.938em) {
   .modular .showcase h1 {
+<<<<<<< HEAD
     font-size: 5.4rem;
+=======
+    font-size: 4.86rem;
+>>>>>>> labpage-edits
     line-height: 1.1;
     margin-bottom: 2.5rem;
   }
 }
+<<<<<<< HEAD
 .modular .showcase h2 {
   font-weight: 300 !important;
 }
@@ -281,6 +303,20 @@ ul.pagination {
 .modular .showcase .link {
   font-weight: 500;
   border: 0.1rem solid black;
+=======
+.modular .showcase .button {
+  color: #000;
+  padding: 0.7rem 2rem;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: none;
+  font-size: 1.3rem;
+}
+.modular .showcase .button:hover {
+  background: rgba(255, 255, 255, 0.2);
+>>>>>>> labpage-edits
 }
 .modular .showcase .rotated-right {
   position: absolute;
@@ -432,12 +468,20 @@ ul.pagination {
   /* Active on Hover */
 }
 #header #navbar ul.navigation li a {
+<<<<<<< HEAD
   font-family: "IBM Plex Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   display: inline-block;
   padding: 0.3rem 0.8rem;
   font-size: 1rem;
   line-height: 23px;
   font-weight: 500;
+=======
+  font-family: "Druk", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  font-size: 1.5rem;
+  line-height: 23px;
+>>>>>>> labpage-edits
   -webkit-backface-visibility: hidden;
 }
 #header #navbar ul.navigation li a:before, #header #navbar ul.navigation li a:after {
@@ -579,7 +623,11 @@ ul.pagination {
 }
 
 html, body, button, input, select, textarea, .pure-g, .pure-g [class*=pure-u] {
+<<<<<<< HEAD
   font-family: "IBM Plex Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+=======
+  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+>>>>>>> labpage-edits
   font-weight: 400;
 }
 
@@ -591,7 +639,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+<<<<<<< HEAD
   font-size: 6rem;
+=======
+  font-size: 5.4rem;
+>>>>>>> labpage-edits
 }
 @media only all and (max-width: 47.938em) {
   h1 {
@@ -603,12 +655,20 @@ h1 {
 
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
   h2 {
+<<<<<<< HEAD
     font-size: 2.6rem;
+=======
+    font-size: 3.6rem;
+>>>>>>> labpage-edits
   }
 }
 @media only all and (max-width: 47.938em) {
   h2 {
+<<<<<<< HEAD
     font-size: 2.5rem;
+=======
+    font-size: 3.5rem;
+>>>>>>> labpage-edits
   }
 }
 
@@ -652,7 +712,11 @@ h1 + h2 {
   font-size: 3rem;
   line-height: 1;
   text-align: center;
+<<<<<<< HEAD
   font-family: "IBM Plex Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+=======
+  font-family: "Druk", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+>>>>>>> labpage-edits
   font-weight: 300;
 }
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -671,7 +735,11 @@ h2 + h3 {
   font-size: 1.6rem;
   line-height: 1;
   text-align: center;
+<<<<<<< HEAD
   font-family: "IBM Plex Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+=======
+  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+>>>>>>> labpage-edits
   font-weight: 300;
 }
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -805,9 +873,328 @@ hr {
   display: inline-block;
   text-align: center;
   font-size: 0.7rem;
+<<<<<<< HEAD
   font-family: "IBM Plex Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   margin-right: 0.75rem;
 }
+=======
+  font-family: "Druk", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  margin-right: 0.75rem;
+}
+
+.tilter {
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 415px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  color: #000;
+  flex: none;
+  perspective: 1000px;
+}
+@media only all and (max-width: 47.938em) {
+  .tilter {
+    width: 220px;
+    height: 350px;
+  }
+}
+@media only all and (min-width: 30.063em) and (max-width: 47.938em) {
+  .tilter {
+    width: 181px;
+    height: 263px;
+    margin-left: 1.5rem;
+  }
+}
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .tilter {
+    width: 250px;
+    height: 345px;
+  }
+}
+@media only all and (min-width: 75em) {
+  .tilter {
+    width: 255px;
+    height: 350px;
+  }
+}
+.tilter img::before {
+  display: none;
+}
+
+.tilter * {
+  pointer-events: none;
+}
+
+.tilter:hover,
+.tilter:focus {
+  color: #fff;
+  outline: none;
+}
+
+/*
+.tilter__figure,
+.tilter__deco,
+.tilter__caption {
+	will-change: transform;
+}*/
+.tilter__figure,
+.tilter__image {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tilter__figure > * {
+  transform: translateZ(0px);
+  /* Force correct stacking order */
+}
+
+.smooth .tilter__figure,
+.smooth .tilter__deco--overlay,
+.smooth .tilter__deco--lines,
+.smooth .tilter__deco--shine div,
+.smooth .tilter__caption {
+  transition: transform 0.2s ease-out;
+}
+
+.tilter__figure {
+  position: relative;
+}
+
+.tilter__figure::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  box-shadow: 0 30px 20px rgba(35, 32, 39, 0.5);
+}
+
+.tilter__deco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tilter__deco--overlay {
+  background-image: linear-gradient(45deg, rgba(226, 60, 99, 0.4), rgba(145, 58, 252, 0.4), rgba(16, 11, 192, 0.4));
+}
+
+.tilter__deco--shine div {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+}
+
+.tilter__deco--lines {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.tilter__caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 4em;
+}
+
+.tilter__title {
+  margin: 0;
+  font-weight: normal;
+  font-size: 2.5em;
+  line-height: 1;
+}
+
+.tilter__description {
+  margin: 1em 0 0 0;
+  font-size: 0.85em;
+  letter-spacing: 0.15em;
+}
+
+/* Individual styles */
+/* Example 1 (Default) */
+.tilter--1 .tilter__figure::before {
+  box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Example 2 (thicker lines, overlay) */
+.tilter--2,
+.tilter--2:hover,
+.tilter--2:focus {
+  color: #2e27ad;
+}
+
+.tilter--2 .tilter__deco--overlay {
+  background-image: linear-gradient(45deg, rgba(245, 239, 40, 0.6), rgba(164, 22, 169, 0.6));
+}
+
+.tilter--2 .tilter__deco--lines {
+  stroke: #2e27ad;
+  stroke-width: 4px;
+}
+
+/* Example 3 (no lines, overlay hard-light) */
+.tilter--3 .tilter__deco--overlay {
+  background-image: linear-gradient(45deg, rgba(205, 81, 220, 0.6), rgba(41, 94, 230, 0.5));
+}
+
+.tilter--3 .tilter__caption {
+  padding: 2em;
+  text-align: right;
+  text-shadow: 0.1em 0.8em 1em rgba(0, 0, 0, 0.35);
+}
+
+/* Example 4 (caption sliding in) */
+.tilter--4 .tilter__deco--overlay {
+  background-image: linear-gradient(20deg, #d66428, rgba(46, 39, 173, 0.58), rgba(53, 74, 165, 0.6));
+}
+
+@media screen and (min-width: 30em) {
+  .tilter--4 .tilter__deco--lines {
+    transform: scale3d(0.8, 0.8, 1);
+    transition: transform 0.4s;
+  }
+
+  .tilter--4:hover .tilter__deco--lines {
+    transform: scale3d(1, 1, 1);
+  }
+
+  .tilter--4 .tilter__title,
+.tilter--4 .tilter__description {
+    transform: translate3d(0, 80px, 0);
+    opacity: 0;
+    transition: transform 0.4s, opacity 0.4s;
+  }
+
+  .tilter--4:hover .tilter__description {
+    transition-delay: 0.1s;
+  }
+
+  .tilter--4:hover .tilter__title,
+.tilter--4:hover .tilter__description {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+/* Example 5 (line animating) */
+.tilter--5 .tilter__deco--lines path {
+  stroke-dasharray: 1270;
+  stroke-dashoffset: 1270;
+  transition: stroke-dashoffset 0.7s;
+}
+
+.tilter--5:hover .tilter__deco--lines path {
+  stroke-dashoffset: 0;
+}
+
+.tilter--5 .tilter__figure::before {
+  box-shadow: none;
+}
+
+/* Example 6 (different line position) */
+.tilter--6,
+.tilter--6:hover,
+.tilter--6:focus {
+  color: #000;
+}
+
+.tilter--6 .tilter__deco--overlay {
+  background-image: radial-gradient(at 100% 100%, transparent 33%, white 92%);
+}
+
+.tilter--6 .tilter__deco--lines {
+  stroke: #000;
+  stroke-width: 6px;
+  top: -50px;
+  left: -50px;
+}
+@media only all and (min-width: 30.063em) and (max-width: 47.938em) {
+  .tilter--6 .tilter__deco--lines {
+    top: -48px;
+    left: -24px;
+  }
+}
+
+.tilter--6 .tilter__caption {
+  text-align: left;
+  padding: 0 4em 5.5em 1em;
+}
+@media only all and (min-width: 30.063em) and (max-width: 47.938em) {
+  .tilter--6 .tilter__caption {
+    padding: 0 4em 2.5em 1em;
+  }
+}
+@media only all and (min-width: 75em) {
+  .tilter--6 .tilter__caption {
+    padding: 0 4.5em 5.5em 1em;
+  }
+}
+.tilter--6 .tilter__caption .tilter__description {
+  font-weight: 800;
+  font-size: 1em;
+}
+
+.tilter--6 .tilter__figure::before {
+  box-shadow: none;
+}
+
+/* Example 7 (different line) */
+.tilter--7 .tilter__deco--overlay {
+  background-image: linear-gradient(45deg, rgba(93, 203, 106, 0.48), rgba(59, 239, 255, 0.58));
+}
+
+.tilter--7 .tilter__deco--lines {
+  stroke-width: 20px;
+  transform: scale3d(0.9, 0.9, 1);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.tilter--7:hover .tilter__deco--lines {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+.tilter--7 .tilter__figure::before {
+  box-shadow: none;
+}
+
+/* Example 8 (different line) */
+.tilter--8 {
+  perspective: none;
+}
+
+.tilter--8 .tilter__figure {
+  transform-style: flat;
+}
+
+.tilter--8 .tilter__deco--lines {
+  stroke: #9255ae;
+  stroke-width: 6px;
+  mix-blend-mode: color-burn;
+}
+
+.tilter--8 .tilter__caption {
+  color: #9255ae;
+  mix-blend-mode: color-burn;
+}
+
+.tilter--8 .tilter__figure::before {
+  box-shadow: none;
+}
+>>>>>>> labpage-edits
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -1410,6 +1797,7 @@ Main Components
   opacity: 1;
   visibility: visible;
 }
+<<<<<<< HEAD
 
 .speakerfaces {
   display: flex;
@@ -1445,6 +1833,8 @@ Main Components
   margin-top: 0;
   margin-bottom: 0;
 }
+=======
+>>>>>>> labpage-edits
 
 /* general */
 a {
@@ -1529,6 +1919,10 @@ a {
 h1 {
   font-size: 6rem;
   text-align: inherit !important;
+<<<<<<< HEAD
+=======
+  font-weight: inherit !important;
+>>>>>>> labpage-edits
   letter-spacing: 0;
 }
 
@@ -1536,23 +1930,50 @@ h2 {
   font-size: 3rem;
   font-weight: bold !important;
   text-align: inherit !important;
+<<<<<<< HEAD
   letter-spacing: 0;
   line-height: 3.5rem;
   margin-bottom: 48px;
+=======
+  font-weight: inherit !important;
+  letter-spacing: 0;
+>>>>>>> labpage-edits
 }
 
 h3 {
   font-size: 3.2rem;
   text-align: inherit !important;
+<<<<<<< HEAD
   letter-spacing: 0;
 }
+=======
+  font-weight: inherit !important;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 5.4rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+}
+>>>>>>> labpage-edits
 
 h4 {
   font-size: 2.5rem;
 }
 
 h5 {
+<<<<<<< HEAD
   font-size: 1.5rem;
+=======
+  font-size: 1.7rem;
+>>>>>>> labpage-edits
 }
 
 h6 {
@@ -1567,7 +1988,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+<<<<<<< HEAD
   font-size: 6rem;
+=======
+  font-size: 5.4rem;
+>>>>>>> labpage-edits
 }
 @media only all and (max-width: 47.938em) {
   h1 {
@@ -1579,12 +2004,20 @@ h1 {
 
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
   h2 {
+<<<<<<< HEAD
     font-size: 2.6rem;
+=======
+    font-size: 3.6rem;
+>>>>>>> labpage-edits
   }
 }
 @media only all and (max-width: 47.938em) {
   h2 {
+<<<<<<< HEAD
     font-size: 2.5rem;
+=======
+    font-size: 3.5rem;
+>>>>>>> labpage-edits
   }
 }
 
@@ -1756,5 +2189,13 @@ body.no-measure section#body > .measure {
 .bgi-radialgrad {
   background-image: radial-gradient(at 100% 100%, transparent 20%, white 80%);
 }
+<<<<<<< HEAD
+=======
+
+/* lab page */
+body.hide-menu #header #navbar ul.navigation {
+  display: none;
+}
+>>>>>>> labpage-edits
 
 /*# sourceMappingURL=template-customized.css.map */

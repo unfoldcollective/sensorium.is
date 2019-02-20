@@ -1,13 +1,15 @@
 ---
 title: 'The Augmented Attention Lab'
-body_classes: 'header-image fullwidth'
+body_classes: 'header-image fullwidth hide-menu'
 hide_in_menu: true
 ---
 
+
 <div class="f3 f2-ns">
-<strong>&quot;Artists are making present and composing attention&quot;</strong>
+The Augmented Attention Lab
 </div>
 
+*&quot;Artists are making present and composing attention&quot;* <br>
 — Tim Ingold, The Perception of the Environment
 
 
@@ -33,7 +35,8 @@ The lab is part of [Sensorium Festival](https://sensorium.is), which will be tak
 
 **The Augmented Attention Lab will culminate in an open lab session at the beginning of Sensorium Festival.** Curious visitors will be invited to look behind the scenes, test prototypes and ask questions.
 
-![](image2.jpg)
+![](sensory01.png)
+![](sensory02.png)
 <small>Sensory Cartographies: GSR sensor and barometric sensor body extensions, Madeira 2016</small>
 
 ###Background
