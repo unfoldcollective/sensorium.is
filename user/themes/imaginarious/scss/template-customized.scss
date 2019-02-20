@@ -20,9 +20,11 @@
 @import "template-customized/typography";
 
 // Load Vendor Components
-@import "vendor/tilt-hover-effects.scss";
 @import "vendor/schedule-template/reset.scss";
 @import "vendor/schedule-template/schedule-template.scss";
+
+//Load custom components
+@import "template-customized/speakerfaces";
 
 /* general */
 a {
@@ -127,6 +129,7 @@ h2 {
   text-align: inherit !important;
   letter-spacing: 0;
   line-height: $h2-line-height;
+  margin-bottom: 48px;
 }
 h3 {
   font-size: $h3-font-size;
