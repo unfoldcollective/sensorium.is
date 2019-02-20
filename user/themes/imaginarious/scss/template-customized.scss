@@ -386,3 +386,8 @@ body.no-measure section#body > .measure {
 .bgi-radialgrad {
   background-image: radial-gradient(at 100% 100%, transparent 20%, white 80%);
 }
+
+/* lab page */
+body.hide-menu #header #navbar ul.navigation {
+  display: none;
+}
