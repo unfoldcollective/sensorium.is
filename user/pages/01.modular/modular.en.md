@@ -19,7 +19,6 @@ content:
             - _installations
             - _news
             - _location
-            - _sliders
             - _partners
 slug: '2017'
 ---

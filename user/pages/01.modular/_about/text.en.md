@@ -12,6 +12,4 @@ Throughout this year’s conference, we will examine contemporary innovation in 
 
 We invite you to explore the system behind the animations you see running in the background and make your own aesthetic decisions using sliders like this ([scroll down](#sliders) for more):
 
-<input type="range" class="slider count" oninput="set_state('count', this.value)" onchange="set_state('count', this.value)">
-
 **[read more](/about)**
