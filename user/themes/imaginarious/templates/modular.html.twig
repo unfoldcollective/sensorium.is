@@ -11,6 +11,12 @@
     {% do assets.addJs('theme://js/anime.min.js', {group: 'bottom'}) %}
     {% do assets.addJs('theme://js/imagesloaded.pkgd.min.js', {group: 'bottom'}) %}
 
+    {# 2019 animation includes #}
+    {% do assets.addJs('theme://js/sk_190203_pixi/js/pixi.min.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/sk_190203_pixi/js/circle.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/sk_190203_pixi/js/poof.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/2019-animation.js?v=20190221', {group: 'bottom'}) %}
+
     {# {% do assets.addJs('theme://js/libs/bitlib_1_0_9.min.js', {group: 'bottom'}) %} #}
     {# {% do assets.addJs('theme://js/libs/perlin.js', {group: 'bottom'}) %} #}
     {# {% do assets.addJs('theme://js/170417-sensorium.js', {group: 'bottom'}) %} #}

@@ -830,6 +830,13 @@ hr {
   margin-right: 0.75rem;
 }
 
+#bg-canvas {
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
