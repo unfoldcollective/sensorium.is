@@ -36,6 +36,11 @@ a {
 	#header, #breadcrumbs, .blog-header, .blog-content-item, .content-wrapper, ul.pagination, #body > .modular-row {
 		@extend .padding-horiz;
 	}
+
+	#body > .modular-row {
+		clear: both;
+		margin-bottom: 2rem;
+	}
 }
 
 .template-fullwidth {
