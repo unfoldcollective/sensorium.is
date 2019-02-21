@@ -25,9 +25,9 @@ class Poof{
 	        width:  Poof.width,         // default: 800
 	        height: Poof.height,        // default: 600
 	        antialias: true,    		// default: false
-	        transparent: false, 		// default: false
+	        transparent: true, 		// default: false
 	        resolution: 1,      		// default: 1, retina related
-	        backgroundColor: 0xFFFFFF
+	        // backgroundColor: 0xFFFFFF
 	      }
 	    );
 	    // association of asset name to Sprite from loaded texture (.svg file)
@@ -133,7 +133,9 @@ class Poof{
                            currentPixels[pixelIndex + 1],
                            currentPixels[pixelIndex + 2]];
                 // create a new circle for the given position, colour and index
-                let circle = new Circle(x, y,  rgb, pixelIndex);
+                // offset by (Poof.width - currentAsset.width) /2
+                let offset = (Poof.width - currentAsset.width)/2;
+                let circle = new Circle(x + offset, y,  rgb, pixelIndex);
                 // add the circle to the list (so it can be update (and later removed))
                 this.circles.push(circle);    
                 // add circle to display list

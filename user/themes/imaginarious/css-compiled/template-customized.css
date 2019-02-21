@@ -836,6 +836,18 @@ hr {
   left: 50%;
   transform: translateX(-50%);
 }
+#bg-canvas.lolly::after {
+  content: "";
+  background: url("../js/sk_190203_pixi/assets/Stick-1.png") no-repeat 50% 50%;
+  background-size: contain;
+  position: absolute;
+  width: 75px;
+  height: 390px;
+  left: calc(50% - 35px);
+  top: 450px;
+  z-index: -1;
+  box-shadow: 0 0 120px rgba(0, 0, 0, 0.2);
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
