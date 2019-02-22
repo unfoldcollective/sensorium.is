@@ -134,8 +134,10 @@ class Poof{
                            currentPixels[pixelIndex + 2]];
                 // create a new circle for the given position, colour and index
                 // offset by (Poof.width - currentAsset.width) /2
-                let offset = (Poof.width - currentAsset.width)/2;
-                let circle = new Circle(x + offset, y,  rgb, pixelIndex);
+                // TODO pass this from 2019-animation.js
+                let offsetX = (Poof.width - currentAsset.width)/2;
+                let offsetY = 90;
+                let circle = new Circle(x + offsetX, y + offsetY,  rgb, pixelIndex);
                 // add the circle to the list (so it can be update (and later removed))
                 this.circles.push(circle);    
                 // add circle to display list

@@ -43,7 +43,7 @@ html, body {
 }
 
 body {
-  background: #CDCCCB;
+  background: #fafafa;
   color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -259,17 +259,17 @@ ul.pagination {
 }
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
   .modular .showcase {
-    margin-top: 10rem;
+    margin-top: 4rem;
   }
 }
 @media only all and (min-width: 60em) and (max-width: 74.938em) {
   .modular .showcase {
-    margin-top: 10rem;
+    margin-top: 4rem;
   }
 }
 @media only all and (min-width: 75em) {
   .modular .showcase {
-    margin-top: 10rem;
+    margin-top: 4rem;
   }
 }
 .modular .showcase h1 {
@@ -1521,7 +1521,7 @@ a {
 }
 
 .bg-light-gray {
-  background-color: #CDCCCB !important;
+  background-color: #fafafa !important;
 }
 
 .bg-dark-gray {
