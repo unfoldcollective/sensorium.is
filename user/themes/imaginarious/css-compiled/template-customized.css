@@ -366,7 +366,7 @@ ul.pagination {
   justify-content: stretch;
 }
 .programme-grid__day {
-  flex: 1;
+  flex: 1 0 100%;
   margin: 0.5rem;
 }
 .programme-grid__daytitle {
@@ -386,11 +386,19 @@ ul.pagination {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 36px 32px;
 }
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .programme-grid__day {
+    flex: 1 0 48%;
+  }
+}
 @media only all and (min-width: 60em) and (max-width: 74.938em) {
   .programme-grid {
     flex-flow: row nowrap;
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+  .programme-grid__day {
+    flex: 1;
   }
 }
 @media only all and (min-width: 75em) {
@@ -398,6 +406,9 @@ ul.pagination {
     flex-flow: row nowrap;
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+  .programme-grid__day {
+    flex: 1;
   }
 }
 

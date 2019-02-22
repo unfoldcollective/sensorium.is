@@ -11,7 +11,7 @@ $content-p-v: 32px;
 
 	&__day {
 
-		flex: 1;
+		flex: 1 0 100%;
 		margin: 0.5rem;
 	}
 
@@ -37,12 +37,19 @@ $content-p-v: 32px;
 	}
 
 	@include breakpoint(tablet-range) {
+		&__day {
+			flex: 1 0 48%;
+		}
 	}
 
 	@include breakpoint(desktop-range large-desktop-range) {
         flex-flow: row nowrap;
         padding-left: $padding-horiz;
         padding-right: $padding-horiz;
+
+        &__day {
+        	flex: 1;
+        }
     }
 }
 
