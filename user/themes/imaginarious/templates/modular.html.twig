@@ -8,14 +8,14 @@
         {% do assets.add('theme://js/singlePageNav.min.js') %}
     {% endif %}
     {{ parent() }}
-    {% do assets.addJs('theme://js/anime.min.js', {group: 'bottom'}) %}
-    {% do assets.addJs('theme://js/imagesloaded.pkgd.min.js', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/anime.min.js', {group: 'bottom'}) %} {# TODO: is this used? #}
+    {% do assets.addJs('theme://js/imagesloaded.pkgd.min.js', {group: 'bottom'}) %} {# TODO: is this used? #}
 
     {# 2019 animation includes #}
     {% do assets.addJs('theme://js/sk_190203_pixi/js/pixi.min.js', {group: 'bottom'}) %}
     {% do assets.addJs('theme://js/sk_190203_pixi/js/circle.js', {group: 'bottom'}) %}
     {% do assets.addJs('theme://js/sk_190203_pixi/js/poof.js', {group: 'bottom'}) %}
-    {% do assets.addJs('theme://js/2019-animation.js?v=201902211', {group: 'bottom'}) %}
+    {# {% do assets.addJs('theme://js/2019-animation.js?v=201902211', {group: 'bottom'}) %} #} {# temp disable #}
 
     {# {% do assets.addJs('theme://js/libs/bitlib_1_0_9.min.js', {group: 'bottom'}) %} #}
     {# {% do assets.addJs('theme://js/libs/perlin.js', {group: 'bottom'}) %} #}

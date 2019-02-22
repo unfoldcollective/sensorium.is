@@ -6,7 +6,7 @@ $core-line-height:				1rem !default;
 $h1-font-size:					$core-font-size * 6 !default;
 $h2-font-size:					$core-font-size * 3 !default;
 $h3-font-size:					$core-font-size + (1.10 * 2) !default;
-$h4-font-size:					$core-font-size + (0.75 * 2) !default;
+$h4-font-size:					$core-font-size * 2 !default;
 $h5-font-size:					$core-font-size * 1.5 !default;
 $h6-font-size:					$core-font-size + (0.15 * 2) !default;
 
@@ -14,7 +14,7 @@ $h6-font-size:					$core-font-size + (0.15 * 2) !default;
 $h1-line-height:					$core-line-height * 5.25 !default;
 $h2-line-height:					$core-line-height * 3.5 !default;
 $h3-line-height:					$core-line-height + (1.10 * 2) !default;
-$h4-line-height:					$core-line-height + (0.75 * 2) !default;
+$h4-line-height:					$core-line-height * 2.5 !default;
 $h5-line-height:					$core-line-height + (0.35 * 2) !default;
 $h6-line-height:					$core-line-height + (0.15 * 2) !default;
 

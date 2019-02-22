@@ -9,9 +9,9 @@ content:
         by: default
         dir: asc
         custom:
+            - _programme
             - _showcase
             - _speakers
-            - _programme
             - _about
             - _workshops
             - _warmup

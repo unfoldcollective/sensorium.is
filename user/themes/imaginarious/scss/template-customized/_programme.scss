@@ -1,0 +1,135 @@
+/* programme modular on homepage */
+
+$content-p-h: 36px;
+$content-p-v: 32px;
+
+.programme-grid {
+	background-color: transparent;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: stretch;
+
+	&__day {
+
+		flex: 1;
+		margin: 0.5rem;
+	}
+
+	&__daytitle {
+		font-size: $h4-font-size;
+		font-weight: $core-font-weight-bold;
+		line-height: 2rem;
+		padding: 0 $content-p-v;
+	}
+
+	&__daytitlename {
+		display: block;
+		font-size: 0.75rem;
+		line-height: 2.5rem;
+		font-weight: $core-font-weight-medium;
+		text-transform: uppercase;
+	}
+
+	&__daycontent {
+		background-color: $sensorium-block-bg;
+		padding: $content-p-h $content-p-v;
+
+	}
+
+	@include breakpoint(tablet-range) {
+	}
+
+	@include breakpoint(desktop-range large-desktop-range) {
+        flex-flow: row nowrap;
+        padding-left: $padding-horiz;
+        padding-right: $padding-horiz;
+    }
+}
+
+.programme-block {
+	border-bottom: 2px solid #000;
+	padding-bottom: 3rem;
+	margin-bottom: 2.5rem;
+
+	&:last-child {
+		border: none;
+	}
+
+
+	&__title {
+		// font-size: $h4-font-size;
+		line-height: $h4-line-height;
+		font-weight: $core-font-weight-bold;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	&__subtitle {
+		// font-size: $h5-font-size;
+		font-weight: $core-font-weight-medium;
+		line-height: $h4-line-height;
+		margin: 0;
+	}
+
+	&__location {
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+	}
+}
+
+.programme-events {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	&__item {
+		margin: 1.2rem 0;
+	}
+
+	&__title {
+		font-size: $h5-font-size;
+		font-weight: $core-font-weight-medium;
+		line-height: $h4-line-height;
+		margin: 0;
+	}
+}
+
+.programme-actions {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+
+	&__item {
+		flex: 0;
+		white-space: nowrap;
+		margin-right: 1rem;
+	}
+}
+
+.s-time {
+	font-size: 1rem;
+	line-heigth: 2rem;
+	font-weight: $core-font-weight-medium;
+	text-transform: uppercase;
+
+	&::before {
+		content: '🕓';
+		margin-right: 3px;
+	}
+}
+
+.s-location {
+	font-size: 0.75rem;
+	line-height: 2.5rem;
+	font-weight: $core-font-weight-medium;
+	text-transform: uppercase;
+
+	&::before {
+		content: '📍';
+		margin-right: 3px;
+	}
+
+}
