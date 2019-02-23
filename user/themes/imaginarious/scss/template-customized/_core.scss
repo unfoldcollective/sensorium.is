@@ -19,7 +19,11 @@ a {
 }
 
 
-
+@mixin sensorium-modular-text() {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: $sensorium-block-bg;
+}
 
 
 // Global Container
@@ -41,7 +45,23 @@ a {
 	#body > .modular-row {
 		clear: both;
 		margin-bottom: 2rem;
+
+		&--text {
+			float: left;
+			width: 50%;
+			@include sensorium-modular-text;
+		}
+
+		& .modular-row__content {
+			font-size: 1.5rem;
+			
+			h2 {
+				font-weight: $core-font-weight-light!important;
+			}
+		}
+
 	}
+
 }
 
 .template-fullwidth {

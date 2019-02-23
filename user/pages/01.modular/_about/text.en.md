@@ -2,11 +2,7 @@
 title: About
 ---
 
-## About
-
-<div class="f3">
-Sensorium Festival is workshops, talks and performances bridging the fields of computational art, design and performance.
-</div>
+<h2>Sensorium Festival is workshops, talks and performances bridging the fields of computational art, design and performance.</h2>
 
 Throughout this year’s conference, we will examine contemporary innovation in creative practice in the wider context of the changing role of ‘the creator’. Building on Jack Burnham’s 1968 essay “System Aesthetics”, we will investigate the shift from “Homo Faber” (Man the Maker) to **“Homo Arbiter Formae”** (Man the Maker of Aesthetic Decisions).
 

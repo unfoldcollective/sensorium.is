@@ -19,9 +19,7 @@
 
     .showcase {
 
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-        background-color: $sensorium-block-bg;
+        @include sensorium-modular-text();
 
         background-size: cover;
         background-position: center;
