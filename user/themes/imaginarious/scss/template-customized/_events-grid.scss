@@ -1,0 +1,56 @@
+.events-grid {
+	display: flex;
+	flex-flow: row wrap;
+    align-items: flex-start;
+
+	&__event {
+		flex: 1 0 100%;
+		margin: 0.5rem;
+	}
+
+	@include breakpoint(tablet-range) {
+		&__event {
+			flex: 1 0 48%;
+		}
+	}
+
+	@include breakpoint(desktop-range large-desktop-range) {
+        flex-flow: row nowrap;
+        // padding-left: $padding-horiz;
+        // padding-right: $padding-horiz;
+
+        &__event {
+        	flex: 1;
+        }
+    }
+}
+
+.s-event {
+	overflow: hidden;
+	background-color: $sensorium-block-bg;
+
+	&__imglink {
+		display: block;
+		overflow: hidden;
+	}
+
+	&__content {
+		padding: 2rem;
+	}
+
+	&__title { //same as programe block title
+		@include event-main-title();
+	}
+
+	&__subtitle {
+		@include event-subtitle();
+	}
+	
+	&__description {
+		margin-bottom: 0;
+	}
+
+	&__location {
+		margin: 1rem 0;
+	}
+}

@@ -1,6 +1,18 @@
+<section class="modular-row">
+	{{ content }}
+
+	<section class="events-grid">
+		{% for p in page.collection %}
+		  {% include 'partials/organisms/workshop-preview.html.twig' %}
+		{% endfor %}
+	</section>
+</section>
+
+{# 
 <section class="modular-row tl">
   {{ content }}
   {% for p in page.collection %}
     {% include 'partials/organisms/workshop-preview.html.twig' %}
   {% endfor %}
 </section>
+ #}

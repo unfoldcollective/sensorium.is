@@ -29,8 +29,8 @@ process:
                         <h6 class="programme-events__title">Jan Nikolai Nelles TodaysArt presents: Gabey Tjon a Tham Joachim Sauter</h6>
                     </li>
                 </ul>
-                <ul class="programme-grid__dayactions programme-actions">
-                    <li class="programme-actions__item">
+                <ul class="programme-grid__dayactions s-actions">
+                    <li class="s-actions__item">
                         {% include 'partials/atoms/button.html.twig' with {'button': {
                             'text': 'Tickets',
                             'url': config.site.ticket_url,
@@ -38,7 +38,7 @@ process:
                             'classes': 's-button grow'
                         }} %}
                     </li>
-                    <li class="programme-actions__item">
+                    <li class="s-actions__item">
                         <a href="#">More info...</a>
                     </li>
                 </ul>
@@ -55,8 +55,8 @@ process:
                 <time class="programme-block__time s-time">16:00 — 18:00</time>
                 <h4 class="programme-block__title">Choreographic Coding Lab</h4>
                 <p class="programme-block__location s-location">Location <strong>Specific detail</strong></p>
-                <ul class="programme-grid__dayactions programme-actions">
-                    <li class="programme-actions__item">
+                <ul class="programme-grid__dayactions s-actions">
+                    <li class="s-actions__item">
                         <a href="#">More info...</a>
                     </li>
                 </ul>

@@ -1,4 +1,36 @@
-<article class="bgi-radialgrad dib v-top bw2 b--black mv4 mh3-ns w-100 w-40-m w-33-l mw6 overflow-hidden measure f6">
+<div class="events-grid__event s-event">
+    <a href="{{p.url}}" class="s-event__imglink">
+      <img src="{{ p.media.images|first.url }}" alt="{{p.title}}" class="s-event__img db w-100 grow">
+    </a>
+    <div class="s-event__content">
+      <time class="s-time">{{ p.header.time }}; {{ p.header.date_days }} {{ p.header.date_month }}</time>
+      <h3 class="s-event__title">{{p.title}}</h3>
+      
+      {% if p.header.subtitle %}
+      <h4 class="s-event__subtitle">{{ p.header.subtitle }}</h4>
+      {% endif %}
+      
+      <p class="s-event__description">{{ p.header.description }}</p>
+      <p class="s-event__location s-location">Location <strong>detail</strong></p>
+      <ul class="events-grid__actions s-actions">
+          {% if p.header.ticket_text %}
+          <li class="s-actions__item">
+              {% include 'partials/atoms/button.html.twig' with {'button': {
+                  'text': p.header.ticket_text,
+                  'url': config.site.ticket_url,
+                  'newTab': true,
+                  'classes': 's-button grow'
+              }} %}
+          </li>
+          {% endif %}
+          <li class="s-actions__item">
+              <a href="{{p.url}}">More info...</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
+{# <article class="bgi-radialgrad dib v-top bw2 b--black mv4 mh3-ns w-100 w-40-m w-33-l mw6 overflow-hidden measure f6">
   <a href="{{p.url}}">
     <img src="{{ p.media.images|first.url }}" class="db w-100 grow" alt="{{p.title}}">
   </a>
@@ -42,4 +74,4 @@
       {% endif %}
     </div>
   </div>
-</article>
+</article> #}

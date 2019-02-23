@@ -9,17 +9,16 @@ content:
         by: default
         dir: asc
         custom:
-            - _programme
             - _showcase
             - _speakers
+            - _programme
             - _about
             - _workshops
-            - _warmup
-            - _performance
             - _installations
             - _news
-            - _location
             - _partners
+            - _warmup
+            - _performance
 slug: '2017'
 ---
 
