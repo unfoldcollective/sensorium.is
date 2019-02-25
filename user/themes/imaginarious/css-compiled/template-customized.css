@@ -68,12 +68,13 @@ a:hover {
 }
 .fullwidth #body > .modular-row {
   clear: both;
-  margin-bottom: 2rem;
+  overflow: auto;
+  margin-bottom: 4rem;
 }
 .fullwidth #body > .modular-row--text {
   float: left;
   width: 50%;
-  padding-top: 4rem;
+  padding-top: 3.5rem;
   padding-bottom: 4rem;
   background-color: rgba(255, 255, 255, 0.9);
 }
@@ -82,11 +83,27 @@ a:hover {
 }
 .fullwidth #body > .modular-row .modular-row__content {
   font-size: 1.5rem;
+  padding-left: 6rem;
 }
-.fullwidth #body > .modular-row .modular-row__content h2 {
+.fullwidth #body > .modular-row .modular-row__content > p:first-of-type {
+  font-size: 2rem;
+  line-height: 2.5rem;
   font-weight: 300 !important;
+  margin-top: 0;
 }
-
+.fullwidth #body > .modular-row:not(.showcase) h2:first-of-type {
+  padding-left: 6rem;
+}
+@media only all and (max-width: 30em) {
+  .fullwidth #body > .modular-row {
+    width: 100%;
+  }
+}
+@media only all and (min-width: 30.063em) and (max-width: 47.938em) {
+  .fullwidth #body > .modular-row {
+    width: 100%;
+  }
+}
 #body {
   background: none;
   padding-top: 5rem;
@@ -496,7 +513,7 @@ hr {
   color: #000;
 }
 .modular .showcase {
-  padding-top: 4rem;
+  padding-top: 3.5rem;
   padding-bottom: 4rem;
   background-color: rgba(255, 255, 255, 0.9);
   background-size: cover;
@@ -621,6 +638,7 @@ hr {
   font-weight: bold;
   line-height: 2rem;
   padding: 0 32px;
+  margin-top: 0;
 }
 .programme-grid__daytitlename {
   display: block;
@@ -641,8 +659,7 @@ hr {
 @media only all and (min-width: 60em) and (max-width: 74.938em) {
   .programme-grid {
     flex-flow: row nowrap;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    max-width: 75%;
   }
   .programme-grid__day {
     flex: 1;
@@ -651,8 +668,7 @@ hr {
 @media only all and (min-width: 75em) {
   .programme-grid {
     flex-flow: row nowrap;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    max-width: 75%;
   }
   .programme-grid__day {
     flex: 1;

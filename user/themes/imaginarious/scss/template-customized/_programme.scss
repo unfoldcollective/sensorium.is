@@ -20,6 +20,7 @@ $content-p-v: 32px;
 		font-weight: $core-font-weight-bold;
 		line-height: 2rem;
 		padding: 0 $content-p-v;
+		margin-top: 0;
 	}
 
 	&__daytitlename {
@@ -44,8 +45,9 @@ $content-p-v: 32px;
 
 	@include breakpoint(desktop-range large-desktop-range) {
         flex-flow: row nowrap;
-        padding-left: $padding-horiz;
-        padding-right: $padding-horiz;
+        // padding-left: $padding-horiz;
+        // padding-right: $padding-horiz;
+        max-width: 75%;
 
         &__day {
         	flex: 1;
