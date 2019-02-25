@@ -52,13 +52,17 @@ a {
 			@include sensorium-modular-text;
 		}
 
+		&.news {
+			max-width: 75%;
+		}
+
 		& .modular-row__content {
 			font-size: 1.5rem;
 			
 			h2 {
 				font-weight: $core-font-weight-light!important;
 			}
-		}
+		}	
 
 	}
 

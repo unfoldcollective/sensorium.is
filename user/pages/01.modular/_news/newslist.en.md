@@ -9,6 +9,7 @@ content:
         by: date
         dir: desc
 limit: 5
+moreinfotext: More info...
 ---
 
 ## News

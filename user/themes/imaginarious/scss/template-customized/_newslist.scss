@@ -1,0 +1,25 @@
+.newslist {
+	&__item {
+		background-color: $sensorium-block-bg;
+		padding: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	&__href {
+		display: block;
+	}
+
+	&__title {
+		@include event-main-title();
+	}
+
+	&__moreinfo {
+		color: $sensorium-teal;
+	}
+
+	@include breakpoint( tablet-range desktop-range large-desktop-range ) {
+		&__item {
+			max-width: 75%;
+		}
+	}
+}
