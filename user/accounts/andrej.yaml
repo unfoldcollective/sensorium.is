@@ -1,6 +1,6 @@
 email: andrej@plusko.net
 fullname: Andrej
-title: 'Wannabe admin'
+title: Administrator
 state: enabled
 access:
   admin:
@@ -8,4 +8,4 @@ access:
     super: true
   site:
     login: true
-hashed_password: $2y$10$A1xCHCCi7nVj4NDjB2lwueBy8iZymxRoFnV9rh4HXTQZcMU0lplsm
+hashed_password: $2y$10$5ZTDGuWujDupPvn70f0bc.hOTQK9vQ9F417ttvkXgV6B1GZ6PDk92
