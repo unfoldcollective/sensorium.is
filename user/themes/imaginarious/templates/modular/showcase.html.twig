@@ -1,7 +1,9 @@
 <div class="relative modular-row showcase fl w-50">
     {{ content }}
 
-    {% for button in page.header.buttons %}
-    	{% include 'partials/atoms/button.html.twig' with {'button': button} %}
-    {% endfor %}
+	<div class="showcase__actions">
+	    {% for button in page.header.buttons %}
+	    	{% include 'partials/atoms/button.html.twig' with {'button': button} %}
+	    {% endfor %}
+	</div>
 </div>

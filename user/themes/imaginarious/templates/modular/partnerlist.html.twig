@@ -1,40 +1,45 @@
-<section id="section-partners" class="modular-row tl">
-	<h2>{{page.header.mainPartnersTitle}}</h2>
-	<div>
-		{% for mainPartner in page.header.mainPartners %}
-			<a class="glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{mainPartner.url}}" title="{{mainPartner.name}}" target="_blank" >
-				<img title="{{mainPartner.name}}" class="dib w5" src="{{ page.media[mainPartner.logo].url }}" alt="{{mainPartner.name}}">
-			</a>
-		{% endfor %}
-	</div>
-	{% if page.header.mainPartnersSubtitle %}
-		<p>{{page.header.mainPartnersSubtitle}}</p>
-	{% endif %}
-	
-	<h3>{{page.header.supportersTitle}}</h3>
-	<div>
-		{% for supporter in page.header.supporters %}
-			<a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{supporter.url}}" title="{{supporter.name}}" target="_blank" >
-				<img title="{{supporter.name}}" class="dib w4" src="{{ page.media[supporter.logo].url }}" alt="{{supporter.name}}">
-			</a>
-		{% endfor %}
-	</div>
-	
-	<h3>{{page.header.partnersTitle}}</h3>
-	<div>
-		{% for partner in page.header.partners %}
-			<a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{partner.url}}" title="{{partner.name}}" target="_blank" >
-				<img title="{{partner.name}}" class="dib w4" src="{{ page.media[partner.logo].url }}" alt="{{partner.name}}">
-			</a>
-		{% endfor %}
-	</div>
+<h2 class="modular-row">{{ page.title }}</h2>
 
-	<h3>{{page.header.mediaPartnersTitle}}</h3>
-	<div class="">
-		{% for mediaPartner in page.header.mediaPartners %}
-			<a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{mediaPartner.url}}" title="{{mediaPartner.name}}" target="_blank" >
-				<img title="{{mediaPartner.name}}" class="dib w4" src="{{ page.media[mediaPartner.logo].url }}" alt="{{mediaPartner.name}}">
-			</a>
-		{% endfor %}
+<section id="section-partners" class="modular-row--fullwidth">
+	<div class="modular-row">
+		<h3>{{page.header.mainPartnersTitle}}</h3>
+		<div>
+			{% for mainPartner in page.header.mainPartners %}
+				<a class="glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{mainPartner.url}}" title="{{mainPartner.name}}" target="_blank" >
+					<img title="{{mainPartner.name}}" class="dib w5" src="{{ page.media[mainPartner.logo].url }}" alt="{{mainPartner.name}}">
+				</a>
+			{% endfor %}
+		</div>
+		{% if page.header.mainPartnersSubtitle %}
+			<p>{{page.header.mainPartnersSubtitle}}</p>
+		{% endif %}
+		
+		<h3>{{page.header.supportersTitle}}</h3>
+		<div>
+			{% for supporter in page.header.supporters %}
+				<a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{supporter.url}}" title="{{supporter.name}}" target="_blank" >
+					<img title="{{supporter.name}}" class="dib w4" src="{{ page.media[supporter.logo].url }}" alt="{{supporter.name}}">
+				</a>
+			{% endfor %}
+		</div>
+		
+		<h3>{{page.header.partnersTitle}}</h3>
+		<div>
+			{% for partner in page.header.partners %}
+				<a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{partner.url}}" title="{{partner.name}}" target="_blank" >
+					<img title="{{partner.name}}" class="dib w4" src="{{ page.media[partner.logo].url }}" alt="{{partner.name}}">
+				</a>
+			{% endfor %}
+		</div>
+
+		<h3>{{page.header.mediaPartnersTitle}}</h3>
+		<div class="">
+			{% for mediaPartner in page.header.mediaPartners %}
+				<a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{mediaPartner.url}}" title="{{mediaPartner.name}}" target="_blank" >
+					<img title="{{mediaPartner.name}}" class="dib w4" src="{{ page.media[mediaPartner.logo].url }}" alt="{{mediaPartner.name}}">
+				</a>
+			{% endfor %}
+		</div>
+		
 	</div>
 </section>
