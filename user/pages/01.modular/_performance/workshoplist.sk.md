@@ -1,5 +1,6 @@
 ---
 title: Predstavenia
+published: false
 process:
     markdown: true
 content:

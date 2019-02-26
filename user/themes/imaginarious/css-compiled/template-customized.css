@@ -15,18 +15,18 @@
   transition: all 0.5s ease;
 }
 
-.padding-horiz, #header, #body, .template-fullwidth > h1, .template-fullwidth > h2, .template-fullwidth > h3, .template-fullwidth > h4, .template-fullwidth > h5, .template-fullwidth > h6, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body .modular-row {
+.padding-horiz, #header, #body, .template-fullwidth > h1, .template-fullwidth > h2, .template-fullwidth > h3, .template-fullwidth > h4, .template-fullwidth > h5, .template-fullwidth > h6, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body .modular-row, .fullwidth footer .modular-row {
   padding-left: 7rem;
   padding-right: 7rem;
 }
 @media only all and (max-width: 59.938em) {
-  .padding-horiz, #header, #body, .template-fullwidth > h1, .template-fullwidth > h2, .template-fullwidth > h3, .template-fullwidth > h4, .template-fullwidth > h5, .template-fullwidth > h6, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body .modular-row {
+  .padding-horiz, #header, #body, .template-fullwidth > h1, .template-fullwidth > h2, .template-fullwidth > h3, .template-fullwidth > h4, .template-fullwidth > h5, .template-fullwidth > h6, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body .modular-row, .fullwidth footer .modular-row {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 @media only all and (max-width: 47.938em) {
-  .padding-horiz, #header, #body, .template-fullwidth > h1, .template-fullwidth > h2, .template-fullwidth > h3, .template-fullwidth > h4, .template-fullwidth > h5, .template-fullwidth > h6, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body .modular-row {
+  .padding-horiz, #header, #body, .template-fullwidth > h1, .template-fullwidth > h2, .template-fullwidth > h3, .template-fullwidth > h4, .template-fullwidth > h5, .template-fullwidth > h6, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .blog-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body .modular-row, .fullwidth footer .modular-row {
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -338,6 +338,19 @@ a:hover {
 }
 .fullwidth #body .modular-row:not(.showcase) h2:first-of-type {
   padding-left: 6rem;
+}
+.fullwidth footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+.fullwidth footer > .modular-row:first-of-type p {
+  padding-left: 2rem;
+  max-width: 80%;
+}
+.fullwidth footer a {
+  color: #fff;
 }
 .fullwidth #body h2.modular-row {
   margin-bottom: 3rem;

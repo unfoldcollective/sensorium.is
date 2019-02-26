@@ -38,7 +38,7 @@ a {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	#header, #breadcrumbs, .blog-header, .blog-content-item, .content-wrapper, ul.pagination, #body .modular-row {
+	#header, #breadcrumbs, .blog-header, .blog-content-item, .content-wrapper, ul.pagination, #body .modular-row, footer .modular-row {
 		@extend .padding-horiz;
 	}
 
@@ -92,6 +92,23 @@ a {
 			padding-left: 6rem;
 		}	
 
+	}
+
+	footer {
+		background-color: #000;
+		color: #fff;
+		padding-top: 3rem;
+		padding-bottom: 4rem;
+		
+		> .modular-row:first-of-type p {
+			padding-left: 2rem;
+			max-width: 80%;
+
+		}
+
+		a {
+			color: #fff;
+		}
 	}
 
 	#body h2.modular-row {
