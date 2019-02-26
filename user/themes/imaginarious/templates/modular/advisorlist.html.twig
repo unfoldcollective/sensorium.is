@@ -1,0 +1,43 @@
+<h2 class="modular-row">{{ page.title }}</h2>
+
+<section class="modular-row--fullwidth advisors">
+	<div class="modular-row">
+		<h3>{{ page.header.listtitle }}</h3>
+		<ul class="advisorlist">
+			{% for advisor in page.header.advisors %}
+				<li class="advisorlist__item">
+				{% if advisor.url %}
+					<a href="{{ advisor.url }}" class="advisorlist__href">
+				{% endif %}
+				{{ advisor.name }}
+				{% if advisor.url %}
+					</a>
+				{% endif %}
+				</li>
+			{% endfor %}
+			{# <li class="advisorlist__item"><a href="" class="advisorlist__href">Nichole	Daniels</a></li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Courtney	Mason</a></li>
+			<li class="advisorlist__item">Kyle	Simon</li>
+			<li class="advisorlist__item">Hector	Bryant</li>
+			<li class="advisorlist__item">Courtney	Mason</li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Hector	Bryant</a></li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Kyle	Simon</a></li>
+			<li class="advisorlist__item">Courtney	Mason</li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Timmy	Oliver</a></li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Kyle	Simon</a></li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Yvette	Davidson</a></li>
+			<li class="advisorlist__item">Nichole	Daniels</li>
+			<li class="advisorlist__item">Yvette	Davidson</li>
+			<li class="advisorlist__item">Timmy	Oliver</li>
+			<li class="advisorlist__item">Hector	Bryant</li>
+			<li class="advisorlist__item">Courtney	Mason</li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Hector	Bryant</a></li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Kyle	Simon</a></li>
+			<li class="advisorlist__item">Courtney	Mason</li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Timmy	Oliver</a></li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Kyle	Simon</a></li>
+			<li class="advisorlist__item"><a href="" class="advisorlist__href">Yvette	Davidson</a></li>
+			<li class="advisorlist__item">Nichole	Daniels</li> #}
+		</ul>
+	</div>
+</section>

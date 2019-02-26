@@ -16,6 +16,7 @@ content:
             - _workshops
             - _installations
             - _news
+            - _advisors
             - _partners
             - _warmup
             - _performance

@@ -13,9 +13,9 @@
 @import "../../antimatter/scss/template/extensions";
 
 // Load cutomized template components
+@import "template-customized/typography";
 @import "template-customized/core";
 @import "template-customized/blog";
-@import "template-customized/typography";
 @import "template-customized/showcase";
 @import "template-customized/programme";
 @import "template-customized/header";
@@ -23,6 +23,7 @@
 @import "template-customized/s-button";
 @import "template-customized/events-grid";
 @import "template-customized/newslist";
+@import "template-customized/advisors";
 
 // Load Vendor Components
 @import "vendor/schedule-template/reset.scss";

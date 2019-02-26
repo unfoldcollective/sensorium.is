@@ -1,0 +1,26 @@
+.advisors {
+	
+}
+
+.advisorlist {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	display: flex;
+	flex-flow: column wrap;
+
+	&__item {
+		font-weight: $core-font-weight-medium;
+	}
+
+
+
+	@include breakpoint( desktop-range large-desktop-range ) {
+		max-height: 13rem;
+		
+		&__item {
+			line-height: 2rem;
+		}
+	}
+}

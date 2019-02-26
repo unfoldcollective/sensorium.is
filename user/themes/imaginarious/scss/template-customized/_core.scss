@@ -38,11 +38,11 @@ a {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	#header, #breadcrumbs, .blog-header, .blog-content-item, .content-wrapper, ul.pagination, #body > .modular-row {
+	#header, #breadcrumbs, .blog-header, .blog-content-item, .content-wrapper, ul.pagination, #body .modular-row {
 		@extend .padding-horiz;
 	}
 
-	#body > .modular-row {
+	#body .modular-row {
 		clear: both;
 		overflow: auto;
 		// margin-bottom: 2rem;
@@ -56,7 +56,20 @@ a {
 			float: left;
 			width: 50%;
 			@include sensorium-modular-text;
+		}
 
+		&--fullwidth {
+			background-color: $sensorium-block-bg;
+			padding: 3rem 0; 
+
+			.modular-row {
+				margin-bottom: 0;
+			}
+
+			h3 {
+				@include event-main-title();
+				margin-bottom: 2rem
+			}
 		}
 
 		&.news {
@@ -79,6 +92,10 @@ a {
 			padding-left: 6rem;
 		}	
 
+	}
+
+	#body h2.modular-row {
+		margin-bottom: 3rem;
 	}
 
 	@include breakpoint( small-mobile-range large-mobile-range ) {
