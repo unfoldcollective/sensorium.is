@@ -111,7 +111,7 @@ class Poof{
     }
   }
   // sample pixel locations and colours to create Circle particles
-  createMosaic(res=12){
+  createMosaic(res=10){
     console.log("createMosaic skipping every",res,"pixels");
     
     this.clearCircles();
