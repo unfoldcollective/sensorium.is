@@ -10,6 +10,7 @@ process:
 subtitle: 'Nefertiti Hack'
 background_image: nefertiti.jpg
 bio_image: jannikolaibw.jpg
+published: false
 ---
 
 Jan Nikolai Nelles is a German multi-disciplinary artist, graduating from Offenbach University of Art and Design in 2011 who collaborates with Nora Al-Badri since 2009. Their artistic practice encompasses visual art, documentary filmmaking and cultural activism. Their work addresses hegemonic and neo-colonial power structures and representations of the Global North and South, reflecting on the absurdity of the human condition. The pair stage interventions to challenge social infrastructures and institutions through civil disobedience, and pursue a critical re-evaluation of the cultural commons.
