@@ -1,5 +1,5 @@
 ---
-title: 'Sensorium 2018'
+title: 'Sensorium 2019'
 menu: Home
 onpage_menu: true
 body_classes: 'modular header-image fullwidth'
