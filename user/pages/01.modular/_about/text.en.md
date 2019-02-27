@@ -2,10 +2,14 @@
 title: About
 ---
 
-Sensorium Festival is workshops, talks and performances bridging the fields of computational art, design and performance.
+Sensorium is a festival with conference, workshops & showcase bridging the fields of computational art, design and performance.
 
-Throughout this year’s conference, we will examine contemporary innovation in creative practice in the wider context of the changing role of ‘the creator’. Building on Jack Burnham’s 1968 essay “System Aesthetics”, we will investigate the shift from “Homo Faber” (Man the Maker) to **“Homo Arbiter Formae”** (Man the Maker of Aesthetic Decisions).
+It is the genre-defining platform to experience possible futures of the creative industry on the crossover of art, design and technology. Immerse yourself in the world of dynamic and interactive installations, AI, graphics, data visualisations, generative architecture, design and virtual reality. Internationally established artists and designers who use computation as a creative practice will get together in Bratislava to discuss their projects, processes and ideas. Sensorium is a first-of-its-kind educational event in Slovakia on the crossover of art, design and technology.
 
-We invite you to explore the system behind the animations you see running in the background and make your own aesthetic decisions using sliders like this ([scroll down](#sliders) for more):
+The festival collaborates with international festivals and organisations such as [TodaysArt](http://todaysart.nl/) and [Instrument Inventors Initiative](https://instrumentinventors.org) in the Netherlands, [Choreographic Coding Labs](http://choreographiccoding.org) and [HOLO magazine](http://holo-magazine.com). 
 
-**[read more](/about)**
+We believe the program will amaze you. Sensorium invites ground-breaking works of art employing cutting-edge technology, but mainly the opportunity to meet and connect with innovative artists and designers. The aim of the event is to give creators a space to present their work and through that to stir a forward-thinking debate of ideas, opinions and visions connecting technology and art.
+
+Curatorial Statement 2019
+
+<!-- **[read more](/about)** -->
