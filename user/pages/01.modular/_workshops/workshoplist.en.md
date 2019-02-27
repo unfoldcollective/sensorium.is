@@ -5,5 +5,6 @@ process:
 content:
     items:
       - '@page': '/workshops'
+published: false
 ---
 ## Workshops

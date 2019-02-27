@@ -1,7 +1,7 @@
 ---
 title: Novinky
 menu: Novinky
-hide_in_menu: true
+hide_in_menu: false
 content:
     items:
         '@page': /news

@@ -6,6 +6,7 @@ content:
     items:
         -
             '@page': /inštalácie
+published: false
 ---
 
 ## Inštalácie
