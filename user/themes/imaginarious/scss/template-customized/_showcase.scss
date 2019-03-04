@@ -38,10 +38,11 @@
         }
 
         h1 {
-            font-size: 6rem;
+            font-size: $h1-font-size;
+            line-height: $h1-line-height;
+            font-weight: $core-font-weight-bold;
             margin-top: 0;
-            line-height: 5.25rem;
-            font-weight: bold;
+            
 
             @include breakpoint(desktop-range) {
                 font-size: $h1-font-size * 0.7;

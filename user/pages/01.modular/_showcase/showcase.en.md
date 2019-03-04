@@ -12,9 +12,11 @@ buttons:
         newTab: true
         classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
 hide_in_menu: true
+cache_enable: false
 ---
 
 <!-- <h2 class="rotated-right">4-5 May 2018, Bratislava</h2> -->
 # Sensorium <br class="dn-ns">Festival
 ## The&nbsp;Augmented Mind
+<h2 class="festivaldate--inline">7&ndash;9 Jun 2019</h2>
 <h3 class="description">The biggest festival of digital art and culture in Slovakia. Sensorium gathers an international community of artists, designers and technologists for its conference programme, interactive exhibition, live performances and cross-disciplinary workshops.</h3>

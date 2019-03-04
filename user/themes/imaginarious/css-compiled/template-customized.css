@@ -574,9 +574,9 @@ ul.pagination {
 }
 .modular .showcase h1 {
   font-size: 6rem;
-  margin-top: 0;
   line-height: 5.25rem;
   font-weight: bold;
+  margin-top: 0;
 }
 @media only all and (min-width: 60em) and (max-width: 74.938em) {
   .modular .showcase h1 {
@@ -660,6 +660,53 @@ ul.pagination {
 @media only all and (min-width: 75em) {
   .modular .showcase .description {
     width: 100%;
+  }
+}
+
+.festivaldate {
+  display: none;
+}
+.modular .festivaldate {
+  background: transparent;
+  padding-left: 1rem;
+}
+.festivaldate__inner {
+  display: flex;
+}
+.festivaldate__date {
+  font-size: 7.2rem;
+  line-height: 5.25rem;
+  font-weight: bold;
+  margin: 1.2rem 0 0;
+}
+.festivaldate__date span {
+  display: block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 2.5rem;
+  letter-spacing: 0.5rem;
+}
+.festivaldate__name {
+  margin: 1rem 0 0;
+  font-size: 2.45rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+@media only all and (min-width: 60em) and (max-width: 74.938em) {
+  .festivaldate {
+    display: block;
+  }
+  .festivaldate--inline {
+    display: none;
+  }
+}
+@media only all and (min-width: 75em) {
+  .festivaldate {
+    display: block;
+  }
+  .festivaldate--inline {
+    display: none;
   }
 }
 
