@@ -45,6 +45,7 @@ partners:
         name: TodaysArt
         url: 'https://http://todaysart.nl/'
         logo: todaysart.png
+supportSentence: 'Festival is realised under official support of the mayor of the Old-Town Bratislava and mayor of the City of Bratislava'
 mediaPartnersTitle: 'Media partners'
 mediaPartners:
 ---
