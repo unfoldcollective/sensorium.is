@@ -1,4 +1,3 @@
-// create the instance passing the dimenions, container, assets folder (including trailing slash) and asset names
     let assetpath = './user/themes/imaginarious/js/sk_190203_pixi/assets/SVG/';
     let assetNames = ["Icelolly-1.svg","Icelolly-2.svg","Icelolly-3.svg"];
     let canvasParent = document.getElementById('bg-canvas');
@@ -13,6 +12,7 @@
     console.log( windowWidth + ' × ' + windowHeight );
     console.log( pageHeight );
 
+// create the instance passing the dimenions, container, assets folder (including trailing slash) and asset names
     const poof = new Poof( windowWidth, windowHeight, canvasParent, assetpath, assetNames );
 
     // handle scroll event on desktop and touch move on mobile
@@ -22,7 +22,24 @@
     jQuery(document).ready(function($) {
 
       $scrollElem.on( 'scroll', updatePoofinessDesktop );
-      $scrollElem.on( 'touchmove', updatePoofinessMobile );
+      // $scrollElem.on( 'touchmove', updatePoofinessMobile );
+
+      // on window resize (throttled)
+      // change Poof.width to $(window).width()
+      // $(window).on( 'resize', function( e ) {
+      // });
+
+      $(window).on('resize', debounce(function() {
+        windowWidth = $(window).width();
+        windowHeight = $(window).height();
+        // console.log( windowWidth + ' x ' + windowHeight );
+        Poof.width   = windowWidth;
+        Poof.height  = windowHeight;
+        // Resize the renderer
+        poof.app.renderer.resize(windowWidth, windowHeight);
+        poof.createMosaic(res=10);
+
+      }, 250));
 
     });
 
@@ -37,6 +54,7 @@
 
     // transition using the first touch Y position (in relation to the window)
     function updatePoofinessMobile(e){
+      console.log( e );
       poof.poofiness = Poof.constrain(e.touches[0].clientY / window.innerHeight,0.0,1.0);
     }
 
@@ -53,3 +71,21 @@
         poof.next();
       }
     });
+
+
+    // Returns a function, that, as long as it continues to be invoked, will not
+// be triggered. The function will be called after it stops being called for
+// N milliseconds. If `immediate` is passed, trigger the function on the
+// leading edge, instead of the trailing.
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function() {
+    var context = this, args = arguments;
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    }, wait);
+    if (immediate && !timeout) func.apply(context, args);
+  };
+}
