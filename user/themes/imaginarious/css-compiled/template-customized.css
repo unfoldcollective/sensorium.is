@@ -684,7 +684,7 @@ ul.pagination {
   font-size: 2rem;
   text-transform: uppercase;
   line-height: 2.5rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.15rem;
 }
 .festivaldate__name {
   margin: 1rem 0 0;
