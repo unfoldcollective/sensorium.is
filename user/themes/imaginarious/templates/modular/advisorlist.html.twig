@@ -2,7 +2,9 @@
 
 <section class="modular-row--fullwidth advisors">
 	<div class="modular-row">
+		{% if page.header.listtitle %}
 		<h3>{{ page.header.listtitle }}</h3>
+		{% endif %}
 		<ul class="advisorlist">
 			{% for advisor in page.header.advisors %}
 				<li class="advisorlist__item">
