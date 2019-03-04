@@ -819,13 +819,21 @@ ul.pagination {
 
 .s-time {
   font-size: 1rem;
-  line-heigth: 2rem;
+  line-height: 2rem;
   font-weight: 500;
   text-transform: uppercase;
 }
 .s-time::before {
-  content: "🕓";
+  content: "";
+  background: url("../images/icons/watch-r.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 3px;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 2px;
 }
 
 .s-location {
@@ -835,8 +843,16 @@ ul.pagination {
   text-transform: uppercase;
 }
 .s-location::before {
-  content: "📍";
+  content: "";
+  background: url("../images/icons/location-r.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 3px;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 2px;
 }
 
 #header {

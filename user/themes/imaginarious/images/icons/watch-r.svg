@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+      }
+    </style>
+  </defs>
+  <title>watch-r</title>
+  <circle class="cls-1" cx="7" cy="7" r="5.5"/>
+  <polyline class="cls-1" points="6.5 4 6.5 8 10 8"/>
+</svg>
