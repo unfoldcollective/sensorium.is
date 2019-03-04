@@ -5,7 +5,7 @@
 
 {% block javascripts %}
     {% if show_onpage_menu %}
-        {% do assets.add('theme://js/singlePageNav.min.js') %}
+        {# {% do assets.add('theme://js/singlePageNav.min.js') %} #}
     {% endif %}
     {{ parent() }}
     {% do assets.addJs('theme://js/anime.min.js', {group: 'bottom'}) %} {# TODO: is this used? #}
@@ -39,12 +39,12 @@
     {% if show_onpage_menu %}
         <script>
         // singlePageNav initialization & configuration
-        $('#navbar').singlePageNav({
-            offset: $('#header').outerHeight(),
-            filter: ':not(.external)',
-            updateHash: true,
-            currentClass: 'active'
-        });
+        // $('#navbar').singlePageNav({
+        //     offset: $('#header').outerHeight(),
+        //     filter: ':not(.external)',
+        //     updateHash: true,
+        //     currentClass: 'active'
+        // });
         </script>
     {% endif %}
     <script>
@@ -80,7 +80,7 @@
     {{ page.content }}
     {% for module in page.collection() %}
         {% if not module.header.disabled %}
-            <div id="{{ _self.pageLinkName(module.menu) }}"></div>
+            <div id="{{ _self.pageLinkName(module.menu) }}" class="section-anchor">&nbsp;</div>
             {{ module.content }}
         {% endif %}
     {% endfor %}

@@ -2229,4 +2229,8 @@ body.hide-menu #header #navbar ul.navigation {
   display: none;
 }
 
+.section-anchor {
+  clear: both;
+}
+
 /*# sourceMappingURL=template-customized.css.map */
