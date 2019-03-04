@@ -1,0 +1,35 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block bodyclass %}fullwidth{% endblock %}
+{% block background %}{% endblock %}
+
+
+{% block body %}
+  {% set speaker_image = page.media.images|first %}
+<div class="s-page">
+  <article class="s-page__inner">
+    <div class="s-page__image" style="background-image:url('{{speaker_image.url}}');"></div>
+    <header class="s-page__header">
+      <h1 class="s-page__title">{{ page.title }}</h1> 
+      {# <h2 class="s-page__subtitle">{{ page.header.subtitle }}</h2>  #}
+      {# <p class="s-location">some location detail if there is one</p> #}
+    </header>
+
+    <p class="s-page__introtext">
+      {{ page.header.subtitle }}
+    </p>
+
+    {{ page.content }}
+
+    <div class="s-page__actions">
+      {% include 'partials/atoms/button.html.twig' with {'button': {
+        'text': 'Get tickets now',
+        'url': site.ticket_url,
+        'newTab': true,
+        'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
+      }} %}
+    </div>
+
+  </article>
+</div>
+{% endblock %}

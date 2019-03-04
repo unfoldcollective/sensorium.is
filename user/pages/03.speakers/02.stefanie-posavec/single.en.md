@@ -9,7 +9,7 @@ process:
     twig: true
 subtitle: ''
 background_image: a-la-recherche.jpg
-bio_image: Stefanie-Posavec.jpeg
+image: Stefanie-Posavec.jpeg
 ---
 
 Stefanie Posavec is a London-based designer, artist, and author for whom data is her favoured material, with projects ranging from data visualization, book design, and information design to commissioned artworks. This work has been exhibited internationally at major galleries including MoMA (New York), CCBB (Rio de Janeiro), the Centre Pompidou (Paris), the V&A, the Design Museum, and Somerset House (London), and is held in the permanent collection of the Museum of Modern Art, New York.

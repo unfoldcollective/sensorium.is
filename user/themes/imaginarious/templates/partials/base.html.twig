@@ -48,7 +48,7 @@
 
 {% endblock head %}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+<body id="top" class="{{ page.header.body_classes }} {% block bodyclass %}{% endblock %}">
     {% block background %}{% endblock %}
     {% block header %}
     <header id="header" canvas="" class="sb-close">

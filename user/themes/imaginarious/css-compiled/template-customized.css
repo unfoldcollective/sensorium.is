@@ -1263,6 +1263,54 @@ ul.pagination {
   }
 }
 
+.s-page {
+  position: relative;
+  padding: 0 7rem;
+  margin-top: 11rem;
+  display: flex;
+  justify-content: center;
+}
+.s-page__inner {
+  flex: 0 0 50%;
+}
+.s-page__header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-left: 7.5rem;
+}
+.s-page__image {
+  min-height: 400px;
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.s-page__title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+  margin-bottom: 32px;
+}
+@media only all and (max-width: 47.938em) {
+  .s-page {
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+  .s-page__inner {
+    flex-basis: 100%;
+  }
+  .s-page__header {
+    position: relative;
+    padding-left: 0;
+  }
+}
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .s-page__inner {
+    flex-basis: 100%;
+  }
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -2096,7 +2144,7 @@ blockquote cite {
   height: 2rem;
 }
 #header #navbar a {
-  color: white;
+  color: #000;
 }
 #header #navbar ul.navigation li a::after, #header #navbar ul.navigation li a::before {
   background-color: white;

@@ -1,0 +1,56 @@
+.s-page {
+    position: relative;
+    padding: 0 7rem;
+    margin-top: 11rem;
+    display: flex;
+    justify-content: center;
+
+    &__inner {
+        flex: 0 0 50%;
+    }
+
+    &__header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-left: 7.5rem;
+
+    }
+
+    &__image {
+        min-height: 400px;
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__title {
+        font-size: $h2-font-size;
+        font-weight: $core-font-weight-bold;
+        // text-align: inherit !important;
+        // letter-spacing: 0;
+        line-height: $h2-line-height;
+        margin-bottom: 32px;
+    }
+
+    @include breakpoint( mobile-only ) {
+        padding: 1rem;
+        margin-top: 4rem;
+        
+        &__inner {
+            flex-basis: 100%;
+        }
+
+        &__header {
+            position: relative;
+            padding-left: 0;
+        }
+    }
+
+    @include breakpoint( tablet-range ) {
+        &__inner {
+            flex-basis: 100%;
+        }
+    }
+}

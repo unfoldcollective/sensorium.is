@@ -25,6 +25,7 @@
 @import "template-customized/events-grid";
 @import "template-customized/newslist";
 @import "template-customized/advisors";
+@import "template-customized/s-page";
 
 // Load Vendor Components
 @import "vendor/schedule-template/reset.scss";
@@ -266,7 +267,7 @@ blockquote {
 		}
 	}
   #navbar a {
-      color: white;
+      color: #000;
   }
   #navbar ul.navigation li a::after, #navbar ul.navigation li a::before {
       background-color: white;
