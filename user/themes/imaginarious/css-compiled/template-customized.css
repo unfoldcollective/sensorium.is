@@ -1100,6 +1100,15 @@ ul.pagination {
   box-shadow: 0 0 120px rgba(0, 0, 0, 0.2);
 }
 
+.lolly-alt {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 760px;
+  width: auto;
+}
+
 .s-button {
   display: inline-block;
   border: 2px solid #000;

@@ -136,7 +136,7 @@ class Poof{
                 // offset by (Poof.width - currentAsset.width) /2
                 // TODO pass this from 2019-animation.js
                 let offsetX = (Poof.width - currentAsset.width)/2;
-                let offsetY = 90;
+                let offsetY = 60;
                 let circle = new Circle(x + offsetX, y + offsetY,  rgb, pixelIndex);
                 // add the circle to the list (so it can be update (and later removed))
                 this.circles.push(circle);    
