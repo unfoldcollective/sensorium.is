@@ -1857,13 +1857,14 @@ Main Components
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-end;
-  flex: 0 0 calc( 25% );
+  flex: 0 0 75%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
   padding: 36px 32px;
   min-height: 380px;
   color: #fff;
+  margin: 0.5rem;
 }
 .speakerfaces__speaker:hover {
   color: #000;
@@ -1882,6 +1883,21 @@ Main Components
   line-height: 2rem;
   margin-top: 0;
   margin-bottom: 0;
+}
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .speakerfaces__speaker {
+    flex: 0 0 calc( 50% - 1rem );
+  }
+}
+@media only all and (min-width: 60em) and (max-width: 74.938em) {
+  .speakerfaces__speaker {
+    flex: 0 0 calc( 33% - 1rem);
+  }
+}
+@media only all and (min-width: 75em) {
+  .speakerfaces__speaker {
+    flex: 0 0 calc( 25% - 1.5rem );
+  }
 }
 
 /* general */
