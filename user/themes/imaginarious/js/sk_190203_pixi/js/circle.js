@@ -41,7 +41,7 @@ class Circle extends PIXI.Sprite{
     this.g.beginFill(this.shadowColor);
     this.g.arc(this.radius,this.radius,this.radius,-Poof.QUARTER_PI, Poof.PI-Poof.QUARTER_PI)
     this.g.endFill();
-    this.cacheAsBitmap = true;
+    this.cacheAsBitmap = false; //andrejm was true for performance reasons
     this.anchor.set(10.5,10.5);
   }
 
