@@ -10,7 +10,7 @@ process:
 subtitle: 'Novomediálne priestory'
 background_image: a-la-recherche.jpg
 bio_image: joachim-sauter.jpg
-pblished: false
+published: false
 ---
 
 **Po úspešnom absolvovaní umeleckej akadémie v Berlíne študoval Joachim Sauter na Nemeckej filmovej a televíznej akadémií, rovnako v Berlíne. Od polovice 80-tych rokov pracuje ako mediálny umelec a dizajnér. Od začiatku kariéry sa Joachim Sauter zameriava na digitálne technológie a experimentuje s ich  potenciálom pre vyjadrenie obsahu, formy a rozprávania. V roku 1988 založil spoločnosť ART+COM spolu s ostatnými umelcami, dizajnérmi, vedcami, hekermi a technikmi. Ich cieľom bolo prakticky preskúmať sľubné médium v oblasti umenia a dizajnu. Joachim Sauter túto interdisciplinárnu skupinu doteraz vedie.**
