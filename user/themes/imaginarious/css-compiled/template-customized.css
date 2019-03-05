@@ -300,7 +300,7 @@ a:hover {
 }
 .fullwidth #body .modular-row {
   clear: both;
-  overflow: auto;
+  overflow: visible;
   margin-bottom: 4rem;
 }
 .fullwidth #body .modular-row--text {
