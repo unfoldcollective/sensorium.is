@@ -1,3 +1,5 @@
+{% set currentLang = grav.language.getLanguage %}
+
 <div class="relative modular-row showcase fl w-50">
     {{ content }}
 
@@ -9,14 +11,26 @@
 </div>
 <div class="relative showcase fl w-50 festivaldate">
 	<div class="festivaldate__inner">
+		{% if currentLang == 'sk' %}
+		<p class="festivaldate__date">
+			7&ndash;9
+			<span>Júna 2019</span>
+		</p>
+		<p class="festivaldate__name">
+			<br>
+			Rozšírená <br>
+			Myseľ
+		</p>
+	{% else %}
 		<p class="festivaldate__date">
 			7&ndash;9
 			<span>June 2019</span>
 		</p>
 		<p class="festivaldate__name">
 			The <br>
-			augmented <br>
-			mind
+			Augmented <br>
+			Mind
 		</p>
+	{% endif %}
 	</div>
 </div>
