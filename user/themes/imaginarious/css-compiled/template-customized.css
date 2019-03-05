@@ -1941,6 +1941,7 @@ Main Components
   line-height: 3.25rem;
   word-break: break-word;
   margin-bottom: 0.5rem;
+  hyphens: manual;
 }
 .speakerfaces__interest {
   font-size: 1.5rem;

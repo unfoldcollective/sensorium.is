@@ -5,10 +5,10 @@
 
 
 {% block body %}
-  {% set speaker_image = page.media.images|first %}
+  {% set featured_image = page.media['featured-image.jpg'].url %}
 <div class="s-page">
   <article class="s-page__inner">
-    <div class="s-page__image" style="background-image:url('{{speaker_image.url}}');"></div>
+    <div class="s-page__image" style="background-image:url('{{ featured_image }}');"></div>
     <header class="s-page__header">
       <h1 class="s-page__title">{{ page.title }}</h1> 
       {# <h2 class="s-page__subtitle">{{ page.header.subtitle }}</h2>  #}

@@ -1,5 +1,5 @@
 ---
-title: 'Christopher Csíkszentmihályi'
+title: 'Chris Csík&shy;szent&shy;mihályi'
 date: 27/02/2019
 taxonomy:
     category:
