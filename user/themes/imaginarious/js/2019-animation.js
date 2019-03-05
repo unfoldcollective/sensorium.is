@@ -1,4 +1,4 @@
-    let assetpath = './user/themes/imaginarious/js/sk_190203_pixi/assets/SVG/';
+    let assetpath = '/user/themes/imaginarious/js/sk_190203_pixi/assets/SVG/';
     let assetNames = ["Icelolly-1.svg","Icelolly-2.svg","Icelolly-3.svg"];
     let canvasParent = document.getElementById('bg-canvas');
 
