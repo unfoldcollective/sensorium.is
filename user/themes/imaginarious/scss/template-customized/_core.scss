@@ -1,8 +1,13 @@
 html, body {
 	height: 100%; // use !important to override slidebars.min.css
-	font-size: 125%; //20px
-	font-size: 100%;
-	font-size: 80%;
+}
+
+html {
+	// this is for rem sizing
+	// font-size: 125%; //20px
+	// font-size: 100%; //16px
+	font-size: 75% // 12px
+	// font-size: 62.5%;	//10 px 
 }
 
 body {
@@ -10,6 +15,7 @@ body {
 	color: $core-text;
 	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
+  	font-size: 160%; //16px this is for undefined font size
 }
 
 a {

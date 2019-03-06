@@ -13,7 +13,7 @@ $dropdown-color: #f6f6f6;
 
 	// scroll based changes
 	&.scrolled {
-		height: $header-height - 2rem;
+		height: $header-height;
 		background-color: rgba(255,255,255,0.90) !important;
 		box-shadow: 0 0.05rem 1rem rgba(0,0,0, 0.15) !important;
 
@@ -60,7 +60,7 @@ $dropdown-color: #f6f6f6;
 	}
 
 	#navbar {
-		font-size: $core-font-size - 0.1rem;
+		font-size: $sensorium-body-font-size;
 
 		/* Child Indicator */
 		.has-children {
@@ -110,7 +110,7 @@ $dropdown-color: #f6f6f6;
 				float: right;
 				@extend .default-animation;
 
-				margin-top: 1.4rem;
+				margin: 1rem !important;
 
 				li {
 					float: left;
@@ -121,7 +121,7 @@ $dropdown-color: #f6f6f6;
 						display: inline-block;
 						padding: 0.3rem 0.8rem;
 
-						font-size: $core-font-size;
+						font-size: $sensorium-body-font-size;
 						line-height: 23px;
 						font-weight: $core-font-weight-medium;
 
