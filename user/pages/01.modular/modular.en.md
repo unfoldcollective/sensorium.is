@@ -13,6 +13,7 @@ content:
             - _speakers
             - _programme
             - _about
+            - _lab
             - _workshops
             - _installations
             - _news
