@@ -24,7 +24,14 @@
 {% endmacro %}
 
 <ul class="navigation">
-    {% if theme_config.dropdown.enabled %}
+    {# temporarily only show back link instead of menu #}
+    <li class="{{ current_page }}">
+        <a href="/">
+            &larr; Back to homepage
+        </a>
+    </li>
+
+    {# {% if theme_config.dropdown.enabled %}
         {{ _self.loop(pages) }}
     {% else %}
         {% for page in pages.children.visible %}
@@ -49,6 +56,6 @@
     {% endfor %}
     {% if config.plugins.login.enabled and grav.user.username %}
         <li><i class="fa fa-lock"></i> {% include 'partials/login-status.html.twig' %}</li>
-    {% endif %}
+    {% endif %} #}
 </ul>
 
