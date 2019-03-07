@@ -9,6 +9,20 @@ mainPartners:
         name: 'FPU'
         url: 'https://www.fpu.sk/'
         logo: logo-fpu.png
+mainMediaPartnersTitle: 'Hlavní mediálni partneri'
+mainMediaPartners:
+    -
+        name: Denník N
+        url: 'http://www.dennikn.sk/'
+        logo: logo-dennikn.png
+    -
+        name: Rádio FM
+        url: 'http://www.radiofm.sk/'
+        logo: logo-radiofm.png
+    -
+        name: RTVS
+        url: 'http://www.rtvs.sk/'
+        logo: logo-rtvs.png
 supportersTitle: 'Podporili'
 supporters:
     -
@@ -47,6 +61,30 @@ partners:
         logo: todaysart.png
 supportSentence: 'Festival je realizovaný pod záštitou starostky mestskej časti Bratislava - Staré Mesto a primátora mesta Bratislava.
 '
-mediaPartnersTitle: 'Media partners'
+mediaPartnersTitle: 'Mediálni partneri'
 mediaPartners:
+    -
+        name: Designum
+        url: 'https://www.scd.sk/?aktualne-cislo-casopisu-designum'
+        logo: logo-designum.png
+    -
+        name: Kapitál
+        url: 'http://www..sk/'
+        logo: logo-kapital.png
+    -
+        name: DeTePe
+        url: 'http://www.DeTePe.sk/'
+        logo: logo-detepe.png
+    -
+        name: MacBlog
+        url: 'https://www.macblog.sk/'
+        logo: logo-macblog.png
+    -
+        name: PC Revue
+        url: 'http://www.pcrevue.sk/'
+        logo: logo-pcrevue.png
+    -
+        name: Swine Daily
+        url: 'http://swinedaily.com/'
+        logo: logo-swinedaily.png
 ---
