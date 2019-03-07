@@ -1,17 +1,34 @@
 ---
 title: 'The Augmented Attention Lab'
-body_classes: 'header-image fullwidth hide-menu'
-hide_in_menu: true
+process:
+    markdown: true
+    twig: true
+no_ticket_button: true
 ---
 
+<br>
+<br>
 
-<div class="f3 f2-ns">
-The Augmented Attention Lab
-</div>
+**3rd - 6th of June** <br>
+**Bratislava, Slovakia** <br>
+**Curated by <a href="https://jonathanreus.com/" target="_blank">Jonathan Reus</a> &amp; <a href="https://www.sisselmarietonn.com/">Sissel Marie Tonn</a>** <br>
+**Applications close April 1st**
+
+<!-- NB: This URL requires escaping "_677_", otherwise markdown renders it as <em> tag -->
+{% include 'partials/atoms/button.html.twig' with {'button': {
+    'text': 'Apply Now',
+    'url': "https://docs.google.com/forms/d/e/1FAIpQLScEiiC\_677\_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform",
+    'newTab': true,
+    'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
+}} %}
+
+
+<br>
 
 *&quot;Artists are making present and composing attention&quot;* <br>
 — Tim Ingold, The Perception of the Environment
 
+<br>
 
 It is becoming evident, that the multiple social platforms, screens and technological devices, that we surround ourselves with, scatter and fragment our attention. This poses a problem, since from an evolutionary perspective, our ability to attend, react and adapt to the environmental changes occurring around us, are the determining factor of our survival as a species. In a present, where environmental change is the single biggest challenge to our species, how can an awareness of our perceptual limitations foster new ways of creating technologies and practices for augmenting our own modes of attention? 
 
@@ -21,19 +38,19 @@ In this lab we will explore ways of creating technologies and practices, that fo
 <small>Marshall Islands stick-chart: spatially conditioned memory of sensory perception, embedded into a piece of technology.</small><br>
 <small>Source: https://www.nationalgeographic.org/media/micronesian-stick-chart/</small>
 
-###Participate: 
+###Participate
 
 The Augmented Attention lab is looking for practitioners, who are interested in developing technologies (in the widest sense of the word) that afford awareness and attention towards our surroundings, and who wish to engage with these issues through a collaborative making process. We look for a mix of artists, designers, musicians, neuroscientists, technologists, etc, who are willing to step out of their comfort zone, for a 4 day intensive pressure cooker. The facilitators of the lab will focus on wearable sensor systems and e-textile practices as a point of departure, but we welcome all inventions/interventions that challenge the perceptual and sensory modes of the body within its environment.
 
-Will your practice/project benefit from being part of this lab? Then **submit your entry for our open call [here](https://docs.google.com/forms/d/e/1FAIpQLScEiiC_677_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform), by Sunday 24th of March!** The Sensorium team and lab facilitators will then select a fitting team of participants from the submissions to ensure a rich and diverse group. 
+Will your practice or project benefit from being part of this lab? Then **submit your entry for our open call [here](https://docs.google.com/forms/d/e/1FAIpQLScEiiC_677_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform), by April 1st!** The Sensorium team and lab facilitators will then select a fitting team of participants from the submissions to ensure a rich and diverse group. 
 
-###Practicalities: 
+###Practicalities 
 
-The Augmented Attention Lab will take place in Bratislava, Slovakia from the 3rd - 6th of June. Participation in the lab is free (thanks to generous support by Goethe Institut Bratislava). Note that participants pay their own travel to and accommodation in Bratislava. There will be digital fabrication amenities and tools available for wearable-tech production on site.
+The Augmented Attention Lab will take place in Bratislava, Slovakia from the 3rd - 6th of June. Participation in the lab is free (thanks to generous support by Goethe Institut Bratislava). Note that participants need to arrange and pay their own travel to and accommodation in Bratislava. There will be digital fabrication amenities and tools available for production and prototyping on site.
 
-The lab is part of [Sensorium Festival](https://sensorium.is), which will be taking place in Bratislava, Slovakia, from the 7th - 9th of June. Sensorium is the first slovak festival making sense of creative technology, and it gathers an international community of artists, designers, technologists and entrepreneurs for its conference programme, interactive exhibition, live performances and cross-disciplinary workshops. This year’s theme will be ‘The Augmented Mind’. 
+The lab is part of [Sensorium Festival](https://sensorium.is): the first Slovak festival making sense of creative technology. The main Sensorium programme takes place June 7th - 9th featuring conference programme, interactive exhibition, live performances and cross-disciplinary workshops. Throughout 2019 Sensorium addresses the theme ‘The Augmented Mind’.
 
-**The Augmented Attention Lab will culminate in an open lab session at the beginning of Sensorium Festival.** Curious visitors will be invited to look behind the scenes, test prototypes and ask questions.
+**The Augmented Attention Lab will culminate in an open lab session at the beginning of Sensorium Festival.** Curious visitors will be invited to look behind the scenes, test prototypes and talk with lab participants about their work.
 
 ![](sensory01.png)
 ![](sensory02.png)
@@ -45,7 +62,12 @@ This lab departs from the research-based work [Sensory Cartographies](http://jon
 
 Sensory Cartographies, as such, is an ongoing research project conceiving of new wearable mapping technologies and practices that take into consideration the constant flux of change, that plays out at the interface between body and world. We are experimenting with the way mapping technologies determine the way we experience space. Informed also by research from cognitive and neuroscience, for example, in the phenomenon of ‘sensory gating’, whereby the body’s sensory system acts as a filter, singling out or amplifying events in a sea of impressions. From this point of departure we have developed prostheses/extensions and recording/playback devices that amplify or challenge the sensory system in this process of spatial and environmental dynamics. 
 
-##Submit your entry now!
+###Applications close April 1st
 
-Please fill [this Google form](https://docs.google.com/forms/d/e/1FAIpQLScEiiC_677_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform).
-
+<!-- NB: This URL requires escaping "_677_", otherwise markdown renders it as <em> tag -->
+{% include 'partials/atoms/button.html.twig' with {'button': {
+    'text': 'Apply to join now',
+    'url': "https://docs.google.com/forms/d/e/1FAIpQLScEiiC\_677\_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform",
+    'newTab': true,
+    'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
+}} %}
