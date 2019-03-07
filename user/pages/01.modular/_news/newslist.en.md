@@ -1,5 +1,4 @@
 ---
-published: false
 title: News
 menu: News
 hide_in_menu: false
