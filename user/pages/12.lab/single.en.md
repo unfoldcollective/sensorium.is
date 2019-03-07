@@ -11,6 +11,7 @@ no_ticket_button: true
 
 **3rd - 6th of June** <br>
 **Bratislava, Slovakia** <br>
+**Free of charge** <br>
 **Curated by <a href="https://jonathanreus.com/" target="_blank">Jonathan Reus</a> &amp; <a href="https://www.sisselmarietonn.com/">Sissel Marie Tonn</a>** <br>
 **Applications close April 1st**
 
@@ -22,6 +23,15 @@ no_ticket_button: true
     'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
 }} %}
 
+*With financial support of*
+
+<a class="di" href="https://stimuleringsfonds.nl" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-cif_nl.png"></a>
+<a class="di" href="https://www.goethe.de/ins/sk/sk/index.html" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-goethe_institut.png"></a>
+
+*In partnership with*
+
+<a class="di" href="https://instrumentinventors.org/" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-iii.png"></a>
+<a class="di" href="http://todaysart.nl/" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-todaysart.png"></a>
 
 <br>
 
