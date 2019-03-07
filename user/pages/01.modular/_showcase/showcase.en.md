@@ -2,7 +2,7 @@
 title: Homepage Showcase
 buttons:
     -
-        text: Get tickets now
+        text: Get tickets
         url: https://ti.to/sensorium-festival-2019/sensorium-2019
         newTab: true
         classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
@@ -10,6 +10,11 @@ buttons:
         text: Submit a proposal
         url: https://docs.google.com/forms/d/e/1FAIpQLSf0Pwujqq7ploTf4ac455Au5EZCCf8C3LHeup3x7pY0AJR7xw/viewform
         newTab: true
+        classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
+    -
+        text: Join the Augmented Attention Lab
+        url: /lab
+        newTab: false
         classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
 hide_in_menu: true
 ---
