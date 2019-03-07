@@ -14,6 +14,11 @@ no_ticket_button: true
 **Curated by <a href="https://jonathanreus.com/" target="_blank">Jonathan Reus</a> &amp; <a href="https://www.sisselmarietonn.com/">Sissel Marie Tonn</a>** <br>
 **Applications close April 1st**
 
+*In partnership with*
+
+<a class="di" href="https://instrumentinventors.org/" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-iii.png"></a>
+<a class="di" href="http://todaysart.nl/" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-todaysart.png"></a>
+
 <!-- NB: This URL requires escaping "_677_", otherwise markdown renders it as <em> tag -->
 {% include 'partials/atoms/button.html.twig' with {'button': {
     'text': 'Apply Now',
