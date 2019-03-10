@@ -5,7 +5,8 @@
 
 
 {% block body %}
-  {% set featured_image = page.media['featured-image.jpg'].url %}
+  {# {% set featured_image = page.media['featured-image.jpg'].url %} #}
+  {% set featured_image = page.media.images[page.header.custom.coverImage|first.name].url %}
 <div class="s-page">
   <article class="s-page__inner">
     {% if featured_image %}

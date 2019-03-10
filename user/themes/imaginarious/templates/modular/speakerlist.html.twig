@@ -5,7 +5,7 @@
 
 	<div class="speakerfaces">
 		{% for speaker in page.collection %}
-			<a href="{{speaker.url}}" class="speakerfaces__speaker" style="background-image: url('{{ speaker.media.images[speaker.header.bio_image].url }}');">
+			<a href="{{speaker.url}}" class="speakerfaces__speaker" style="background-image: url('{{ speaker.media.images[speaker.header.custom.bioImage|first.name].url }}');">
 				<div class="speakerfaces__info">
 
 					<h4 class="speakerfaces__name">{{ speaker.title }}</h4>
