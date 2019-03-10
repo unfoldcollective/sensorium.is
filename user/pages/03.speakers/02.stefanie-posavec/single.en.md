@@ -1,6 +1,6 @@
 ---
 title: 'Stefanie Posavec'
-date: 27/02/2019
+date: 10/02/2019
 taxonomy:
     category:
         - speakers
@@ -10,6 +10,19 @@ process:
 subtitle: ''
 background_image: a-la-recherche.jpg
 bio_image: Stefanie-Posavec.jpeg
+custom:
+    coverImage:
+        user/pages/03.speakers/02.stefanie-posavec/featured-image-stefanie.jpg:
+            name: featured-image-stefanie.jpg
+            type: image/jpeg
+            size: 115798
+            path: user/pages/03.speakers/02.stefanie-posavec/featured-image-stefanie.jpg
+    bioImage:
+        user/pages/03.speakers/02.stefanie-posavec/Stefanie-Posavec.jpg:
+            name: Stefanie-Posavec.jpg
+            type: image/jpeg
+            size: 61982
+            path: user/pages/03.speakers/02.stefanie-posavec/Stefanie-Posavec.jpg
 ---
 
 Stefanie Posavec is a London-based designer, artist, and author for whom data is her favoured material, with projects ranging from data visualization, book design, and information design to commissioned artworks. This work has been exhibited internationally at major galleries including MoMA (New York), CCBB (Rio de Janeiro), the Centre Pompidou (Paris), the V&A, the Design Museum, and Somerset House (London), and is held in the permanent collection of the Museum of Modern Art, New York.
