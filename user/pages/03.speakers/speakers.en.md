@@ -1,4 +1,5 @@
 ---
+published: false
 title: Speakers & Artists
 slug: speakers
 hide_in_menu: true
