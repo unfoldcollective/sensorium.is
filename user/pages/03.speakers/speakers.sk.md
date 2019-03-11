@@ -1,4 +1,5 @@
 ---
+published: false
 title: 'Spíkri & umelci'
 slug: speakers
 hide_in_menu: true
