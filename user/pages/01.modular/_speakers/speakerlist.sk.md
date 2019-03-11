@@ -1,6 +1,6 @@
 ---
 title: 'Spíkri & Umelci'
-menu: 'Spíkri'
+menu: 'Spíkri & Umelci'
 content:
     items:
         '@page': /speakers

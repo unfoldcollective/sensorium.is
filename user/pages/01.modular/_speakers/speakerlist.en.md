@@ -1,6 +1,6 @@
 ---
 title: 'Speakers & Artists'
-menu: 'Speakers'
+menu: 'Speakers & Artists'
 content:
     items:
         '@page': /speakers
