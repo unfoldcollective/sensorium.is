@@ -46,6 +46,8 @@
     {% endblock %}
     {{ assets.js() }}
 
+    {% include 'partials/fb-pixel.html.twig' %}
+
 {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }} {% block bodyclass %}{% endblock %}">
