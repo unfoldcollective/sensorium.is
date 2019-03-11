@@ -1,0 +1,21 @@
+{% extends 'partials/base.html.twig' %}
+{% block bodyclass %}fullwidth{% endblock %}
+
+{% block content %}
+	<div id="error">
+		<div>
+			<h1>{{ 'ERROR'|t }} {{ page.header.http_response_code }}</h1>
+			<p>
+				{{ page.content }}
+			</p>
+		</div>
+	</div>
+	<p class="tc ma4">
+		{% include 'partials/atoms/button.html.twig' with {'button': {
+		  'text': '&larr; Return to home page',
+		  'url': home_url,
+		  'newTab': true,
+		  'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
+		}} %}
+	</p>
+{% endblock %}
