@@ -1,5 +1,7 @@
 {% extends 'partials/base.html.twig' %}
 
+{% block bodyclass %}animation-static{% endblock %}
+
 {% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 
@@ -31,7 +33,7 @@
 
 {% block background %}
     <div id="bg-canvas" class="" canvas=""></div>
-    <img class="lolly-alt" src="/user/themes/imaginarious/js/sk_190203_pixi/assets/icelollystick.png" alt="">
+    {# <img class="lolly-alt" src="/user/themes/imaginarious/js/sk_190203_pixi/assets/icelollystick.png" alt=""> #}
 {% endblock %}
 
 {% block bottom %}

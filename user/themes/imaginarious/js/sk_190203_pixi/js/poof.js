@@ -84,6 +84,8 @@ class Poof{
 	      for(let name in resources){
 	      	// create a new sprite from the loaded texture
 	        	this.assets[name] = new PIXI.Sprite(resources[name].texture);
+            // this.assets[name].width = 720;
+            // this.assets[name].height = 625;
 	        	// extract pixels from rendered texture (RGBA orders)
 	        	this.assetPixels[this.assetPixels.length] = this.app.renderer.plugins.extract.pixels(this.assets[name]);
 
@@ -111,7 +113,7 @@ class Poof{
     }
   }
   // sample pixel locations and colours to create Circle particles
-  createMosaic(res=10){
+  createMosaic(res=9){
     console.log("createMosaic skipping every",res,"pixels");
     
     this.clearCircles();
@@ -120,6 +122,20 @@ class Poof{
     let currentPixels = this.assetPixels[this.assetIndex];
     
     let now = Date.now();
+    // offset for the animation pixels - offset by (Poof.width - currentAsset.width) /2
+    let offsetX = (Poof.width - currentAsset.width)/2;
+    let offsetY = (Poof.height - currentAsset.height)/2;
+
+    offsetX = Math.max( 0, offsetX ); //if asset wider, dont add negative offset
+    offsetY = Math.max( 0, offsetY );
+
+    // console.log( this.assets );
+    // console.log( 'currentAsset.width ' + currentAsset.width );
+    // console.log( 'currentAsset.height ' + currentAsset.height );
+    // console.log( 'poof ' + Poof.width + ' x ' + Poof.height );
+    // console.log( 'offsetX ' + offsetX );
+    // console.log( 'offsetY ' + offsetY );
+
 
     for (let y=0; y < currentAsset.height; y += res){
       for (let x=0; x < currentAsset.width; x += res){
@@ -133,11 +149,9 @@ class Poof{
                            currentPixels[pixelIndex + 1],
                            currentPixels[pixelIndex + 2]];
                 // create a new circle for the given position, colour and index
-                // offset by (Poof.width - currentAsset.width) /2
-                // TODO pass this from 2019-animation.js
-                let offsetX = (Poof.width - currentAsset.width)/2;
-                let offsetY = 60;
                 let circle = new Circle(x + offsetX, y + offsetY,  rgb, pixelIndex);
+                // let circle = new Circle(x, y, rgb, pixelIndex);
+
                 // add the circle to the list (so it can be update (and later removed))
                 this.circles.push(circle);    
                 // add circle to display list

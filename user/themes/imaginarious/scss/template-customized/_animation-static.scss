@@ -1,0 +1,36 @@
+.animation-static {
+		background-size: 100%;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		
+		&--3 {
+			background-image: url('../js/sk_190203_pixi/assets/Straw-1-01.png');
+
+			@include breakpoint( mobile-only ) {
+				background-size: 200%;
+			}
+
+			@include breakpoint( tablet-range ) {
+				background-size: 150%;
+			}
+		}
+
+		&--2 {
+			background-image: url('../js/sk_190203_pixi/assets/Seeds-1-01.png');
+		}
+
+		&--1 {
+			background-image: url('../js/sk_190203_pixi/assets/icelollystick.png');
+			background-position-y: -10%;
+			background-size: initial;
+
+			@include breakpoint( mobile-only ) {
+				background-position-y: 80px;
+				background-size: 110%;
+			}
+
+			@include breakpoint( tablet-range ) {
+				background-position-y: 80px;
+			}
+		}
+}

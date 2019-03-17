@@ -1316,6 +1316,44 @@ ul.pagination {
   }
 }
 
+.animation-static {
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.animation-static--3 {
+  background-image: url("../js/sk_190203_pixi/assets/Straw-1-01.png");
+}
+@media only all and (max-width: 47.938em) {
+  .animation-static--3 {
+    background-size: 200%;
+  }
+}
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .animation-static--3 {
+    background-size: 150%;
+  }
+}
+.animation-static--2 {
+  background-image: url("../js/sk_190203_pixi/assets/Seeds-1-01.png");
+}
+.animation-static--1 {
+  background-image: url("../js/sk_190203_pixi/assets/icelollystick.png");
+  background-position-y: -10%;
+  background-size: initial;
+}
+@media only all and (max-width: 47.938em) {
+  .animation-static--1 {
+    background-position-y: 80px;
+    background-size: 110%;
+  }
+}
+@media only all and (min-width: 48em) and (max-width: 59.938em) {
+  .animation-static--1 {
+    background-position-y: 80px;
+  }
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

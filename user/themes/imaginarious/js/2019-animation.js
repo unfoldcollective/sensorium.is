@@ -1,16 +1,21 @@
-    let assetpath = '/user/themes/imaginarious/js/sk_190203_pixi/assets/SVG/';
-    let assetNames = ["Icelolly-1.svg","Icelolly-2.svg","Icelolly-3.svg"];
-    let canvasParent = document.getElementById('bg-canvas');
-
+    // var generatedResourceNo = 1;
+    getResourceNo(); // used to get random resource
     let $scrollElem = $('#sb-site');
     let $heightElem = $('#body');
     let windowHeight = $(window).height();
     let windowWidth = $(window).width();
+    let resourceSize = getResourceSize( windowWidth );
     let pageHeight = $heightElem.height();
     let poofSpeed = 1.5;
+    let assetpath = '/user/themes/imaginarious/js/sk_190203_pixi/assets/SVG/';
+    //let assetNames = ["Icelolly-1.svg","Icelolly-2.svg","Icelolly-3.svg"];
+    let assetNames = ['ass-'+ generatedResourceNo + '-' + resourceSize + '.png']; //pixy actually doesnt work with SVGs (because webgl)
+    let canvasParent = document.getElementById('bg-canvas');
 
-    console.log( windowWidth + ' × ' + windowHeight );
-    console.log( pageHeight );
+
+    // console.log( assetNames );
+    // console.log( 'Window: ' + windowWidth + ' × ' + windowHeight );
+    // console.log( 'Page height: ' + pageHeight );
 
 // create the instance passing the dimenions, container, assets folder (including trailing slash) and asset names
     const poof = new Poof( windowWidth, windowHeight, canvasParent, assetpath, assetNames );
@@ -20,6 +25,8 @@
       // window.addEventListener("touchmove", updatePoofinessMobile, false);  
 
     jQuery(document).ready(function($) {
+
+      $( 'body' ).addClass( 'animation-static--' + generatedResourceNo ); //to set proper static item
 
       $scrollElem.on( 'scroll', updatePoofinessDesktop );
       // $scrollElem.on( 'touchmove', updatePoofinessMobile );
@@ -54,7 +61,7 @@
 
     // transition using the first touch Y position (in relation to the window)
     function updatePoofinessMobile(e){
-      console.log( e );
+      // console.log( e );
       poof.poofiness = Poof.constrain(e.touches[0].clientY / window.innerHeight,0.0,1.0);
     }
 
@@ -88,4 +95,27 @@ function debounce(func, wait, immediate) {
     }, wait);
     if (immediate && !timeout) func.apply(context, args);
   };
+}
+
+function getResourceNo( max = 3 ) {
+  let resourceNo = Math.ceil(Math.random(1)*10);
+  // console.log( 'generated ' + resourceNo );
+
+  if( resourceNo > max ) {
+    getResourceNo( max );
+  } else {
+    // console.log( 'found ' + resourceNo );
+    generatedResourceNo = resourceNo;
+    return resourceNo;
+  }
+}
+
+function getResourceSize( size ) {
+  if( size >= 1200 ) {
+    return 'l';
+  } else if ( size >= 768 ) {
+    return 'm';
+  } else {
+    return 's';
+  }
 }
