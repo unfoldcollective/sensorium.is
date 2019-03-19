@@ -15,7 +15,7 @@
 
     {# 2019 animation includes #}
     {% do assets.addJs('theme://js/sk_190203_pixi/js/pixi.min.js', {group: 'bottom'}) %}
-    {% do assets.addJs('theme://js/sk_190203_pixi/js/circle.js?v=20190306', {group: 'bottom'}) %}
+    {% do assets.addJs('theme://js/sk_190203_pixi/js/circle.js?v=20190317', {group: 'bottom'}) %}
     {% do assets.addJs('theme://js/sk_190203_pixi/js/poof.js', {group: 'bottom'}) %}
     {% do assets.addJs('theme://js/2019-animation.js?v=20190306', {group: 'bottom'}) %} {# temp disable #}
 
@@ -32,6 +32,7 @@
 {% endblock %}
 
 {% block background %}
+    <div class="animation-bg"></div>
     <div id="bg-canvas" class="" canvas=""></div>
     {# <img class="lolly-alt" src="/user/themes/imaginarious/js/sk_190203_pixi/assets/icelollystick.png" alt=""> #}
 {% endblock %}

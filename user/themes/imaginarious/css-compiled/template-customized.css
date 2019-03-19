@@ -1105,6 +1105,7 @@ ul.pagination {
   margin: 0 auto;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 0;
 }
 #bg-canvas.lolly::after {
   content: "";
@@ -1316,40 +1317,46 @@ ul.pagination {
   }
 }
 
-.animation-static {
+.animation-static .animation-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-size: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.animation-static--3 {
+.animation-static--3 .animation-bg {
   background-image: url("../js/sk_190203_pixi/assets/Straw-1-01.png");
 }
 @media only all and (max-width: 47.938em) {
-  .animation-static--3 {
+  .animation-static--3 .animation-bg {
     background-size: 200%;
   }
 }
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
-  .animation-static--3 {
+  .animation-static--3 .animation-bg {
     background-size: 150%;
   }
 }
-.animation-static--2 {
+.animation-static--2 .animation-bg {
   background-image: url("../js/sk_190203_pixi/assets/Seeds-1-01.png");
+  z-index: 1;
 }
-.animation-static--1 {
+.animation-static--1 .animation-bg {
   background-image: url("../js/sk_190203_pixi/assets/icelollystick.png");
   background-position-y: -10%;
   background-size: initial;
 }
 @media only all and (max-width: 47.938em) {
-  .animation-static--1 {
+  .animation-static--1 .animation-bg {
     background-position-y: 80px;
     background-size: 110%;
   }
 }
 @media only all and (min-width: 48em) and (max-width: 59.938em) {
-  .animation-static--1 {
+  .animation-static--1 .animation-bg {
     background-position-y: 80px;
   }
 }
