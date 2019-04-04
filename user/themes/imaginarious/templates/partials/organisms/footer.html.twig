@@ -12,6 +12,7 @@
         {% set getInTouch = 'Get in touch' %} 
         {% set producedBy = 'Sensorium is produced by' %} 
         {% set previously = 'Previously'  %}
+        {% set codeOfConduct = 'Code of Conduct & Privacy policy'  %}
     {% endif %}
 <footer class="clearfix">
     <div class="modular-row">
@@ -48,6 +49,12 @@
                         'classes': 'f5 link grow ba bw1 ph3 pv2 mb2 dib white hover-white'
                     }
                 }%}
+
+                <div class="f5">
+                    <h6 class="f3">{{ codeOfConduct }}</h6>
+                    <i class="fa fa-link w1"></i> <a href="/code-of-conduct/">Code of conduct</a><br>
+                    <i class="fa fa-link w1"></i> <a href="/privacy-policy/">Privacy policy</a>
+                </div>
             </div>
             <div class="fl w-100 w-25-ns pa2 ph4-l">
                 <h6 class="">{{ producedBy }}</h6>
