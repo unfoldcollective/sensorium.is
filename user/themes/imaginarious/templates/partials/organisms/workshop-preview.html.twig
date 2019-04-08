@@ -11,17 +11,17 @@
       {% endif %}
       
       <p class="s-event__description">{{ p.header.description }}</p>
-      <p class="s-event__location s-location">Location <strong>detail</strong></p>
+      <p class="s-event__location s-location">Location <strong>{{ p.header.location }}</strong></p>
       <ul class="events-grid__actions s-actions">
           {% if p.header.ticket_text %}
-          <li class="s-actions__item">
+          {# <li class="s-actions__item">
               {% include 'partials/atoms/button.html.twig' with {'button': {
                   'text': p.header.ticket_text,
                   'url': config.site.ticket_url,
                   'newTab': true,
                   'classes': 's-button grow'
               }} %}
-          </li>
+          </li> #}
           {% endif %}
           <li class="s-actions__item">
               <a href="{{p.url}}">More info...</a>

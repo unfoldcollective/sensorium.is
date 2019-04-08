@@ -1162,6 +1162,7 @@ ul.pagination {
   }
   .events-grid__event {
     flex: 1;
+    max-width: 50%;
   }
 }
 @media only all and (min-width: 75em) {
@@ -1170,6 +1171,7 @@ ul.pagination {
   }
   .events-grid__event {
     flex: 1;
+    max-width: 50%;
   }
 }
 
