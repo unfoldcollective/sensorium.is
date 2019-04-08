@@ -1,18 +1,26 @@
 ---
-title: Computer Vision Workshop for Mixed Reality
-subtitle: 'by <a href="/speakers/joshua-noble">Joshua Noble</a>'
+title: πTon
 taxonomy:
     category:
         - workshops
-slug: computer-vision
+slug: pi-ton
 process:
     markdown: true
     twig: true
-date_days: '3 - 4'
-date_month: May
-time: '09.00 - 17.00'
-description: 'This workshop is designed for anyone interested in learning about how machines can see and learn about the world around them.'
-ticket_text: Tickets
+custom:
+    coverImage:
+        user/pages/09.installations/pi-ton/pi-ton.jpg:
+            name: pi-ton.jpg
+            type: image/jpeg
+            size: 64678
+            path: user/pages/09.installations/pi-ton/pi-ton.jpg
+subtitle: Cod.Act
+date_days: '7 - 9'
+date_month: Jún
+time: čoskoro oznámené
+location: 'Filozofická fakulta UK, átrium, Gondova 2, Bratislava'
+description: 'Na Sensorium Festivale Cod.Act predstaví svoju fenomenálnu inštaláciu πTon. Je to nadrozmerné elastické teleso, ktoré reaguje a pohybuje sa podľa zvukov v miestnosti.'
+no_ticket_button: true
 ---
 
 #### Thursday 3rd May 2018 - Friday 4th May 2018 (9am - 5pm)
