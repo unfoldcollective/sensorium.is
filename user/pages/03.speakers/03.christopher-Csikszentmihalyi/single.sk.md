@@ -7,7 +7,7 @@ taxonomy:
 process:
     markdown: true
     twig: true
-subtitle: ''
+subtitle: 'Human-computer interaction (USA)'
 custom:
     textField: 'kratky custom popis'
     bioImage:

@@ -1,4 +1,5 @@
 ---
+published: false
 title: 'Staň sa dobrovoľníkom!'
 date: 03/01/2018
 taxonomy:

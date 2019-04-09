@@ -21,7 +21,7 @@ custom:
             type: image/jpeg
             size: 804390
             path: user/pages/03.speakers/01.christopher-Csikszentmihalyi/featured-image.jpg
-subtitle: ''
+subtitle: 'Founder MIT Civic Media Lab (USA)'
 ---
 
 Christopher Csíkszentmihályi is an artist, designer, technologist. Currently, he is the ERAChair of Human-Computer Interaction and Design Innovation at [Madeira Interactive Technologies Institute](https://www.m-iti.org/). Christopher is the former director of the [Massachusetts Institute of Technology (MIT)](https://civic.mit.edu/) Center for Future Civic Media and the Computing Culture research group. He has also served as Distinguished Visiting Professor of Art and Design Research at [Parsons School of Design](https://www.newschool.edu/parsons/). In his practice he has developed the RootIO project, which seeks to blend the best of radio with the best of the Internet.

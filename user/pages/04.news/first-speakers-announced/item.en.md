@@ -1,4 +1,5 @@
 ---
+published: false
 title: First speakers announced!
 date: 01/03/2018
 taxonomy:

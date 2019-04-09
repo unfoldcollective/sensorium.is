@@ -13,7 +13,7 @@ no_ticket_button: true
 **Bratislava, Slovakia** <br>
 **Free of charge** <br>
 **Curated by <a href="https://jonathanreus.com/" target="_blank">Jonathan Reus</a> &amp; <a href="https://www.sisselmarietonn.com/">Sissel Marie Tonn</a>** <br>
-**Applications close April 1st**
+**Applications close April 15th**
 
 <!-- NB: This URL requires escaping "_677_", otherwise markdown renders it as <em> tag -->
 {% include 'partials/atoms/button.html.twig' with {'button': {
@@ -52,7 +52,7 @@ In this lab we will explore ways of creating technologies and practices, that fo
 
 The Augmented Attention lab is looking for practitioners, who are interested in developing technologies (in the widest sense of the word) that afford awareness and attention towards our surroundings, and who wish to engage with these issues through a collaborative making process. We look for a mix of artists, designers, musicians, neuroscientists, technologists, etc, who are willing to step out of their comfort zone, for a 4 day intensive pressure cooker. The facilitators of the lab will focus on wearable sensor systems and e-textile practices as a point of departure, but we welcome all inventions/interventions that challenge the perceptual and sensory modes of the body within its environment.
 
-Will your practice or project benefit from being part of this lab? Then **submit your entry for our open call [here](https://docs.google.com/forms/d/e/1FAIpQLScEiiC_677_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform), by April 1st!** The Sensorium team and lab facilitators will then select a fitting team of participants from the submissions to ensure a rich and diverse group. 
+Will your practice or project benefit from being part of this lab? Then **submit your entry for our open call [here](https://docs.google.com/forms/d/e/1FAIpQLScEiiC_677_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform), by April 15th!** The Sensorium team and lab facilitators will then select a fitting team of participants from the submissions to ensure a rich and diverse group. 
 
 ###Practicalities 
 
@@ -72,7 +72,7 @@ This lab departs from the research-based work [Sensory Cartographies](http://jon
 
 Sensory Cartographies, as such, is an ongoing research project conceiving of new wearable mapping technologies and practices that take into consideration the constant flux of change, that plays out at the interface between body and world. We are experimenting with the way mapping technologies determine the way we experience space. Informed also by research from cognitive and neuroscience, for example, in the phenomenon of ‘sensory gating’, whereby the body’s sensory system acts as a filter, singling out or amplifying events in a sea of impressions. From this point of departure we have developed prostheses/extensions and recording/playback devices that amplify or challenge the sensory system in this process of spatial and environmental dynamics. 
 
-###Applications close April 1st
+###Applications close April 15th
 
 <!-- NB: This URL requires escaping "_677_", otherwise markdown renders it as <em> tag -->
 {% include 'partials/atoms/button.html.twig' with {'button': {

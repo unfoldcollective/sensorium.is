@@ -1,15 +1,13 @@
 ---
 title: 'Stefanie Posavec'
-date: 10/02/2019
+date: 02/10/2019
 taxonomy:
     category:
         - speakers
 process:
     markdown: true
     twig: true
-subtitle: ''
-background_image: a-la-recherche.jpg
-bio_image: Stefanie-Posavec.jpeg
+subtitle: 'Data visualisation (UK)'
 custom:
     coverImage:
         user/pages/03.speakers/02.stefanie-posavec/featured-image-stefanie.jpg:

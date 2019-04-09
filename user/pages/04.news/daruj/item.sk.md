@@ -1,5 +1,6 @@
 ---
-title: Daruj 2% z dane pre Sensorium
+title: 'Daruj 2% z dane pre Sensorium'
+published: false
 date: 05/03/2018
 taxonomy:
     category:
@@ -8,6 +9,7 @@ process:
     markdown: true
     twig: true
 ---
+
 Údaje potrebné na vyplnenie formulára: <br>
 obchodné meno alebo názov: Imaginárium <br>
 adresa: Staničná 9, 911 05 Trenčín <br>
