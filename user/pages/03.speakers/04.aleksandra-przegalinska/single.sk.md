@@ -1,5 +1,5 @@
 ---
-title: 'Aleksandra Przegalińska'
+title: 'Aleks&shy;and&shy;ra Prze&shy;ga&shy;liń&shy;ska'
 date: 02/10/2019
 taxonomy:
     category:

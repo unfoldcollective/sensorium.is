@@ -1,5 +1,5 @@
 ---
-title: 'Cristóbal Valenzuela'
+title: 'Cris&shy;tóbal Va&shy;len&shy;zu&shy;ela'
 date: 10/02/2019
 taxonomy:
     category:
