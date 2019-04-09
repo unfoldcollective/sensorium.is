@@ -22,7 +22,7 @@
         background-color: gray;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: top center;
     }
 
     &__title {
@@ -32,6 +32,13 @@
         // letter-spacing: 0;
         line-height: $h2-line-height;
         margin-bottom: 32px;
+        text-shadow: 0 0 30px #fff; //same as subtitle
+    }
+
+    h1+h2#{&}__subtitle { //needs to be stronger than h1+h2 selector
+        font-weight: normal !important;
+        margin-top: -1rem;
+        text-shadow: 0 0 30px #fff; //same as title
     }
 
     @include breakpoint( mobile-only ) {

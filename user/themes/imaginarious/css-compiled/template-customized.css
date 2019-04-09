@@ -1290,13 +1290,19 @@ ul.pagination {
   background-color: gray;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
 .s-page__title {
   font-size: 3rem;
   font-weight: bold;
   line-height: 3.5rem;
   margin-bottom: 32px;
+  text-shadow: 0 0 30px #fff;
+}
+.s-page h1 + h2.s-page__subtitle {
+  font-weight: normal !important;
+  margin-top: -1rem;
+  text-shadow: 0 0 30px #fff;
 }
 @media only all and (max-width: 47.938em) {
   .s-page {

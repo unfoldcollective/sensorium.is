@@ -9,17 +9,19 @@
   {% set featured_image = page.media.images[page.header.custom.coverImage|first.name].url %}
 <div class="s-page">
   <article class="s-page__inner">
-    {% if featured_image %}
+  {% if featured_image %}
     <div class="s-page__image" style="background-image:url('{{ featured_image }}');"></div>
   {% endif %}
     <header class="s-page__header">
       <h1 class="s-page__title">{{ page.title }}</h1> 
-      {# <h2 class="s-page__subtitle">{{ page.header.subtitle }}</h2>  #}
+      {% if page.header.subtitle %}
+      <h2 class="s-page__subtitle">{{ page.header.subtitle }}</h2> 
+      {% endif %}
       {# <p class="s-location">some location detail if there is one</p> #}
     </header>
 
     <p class="s-page__introtext">
-      {{ page.header.subtitle }}
+      {{ page.header.introtext }}
     </p>
 
     {{ page.content }}
