@@ -1,0 +1,11 @@
+email: dalibor.kocian@gmail.com
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: 'Dalibor Kocian'
+title: null
+state: enabled
+hashed_password: $2y$10$9qejQ9oUczQLd23WmCJJcuyB6VpRA8CYuq/rR47jA3a8QLD/zRzlm
