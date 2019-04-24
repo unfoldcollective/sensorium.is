@@ -2,7 +2,7 @@
 title: Installations
 body_classes: 'header-image fullwidth'
 slug: installations
-hide_in_menu: true
+hide_in_menu: false
 content:
     items: '@self.children'
     order:
