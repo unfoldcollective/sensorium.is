@@ -15,7 +15,7 @@
 	}
 
 	&__date {
-		font-size: $h1-font-size*1.2;
+		font-size: $h1-font-size;
 		line-height: $h1-line-height;
 		font-weight: $core-font-weight-bold;
 		margin: 1.2rem 0 0;
@@ -24,15 +24,20 @@
 			display: block;
 			font-size: 2rem;
 			text-transform: uppercase;
-			line-height: 2.5rem;
+			line-height: 2rem;
 			letter-spacing: 0.15rem;
 
+
+		}
+		span.festivaldate__place {
+			font-size: 1.2rem;
+			line-height: 1rem;
 		}
 	}
 
 	&__name {
 		margin: 1rem 0 0;
-		font-size: 2.45rem;
+		font-size: 3rem;
 		line-height: 2.6rem;
 		font-weight: $core-font-weight-bold;
 		padding-left: 0.5rem;
