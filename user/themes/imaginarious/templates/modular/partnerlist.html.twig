@@ -42,6 +42,15 @@
 		</div>
 		<p>{{ page.header.supportSentence }}</p>
 
+		<h3>{{page.header.edupartnersTitle}}</h3>
+		<div>
+			{% for partner in page.header.edupartners %}
+				<a class="v-mid glow pointer o-80 link inline-flex items-center ma2 tc pa2" href="{{partner.url}}" title="{{partner.name}}" target="_blank" >
+					<img title="{{partner.name}}" class="dib w4" src="{{ page.media[partner.logo].url }}" alt="{{partner.name}}">
+				</a>
+			{% endfor %}
+		</div>
+
 		<h3>{{page.header.mediaPartnersTitle}}</h3>
 		<div class="">
 			{% for mediaPartner in page.header.mediaPartners %}

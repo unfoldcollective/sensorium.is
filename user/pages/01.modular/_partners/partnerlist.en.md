@@ -76,6 +76,12 @@ partners:
         url: 'https://instrumentinventors.org'
         logo: logo-iii.png
 supportSentence: 'Festival is realised under official support of the mayor of the Old-Town Bratislava and mayor of the City of Bratislava'
+edupartnersTitle: 'Educational Partner'
+edupartners:
+    -
+        name: ecal
+        url: 'https://ecal.ch'
+        logo: ecal.png
 mediaPartnersTitle: 'Media partners'
 mediaPartners:
     -
