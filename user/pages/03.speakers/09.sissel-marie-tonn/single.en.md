@@ -25,6 +25,6 @@ background_image: a-la-recherche.jpg
 bio_image: sissel-marie-tonn.jpeg
 ---
 
-Sissel focuses on sensory and perceptual structures of attention and perception within environments undergoing change. She situates herself within the public discourse by seeking knowledge across a variety of fields and disciplines, and approach these issues by zooming in on minor events of experience. Sissel often thinks of works as ‘tools’ that challenge the body’s preconfigured modes of paying attention, and make clear the reciprocal relationship between the body and the surrounding environment. She wants to challenge the inherent plasticity of our organism, to question how artifacts, forms of knowledge and the space we build around us shape our perception of the environment. 
+Sissel focuses on sensory and perceptual structures of attention and perception within environments undergoing change. She situates herself within the public discourse by seeking knowledge across a variety of fields and disciplines, and approaches these issues by zooming in on minor events of experience. Sissel often thinks of works as ‘tools’ that challenge the body’s preconfigured modes of paying attention, and make clear the reciprocal relationship between the body and the surrounding environment. She wants to challenge the inherent plasticity of our organism, to question how artifacts, forms of knowledge and the space we build around us shape our perception of the environment.
 
 [https://www.sisselmarietonn.com/](https://www.sisselmarietonn.com/)
