@@ -15,13 +15,13 @@
 	}
 
 	@include breakpoint(desktop-range large-desktop-range) {
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         // padding-left: $padding-horiz;
         // padding-right: $padding-horiz;
 
         &__event {
-        	flex: 1;
-        	max-width: 50%;
+        	flex: 1 0 48%;
+        	max-width: 48%;
         }
     }
 }

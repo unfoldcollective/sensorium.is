@@ -1163,20 +1163,20 @@ ul.pagination {
 }
 @media only all and (min-width: 60em) and (max-width: 74.938em) {
   .events-grid {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
   }
   .events-grid__event {
-    flex: 1;
-    max-width: 50%;
+    flex: 1 0 48%;
+    max-width: 48%;
   }
 }
 @media only all and (min-width: 75em) {
   .events-grid {
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
   }
   .events-grid__event {
-    flex: 1;
-    max-width: 50%;
+    flex: 1 0 48%;
+    max-width: 48%;
   }
 }
 
