@@ -26,7 +26,7 @@ bio_image: Aleksandra-Przegalińska.jpeg
 ---
 
 Philosopher, expert of futurology and AI.
-Aleksandra Przegalińska is Assistant Professor in Management Studies at Kozminski University in Warsaw, Poland, and a postdoctoral researcher at the [Center for Collective Intelligence at the Massachusetts Institute of Technology](https://cci.mit.edu/), USA. Her research interests lie in the consequences of introducting artifical beings and systems to social and professional spheres. Currently researching wearable tech.
+Aleksandra Przegalińska is Assistant Professor in Management Studies at Kozminski University in Warsaw, Poland, and a postdoctoral researcher at the [Center for Collective Intelligence at the Massachusetts Institute of Technology](https://cci.mit.edu/), USA. Her research interests lie in the consequences of introducing artificial beings and systems to social and professional spheres. Currently researching wearable tech.
 
 [See Aleksandra's TED talk](https://www.youtube.com/watch?v=FfLYZ1q-IwM)
 
