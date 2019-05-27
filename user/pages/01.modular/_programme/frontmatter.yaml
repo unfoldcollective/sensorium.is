@@ -1,0 +1,390 @@
+friday:
+ locations:
+  -
+   name: Pistori palace
+   items:
+    -
+     name: Drinks & networking
+     s: 16:00
+     e: 17:30
+     overlap: 1
+     type: 
+    -
+     name: All insta&shy;llati&shy;ons
+     s: 16:00
+     e: 20:30
+     overlap: 
+     type: installations
+    - 
+     name: Adrien Kaeser: Weather thingy
+     s: 16:30
+     e: 17:30
+     overlap: 1
+     type: performance
+    - 
+     name: Festival Opening<br>Ali Eslami<br>Aleksandra Przegalinska<br>Stefanie Posavec
+     s: 17:00
+     e: 19:40
+     overlap: 2
+     type: 
+    - 
+     name: Drinks & Bites
+     s: 19:45
+     e: 20:45
+     overlap: 2
+     type: break
+  -
+   name: Downtown
+   items:
+    -
+     name: All insta&shy;llati&shy;ons
+     s: 16:30
+     e: 20:30
+     overlap: 
+     type: installations
+    -
+     name: πton Performance 1 
+     s: 20:00
+     e: 20:30
+     overlap: 1
+     type: performance
+     cta: REGISTER
+     link: https://forms.gle/4BBEuUwyBccMbdv68
+    -
+     name: Sensorium Night: Jonathan Reus - iMac Music / Fero Király
+     s: 21:00
+     e: 23:59
+     overlap:
+     type: infinite
+saturday:
+ locations:
+  -
+   name: Pistori palace
+   items:
+    -
+     name: Breakfast & Coffee
+     s: 09:00
+     e: 10:00
+     overlap: 
+     type: break
+    -
+     name: All insta&shy;llati&shy;ons
+     s: 10:00
+     e: 20:30
+     overlap: 
+     type: installations
+    -
+     name: Christopher Csíkszentmihályi<br>Ján Pernecký
+     s: 10:00
+     e: 11:30
+     overlap: 1
+     type: 
+    -
+     name: Coffee break
+     s: 11:30
+     e: 11:50
+     overlap: 1
+     type: break
+    -
+     name: Sissel Marie Tonn<br>George Profenza
+     s: 11:50
+     e: 13:20
+     overlap: 1
+     type: 
+    -
+     name: Lunch break 
+     s: 13:20
+     e: 14:50
+     overlap: 1
+     type: break
+    -
+     name: Industry Meetup (Pro passes only)
+     s: 13:30
+     e: 14:30
+     overlap: 2 
+     type: 
+    -
+     name: Panel A: Education in Digital Arts & Culture<br>Conference hall
+     s: 14:50
+     e: 15:30
+     overlap: 2 
+     type: 
+    -
+     name: Panel B: Creative AI <br>1st floor gallery
+     s: 14:50
+     e: 15:30
+     overlap: 3 
+     type: 
+    -
+     name: Cristóbal Valenzuela
+     s: 15:40 
+     e: 16:20
+     overlap: 2 
+     type: 
+    -
+     name: Coffee break
+     s: 16:20
+     e: 16:40
+     overlap: 2 
+     type: break
+    -
+     name: "Danica Pišteková<br>Elliot Woods<br>Closing"
+     s: 16:40
+     e: 18:20
+     overlap: 1
+     type: 
+    -
+     name: Drinks and Networking w/ Music by Casi Cada Minuto
+     s: 18:20
+     e: 20:00
+     overlap: 1
+     type: 
+  -
+   name: City Stage
+   items:
+    -
+     name: BADW: diskusia s Marián Laššák (SK)
+     s: 10:00
+     e: 11:00
+     overlap: 
+     type: 
+    -
+     name: πton Performance 2
+     s: 20:00
+     e: 20:30
+     overlap: 1
+     type: performance
+     cta: REGISTER
+     link: https://forms.gle/4BBEuUwyBccMbdv68
+    -
+     name: Zvukové prostredia / Soundscapes (EN)
+     s: 11:30
+     e: 12:30
+     overlap: 
+     type: 
+    -
+     name: Adrien Kaeser: Weather Thingy Performance
+     s: 12:30
+     e: 13:00
+     overlap: 
+     type: performance
+    -
+     name: The Future of VR in Arts
+     s: 14:00
+     e: 15:00
+     overlap: 
+     type: 
+    -
+     name: How to Fight Trolls and Hoaxes (SK)
+     s: 15:00
+     e: 16:00
+     overlap: 
+     type: 
+    -
+     name: How technology augments creativity (SK)
+     s: 16:00
+     e: 17:00
+     overlap: 
+     type: 
+    -
+     name: New media in everyday life
+     s: 17:00
+     e: 18:00
+     overlap: 
+     type: 
+    -
+     name: Adrien Kaeser: Weather Thingy Performance II
+     s: 18:00
+     e: 18:30
+     overlap: 
+     type: performance
+    -
+     name: Cod.Act (FR-SK)
+     s: 18:30
+     e: 19:30
+     overlap: 
+     type: 
+    -
+     name: πton Performance 2
+     s: 19:30
+     e: 20:30
+     overlap:
+     type: performance
+     cta: REGISTER
+     link: https://forms.gle/4BBEuUwyBccMbdv68
+  -
+   name: Downtown
+   items:
+    -
+     name: All insta&shy;llati&shy;ons
+     s: 10:00
+     e: 20:30
+     overlap: 
+     type: installations
+    -
+     name: FLUKS Walk
+     s: 10:00
+     e: 11:00
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 11:00
+     e: 11:30
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 11:30
+     e: 12:30
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 12:30
+     e: 13:00
+     overlap: 1 
+     type: 
+    -
+     name: Bublina workshop 
+     s: 13:00
+     e: 15:00
+     overlap: 1
+     type: 
+    -
+     name: FLUKS Walk
+     s: 15:00
+     e: 16:00
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 16:00
+     e: 17:00
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 17:00
+     e: 18:00
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 18:30
+     e: 19:30
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 19:30
+     e: 20:30
+     overlap: 1 
+     type: 
+    -
+     name: FLUKS Walk
+     s: 20:30
+     e: 22:00
+     overlap: 1 
+     type: 
+    -
+     name: Sensorium Night: Evitceles (Opal Tapes / Seagrave) x Stix / Isama Zing (Mäss) / Luca Kasper / Tea Tralna
+     s: 22:00
+     e: 23:59
+     overlap: 
+     type: infinite
+     cta: GET TICKET
+     link: bit.ly/senstics
+sunday:
+ locations:
+  -
+   name: City Stage
+   items:
+    -
+     name: πton Performance 4
+     s: 11:00
+     e: 11:30
+     overlap:
+     type: performance
+     cta: REGISTER
+     link: https://forms.gle/4BBEuUwyBccMbdv68
+    -
+     name: Adrien Kaeser: Weather Thingy Performance III
+     s: 12:00
+     e: 12:30
+     overlap: 
+     type: performance
+    -
+     name: Adrien Kaeser: Computational Architecture (SK)
+     s: 12:30
+     e: 14:00
+     overlap: 
+     type: 
+    -
+     name: Adrien Kaeser: Digital architecture in education (SK)
+     s: 14:00
+     e: 15:30
+     overlap: 
+     type: 
+    -
+     name: Adrien Kaeser: BADW: Fashion performance
+     s: 15:30
+     e: 16:00
+     overlap: 
+     type: 
+    - 
+     name: BADW: Design Week Awards
+     s: 16:00
+     e: 17:00
+     overlap:  
+     type: 
+    - 
+     name: Sensorium Festival: Closing + FLUKS walk data presentation
+     s: 17:00
+     e: 17:30
+     overlap:  
+     type: 
+  -
+   name: Downtown 
+   items:
+    -
+     name: All insta&shy;llati&shy;ons
+     s: 10:00
+     e: 20:30
+     overlap: 
+     type: installations    
+    -
+     name: FLUKS Walk
+     s: 12:00
+     e: 12:30
+     overlap: 2
+     type: 
+    -
+     name: Insta&shy;llati&shy;ons gui&shy;ded tour
+     s: 12:30
+     e: 18:00
+     overlap: 1 
+     type: installations    
+    - 
+     name: FLUKS Walk
+     s: 12:30
+     e: 14:00
+     overlap: 2 
+     type:
+    - 
+     name: FLUKS Walk
+     s: 14:00
+     e: 15:30
+     overlap: 2 
+     type: 
+  -
+   name: Goethe Institute Bratislava
+   items:
+    -
+     name: Workshop: Artificial Intelligence for Augmented Creativity
+     s: 10:30
+     e: 18:00
+     overlap: 
+     type: 
+
+    

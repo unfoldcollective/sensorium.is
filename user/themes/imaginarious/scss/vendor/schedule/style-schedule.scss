@@ -34,6 +34,7 @@ a {
 
 .cd-schedule {
 	position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
 
 	&::before { // never visible - this is used in js to check the current MQ
 		content: 'mobile';

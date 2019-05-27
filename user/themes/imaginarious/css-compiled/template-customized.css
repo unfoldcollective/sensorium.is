@@ -1916,6 +1916,7 @@ a {
 
 .cd-schedule {
   position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 .cd-schedule::before {
   content: "mobile";
@@ -2470,6 +2471,7 @@ a {
   padding: 0.5em 1em;
   text-decoration: none;
   color: black;
+  background-color: white;
   /**
    * Active tab styling
    */
