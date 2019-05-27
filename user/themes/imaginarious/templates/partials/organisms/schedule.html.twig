@@ -33,7 +33,7 @@
 
 	  <div class="cd-schedule__events">
 	  	<ul>
-	  		{% for location in page.header.friday.locations %}
+	  		{% for location in page.find('/programme').header.friday.locations %}
 	  			{% include 'partials/organisms/schedule-track.html.twig' %}
 	  		{% endfor %}
 	  	</ul>
@@ -103,7 +103,7 @@
 
 		  <div class="cd-schedule__events">
 		  	<ul>
-		  		{% for location in page.header.saturday.locations %}
+		  		{% for location in page.find('/programme').header.saturday.locations %}
 		  			{% include 'partials/organisms/schedule-track.html.twig' %}
 		  		{% endfor %}
 		  	</ul>
@@ -168,7 +168,7 @@
 
 		  <div class="cd-schedule__events">
 		  	<ul>
-		  		{% for location in page.header.sunday.locations %}
+		  		{% for location in page.find('/programme').header.sunday.locations %}
 		  			{% include 'partials/organisms/schedule-track.html.twig' %}
 		  		{% endfor %}
 		  	</ul>
