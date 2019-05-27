@@ -29,11 +29,15 @@
 @import "template-customized/animation-static";
 
 // Load Vendor Components
-@import "vendor/schedule-template/reset.scss";
-@import "vendor/schedule-template/schedule-template.scss";
+// @import "vendor/schedule-template/reset.scss";
+// @import "vendor/schedule-template/schedule-template.scss";
+// @import "vendor/schedule/global";
+@import "vendor/schedule/style-schedule";
+@import "vendor/tabby/tabby-ui";
 
 //Load custom components
 @import "template-customized/speakerfaces";
+
 
 /* general */
 a {

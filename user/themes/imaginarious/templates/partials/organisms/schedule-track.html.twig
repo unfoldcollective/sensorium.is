@@ -1,0 +1,8 @@
+<li class="cd-schedule__group">
+	<div class="cd-schedule__top-info"><span>{{location.name}}</span></div>
+	<ul>
+		{% for item in location.items %}
+			{% include 'partials/organisms/schedule-item.html.twig' %}
+		{% endfor %}
+	</ul>
+</li>
