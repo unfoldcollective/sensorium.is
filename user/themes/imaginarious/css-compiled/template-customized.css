@@ -2089,10 +2089,13 @@ a {
   padding: var(--space-sm);
   text-decoration: none;
   background-color: #fff;
-  cursor: normal;
+  cursor: default;
 }
 .cd-schedule__event a::before {
   content: attr(data-start) " - " attr(data-end);
+}
+.cd-schedule__event--cta a {
+  cursor: pointer;
 }
 .cd-schedule__event--break a {
   background-color: #f0f0f0;
@@ -2140,6 +2143,9 @@ a {
     padding: var(--space-sm);
     line-height: 1;
     padding-top: 0;
+  }
+  .js .cd-schedule__event--cta .cd-schedule__cta {
+    font-size: var(--text-md);
   }
   .js .cd-schedule__event--installations {
     max-width: 50px;
