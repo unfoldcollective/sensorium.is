@@ -1374,6 +1374,9 @@ ul.pagination {
     background-position-y: 80px;
   }
 }
+.animation-static [off-canvas*=reveal], .animation-static [off-canvas*=shift] {
+  z-index: 1;
+}
 
 *, *::after, *::before {
   box-sizing: inherit;

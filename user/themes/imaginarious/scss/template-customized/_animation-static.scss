@@ -43,4 +43,8 @@
 			background-position-y: 80px;
 		}
 	}
+
+	[off-canvas*=reveal], [off-canvas*=shift] {
+	    z-index: 1; // to avoid conflict with z-indexed animation bg
+	}
 }
