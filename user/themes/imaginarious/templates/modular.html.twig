@@ -53,6 +53,9 @@
     <script>
     // smooth scroll internal links
     $('a[href^="#"]').on('click', function(event) {
+        if( $(this).hasClass( 'js-noscroll' ) ) {
+            return;
+        }
         var target = $(this.getAttribute('href'));
         if( target.length ) {
             event.preventDefault();
