@@ -11,7 +11,7 @@
 		box-sizing: border-box;
 	}
 	
-	@include breakpoint(lg) { //breakpoint mixin borrowed from /schedule/global/_breakpoints
+	@include codyhouse-breakpoint(lg) { //breakpoint mixin borrowed from /schedule/global/_breakpoints
 		margin-left: 60px; //same as the width of timeline in schedule 
 	}
 }

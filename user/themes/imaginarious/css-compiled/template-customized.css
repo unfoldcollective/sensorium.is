@@ -2462,6 +2462,11 @@ a {
 [role=tablist] * {
   box-sizing: border-box;
 }
+@media (min-width: 80rem) {
+  [role=tablist] {
+    margin-left: 60px;
+  }
+}
 
 /**
  * The tablist item
