@@ -11,7 +11,7 @@ Addresses:
 **Sensorium Talks, Augmented Attention Lab, installations**:
 Pistori Palace, Štefánikova 26, 811 05 Bratislava
 
-**πton installation**:
+**πTon installation**:
 Faculty of Arts, Comenius University
 
 **City Stage**:

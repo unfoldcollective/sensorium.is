@@ -37,7 +37,7 @@ friday:
      overlap: 
      type: installations
     -
-     name: πton Performance 1 
+     name: πTon Performance 1 
      s: 20:00
      e: 20:30
      overlap: 1
@@ -220,7 +220,7 @@ saturday:
      overlap: 2 
      type: 
     -
-     name: πton Performance 2
+     name: πTon Performance 2
      s: 11:00
      e: 11:30
      overlap: 1
@@ -240,7 +240,7 @@ saturday:
      overlap: 1 
      type: 
     -
-     name: πton Performance 3
+     name: πTon Performance 3
      s: 20:00
      e: 20:30
      overlap: 1
@@ -312,7 +312,7 @@ sunday:
      overlap: 2
      type: 
     -
-     name: πton Performance 4
+     name: πTon Performance 4
      s: 11:00
      e: 11:30
      overlap: 1
