@@ -14,7 +14,7 @@ cache_enable: false
 
 <div class="modular-row" markdown="1">
 
-Toggle location categories (<span class="ph1 bg-black white">Sensorium venues</span>, recommended <span class="ph1 bg-gold white">cafés</span>, <span class="ph1 bg-green white">restaurants</span> & <span class="ph1 bg-red white">bars</span>) in left sidebar <img class="bg-dark-gray pa1 h2" src="/user/pages/18.locations/icon-googlemaps-sidebar.png" alt="side bar icon">
+Toggle location categories (<span class="ph1 bg-black white fw5">Sensorium venues</span>, recommended <span class="ph1 bg-gold white fw5">cafés</span>, <span class="ph1 bg-green white fw5">restaurants</span> & <span class="ph1 bg-red white fw5">bars</span>) in left sidebar <img class="bg-dark-gray pa1 h2" src="/user/pages/18.locations/icon-googlemaps-sidebar.png" alt="side bar icon">
 
 **Full festival programme:** [sensorium.is/programme](/programme)
 
