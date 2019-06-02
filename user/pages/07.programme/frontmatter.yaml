@@ -4,25 +4,25 @@ friday:
    name: Pistori palace
    items:
     -
-     name: Drinks & Performance:<br>Weather Thingy -  Adrien Kaeser<br>Augmented Attention Lab Public Showcase 
+     name: <br>Drinks & Performance:<br>Weather Thingy -  Adrien Kaeser<br>Augmented Attention Lab Public Showcase 
      s: 16:00
      e: 17:00
      overlap: 1
      type: 
     -
-     name: All insta&shy;llati&shy;ons
+     name: <br>All insta&shy;llati&shy;ons
      s: 16:00
      e: 20:30
      overlap: 
      type: installations
     - 
-     name: Festival Opening<br>Ali Eslami<br>Aleksandra Przegalinska<br>Stefanie Posavec
+     name: <br>Festival Opening<br>Ali Eslami<br>Aleksandra Przegalinska<br>Stefanie Posavec
      s: 17:00
      e: 19:40
      overlap: 2
      type: 
     - 
-     name: Drinks & Bites
+     name: <br>Drinks & Bites
      s: 19:45
      e: 20:45
      overlap: 2
@@ -31,7 +31,7 @@ friday:
    name: Downtown
    items:
     -
-     name: All insta&shy;llati&shy;ons
+     name: <br>All insta&shy;llati&shy;ons
      s: 16:30
      e: 20:30
      overlap: 
@@ -45,7 +45,7 @@ friday:
      cta: REGISTER
      link: https://forms.gle/4BBEuUwyBccMbdv68
     -
-     name: Sensorium Night: Jonathan Reus - iMac Music / Fero Király
+     name: <br>Sensorium Night: Jonathan Reus - iMac Music / Fero Király
      s: 21:00
      e: 23:59
      overlap:
@@ -58,19 +58,19 @@ saturday:
    name: Pistori palace
    items:
     -
-     name: Breakfast & Coffee
+     name: <br>Breakfast & Coffee
      s: 09:00
      e: 10:00
      overlap: 
      type: break
     -
-     name: All insta&shy;llati&shy;ons
+     name: <br>All insta&shy;llati&shy;ons
      s: 10:00
      e: 20:30
      overlap: 
      type: installations
     -
-     name: Christopher Csíkszentmihályi<br>Ján Pernecký
+     name: <br>Christopher Csíkszentmihályi<br>Ján Pernecký
      s: 10:00
      e: 11:30
      overlap: 1
@@ -82,7 +82,7 @@ saturday:
      overlap: 1
      type: break
     -
-     name: Sissel Marie Tonn<br>George Profenza
+     name: <br>Sissel Marie Tonn<br>George Profenza
      s: 11:50
      e: 13:20
      overlap: 1
@@ -94,25 +94,25 @@ saturday:
      overlap: 1
      type: break
     -
-     name: Industry Meetup (Pro passes only)
+     name: <br>Industry Meetup (Pro passes only)
      s: 13:30
      e: 14:30
      overlap: 2 
      type: 
     -
-     name: Panel A: Education in Digital Arts & Culture<br>Conference hall
+     name: <span class="fw4">Panel</span>: Education in Digital Arts & Culture <span class="fw4">(Conference hall)</span>
      s: 14:50
      e: 15:30
      overlap: 2 
      type: 
     -
-     name: Panel B: Creative AI <br>1st floor gallery
+     name: <span class="fw4">Panel</span>: Creative AI <span class="fw4">(1st floor gallery)</span>
      s: 14:50
      e: 15:30
      overlap: 3 
      type: 
     -
-     name: Cristóbal Valenzuela
+     name: <br>Cristóbal Valenzuela
      s: 15:40 
      e: 16:20
      overlap: 2 
@@ -124,13 +124,13 @@ saturday:
      overlap: 2 
      type: break
     -
-     name: "Danica Pišteková<br>Elliot Woods<br>Closing"
+     name: <br>Danica Pišteková<br>Elliot Woods<br>Closing
      s: 16:40
      e: 18:20
      overlap: 1
      type: 
     -
-     name: Drinks and Networking w/ Music by Casi Cada Minuto
+     name: <br>Drinks and Networking w/ Music by Casi Cada Minuto
      s: 18:20
      e: 20:00
      overlap: 1
@@ -139,19 +139,19 @@ saturday:
    name: City Stage
    items:
     -
-     name: BADW: Brunch with Marián Laššák (SK)
+     name: <br>BADW: Brunch with Marián Laššák (SK)
      s: 10:00
      e: 11:00
      overlap: 
      type: 
     -
-     name: Break
+     name: <br>Break
      s: 11:00
      e: 11:30
      overlap:
      type: break
     -
-     name: Frekvencia vnímania / The frequency of perception (EN / SK)
+     name: <br>Frekvencia vnímania / The frequency of perception (EN / SK)
      s: 11:30
      e: 12:30
      overlap: 
@@ -163,37 +163,37 @@ saturday:
      overlap: 
      type: performance
     -
-     name: Break
+     name: <br>Break
      s: 13:00
      e: 14:00
      overlap:
      type: break
     -
-     name: Digital self (SK) 
+     name: <br>Digital self (SK) 
      s: 14:00
      e: 15:00
      overlap: 
      type: 
     -
-     name: How to Fight Trolls and Hoaxes (SK)
+     name: <br>How to Fight Trolls and Hoaxes (SK)
      s: 15:00
      e: 16:00
      overlap: 
      type: 
     -
-     name: How technology augments creativity (SK)
+     name: <br>How technology augments creativity (SK)
      s: 16:00
      e: 17:00
      overlap: 
      type: 
     -
-     name: The Future of VR in Arts (EN / SK)
+     name: <br>The Future of VR in Arts (EN / SK)
      s: 17:00
      e: 18:00
      overlap: 
      type: 
     -
-     name: Introducing: Cod.Act (FR/SK)
+     name: <br>Introducing: Cod.Act (FR/SK)
      s: 18:00
      e: 19:00
      overlap: 
@@ -208,13 +208,13 @@ saturday:
    name: Downtown
    items:
     -
-     name: All insta&shy;llati&shy;ons
+     name: <br>All insta&shy;llati&shy;ons
      s: 10:00
      e: 20:30
      overlap: 
      type: installations
     -
-     name: FLUKS - urban sound walk by Jannes Phillip Ley
+     name: <br>FLUKS - urban sound walk by Jannes Phillip Ley
      s: 10:00
      e: 13:00
      overlap: 2 
@@ -228,13 +228,13 @@ saturday:
      cta: REGISTER
      link: https://forms.gle/4BBEuUwyBccMbdv68
     -
-     name: Bublina workshop 
+     name: <br>Bublina workshop 
      s: 13:00
      e: 15:00
      overlap: 1
      type: 
     -
-     name: FLUKS - urban sound walk by Jannes Phillip Ley
+     name: <br>FLUKS - urban sound walk by Jannes Phillip Ley
      s: 15:00
      e: 20:00
      overlap: 1 
@@ -248,7 +248,7 @@ saturday:
      cta: REGISTER
      link: https://forms.gle/4BBEuUwyBccMbdv68
     -
-     name: Sensorium Night: Evitceles (Opal Tapes / Seagrave) x Stix / Isama Zing (Mäss) / Luca Kasper / Tea Tralna
+     name: <br>Sensorium Night: Evitceles (Opal Tapes / Seagrave) x Stix / Isama Zing (Mäss) / Luca Kasper / Tea Tralna
      s: 22:00
      e: 23:59
      overlap: 
@@ -267,25 +267,25 @@ sunday:
      overlap: 
      type: performance
     -
-     name: Computational Architecture (SK)
+     name: <br>Computational Architecture (SK)
      s: 13:00
      e: 14:30
      overlap: 
      type: 
     -
-     name: Digital architecture in education (SK)
+     name: <br>Digital architecture in education (SK)
      s: 14:30
      e: 16:00
      overlap: 
      type: 
     -
-     name: BADW: Fashion performance
+     name: <br>BADW: Fashion performance
      s: 15:30
      e: 16:00
      overlap: 
      type: 
     - 
-     name: BADW: Design Week Awards
+     name: <br>BADW: Design Week Awards
      s: 16:00
      e: 17:00
      overlap:  
@@ -300,13 +300,13 @@ sunday:
    name: Downtown 
    items:
     -
-     name: All insta&shy;llati&shy;ons
+     name: <br>All insta&shy;llati&shy;ons
      s: 10:00
      e: 17:00
      overlap: 
      type: installations    
     -
-     name: FLUKS - urban sound walk by Jannes Phillip Ley
+     name: <br>FLUKS - urban sound walk by Jannes Phillip Ley
      s: 12:30
      e: 16:00
      overlap: 2
@@ -320,7 +320,7 @@ sunday:
      cta: REGISTER
      link: https://forms.gle/4BBEuUwyBccMbdv68
     -
-     name: Insta&shy;llati&shy;ons gui&shy;ded tour
+     name: <br>Insta&shy;llati&shy;ons gui&shy;ded tour
      s: 12:30
      e: 16:00
      overlap: 1
@@ -329,7 +329,7 @@ sunday:
    name: Goethe Institute Bratislava
    items:
     -
-     name: Workshop: Artificial Intelligence for Augmented Creativity 
+     name: <br>Workshop: Artificial Intelligence for Augmented Creativity 
      s: 10:00
      e: 18:00
      overlap: 
