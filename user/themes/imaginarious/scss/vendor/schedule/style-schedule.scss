@@ -160,6 +160,10 @@ a {
       &:not(:first-of-type) {
         border-left-width: 0;
       }
+
+      &:not(:last-of-type) {
+        border-right-width: 0;
+      }
     }
   }
 }
@@ -185,6 +189,7 @@ a {
       height: calc(var(--schedule-rows-height)*var(--schedule-rows-number));
       overflow: visible;
       padding: 0;
+      border-left: 2px solid black; //same as cd-schedule__top-info
 
       &::after { // reset style
         display: none;
@@ -212,6 +217,7 @@ a {
       height: var(--schedule-rows-height);
       border-bottom: 1px solid var(--cd-color-border);
       padding: 0; // reset style
+      border-left: 2px solid black; //same as cd-schedule__group
 
       > span {
         font-weight: normal;
@@ -321,9 +327,39 @@ a {
         // box-shadow: 0 10px 20px rgba(#000, .1), inset 0 -3px 0 rgba(#000, .2);
       }
 
-      &--cta .cd-schedule__cta {
-        font-size: var(--text-md);        
+      // .cd-schedule__cta {
+      //   .cd-schedule--cta & {
+      //     font-size: var(--text-md); 
+      //     font-size: 12px !important;
+      //     font-weight: 500;
+      //     padding: 0 4px 1px;
+      //     background: black;
+      //     color: white;       
+      //   }
+
+      //   .cd-schedule--performance & {
+      //     background: white;
+      //     color: black;
+      //   }
+      // }
+
+      // & {
+      .cd-schedule__cta {
+        font-size: var(--text-md); 
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0 4px 1px;
+        background: black;
+        color: white;       
       }
+
+      &.cd-schedule__event--performance .cd-schedule__cta {
+        background: white;
+        color: black;
+      }
+      // }
+
+
 
       &--installations {
         max-width: 50px;
