@@ -4,28 +4,28 @@ friday:
    name: Pistori palace
    items:
     -
-     name: <br>Drinks & Performance:<br>Weather Thingy -  Adrien Kaeser<br>Augmented Attention Lab Public Showcase 
-     s: 16:00
-     e: 17:00
-     overlap: 1
-     type: 
-    -
      name: <br>All insta&shy;llati&shy;ons
      s: 16:00
      e: 20:30
      overlap: 
      type: installations
+    -
+     name: <br>Drinks & Performance:<br>Weather Thingy -  Adrien Kaeser<br>Augmented Attention Lab Public Showcase 
+     s: 16:00
+     e: 17:00
+     overlap: 1
+     type: 
     - 
      name: <br>Festival Opening<br>Ali Eslami<br>Aleksandra Przegalinska<br>Stefanie Posavec
      s: 17:00
      e: 19:40
-     overlap: 2
+     overlap: 1
      type: 
     - 
      name: <br>Drinks & Bites
      s: 19:45
      e: 20:45
-     overlap: 2
+     overlap: 1
      type: break
   -
    name: Downtown
@@ -100,10 +100,10 @@ saturday:
      overlap: 2 
      type: 
     -
-     name: <span class="fw4">Panel</span>: Education in Digital Arts & Culture <span class="fw4">(Conference hall)</span>
+     name: <br><span class="fw4">Panel</span>: Education in Digital <br>Arts & Culture <span class="fw4">(Conference hall)</span>
      s: 14:50
      e: 15:30
-     overlap: 2 
+     overlap: 1 
      type: 
     -
      name: <span class="fw4">Panel</span>: Creative AI <span class="fw4">(1st floor gallery)</span>
@@ -115,13 +115,13 @@ saturday:
      name: <br>Cristóbal Valenzuela
      s: 15:40 
      e: 16:20
-     overlap: 2 
+     overlap: 1 
      type: 
     -
      name: Coffee break
      s: 16:20
      e: 16:40
-     overlap: 2 
+     overlap: 1 
      type: break
     -
      name: <br>Danica Pišteková<br>Elliot Woods<br>Closing
@@ -217,7 +217,7 @@ saturday:
      name: <br>FLUKS - urban sound walk by Jannes Phillip Ley
      s: 10:00
      e: 13:00
-     overlap: 2 
+     overlap: 1
      type: 
     -
      name: πTon Performance 2
