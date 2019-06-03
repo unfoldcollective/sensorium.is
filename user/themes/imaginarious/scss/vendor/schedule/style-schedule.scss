@@ -693,3 +693,55 @@ a {
     opacity: 0.8;
   }
 }
+
+.schedule-legend {
+  display: flex;
+  flex-flow: row wrap;
+  // margin-left: 60px;
+  padding-top: 10px;
+  
+  &__item {
+    font-size: 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background-color: #fff;
+      border: 1px solid #000;
+      margin-right: 5px;
+    }
+
+    &:first-of-type::before {
+      content: none;
+    }
+
+    &--installations {
+      &::before {
+        background-color: #ffdcc8;
+      }
+    }
+
+    &--breaks {
+      &::before {
+        background-color: #f0f0f0;
+      }
+    }
+
+    &--performance {
+      &::before {
+        background-color: #000;
+      }
+    }
+  }
+  @include codyhouse-breakpoint(md) {
+    // display: flex;
+    margin-left: 60px;
+  }
+}

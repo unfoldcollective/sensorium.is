@@ -2468,6 +2468,46 @@ a {
   opacity: 0.8;
 }
 
+.schedule-legend {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 10px;
+}
+.schedule-legend__item {
+  font-size: 12px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.schedule-legend__item::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-right: 5px;
+}
+.schedule-legend__item:first-of-type::before {
+  content: none;
+}
+.schedule-legend__item--installations::before {
+  background-color: #ffdcc8;
+}
+.schedule-legend__item--breaks::before {
+  background-color: #f0f0f0;
+}
+.schedule-legend__item--performance::before {
+  background-color: #000;
+}
+@media (min-width: 64rem) {
+  .schedule-legend {
+    margin-left: 60px;
+  }
+}
+
 /**
  * The tablist
  */
