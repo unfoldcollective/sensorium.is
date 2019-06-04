@@ -354,6 +354,17 @@ a {
         a {
           padding-left: 5px;
         }
+
+        em {
+          transform: rotate(-90deg);
+          transform-origin: top left;
+          width: 100px;
+          text-align: right;
+          position: absolute;
+          top: 170px;
+          font-size: 13px;
+          margin-left: -4px;
+        }
       }
 
       &--infinite {

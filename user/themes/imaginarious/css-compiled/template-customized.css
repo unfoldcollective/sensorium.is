@@ -2177,6 +2177,16 @@ a {
   .js .cd-schedule__event--installations a {
     padding-left: 5px;
   }
+  .js .cd-schedule__event--installations em {
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    width: 100px;
+    text-align: right;
+    position: absolute;
+    top: 170px;
+    font-size: 13px;
+    margin-left: -4px;
+  }
   .js .cd-schedule__event--infinite {
     border-bottom-style: dashed;
   }
