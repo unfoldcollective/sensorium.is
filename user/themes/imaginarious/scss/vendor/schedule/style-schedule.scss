@@ -228,6 +228,13 @@ a {
   }
 }
 
+.cd-schedule__top-info-maplink {
+  font-size: calc(var(--text-sm)*1.2);
+
+  a {
+  }
+}
+
 .cd-schedule__event {
   flex-shrink: 0; // force them to stay on one line
   float: left; // flex fallback

@@ -2070,8 +2070,9 @@ a {
 @media (min-width: 64rem) {
   .js .cd-schedule__top-info {
     display: flex;
+    flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: var(--schedule-rows-height);
     border-bottom: 1px solid var(--cd-color-border);
     padding: 0;
@@ -2084,6 +2085,10 @@ a {
   }
 }
 
+.cd-schedule__top-info-maplink {
+  font-size: calc(var(--text-sm)*1.2);
+  line-height: 1;
+}
 .cd-schedule__event {
   flex-shrink: 0;
   float: left;
