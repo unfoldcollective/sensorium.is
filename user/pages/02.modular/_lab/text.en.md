@@ -1,5 +1,6 @@
 ---
 title: 'Augmented Attention Lab'
+hide_in_menu: true
 ---
 
 [![](/lab/25757.jpg)](/lab)
