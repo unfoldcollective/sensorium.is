@@ -292,6 +292,21 @@ a {
     }
   }
 
+  .cd-schedule__cta {
+    font-size: var(--text-md); 
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 4px 1px;
+    background: black;
+    color: white; 
+    white-space: nowrap;      
+  }
+
+  &.cd-schedule__event--performance .cd-schedule__cta {
+    background: white;
+    color: black;
+  }
+
   .js & {
 
     @include codyhouse-breakpoint(sm) {
@@ -333,40 +348,6 @@ a {
         padding-top: 0; //andrejm: to account for 20min events (e.g. coffe break)
         // box-shadow: 0 10px 20px rgba(#000, .1), inset 0 -3px 0 rgba(#000, .2);
       }
-
-      // .cd-schedule__cta {
-      //   .cd-schedule--cta & {
-      //     font-size: var(--text-md); 
-      //     font-size: 12px !important;
-      //     font-weight: 500;
-      //     padding: 0 4px 1px;
-      //     background: black;
-      //     color: white;       
-      //   }
-
-      //   .cd-schedule--performance & {
-      //     background: white;
-      //     color: black;
-      //   }
-      // }
-
-      // & {
-      .cd-schedule__cta {
-        font-size: var(--text-md); 
-        font-size: 12px;
-        font-weight: 500;
-        padding: 0 4px 1px;
-        background: black;
-        color: white;       
-      }
-
-      &.cd-schedule__event--performance .cd-schedule__cta {
-        background: white;
-        color: black;
-      }
-      // }
-
-
 
       &--installations {
         max-width: 50px;

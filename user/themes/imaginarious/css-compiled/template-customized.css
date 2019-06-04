@@ -2070,9 +2070,8 @@ a {
 @media (min-width: 64rem) {
   .js .cd-schedule__top-info {
     display: flex;
-    flex-flow: column nowrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: var(--schedule-rows-height);
     border-bottom: 1px solid var(--cd-color-border);
     padding: 0;
@@ -2087,7 +2086,6 @@ a {
 
 .cd-schedule__top-info-maplink {
   font-size: calc(var(--text-sm)*1.2);
-  line-height: 1;
 }
 .cd-schedule__event {
   flex-shrink: 0;
@@ -2126,6 +2124,19 @@ a {
 .cd-schedule__event.cd-schedule__event--performance a em {
   color: white;
 }
+.cd-schedule__event .cd-schedule__cta {
+  font-size: var(--text-md);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 4px 1px;
+  background: black;
+  color: white;
+  white-space: nowrap;
+}
+.cd-schedule__event.cd-schedule__event--performance .cd-schedule__cta {
+  background: white;
+  color: black;
+}
 @media (min-width: 37.5rem) {
   .js .cd-schedule__event {
     width: 40%;
@@ -2159,18 +2170,6 @@ a {
     padding: var(--space-sm);
     line-height: 1;
     padding-top: 0;
-  }
-  .js .cd-schedule__event .cd-schedule__cta {
-    font-size: var(--text-md);
-    font-size: 12px;
-    font-weight: 500;
-    padding: 0 4px 1px;
-    background: black;
-    color: white;
-  }
-  .js .cd-schedule__event.cd-schedule__event--performance .cd-schedule__cta {
-    background: white;
-    color: black;
   }
   .js .cd-schedule__event--installations {
     max-width: 50px;

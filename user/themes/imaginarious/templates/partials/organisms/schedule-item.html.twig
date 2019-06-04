@@ -8,7 +8,10 @@
 	{% if item.cta and item.link %}target="_blank"{% endif %}>
 	  <em class="cd-schedule__name">{{item.name}}</em>
 	  {% if item.cta and item.link %}
-	  	<br><span class="cd-schedule__cta">{{item.cta}} &nearr;</span>
+	  	{% if not item.inlinecta %}
+	  	<br>
+	  	{% endif %}
+	  	<span class="cd-schedule__cta">{{item.cta}} &nearr;</span>
 	  {% endif %}
 	</a>
 </li>
