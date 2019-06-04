@@ -1,9 +1,15 @@
 <style type="text/css">
 .googlemap {
 	position: relative;
-	padding-bottom: 75%; /* 4:3 ratio*/
+	padding-bottom: 100%; /* square */
 	height: 0;
 	overflow: hidden;
+}
+
+@media (min-width: 700px) {
+    .googlemap {
+        padding-bottom: 80vh; /* leave space for legend below */
+    }    
 }
 
 .googlemap iframe {

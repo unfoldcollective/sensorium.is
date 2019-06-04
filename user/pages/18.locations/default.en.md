@@ -16,7 +16,12 @@ cache_enable: false
 
 Toggle location categories (<span class="ph1 bg-black white fw5">Sensorium venues</span>, recommended <span class="ph1 bg-gold white fw5">cafés</span>, <span class="ph1 bg-green white fw5">restaurants</span> & <span class="ph1 bg-red white fw5">bars</span>) in left sidebar <img class="bg-dark-gray pa1 h2" src="/user/pages/18.locations/icon-googlemaps-sidebar.png" alt="side bar icon">
 
-**Full festival programme:** [sensorium.is/programme](/programme)
+{% include 'partials/atoms/button.html.twig' with {'button': {
+    'text': 'Full Festival Programme',
+    'url': "/programme",
+    'newTab': false,
+    'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv4 dib'
+}} %}
 
 ### Sensorium Conference & Installations
 
