@@ -15,6 +15,7 @@ content:
             - _workshops
             - _installations
             - _performance
+            - _city-stage
             - _lab
             - _news
             - _advisors

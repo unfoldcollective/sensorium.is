@@ -7,6 +7,21 @@ buttons:
         newTab: true
         classes: 'bg-yellow black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
     -
+        text: 'AI for Augmented Creativity Workshop '
+        url: /workshops/ai-for-augmented-creativity
+        newTab: false
+        classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
+    -
+        text: 'City Stage'
+        url: /city-stage
+        newTab: false
+        classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
+    -
+        text: 'Map of locations'
+        url: /map
+        newTab: false
+        classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
+    -
         text: 'Budem dobrovoľník'
         url: 'https://forms.gle/B2BghNErPFWrZ6TE8'
         newTab: true

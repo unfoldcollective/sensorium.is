@@ -12,6 +12,11 @@ buttons:
         newTab: false
         classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
     -
+        text: 'City Stage'
+        url: /city-stage
+        newTab: false
+        classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
+    -
         text: 'Getting to Bratislava'
         url: /bratislava
         newTab: false
