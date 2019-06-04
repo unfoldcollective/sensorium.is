@@ -27,7 +27,9 @@ Pisztory Palace, Štefánikova 25, 811 05 Bratislava
 
 ### City Stage
 
-SNP square, in front of The Old Market
+Lower SNP square, in front of The Old Market
+
+[All City Stage Activities](/city-stage)
 
 ### πTon Installation
 
