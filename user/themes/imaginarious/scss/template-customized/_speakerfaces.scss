@@ -14,11 +14,13 @@
 	    min-height: 380px;
 	    color: #fff;
 	    margin: 0.5rem;
+        text-shadow: 0 0 30px #000;
 
 	    &:hover {
 	    	color: #000;
 	    	background-color: transparent;
 	    	background-image: none!important;
+            text-shadow: none;
 	    }
     }
 
