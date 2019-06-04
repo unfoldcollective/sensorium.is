@@ -204,7 +204,6 @@ a {
 
   > span {
     display: inline-block;
-    margin-bottom: var(--space-sm);
     font-weight: bold;
   }
   
@@ -212,6 +211,7 @@ a {
     @include codyhouse-breakpoint(md) {
       // vertically center its content
       display: flex;
+      flex-flow: column;
       align-items: center;
       justify-content: center;
       height: var(--schedule-rows-height);
@@ -230,6 +230,7 @@ a {
 
 .cd-schedule__top-info-maplink {
   font-size: calc(var(--text-sm)*1.2);
+  line-height: 1;
 
   a {
   }
