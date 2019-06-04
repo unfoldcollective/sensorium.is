@@ -21,6 +21,4 @@ content:
             - _about
             - _partners
             - _warmup
-slug: '2017'
 ---
-
