@@ -6,7 +6,7 @@ content:
     items: '@self.children'
     order:
         by: date
-        dir: desc
+        dir: asc
     pagination: false
 ---
 

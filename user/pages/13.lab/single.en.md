@@ -8,30 +8,25 @@ no_ticket_button: true
 
 <br>
 <br>
+<br>
 
 **3rd - 6th of June** <br>
 **Bratislava, Slovakia** <br>
 **Free of charge** <br>
 **Curated by <a href="https://jonathanreus.com/" target="_blank">Jonathan Reus</a> &amp; <a href="https://www.sisselmarietonn.com/">Sissel Marie Tonn</a>** <br>
-**Applications close April 15th**
+**Applications closed April 15th**
 
-<!-- NB: This URL requires escaping "_677_", otherwise markdown renders it as <em> tag -->
-{% include 'partials/atoms/button.html.twig' with {'button': {
-    'text': 'Apply Now',
-    'url': "https://docs.google.com/forms/d/e/1FAIpQLScEiiC\_677\_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform",
-    'newTab': true,
-    'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
-}} %}
+<br>
 
 *With financial support of*
 
-<a class="di" href="https://stimuleringsfonds.nl" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-cif_nl.png"></a>
-<a class="di" href="https://www.goethe.de/ins/sk/sk/index.html" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-goethe_institut.png"></a>
+<a class="di" href="https://stimuleringsfonds.nl" target="_blank"><img class="h4 ph3" src="/user/pages/13.lab/logo-cif_nl.png"></a>
+<a class="di" href="https://www.goethe.de/ins/sk/sk/index.html" target="_blank"><img class="h4 ph3" src="/user/pages/13.lab/logo-goethe_institut.png"></a>
 
 *In partnership with*
 
-<a class="di" href="https://instrumentinventors.org/" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-iii.png"></a>
-<a class="di" href="http://todaysart.nl/" target="_blank"><img class="h4 ph3" src="/user/pages/12.lab/logo-todaysart.png"></a>
+<a class="di" href="https://instrumentinventors.org/" target="_blank"><img class="h4 ph3" src="/user/pages/13.lab/logo-iii.png"></a>
+<a class="di" href="http://todaysart.nl/" target="_blank"><img class="h4 ph3" src="/user/pages/13.lab/logo-todaysart.png"></a>
 
 <br>
 
@@ -71,13 +66,3 @@ The lab is part of [Sensorium Festival](https://sensorium.is): the first Slovak 
 This lab departs from the research-based work [Sensory Cartographies](http://jonathanreus.com/portfolio/a-sensory-cartography-of-madeira/) by Jonathan Reus and Sissel Marie Tonn. This work sprung out of conversations with Dutch anthropologist Judith van der Elst, whose work with geoinformatic technologies and indigenous cultures reveals the fact that spatial ontology is not universal across the human population, while geoinformatics tends to reify a certain western perspective on the navigation of space and geography. 
 
 Sensory Cartographies, as such, is an ongoing research project conceiving of new wearable mapping technologies and practices that take into consideration the constant flux of change that plays out at the interface between body and the world. We are experimenting with the way mapping technologies determine the way we experience space. Informed also by research from cognitive and neuroscience, for example, in the phenomenon of ‘sensory gating’, whereby the body’s sensory system acts as a filter, singling out or amplifying events in a sea of impressions. From this point of departure we have developed prostheses/extensions and recording/playback devices that amplify or challenge the sensory system in this process of spatial and environmental dynamics. 
-
-###Applications close April 15th
-
-<!-- NB: This URL requires escaping "_677_", otherwise markdown renders it as <em> tag -->
-{% include 'partials/atoms/button.html.twig' with {'button': {
-    'text': 'Apply to join now',
-    'url': "https://docs.google.com/forms/d/e/1FAIpQLScEiiC\_677\_-uug3VphF7YVjVwXmc_4o28FdIBzf7_hnTsmZQ/viewform",
-    'newTab': true,
-    'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
-}} %}
