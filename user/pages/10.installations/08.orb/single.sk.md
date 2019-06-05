@@ -23,11 +23,10 @@ location: 'Pistori Palace, Štefánikova 25, Bratislava'
 no_ticket_button: true
 ---
 
-Specific interactive object designed for unconventional multimedia presentations. Content of the work is set of playful audiovisual compositions – art creations of a little girl, whose exploration is accompanied by sound design.
+Špecifický interaktívny objekt navrhnutý pre netradičné multimediálne prezentácie. Obsahom diela je súbor hravých audiovizuálnych kompozícií – umeleckých výtvorov malého dievčatka, ktorých preskúmanie je obohatené o zvukový sprievod.
 
-The project is part of dissertation User Interface – Physical Interaction with Digital Environment created in MediaLab* at Academy of Fine Arts and Design in Bratislava. Supported by Tatra banka Foundation.
+Projekt je súčasťou dizertačnej práce Užívateľské rozhranie – fyzická interakcia s digitálnym prostredím, vytvoreného v laboratóriu MediaLab* na Vysokej škole výtvarných umení v Bratislave. Podporené Nadáciou Tatra banky.
 
-Child friendly instalation
 
 [Behance](https://behance.net/romackovicee37)
 <br>

@@ -24,6 +24,7 @@ no_ticket_button: true
 ### Sunday 9 June 
 #### 10.00 - 18.00
 #### Tutor: [Cris Valenzuela](https://sensorium.is/speakers/cristobal-valenzuela)
+#### Location: [Goethe Institut Bratislava](https://sensorium.is/map)
 
 ~~Limited Early Bird tickets **€50**~~ **SOLD OUT**<br>
 Regular tickets **€90**

@@ -31,6 +31,6 @@ In the search for space for more disconnected interactions, he designed Tools fo
 
 
 
-Created by [Giulio Barresi](https://www.ecal.ch/en/3841/studies/bachelor/media-interaction-design/presentation/tools-for-connected-humans)
+Created by [Giulio Barresi](https://www.gi-ul.io)
 
 This installation has been brought to Sensorium thanks to [Écal](https://www.ecal.ch).

@@ -28,7 +28,7 @@ Giulio ako interakčný dizajnér spochybňuje, či náš skutočný vzťah s te
 
 Pri hľadaní priestoru pre viac odpojených interakcií autor navrhol nástroje pre zapojených ľudí. Séria pripojených zariadení pripravená pomôcť užívateľovi odpojiť sa od pripojenia.
 
-Vytvoril [Giulio Barresi] (https://www.ecal.ch/en/3841/studies/bachelor/media-interaction-design/presentation/tools-for-connected-humans)
+Vytvoril [Giulio Barresi] (https://www.gi-ul.io)
 
 
 Inštaláciu si an festivale odškúšaš vďaka [Écal] (https://www.ecal.ch).

@@ -1,7 +1,7 @@
 ---
 title: 'Giulio Barresi'
-subtitle: 'écal (FR)'
-date: 02/10/2019
+subtitle: 'écal (NO)'
+date: 10/02/2019
 taxonomy:
     category:
         - speakers

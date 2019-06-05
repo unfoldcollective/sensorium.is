@@ -107,6 +107,10 @@ partners:
         name: Roomfactory
         url: 'https://roomfactory.sk/'
         logo: roomfactory.png
+    -
+        name: Tesco
+        url: 'https://tesco.sk/'
+        logo: tesco.png
 edupartnersTitle: 'Educational Partners'
 edupartners:
     -
