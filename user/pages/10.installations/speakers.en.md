@@ -12,12 +12,7 @@ content:
 ---
 
 # Installations
-**The installtions can be seen at the Pisztory Palace, Stefanikova 25, Bratislava at the following times and dates:
 
-Thursday 3rd May 16.00 - 20.00
+All installations are freely accessible to the public (no ticket required).
 
-Friday 4th May 16.00 - 20.00
-
-Saturday 5th May 10.00 - 19.00
-
-**3rd-4th May free entry, 5th May only conference attendees.**
+See individual timings below or on the [festival programme](/programme).
