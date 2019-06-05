@@ -47,7 +47,7 @@ friday:
     -
      name: <br>Sensorium Night: Jonathan Reus - iMac Music / Fero Király
      s: 21:00
-     e: 23:59
+     e: 01:00
      overlap:
      type: infinite
      cta: GET TICKET
@@ -214,20 +214,6 @@ saturday:
      overlap: 
      type: installations
     -
-     name: <br>FLUKS - urban sound walk by Jannes Phillip Ley
-     s: 10:00
-     e: 13:00
-     overlap: 1
-     type: 
-    -
-     name: πTon Performance 2
-     s: 11:00
-     e: 11:30
-     overlap: 1
-     type: performance
-     cta: INFO & REGISTRATION
-     link: https://forms.gle/4BBEuUwyBccMbdv68
-    -
      name: <br>Bublina workshop 
      s: 10:00
      e: 11:30
@@ -235,9 +221,23 @@ saturday:
      type: 
     -
      name: <br>FLUKS - urban sound walk by Jannes Phillip Ley
+     s: 10:00
+     e: 13:00
+     overlap: 3
+     type: 
+    -
+     name: πTon Performance 2
+     s: 11:00
+     e: 11:30
+     overlap: 3
+     type: performance
+     cta: INFO & REGISTRATION
+     link: https://forms.gle/4BBEuUwyBccMbdv68
+    -
+     name: <br>FLUKS - urban sound walk by Jannes Phillip Ley
      s: 15:00
      e: 20:00
-     overlap: 1 
+     overlap: 2 
      type: 
     -
      name: πTon Performance 3
@@ -250,7 +250,7 @@ saturday:
     -
      name: <br>Sensorium Night: Evitceles (Opal Tapes / Seagrave) x Stix / Isama Zing (Mäss) / Luca Kasper / Tea Tralna
      s: 22:00
-     e: 23:59
+     e: 04:00
      overlap: 
      type: infinite
      cta: GET TICKET
