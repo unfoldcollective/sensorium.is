@@ -25,3 +25,7 @@ menu:
      url: https://ti.to/sensorium-festival-2019/sensorium-2019
      classes: 'external link grow ba-l bw1 mt-1 mh2'
      newTab: true
+redirects:
+    '/feedback': https://phivk.typeform.com/to/BgibRF
+#  '/redirect-test': '/'                         # Redirect test goes to home page
+#  '/old/(.*)': '/new/$1'                        # Would redirect /old/my-page to /new/my-page
