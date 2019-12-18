@@ -42,34 +42,45 @@
     <div class="overlay"></div>
     <div class="min-h-100 relative white mh2 mh4-m mh5-l">
         <header>
-            <a class="bg-black-50 fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular mr6 mr6-l" href="{{page.header.previousButtonHref}}" title="{{page.header.previousButtonTitle}}">
+            {# <a class="bg-black-50 fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular mr6 mr6-l" href="{{page.header.previousButtonHref}}" title="{{page.header.previousButtonTitle}}">
                 {{page.header.previousButtonText}}
-            </a>
-            <a class="bg-black-50 fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular" href="{{config.site.ticket_url}}" title="Sensorium Festival Tickets">
+            </a> #}
+            {# <a class="bg-black-50 fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l dn dib-ns white regular" href="{{config.site.ticket_url}}" title="Sensorium Festival Tickets">
                 Tickets
+            </a> #}
+            <a class="bg-black-50 fixed right-0 f6 tc link grow ba bw1 ph3 pv2 ma3 ma4-l white regular" href="{{page.header.videolink}}" target="_blank" title="Watch on Vimeo">
+                Watch Sensorium 2019 video
             </a>
+
+            
             <img class="logotype" src="{{ url('theme://images/logos/logo-sensorium-white.svg') }}" alt="Sensorium logo">
             
             <div class="text-shadow">
+                <p class="f3 ma0 relative top--2">5th edition</p>
                 {% if page.header.heading1 %}
                     <h1 class="peall f3 f2-ns fw1 lh-title measure regular">{{page.header.heading1}}</h1>
                 {% endif %}
                 {% if page.header.heading2 %}
-                    <h2 class="peall f4 f3-ns fw1 lh-title measure regular">{{page.header.heading2}}</h2>
+                    <h2 class="peall f4 f3-ns fw1 lh-title measure regular mt0">{{page.header.heading2}}</h2>
                 {% endif %}
                 {% if page.header.heading2sub %}
-                    <h2 class="peall f4 f3-ns fw1">{{page.header.heading2sub}}</h2>
+                    <h2 class="peall f4 f3-ns b"></h2>
+                    <h2 class="peall f4 f3-ns b">{{page.header.heading2sub}}</h2>
+                    <h2 class="peall f4 f3-ns fw1">Be part of the celebration next summer in sunny Bratislava! Be bold and go off the beaten tracks with us. Get yourself and your friends Super Early Bird tickets today.</h2>
                 {% endif %}
                 {% if page.header.heading3 %}
                     <h3 class="peall f5 f4-ns fw1">{{page.header.heading3}}</h3>
                 {% endif %}
+
             </div>
         </header>
 
-        <main>
-            <a class="bg-black-50 white f5 f3-m f2-l tc link grow ba bw1 ph3 pv2 mv3 dib light" href="{{config.site.ticket_url}}" title="Sensorium Festival Tickets">
+        <main style="display: flex;align-items: center;">
+            <a class="w-100 w-auto-m w-auto-l bg-black-50 white f5 f3-m f2-l tc link grow ba bw1 ph3 pv2 mv3 dib light" href="{{config.site.ticket_url}}" title="Sensorium Festival Tickets">
                 {{page.header.ticketButtonText}}
             </a>
+
+            {# <span class="ml4">or <a href="https://vimeo.com/361304086" target="_blank">Watch 2019 video</a></span> #}
         </main>
 
         <div class="mt4 mt5-l pb6 pb7-l"></div>
@@ -93,9 +104,13 @@
                 <a class="bg-black-50 light link dib v-mid f6 f5-l link grow ba bw1 ph3 pv2 dib white" href="http://eepurl.com/cAuT-X" target="_blank">
                     Newsletter
                 </a>
-                <a class="dib f6 f5-l light ph3 mv3" href="https://2017.sensorium.is">Sensorium 2017</a>
+            </nav>
+            <br>
+            <nav class="tc dib v-mid f3 f2-l ma2 relative">
+                <span class="dib f6 f5-l light ph3">Previous websites: </span>
+                <a class="dib f6 f5-l light ph3 mv3" href="https://2019.sensorium.is">Sensorium 2019</a>
                 <a class="dib f6 f5-l light ph3 mv3" href="https://2018.sensorium.is">Sensorium 2018</a>
-                <a class="dib f6 f5-l light ph3 mv3" href="https://2018.sensorium.is">Sensorium 2019</a>
+                <a class="dib f6 f5-l light ph3 mv3" href="https://2017.sensorium.is">Sensorium 2017</a>
             </nav>
             <h4 class="mb3 text-shadow">Brought to you by</h4>
             <a class="link dib v-mid dim mv2 mv3-l " href="http://www.unfold.is/" target="_blank">
