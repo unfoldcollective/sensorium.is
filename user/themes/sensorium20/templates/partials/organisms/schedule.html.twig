@@ -1,0 +1,208 @@
+<div class="modular-row">
+  {# <article class="s-page__inner"> #}
+
+	<ul data-tabs>
+		<li><a data-tabby-default href="#tab-friday" class="js-noscroll"><span class="tab-dayname">Friday</span>7th June</a></li>
+		<li><a href="#tab-saturday" class="js-noscroll"><span class="tab-dayname">Saturday</span>8th June</a></li>
+		<li><a href="#tab-sunday" class="js-noscroll"><span class="tab-dayname">Sunday</span>9th June</a></li>
+	</ul>
+
+	<ul class="schedule-legend">
+		<li class="schedule-legend__item">Legend: </li>
+		<li class="schedule-legend__item schedule-legend__item--talks">Talks, presentations, etc</li>
+		<li class="schedule-legend__item schedule-legend__item--installations">Installations</li>
+		<li class="schedule-legend__item schedule-legend__item--performance">Performances</li>
+		<li class="schedule-legend__item schedule-legend__item--breaks">Breaks</li>
+	</ul>
+
+	<div id="tab-friday">
+
+
+	<div class="cd-schedule cd-schedule--friday cd-schedule--loading margin-top--sm margin-bottom--lg js-cd-schedule">
+	  <div class="cd-schedule__timeline">
+	    <ul>
+	      <li><span>16:00</span></li>
+	      <li><span>16:30</span></li>
+	      <li><span>17:00</span></li>
+	      <li><span>17:30</span></li>
+	      <li><span>18:00</span></li>
+	      <li><span>18:30</span></li>
+	      <li><span>19:00</span></li>
+	      <li><span>19:30</span></li>
+	      <li><span>20:00</span></li>
+	      <li><span>20:30</span></li>
+	      <li><span>21:00</span></li>
+	      <li><span>21:30</span></li>
+	      <li><span>22:00</span></li>
+	      <li><span>22:30</span></li>
+	      <li><span>23:00</span></li>
+	      <li><span>23:30</span></li>
+	      <li><span>24:00</span></li>
+	    </ul>
+	  </div> <!-- .cd-schedule__timeline -->
+
+	  <div class="cd-schedule__events">
+	  	<ul>
+	  		{% for location in page.find('/programme').header.friday.locations %}
+	  			{% include 'partials/organisms/schedule-track.html.twig' %}
+	  		{% endfor %}
+	  	</ul>
+	  </div>
+	
+	  <div class="cd-schedule-modal">
+	    <header class="cd-schedule-modal__header">
+	      <div class="cd-schedule-modal__content">
+	        <span class="cd-schedule-modal__date"></span>
+	        <h3 class="cd-schedule-modal__name"></h3>
+	      </div>
+	
+	      <div class="cd-schedule-modal__header-bg"></div>
+	    </header>
+	
+	    <div class="cd-schedule-modal__body">
+	      <div class="cd-schedule-modal__event-info"></div>
+	      <div class="cd-schedule-modal__body-bg"></div>
+	    </div>
+	
+	    <a href="#0" class="cd-schedule-modal__close text--replace">Close</a>
+	  </div>
+	
+	  <div class="cd-schedule__cover-layer"></div>
+	</div> <!-- .cd-schedule -->
+
+
+	</div> <!-- #tab-friday -->
+	
+	<div id="tab-saturday">
+
+		<div class="cd-schedule cd-schedule--saturday cd-schedule--loading margin-top--sm margin-bottom--lg js-cd-schedule">
+		  <div class="cd-schedule__timeline">
+		    <ul>
+		      <li><span>09:00</span></li>
+		      <li><span>09:30</span></li>
+		      <li><span>10:00</span></li>
+		      <li><span>10:30</span></li>
+		      <li><span>11:00</span></li>
+		      <li><span>11:30</span></li>
+		      <li><span>12:00</span></li>
+		      <li><span>12:30</span></li>
+		      <li><span>13:00</span></li>
+		      <li><span>13:30</span></li>
+		      <li><span>14:00</span></li>
+		      <li><span>14:30</span></li>
+		      <li><span>15:00</span></li>
+		      <li><span>15:30</span></li>
+		      <li><span>16:00</span></li>
+		      <li><span>16:30</span></li>
+		      <li><span>17:00</span></li>
+		      <li><span>17:30</span></li>
+		      <li><span>18:00</span></li>
+		      <li><span>18:30</span></li>
+		      <li><span>19:00</span></li>
+		      <li><span>19:30</span></li>
+		      <li><span>20:00</span></li>
+		      <li><span>20:30</span></li>
+		      <li><span>21:00</span></li>
+		      <li><span>21:30</span></li>
+		      <li><span>22:00</span></li>
+		      <li><span>22:30</span></li>
+		      <li><span>23:00</span></li>
+		    </ul>
+		  </div> <!-- .cd-schedule__timeline -->
+
+		  <div class="cd-schedule__events">
+		  	<ul>
+		  		{% for location in page.find('/programme').header.saturday.locations %}
+		  			{% include 'partials/organisms/schedule-track.html.twig' %}
+		  		{% endfor %}
+		  	</ul>
+		  </div>
+		
+		
+		  <div class="cd-schedule-modal">
+		    <header class="cd-schedule-modal__header">
+		      <div class="cd-schedule-modal__content">
+		        <span class="cd-schedule-modal__date"></span>
+		        <h3 class="cd-schedule-modal__name"></h3>
+		      </div>
+		
+		      <div class="cd-schedule-modal__header-bg"></div>
+		    </header>
+		
+		    <div class="cd-schedule-modal__body">
+		      <div class="cd-schedule-modal__event-info"></div>
+		      <div class="cd-schedule-modal__body-bg"></div>
+		    </div>
+		
+		    <a href="#0" class="cd-schedule-modal__close text--replace">Close</a>
+		  </div>
+		
+		  <div class="cd-schedule__cover-layer"></div>
+		</div> <!-- .cd-schedule -->
+	
+	</div> <!-- #tab-saturday -->
+	<div id="tab-sunday">
+		<div class="cd-schedule cd-schedule--sunday cd-schedule--loading margin-top--sm margin-bottom--lg js-cd-schedule">
+		  <div class="cd-schedule__timeline">
+		    <ul>
+		      <li><span>10:00</span></li>
+		      <li><span>10:30</span></li>
+		      <li><span>11:00</span></li>
+		      <li><span>11:30</span></li>
+		      <li><span>12:00</span></li>
+		      <li><span>12:30</span></li>
+		      <li><span>13:00</span></li>
+		      <li><span>13:30</span></li>
+		      <li><span>14:00</span></li>
+		      <li><span>14:30</span></li>
+		      <li><span>15:00</span></li>
+		      <li><span>15:30</span></li>
+		      <li><span>16:00</span></li>
+		      <li><span>16:30</span></li>
+		      <li><span>17:00</span></li>
+		      <li><span>17:30</span></li>
+		      <li><span>18:00</span></li>
+		    </ul>
+		  </div> <!-- .cd-schedule__timeline -->
+
+		  <div class="cd-schedule__events">
+		  	<ul>
+		  		{% for location in page.find('/programme').header.sunday.locations %}
+		  			{% include 'partials/organisms/schedule-track.html.twig' %}
+		  		{% endfor %}
+		  	</ul>
+		  </div>
+		
+		  <div class="cd-schedule-modal">
+		    <header class="cd-schedule-modal__header">
+		      <div class="cd-schedule-modal__content">
+		        <span class="cd-schedule-modal__date"></span>
+		        <h3 class="cd-schedule-modal__name"></h3>
+		      </div>
+		
+		      <div class="cd-schedule-modal__header-bg"></div>
+		    </header>
+		
+		    <div class="cd-schedule-modal__body">
+		      <div class="cd-schedule-modal__event-info"></div>
+		      <div class="cd-schedule-modal__body-bg"></div>
+		    </div>
+		
+		    <a href="#0" class="cd-schedule-modal__close text--replace">Close</a>
+		  </div>
+		
+		  <div class="cd-schedule__cover-layer"></div>
+		</div> <!-- .cd-schedule -->
+	</div>
+</article>
+</div>
+  
+<script src="{{ theme_url }}/js/schedule/util.js"></script>
+<script src="{{ theme_url }}/js/schedule/hoverintent.min.js"></script>
+<script src="{{ theme_url }}/js/schedule/main.js?v=2"></script>
+<script src="{{ theme_url }}/js/schedule/fixhover.js"></script>
+<script src="{{ theme_url }}/js/schedule/tabby.polyfills.min.js"></script>
+
+<script>
+	var tabs = new Tabby('[data-tabs]');
+</script>

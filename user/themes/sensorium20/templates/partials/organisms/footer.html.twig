@@ -1,0 +1,86 @@
+{% set currentLang = grav.language.getLanguage %}
+
+    {% if currentLang == 'sk' %} 
+        {% set footerDesc = 'Sensorium spája odborníkov v oblasti umenia, dizajnu a technológie a vytvára nové väzby medzi ľuďmi, myšlienkami a disciplínami. Pozývaním medzinárodných rečníkov a hostí do Bratislavy sa snažíme prepojiť svetové myšlienky a podporiť zmysluplnú aplikáciu a experimentálne využitie technológií v umení, dizajne a performancii na Slovensku a v strednej Európe.' %} 
+        {% set pastSpeakers = 'Predošlí hostia boli aj:' %} 
+        {% set getInTouch = 'Kontaktuj nás' %} 
+        {% set producedBy = 'Sensorium organizuje'  %}
+        {% set previously = 'Predošlé ročníky' %} 
+    {% else %}
+        {% set footerDesc = 'Sensorium brings together practitioners in art, design and technology to foster new connections between people, thoughts and disciplines. By inviting international speakers and guests to Bratislava we aim to bridge ideas and encourage the meaningful application and experimental use of creative technolgy in art, design and performance in Slovakia and Central Europe.' %} 
+        {% set pastSpeakers = 'Past speakers include:' %} 
+        {% set getInTouch = 'Get in touch' %} 
+        {% set producedBy = 'Sensorium is produced by' %} 
+        {% set previously = 'Previously'  %}
+        {% set codeOfConduct = 'Code of Conduct & Privacy policy'  %}
+    {% endif %}
+<footer class="clearfix">
+    <div class="modular-row">
+        <p>{{ footerDesc }}</p>
+    </div>
+    <div class="modular-row center cf">
+            <div class="fl w-100 w-25-ns pa2 ph4-l">
+                <h6>{{ pastSpeakers }}</h6>
+                <ul class="list mt1 pa0">
+                    <li>Joachim Sauter (ART+COM)</li>
+                    <li><a href="https://www.field.io/" target="_blank">Vera-Maria Glahn (FIELD)</a></li>
+                    <li>Christian "Mio" Loclaire</li>
+                    <li>Jessica In (Bartlett IA Lab)</li>
+                    <li><a href="https://twitter.com/quasimondo" target="_blank">Mario Klingemann</a></li>
+                    <li><a href="http://thi.ng/" target="_blank">Karsten Schmidt</a></li>
+                    <li><a href="http://genekogan.com/" target="_blank">Gene Kogan</a></li>
+                    <li><a href="http://playmodes.com/" target="_blank">Playmodes</a></li>
+                    <li><a href="http://mariajudova.net/" target="_blank">Mária Júdová</a></li>
+                    <li><a href="http://domesticstreamers.com/" target="_blank">Pau Garcia (Domestic Data Streamers)</a></li>
+                    <li>Andrej Boleslavský</li>
+                    <li>Annette Mees</li>
+                    <li>Joshua Noble</li>
+                    <li>Jan Nikolai Nelles</li>
+                    <li>Alexander Scholz (HOLO Magazine)</li>
+                    <li>Gabey Tjon a Tham</li>
+                    <li>Lanark Artefax</li>
+                </ul>
+            </div>
+            <div class="fl w-100 w-25-ns pa2 ph4-l f5">
+                <h6 class="f3">{{ getInTouch }}</h6>
+                <p class="mv2"><i class="fa fa-envelope w1"></i> <a href="mailto:{{'hello@sensorium.is'|safe_email}}">{{'hello@sensorium.is'|safe_email}}</a></p>
+                <p class="mv2"><i class="fa fa-facebook w1"></i> <a target="_blank" href="https://www.facebook.com/sensoriumis/">Sensorium Festival</a></p>
+                <p class="mv2"><i class="fa fa-twitter w1"></i> <a target="_blank" href="https://twitter.com/SensoriumIs">@SensoriumIs</a></p>
+                <p class="mv2"><i class="fa fa-instagram w1"></i> <a target="_blank" href="https://www.instagram.com/sensorium.is/">sensorium.is</a></p>
+                <h4 class="f3">Newsletter</h4>
+                {% include 'partials/atoms/button.html.twig' with {
+                    'button': {
+                        'text': 'Sign up now',
+                        'url': 'http://eepurl.com/cAuT-X',
+                        'newTab': true,
+                        'classes': 'f5 link grow ba bw1 ph3 pv2 mb2 dib white hover-white'
+                    }
+                }%}
+
+                <div class="f5">
+                    <h6 class="f3">{{ codeOfConduct }}</h6>
+                    <i class="fa fa-link w1"></i> <a href="/code-of-conduct/">Code of conduct</a><br>
+                    <i class="fa fa-link w1"></i> <a href="/privacy-policy/">Privacy policy</a>
+                </div>
+            </div>
+            <div class="fl w-100 w-25-ns pa2 ph4-l">
+                <h6 class="">{{ producedBy }}</h6>
+                <a class="dim" href="http://www.unfold.is/" target="_blank">
+                    <img class="w4" src="{{ url('theme://images/logos/logo-unfold-white.png') }}" alt="Unfold">
+                </a>
+                <h6>Webhosting</h6>
+                <a class="dim" href="https://www.websupport.sk/" target="_blank">
+                    <img class="w5" src="{{ url('theme://images/logos/logo-websupport-white.jpg') }}" alt="WebSupport">
+                </a>
+                {# <h4 class="f4">Parametric Background Animation inspired by</h4>
+                <div class="f5">
+                    <i class="fa fa-link w1"></i> <a href="http://www.bit-101.com/">bit101 (Keith Peters)</a>
+                </div> #}
+                <h6>{{ previously }}</h6>
+                <div class="f5">
+                    <i class="fa fa-link w1"></i> <a href="https://2018.sensorium.is/">Sensorium 2018</a><br>
+                    <i class="fa fa-link w1"></i> <a href="https://2017.sensorium.is/">Sensorium 2017</a>
+                </div>
+            </div>
+    </div>
+</footer>

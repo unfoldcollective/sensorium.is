@@ -1,0 +1,17 @@
+<li class="cd-schedule__event  cd-schedule__event--{{item.type}}  cd-schedule__event--overlap-{{item.overlap}}{% if item.cta %} cd-schedule__event--cta{% endif %}">
+	<a 
+	data-start="{{item.s}}" 
+	data-end="{{item.e}}" 
+	data-content="event-rowing-workout" 
+	data-event="event-2" 
+	href="{% if item.cta and item.link %}{{item.link}}{% else %}#0{% endif %}"
+	{% if item.cta and item.link %}target="_blank"{% endif %}>
+	  <em class="cd-schedule__name">{{item.name}}</em>
+	  {% if item.cta and item.link %}
+	  	{% if not item.inlinecta %}
+	  	<br>
+	  	{% endif %}
+	  	<span class="cd-schedule__cta">{{item.cta}} &nearr;</span>
+	  {% endif %}
+	</a>
+</li>

@@ -1,0 +1,38 @@
+{% set currentLang = grav.language.getLanguage %}
+
+<div class="relative modular-row showcase fl w-50">
+    {{ content }}
+
+	<div class="showcase__actions">
+	    {% for button in page.header.buttons %}
+	    	{% include 'partials/atoms/button.html.twig' with {'button': button} %}
+	    {% endfor %}
+	</div>
+</div>
+<div class="relative showcase fl w-50 festivaldate">
+	<div class="festivaldate__inner">
+		{% if currentLang == 'sk' %}
+		<p class="festivaldate__date">
+			7&ndash;9
+			<span class="festivaldate__month">Júna 2019</span>
+			<span class="festivaldate__place">Bratislava</span>
+		</p>
+		<p class="festivaldate__name">
+			<br>
+			Rozšírená <br>
+			Myseľ
+		</p>
+	{% else %}
+		<p class="festivaldate__date">
+			7&ndash;9
+			<span class="festivaldate__month">June 2019</span>
+			<span class="festivaldate__place">Bratislava (SK)</span>
+		</p>
+		<p class="festivaldate__name">
+			The <br>
+			Augmented <br>
+			Mind
+		</p>
+	{% endif %}
+	</div>
+</div>

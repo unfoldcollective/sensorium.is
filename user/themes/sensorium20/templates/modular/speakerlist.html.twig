@@ -1,0 +1,18 @@
+<section id="section-speakers" class="modular-row center">
+	<div class="tl">
+		{{ content }}
+	</div>
+
+	<div class="speakerfaces">
+		{% for speaker in page.collection %}
+			<a href="{{speaker.url}}" class="speakerfaces__speaker" style="background-image: url('{{ speaker.media.images[speaker.header.custom.bioImage|first.name].url }}');">
+				<div class="speakerfaces__info">
+
+					<h4 class="speakerfaces__name">{{ speaker.title }}</h4>
+					<h5 class="speakerfaces__interest">{{ speaker.header.subtitle }}</h5>
+
+				</div>
+			</a>
+		{% endfor %}
+	</div>
+</section>

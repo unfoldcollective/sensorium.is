@@ -1,0 +1,37 @@
+<section class="modular-row">
+  <div id="sliders" class="h0"></div>
+  {{ content }}
+  <div class="measure mb4">
+    <input type="range" class="slider max_scale"     oninput="set_state('max_scale', this.value)"     onchange="set_state('max_scale', this.value)">
+    <input type="range" class="slider count"         oninput="set_state('count', this.value)"         onchange="set_state('count', this.value)">
+    <input type="range" class="slider hue"           oninput="set_state('hue', this.value)"           onchange="set_state('hue', this.value)">
+    <input type="range" class="slider bg_hue"        oninput="set_state('bg_hue', this.value)"        onchange="set_state('bg_hue', this.value)">
+    <input type="range" class="slider bg_saturation" oninput="set_state('bg_saturation', this.value)" onchange="set_state('bg_saturation', this.value)">
+    <input type="range" class="slider operatorIndex" oninput="set_state('operatorIndex', this.value)" onchange="set_state('operatorIndex', this.value)">
+  </div>
+  <div class="sharing-buttons">
+    <a 
+      href="https://twitter.com/intent/tweet
+        ?url=https%3A%2F%2Fsensorium.is%2F
+        &text=Exploring+Sensorium+System+Aesthetics
+        &hashtags=HomoArbiterFormae,sensorium18" 
+      onclick="set_href_twitter(this);"
+      class="bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 mr2 dib"
+      target="_blank">
+      <i class="fa fa-twitter w1 mr1"></i> Tweet these forms
+    </a>
+    <a 
+      href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fsensorium.is%2F" 
+      onclick="set_href_facebook(this);"
+      class="bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 mr2 dib"
+      target="_blank">
+      <i class="fa fa-facebook w1 mr1"></i> Share these forms
+    </a>
+    <a 
+      href="#" 
+      onclick="downloadCanvas(this, 'defaultCanvas0', 'HomoArbiterFormae-'+Date.now()+'.png');"
+      class="bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 mr2 dib pointer">
+      <i class="fa fa-download w1 mr1"></i> Download these forms
+    </a>
+  </div>
+</section>

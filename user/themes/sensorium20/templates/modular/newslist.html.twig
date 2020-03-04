@@ -1,0 +1,30 @@
+{% set limit = page.header.limit|default(5) %}
+
+<section class="modular-row newslist">
+	<div>
+		{{ content }}
+	</div>
+	{% for p in page.collection.slice(0, limit) %}
+		<article class="newslist__item">
+			<a class="newslist__href no-underline black hover-black-70" href="{{p.url}}">
+				<div class="flex flex-column flex-row-ns">
+					<div class="pr3-ns mb4 mb0-ns w-100 w-25-ns">
+						<img src="{{ p.media.all|first.url }}" class="db" alt="{{p.title}}">
+					</div>
+					<div class="w-100 w-75-ns pl3-ns">
+						<time class="s-time">{{ p.date|nicetime(false) }}</time>
+						<h2 class="newslist__title">
+							{{ p.title }}
+						</h2>
+						<p class="newslist__moreinfo">{{ page.header.moreinfotext }}</p>
+					</div>
+				</div>
+			</a>
+		</article>
+	{% endfor %}
+	{% if page.collection.count > limit %}
+		<div class="tc pa4 f4">
+			<a href="/news">see all news...</a>
+		</div>
+	{% endif %}
+</section>

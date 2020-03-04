@@ -1,10 +1,10 @@
 absolute_urls: false
 
 home:
-  alias: '2020'
+  alias: 'modular'
 
 pages:
-  theme: imaginarious
+  theme: sensorium20
   markdown:
     extra: false
   process:

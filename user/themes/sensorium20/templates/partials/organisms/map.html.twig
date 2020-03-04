@@ -1,0 +1,27 @@
+<style type="text/css">
+.googlemap {
+	position: relative;
+	padding-bottom: 100%; /* square */
+	height: 0;
+	overflow: hidden;
+}
+
+@media (min-width: 700px) {
+    .googlemap {
+        padding-bottom: 80vh; /* leave space for legend below */
+    }    
+}
+
+.googlemap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+</style>
+<div class="modular-row">
+	<div class="googlemap">
+		<iframe src="https://www.google.com/maps/d/u/1/embed?mid=1fEa4daoMt5tYl9sZKozkuDOpfRmjU6Kw" width="640" height="480"></iframe>
+	</div>
+</div>

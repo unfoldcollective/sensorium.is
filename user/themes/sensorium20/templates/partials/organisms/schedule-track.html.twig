@@ -1,0 +1,13 @@
+<li class="cd-schedule__group">
+	<div class="cd-schedule__top-info">
+		<span><p class="s-location">{{location.name}}</p></span>
+		<p class="cd-schedule__top-info-maplink">
+			<a href="/map/" target="_blank">(find it on the map)</a>
+		</p>
+	</div>
+	<ul>
+		{% for item in location.items %}
+			{% include 'partials/organisms/schedule-item.html.twig' %}
+		{% endfor %}
+	</ul>
+</li>

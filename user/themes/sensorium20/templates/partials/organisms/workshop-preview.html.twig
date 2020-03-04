@@ -1,0 +1,77 @@
+<div class="events-grid__event s-event">
+    <a href="{{p.url}}" class="s-event__imglink">
+      <img src="{{ p.media.images|first.url }}" alt="{{p.title}}" class="s-event__img db w-100 grow">
+    </a>
+    <div class="s-event__content">
+      <time class="s-time">{{ p.header.time }}; {{ p.header.date_days }} {{ p.header.date_month }}</time>
+      <h3 class="s-event__title">{{p.title}}</h3>
+      
+      {% if p.header.subtitle %}
+      <h4 class="s-event__subtitle">{{ p.header.subtitle }}</h4>
+      {% endif %}
+      
+      <p class="s-event__description">{{ p.header.description }}</p>
+      <p class="s-event__location s-location">Location <strong>{{ p.header.location }}</strong></p>
+      <ul class="events-grid__actions s-actions">
+          {% if p.header.ticket_text %}
+          {# <li class="s-actions__item">
+              {% include 'partials/atoms/button.html.twig' with {'button': {
+                  'text': p.header.ticket_text,
+                  'url': config.site.ticket_url,
+                  'newTab': true,
+                  'classes': 's-button grow'
+              }} %}
+          </li> #}
+          {% endif %}
+          <li class="s-actions__item">
+              <a href="{{p.url}}">More info...</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
+{# <article class="bgi-radialgrad dib v-top bw2 b--black mv4 mh3-ns w-100 w-40-m w-33-l mw6 overflow-hidden measure f6">
+  <a href="{{p.url}}">
+    <img src="{{ p.media.images|first.url }}" class="db w-100 grow" alt="{{p.title}}">
+  </a>
+  <div class="pa2 ph3-ns pb3-ns tl">
+    <div class="dt w-100 h3 mt1">
+      <div class="dtc">
+        <h3 class="f2 f3-m mv0 lh-title">{{ p.title }}</h3>
+        {% if p.header.subtitle %}
+        <h4 class="f3 f4-m mv0 lh-title">{{ p.header.subtitle }}</h4>
+        {% endif %}
+      </div>
+      <div class="dtc tr w2 relative">
+        <h2 class="f3 f4-m mv0">
+          <time class="dt-published" datetime="{{ p.date|date("c") }}">
+            {% if p.header.date_days %}
+              <span>{{ p.header.date_days }}</span>
+              <span>{{ p.header.date_month }}</span>
+            {% else %}
+              <span>{{ p.date|date("d") }} <br> {{ p.date|date("M") }} </span>
+            {% endif %}
+          </time>
+        </h2>
+      </div>
+    </div>
+    <p class="f6 lh-copy measure mt2 mb2 b">
+      {{ p.header.description }}
+    </p>
+    <div class="dt w-100 mt1 b">
+      <div class="dtc">
+        <span class="f5 mv0"><a href="{{p.url}}">more info...</a></span>
+      </div>
+      {% if p.header.ticket_text %}
+      <div class="dtc tr">
+        {% include 'partials/atoms/button.html.twig' with {'button': {
+            'text': p.header.ticket_text,
+            'url': config.site.ticket_url,
+            'newTab': true,
+            'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mv2 dib'
+        }} %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</article> #}
