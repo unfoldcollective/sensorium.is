@@ -44,6 +44,7 @@
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', 100) %}
         {% do assets.addJs('theme://js/antimatter.js') %}
         {% do assets.addJs('theme://js/slidebars.min.js') %} #}
+        {% do assets.addJs('theme://dist/assets/js/app.js') %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -92,26 +93,6 @@
     </div>
     {% block bottom %}
         {{ assets.js('bottom') }}
-        <script>
-        ( function ( $ ) {
-            // Initialize Slidebars
-            var controller = new slidebars();
-            controller.init();
-            // Toggle Slidebars
-            $( '.sb-toggle-left' ).on( 'click', function ( event ) {  
-                // Stop default action and bubbling
-                event.stopPropagation();
-                event.preventDefault();
-
-                // Open the Slidebar with id 'sb-slidebar'
-                controller.open( 'sb-slidebar' );
-            } );
-            // Close
-            $( '.sb-close' ).on( 'click', function ( event ) {
-                controller.close();
-            } );
-        } ) ( jQuery );
-        </script>
     {% endblock %}
 </body>
 </html>
