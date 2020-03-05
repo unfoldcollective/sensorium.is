@@ -23,21 +23,21 @@ languages:
   include_default_lang: false
 
 cache:
-  enabled: true
+  enabled: false
   check:
     method: file
   driver: auto
   prefix: 'g'
 
 twig:
-  cache: true
+  cache: false
   debug: true
   auto_reload: true
   autoescape: false
 
 assets:
   css_pipeline: false
-  css_minify: true
+  css_minify: false
   css_rewrite: true
   js_pipeline: false
   js_minify: true
