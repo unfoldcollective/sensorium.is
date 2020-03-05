@@ -7,11 +7,23 @@ import 'what-input';
 // This is why we have to use CommonJS require() here since it doesn't
 // have the hoisting behavior.
 window.jQuery = $;
-require('foundation-sites');
+// require('foundation-sites');
 
 // If you want to pick and choose which modules to include, comment out the above and uncomment
 // the line below
-//import './lib/foundation-explicit-pieces';
+import './lib/foundation-explicit-pieces';
 
 
 $(document).foundation();
+
+// require( '../../../node_modules/js-offcanvas/dist/_js/js-offcanvas.js' );
+// require( 'js-offcanvas' );
+
+
+// $('#offCanvas').offcanvas({
+//     modifiers: 'left, overlay', // default options
+//     triggerButton: '#triggerButton' // btn to open offcanvas
+// });
+
+// Trigger Enhance
+    // $( document ).trigger( "enhance" );

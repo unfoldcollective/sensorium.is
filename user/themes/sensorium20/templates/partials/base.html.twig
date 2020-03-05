@@ -45,16 +45,40 @@
         {% do assets.addJs('theme://js/antimatter.js') %}
         {% do assets.addJs('theme://js/slidebars.min.js') %} #}
         {% do assets.addJs('theme://dist/assets/js/app.js') %}
+        {# {% do assets.addJs('theme://node_modules/js-offcanvas/src/js-offcanvas.js') %} #}
     {% endblock %}
-    {{ assets.js() }}
 
     {# {% include 'partials/fb-pixel.html.twig' %} #}
 
 {% endblock head %}
 </head>
 <body id="top" class="{{ page.header.body_classes }} {% block bodyclass %}{% endblock %}">
-    {% block background %}{% endblock %}
-    {% block header %}
+    {# {% block background %}{% endblock %} #}
+
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+          <!-- Your menu or Off-canvas content goes here -->
+          <!-- Close button -->
+              <button class="close-button" aria-label="Close menu" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+              </button>
+            <p>offcanvas test</p>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+        <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+          <!-- Your page content lives here -->
+         {% block body %}
+             {% block content %}{% endblock %}
+         {% endblock %}
+
+         {% block footer %}
+             {% include 'partials/organisms/footer.html.twig' %}
+            {{ assets.js() }}
+         {% endblock %}
+        </div>
+      </div>
+
+{#     {% block header %}
     <header id="header" canvas="" class="sb-close">
         <div id="logo">
             <a href="{{ base_url == '' ? '/' : base_url }}"><img src="{{ url('theme://images/logos/logo-sensorium-circle.png') }}" alt="{{site.title}}"></a>
@@ -70,8 +94,9 @@
             <span class="panel-activation sb-toggle-left menu-btn fa fa-bars"></span>
         </div>
     </header>
-    {% endblock %}
-    <div id="sb-site" class="sb-close" canvas="container">
+    {% endblock %} #}
+    
+{#     <div id="sb-site" class="sb-close" canvas="container">
         {% block showcase %}{% endblock %}
 
         {% block body %}
@@ -83,14 +108,16 @@
         {% block footer %}
             {% include 'partials/organisms/footer.html.twig' %}
         {% endblock %}
-    </div>
-    <div off-canvas="sb-slidebar left reveal">
+    </div> #}
+    {# <div off-canvas="sb-slidebar left reveal">
         <div id="panel">
         {% block slidebar_navigation %}
             {% include 'partials/navigation.html.twig' %}
         {% endblock %}
         </div>
-    </div>
+    </div> #}
+
+
     {% block bottom %}
         {{ assets.js('bottom') }}
     {% endblock %}
