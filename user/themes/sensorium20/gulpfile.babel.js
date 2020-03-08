@@ -93,6 +93,7 @@ function sass() {
   ].filter(Boolean);
 
   return gulp.src('src/assets/scss/app.scss')
+    .pipe($.sassGlob())
     .pipe($.sourcemaps.init())
     .pipe($.sass({
       includePaths: PATHS.sass
