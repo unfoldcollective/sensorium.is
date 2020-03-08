@@ -16,14 +16,57 @@ import './lib/foundation-explicit-pieces';
 
 $(document).foundation();
 
-// require( '../../../node_modules/js-offcanvas/dist/_js/js-offcanvas.js' );
-// require( 'js-offcanvas' );
+///////////////////////////////////////////
+// body class on menu open / close
+///////////////////////////////////////////
+$(document).on( 'openedEnd.zf.offCanvas', function() {
+	// console.log( 'menu opened' );
+	$('body').addClass('menu-opened');
+} );
 
+$(document).on( 'closed.zf.offCanvas', function() {
+	// console.log( 'menu closed' );
+	$('body').addClass('menu-closed');
+} );
 
-// $('#offCanvas').offcanvas({
-//     modifiers: 'left, overlay', // default options
-//     triggerButton: '#triggerButton' // btn to open offcanvas
-// });
+///////////////////////////////////////////
+// Fixed menu on window scroll
+///////////////////////////////////////////
+var windowHeight = $(window).height(); 
 
-// Trigger Enhance
-    // $( document ).trigger( "enhance" );
+var windowScrolledBodyClass = debounce( function() {
+	if( $(window).scrollTop() >= windowHeight ) {
+		$( 'body' ).addClass( 'window-scrolled' );
+	} else {
+		$( 'body' ).removeClass( 'window-scrolled' );		
+	}
+}, 100, false );
+
+var refreshWindowHeight = debounce( function() {
+	windowHeight = $(window).height();
+	// console.log( 'refreshed windown height ' + windowHeight );
+}, 300, true );
+
+jQuery(document).ready(function($) {
+	$(window).on( 'scroll', windowScrolledBodyClass );
+	$(window).on( 'resize', refreshWindowHeight );
+});
+
+// Returns a function, that, as long as it continues to be invoked, will not
+// be triggered. The function will be called after it stops being called for
+// N milliseconds. If `immediate` is passed, trigger the function on the
+// leading edge, instead of the trailing.
+function debounce(func, wait, immediate) {
+	var timeout;
+	return function() {
+		var context = this, args = arguments;
+		var later = function() {
+			timeout = null;
+			if (!immediate) func.apply(context, args);
+		};
+		var callNow = immediate && !timeout;
+		clearTimeout(timeout);
+		timeout = setTimeout(later, wait);
+		if (callNow) func.apply(context, args);
+	};
+};

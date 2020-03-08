@@ -1,0 +1,59 @@
+.top-page-header {
+	.window-scrolled & {
+		position: fixed;
+	}
+
+	&__inner {
+		@include xy-grid-container();
+		@include xy-grid();
+	}
+
+	&__claimpart {
+
+	}
+
+	&__controlpart {
+		@include xy-cell();
+	}
+
+	&__whatisit {
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+
+	&__fulltitle {
+		display: none;
+
+		.window-scrolled & {
+			display: none;
+		}
+	}
+
+	&__microtitle {
+		.window-scrolled & {
+			display: none;
+		}
+	}
+
+	&__shorttitle {
+		display: none;
+
+		.window-scrolled & {
+			display: inline;
+		}
+	}
+
+	@include breakpoint( medium ) {
+		&__fulltitle {
+			display: inline;
+
+			.window-scrolled & {
+				display: none;
+			}
+		}
+
+		&__microtitle {
+			display: none;
+		}
+	}
+}

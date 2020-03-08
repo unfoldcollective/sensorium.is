@@ -58,14 +58,39 @@
     <div class="off-canvas-wrapper">
         <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
           <!-- Your menu or Off-canvas content goes here -->
-          <!-- Close button -->
-              <button class="close-button" aria-label="Close menu" type="button" data-close>
-                <span aria-hidden="true">&times;</span>
-              </button>
             <p>offcanvas test</p>
         </div>
         <div class="off-canvas-content" data-off-canvas-content>
-        <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+
+            <header class="top-page-header">
+                <div class="top-page-header__inner">
+                    <div class="top-page-header__claimpart">
+                        <p class="top-page-header__whatisit">
+                            {# desktop, not scrolled #}
+                            <span class="top-page-header__fulltitle">Festival of digital arts and culture, 12—14. 6. 2020, Bratislava <br>
+                                        Discussions, performances, installations</span>
+
+                            {# mobile, not scrolled #}
+                            <span class="top-page-header__microtitle">
+                                Festival <br>
+                                of digital arts <br>
+                                and culture
+                            </span>
+
+                            {# scrolled desktop / mobile #}
+                            <span class="top-page-header__shorttitle">
+                                SENSORIUM <br class="show-for-small-only">
+                                12 – 14. 6. 2020 <br class="show-for-small-only">
+                                Bratislava
+                            </span> 
+                        </p>                        
+                    </div>
+                    <div class="top-page-header__controlspart">
+                        <a href="{{ticket_url}}" class="button hollow buy-tickets">Buy tickets</a>
+                        <button type="button" class="button" data-toggle="offCanvas">Menu</button>
+                    </div>
+                </div>
+            </header>
           <!-- Your page content lives here -->
          {% block body %}
              {% block content %}{% endblock %}

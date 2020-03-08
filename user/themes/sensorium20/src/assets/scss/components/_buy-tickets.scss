@@ -1,0 +1,12 @@
+.buy-tickets {
+	&::before {
+		content: '';
+		display: inline-block;
+		background-color: $sensorium-primary;
+		width: 10px;
+		height: 10px;
+		border: 1px solid transparent;
+		border-radius: 50%;
+		margin-right: 3px;
+	}	
+}
