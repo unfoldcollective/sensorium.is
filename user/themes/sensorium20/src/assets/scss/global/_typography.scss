@@ -1,0 +1,75 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2020 Schwartzco Inc.
+        License: 2002-YPTPUY     
+*/
+
+@font-face {
+  font-family: 'Haas Grot Disp Web';
+  src: url('../fonts/NeueHaasGrotDisp-55Roman-Web.woff2') format('woff2'),
+       url('../fonts/NeueHaasGrotDisp-55Roman-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+//flexible typo via https://css-tricks.com/snippets/css/fluid-typography/
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+$min_vw: 375px;
+$max_vw: 1400px;
+$min_font_bigtype: 68px;
+$max_font_bigtype: 258px;
+$min_font_maintype: 15px;
+$max_font_maintype: 34px;
+// $min_font: 33px;
+// $max_font: 120px;
+
+.big-type {
+  @include fluid-type($min_vw, $max_vw, $min_font_bigtype, $max_font_bigtype);
+  line-height: 0.794;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: rem-calc( 30 );
+}
+
+.main-type,
+.main-type p {
+  @include fluid-type($min_vw, $max_vw, $min_font_maintype, $max_font_maintype);
+  line-height: 1;
+  margin-bottom: rem-calc( $min_font_maintype );
+
+  @include breakpoint( medium ) {
+    margin-bottom: rem-calc( $max_font_maintype );
+  }
+}

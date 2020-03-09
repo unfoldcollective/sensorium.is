@@ -91,15 +91,19 @@
                     </div>
                 </div>
             </header>
+
+            <main class="page-body">
           <!-- Your page content lives here -->
          {% block body %}
              {% block content %}{% endblock %}
          {% endblock %}
-
          {% block footer %}
              {% include 'partials/organisms/footer.html.twig' %}
             {{ assets.js() }}
          {% endblock %}
+                
+            </main>
+
         </div>
       </div>
 

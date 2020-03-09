@@ -1,0 +1,7 @@
+.page {
+	&-body {
+		@include xy-grid-container();
+		padding-left: 0; //we do this via grid-x, grid-padding-x classes
+		padding-right: 0; //we do this via grid-x, grid-padding-x classes
+	}
+}

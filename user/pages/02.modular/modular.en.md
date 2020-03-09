@@ -11,15 +11,15 @@ content:
         custom:
             - _showcase
             - _speakers
-            - _programme
-            - _workshops
-            - _installations
-            - _performance
-            - _city-stage
-            - _lab
+            #- _programme
+            #- _workshops
+            #- _installations
+            #- _performance
+            #- _city-stage
+            #- _lab
             - _news
             - _advisors
             - _about
             - _partners
-            - _warmup
+            #- _warmup
 ---

@@ -1,0 +1,25 @@
+.showcasesection {
+	.cell {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-end;
+	}
+
+	&--ordinary {
+		.cell {
+			justify-content: flex-start;
+		}
+	}
+
+	@include breakpoint( medium ) {
+		&--reverseorder {
+			.cell {
+				order: 2;
+			}
+
+			.cell:last-of-type {
+				order: 1;
+			}
+		}
+	}
+}
