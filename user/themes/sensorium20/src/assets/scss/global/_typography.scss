@@ -45,11 +45,13 @@
 }
 
 $min_vw: 375px;
-$max_vw: 1400px;
+$max_vw: 1920px;
 $min_font_bigtype: 68px;
-$max_font_bigtype: 258px;
+$max_font_bigtype: 356px;
 $min_font_maintype: 15px;
 $max_font_maintype: 34px;
+$min_font_bodytype: 15px;
+$max_font_bodytype: 30.1px;
 // $min_font: 33px;
 // $max_font: 120px;
 
@@ -60,7 +62,15 @@ $max_font_maintype: 34px;
   text-transform: uppercase;
   text-align: center;
   justify-content: center;
-  margin-bottom: rem-calc( 30 );
+  margin-bottom: rem-calc( 25 );
+  padding-right: rem-calc( 10 );
+  padding-left: rem-calc( 10 );
+
+  @include breakpoint( medium ) {
+    padding-right: rem-calc( 20 );
+    padding-left: rem-calc( 20 );
+
+  }
 }
 
 .main-type,
@@ -72,4 +82,16 @@ $max_font_maintype: 34px;
   @include breakpoint( medium ) {
     margin-bottom: rem-calc( $max_font_maintype );
   }
+}
+
+h2,
+h3,
+.body-type,
+p {
+  @include fluid-type($min_vw, $max_vw, $min_font_bodytype, $max_font_bodytype);
+  line-height: 1;
+}
+
+h2 {
+  text-transform: uppercase;
 }
