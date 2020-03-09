@@ -131,8 +131,8 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 20px,
-  medium: 30px,
+  small: 10px,
+  medium: 20px,
 );
 $grid-column-align-edge: true;
 $grid-column-alias: 'columns';
@@ -175,7 +175,7 @@ $paragraph-text-rendering: optimizeLegibility;
 $enable-code-inline: true;
 $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-text-decoration: none;
+$anchor-text-decoration: underline;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
 $hr-border: 1px solid $medium-gray;

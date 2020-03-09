@@ -1,0 +1,19 @@
+.speakerlist {
+	@include grid-layout(2, '.speakerlist__item', $grid-column-gutter);
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	&__item {
+		text-transform: uppercase;
+	}
+
+	img {
+		border-radius: 700px 700px 0 0;
+	}
+
+	@include breakpoint( medium ) {
+		@include grid-layout(3, '.speakerlist__item', $grid-column-gutter);
+	}
+}

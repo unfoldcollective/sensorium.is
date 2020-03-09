@@ -62,14 +62,14 @@ $max_font_bodytype: 30.1px;
   text-transform: uppercase;
   text-align: center;
   justify-content: center;
-  margin-bottom: rem-calc( 25 );
+  margin-bottom: rem-calc( 15 );
   padding-right: rem-calc( 10 );
   padding-left: rem-calc( 10 );
 
   @include breakpoint( medium ) {
     padding-right: rem-calc( 20 );
     padding-left: rem-calc( 20 );
-
+    margin-bottom: rem-calc( 25 );
   }
 }
 
@@ -92,6 +92,12 @@ p {
   line-height: 1;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
+
+  @include breakpoint( medium ) {
+    margin-bottom: 0;
+  }
 }

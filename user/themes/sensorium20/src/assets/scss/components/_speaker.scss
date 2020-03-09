@@ -1,0 +1,16 @@
+.speaker {
+	margin-bottom: rem-calc( 20 );
+
+	&__featured {
+		margin-bottom: rem-calc( 10 );
+		margin-top: rem-calc( 10 );
+	}
+
+	@include breakpoint( medium ) {
+		margin-bottom: rem-calc( 100 );
+		
+		&__featured {
+			margin-bottom: rem-calc( 20 );
+		}
+	}
+}

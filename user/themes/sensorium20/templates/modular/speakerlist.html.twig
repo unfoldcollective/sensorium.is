@@ -1,18 +1,21 @@
-<section id="section-speakers" class="modular-row center">
-	<div class="tl">
-		{{ content }}
+<div class="grid-x grid-padding-x">
+	<div class="medium-3 cell">
+		<h2>Speakers &amp; Artists</h2>
 	</div>
-
-	<div class="speakerfaces">
-		{% for speaker in page.collection %}
-			<a href="{{speaker.url}}" class="speakerfaces__speaker" style="background-image: url('{{ speaker.media.images[speaker.header.custom.bioImage|first.name].url }}');">
-				<div class="speakerfaces__info">
-
-					<h4 class="speakerfaces__name">{{ speaker.title }}</h4>
-					<h5 class="speakerfaces__interest">{{ speaker.header.subtitle }}</h5>
-
-				</div>
-			</a>
+	<div class="medium-9 cell">
+		<ul class="speakerlist">
+		{# {% set skrs = {'@page.descendants': '/speakers'} %} #}
+		{% set options = { items: {'@page.descendants': '/speakers'}, 'order': {'by': 'folder', 'dir': 'asc'}} %}
+		{% set speakers = page.collection(options) %}
+		{% for speaker in speakers  %}
+			<li class="speakerlist__item">
+				<a href="{{speaker.url}}" class="speakerlist__href">
+					<img src="{{ speaker.media.images[speaker.header.custom.bioImage|first.name].url }}" alt="">
+					<h4 class="speakerlist__name">{{ speaker.title }}</h4>
+					<p class="speakerlist__interest">{{ speaker.header.subtitle }}</p>
+				</a>
+			</li>
 		{% endfor %}
+		</ul>
 	</div>
-</section>
+</div>

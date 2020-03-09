@@ -4,4 +4,16 @@
 		padding-left: 0; //we do this via grid-x, grid-padding-x classes
 		padding-right: 0; //we do this via grid-x, grid-padding-x classes
 	}
+
+	&-back {
+		display: inline-block;
+		margin-top: rem-calc( 20 );
+		text-transform: uppercase;
+	}
+
+	@include breakpoint( medium ) {
+		&-back {
+			margin-top: rem-calc( 90 );
+		}
+	}
 }
