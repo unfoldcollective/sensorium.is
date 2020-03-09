@@ -1,0 +1,36 @@
+.footer {
+	text-transform: uppercase;
+	margin-top: rem-calc( 70 );
+
+	&__credits {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-flow: column nowrap;
+		margin-top: rem-calc( 80 );
+		padding-bottom: rem-calc( 40 );
+	}
+
+	> .cell > .cell:first-of-type {
+		border-top: 1.2px solid $sensorium-primary;
+		padding-top: rem-calc( 10 );
+	}
+
+	@include breakpoint( medium ) {
+		margin-top: rem-calc( 80 );
+		
+		&__credits {
+			flex-flow: row;
+			flex: 1;
+			justify-content: space-between;
+			margin-top: rem-calc( 90 );
+			padding-bottom: rem-calc( 20 );
+		}
+
+		> .cell > .cell:first-of-type {
+			border-top: 2px solid $sensorium-primary;
+			padding-top: rem-calc( 15 );
+		}
+	}
+}

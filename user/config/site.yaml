@@ -29,3 +29,8 @@ redirects:
     '/feedback': https://phivk.typeform.com/to/BgibRF
 #  '/redirect-test': '/'                         # Redirect test goes to home page
 #  '/old/(.*)': '/new/$1'                        # Would redirect /old/my-page to /new/my-page
+social_links:
+    facebook: https://www.facebook.com/sensoriumis/ 
+    twitter: https://twitter.com/sensoriumis
+    instagram: https://www.instagram.com/sensorium.is/
+    newsletter: http://eepurl.com/cAuT-X
