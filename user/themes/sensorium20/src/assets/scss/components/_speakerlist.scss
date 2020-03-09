@@ -13,6 +13,10 @@
 		border-radius: 700px 700px 0 0;
 	}
 
+	&__href {
+		text-decoration: none;
+	}
+
 	@include breakpoint( medium ) {
 		@include grid-layout(3, '.speakerlist__item', $grid-column-gutter);
 	}
