@@ -1,4 +1,10 @@
-.buy-tickets {
+.buy-tickets.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: rem-calc( 10 );
+	display: flex;
+	align-items: center;
+
 	&::before {
 		content: '';
 		display: inline-block;
@@ -8,5 +14,48 @@
 		border: 1px solid transparent;
 		border-radius: 50%;
 		margin-right: 3px;
+	}
+
+	&:hover {
+		color: $white;
+		background-color: $sensorium-primary;
+		border-color: $sensorium-primary;
+
+		&::before {
+			background-color: $white;
+		}
+	}
+
+	.menu-opened & {
+		color: $white;
+		border-color: $white;
+
+		&::before {
+			background-color: $white;
+		}
+
+		&:hover {
+			background-color: $white;
+			color: $sensorium-primary;
+
+			&::before {
+				background-color: $sensorium-primary;
+			}
+			
+		}
+	}
+
+	@include breakpoint( medium ) {
+		margin-right: rem-calc( 5 );
+
+		&::before {
+			width: rem-calc( 20 );
+			height: rem-calc( 20 );
+
+		}
+
+		.menu-opened & {
+						
+		}
 	}	
 }

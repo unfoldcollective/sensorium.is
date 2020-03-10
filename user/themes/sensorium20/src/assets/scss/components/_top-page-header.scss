@@ -1,6 +1,11 @@
 .top-page-header {
+	$header-top-padding: rem-calc( 10 );
+
+	padding-top: $header-top-padding;
+
 	.window-scrolled & {
 		position: fixed;
+		width: 100%;
 	}
 
 	&__inner {
@@ -9,11 +14,18 @@
 	}
 
 	&__claimpart {
-
+		@include xy-cell( 5 );
 	}
 
-	&__controlpart {
-		@include xy-cell();
+	&__controlspart {
+		@include xy-cell( 7 );
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		z-index: 14;
+		margin: 0;
+		display: flex;
+		justify-content: flex-end;
 	}
 
 	&__whatisit {
@@ -44,6 +56,9 @@
 	}
 
 	@include breakpoint( medium ) {
+		$header-top-padding: rem-calc( 20 );
+		padding-top: $header-top-padding;
+
 		&__fulltitle {
 			display: inline;
 
@@ -54,6 +69,17 @@
 
 		&__microtitle {
 			display: none;
+		}
+
+		&__claimpart {
+			@include xy-cell( 8 );
+		}
+
+		&__controlspart {
+			@include xy-cell( 4 );
+			top: $header-top-padding;
+			right: rem-calc( 20 );
+			margin: 0;
 		}
 	}
 }

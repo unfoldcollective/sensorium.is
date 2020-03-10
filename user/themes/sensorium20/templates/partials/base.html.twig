@@ -86,8 +86,16 @@
                         </p>                        
                     </div>
                     <div class="top-page-header__controlspart">
-                        <a href="{{ticket_url}}" class="button hollow buy-tickets">Buy tickets</a>
-                        <button type="button" class="button" data-toggle="offCanvas">Menu</button>
+                        <a href="{{ticket_url}}" class="button hollow buy-tickets body-type">Buy tickets</a>
+                        <button type="button" class="button clear body-type menu-button" data-toggle="offCanvas">
+                            <i class="menu-button__icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </i>
+                            <span class="menu-button__text">Menu</span>
+                            <span class="menu-button__text--close">Close</span>{#  TODO language  #}
+                        </button>
                     </div>
                 </div>
             </header>

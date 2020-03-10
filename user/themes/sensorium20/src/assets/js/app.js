@@ -19,14 +19,15 @@ $(document).foundation();
 ///////////////////////////////////////////
 // body class on menu open / close
 ///////////////////////////////////////////
-$(document).on( 'openedEnd.zf.offCanvas', function() {
+$(document).on( 'opened.zf.offCanvas', function() {
 	// console.log( 'menu opened' );
 	$('body').addClass('menu-opened');
 } );
 
 $(document).on( 'closed.zf.offCanvas', function() {
 	// console.log( 'menu closed' );
-	$('body').addClass('menu-closed');
+	// $('body').addClass('menu-closed');
+	$('body').removeClass('menu-opened');
 } );
 
 ///////////////////////////////////////////
