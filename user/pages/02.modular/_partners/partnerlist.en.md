@@ -1,5 +1,6 @@
 ---
 title: Partners
+published: false
 media_order: 'logo-adma.png,logo-capturing_reality.png,logo-eset.png,logo-fpu.png,logo-kapital.png,logo-radiofm.jpg,logo-start_it_up.png,logo-start_it_up.svg,logo-studio_727.png,logo-swine_daily.png,logo-tyzden.png,logo-venaco_group.png,New_GI_logo_horizontal_Black_sRGB.png,todaysart.png,Logo_ARS-BW.png,hopin_logo_black_transparent_bcg.png,logo-bratislava-staremesto.png,logo-macblog.png,a4.png,logo-rtvs.png,logo-detepe.png,logo_greyww.jpg,a2larm.jpg,polish-institute.gif,botanical.jpg,SCI_Woordbeeld_EN_3_regels_RGB.gif,logo-iii.png,webexpo.png,logo-creativeapplications.png,logo-dennikn.png,logo-radiofm.png,logo-bratislava.jpg,a4logo.png,StroomLogobw.png,logo-designum.png,logo-swinedaily.png,logo-pcrevue.png,KL 2019 clasic.jpg,hoteltatra.png,fif.jpg,logo_black_neutral.jpg,conque.png,Logo FiF.JPG,365_Logo_RGB_1_365 tagline - black.png,ecal.png,Analytica.png,fajntricko.png,scd-x.png'
 menu: Partners
 hide_in_menu: true
