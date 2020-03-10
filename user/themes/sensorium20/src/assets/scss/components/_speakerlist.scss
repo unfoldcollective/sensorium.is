@@ -11,10 +11,16 @@
 
 	img {
 		border-radius: 700px 700px 0 0;
+		margin-bottom: rem-calc( 10 );
 	}
 
 	&__href {
 		text-decoration: none;
+		display: block;
+	}
+
+	&__name {
+		margin-bottom: 0;
 	}
 
 	@include breakpoint( medium ) {
