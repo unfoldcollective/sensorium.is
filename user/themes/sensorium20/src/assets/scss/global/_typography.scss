@@ -45,6 +45,7 @@
 }
 
 $min_vw: 375px;
+$min_vw_social: 640px;
 $max_vw: 1920px;
 $min_font_bigtype: 68px;
 $max_font_bigtype: 356px;
@@ -52,6 +53,9 @@ $min_font_maintype: 15px;
 $max_font_maintype: 34px;
 $min_font_bodytype: 15px;
 $max_font_bodytype: 30.1px;
+$min_font_menutype: 40px;
+$max_font_menutype: 17.5px;
+$max_font_social: 32px;
 // $min_font: 33px;
 // $max_font: 120px;
 
@@ -86,6 +90,7 @@ $max_font_bodytype: 30.1px;
 
 h2,
 h3,
+h4,
 .body-type,
 p {
   @include fluid-type($min_vw, $max_vw, $min_font_bodytype, $max_font_bodytype);
@@ -100,4 +105,25 @@ h4 {
   @include breakpoint( medium ) {
     margin-bottom: 0;
   }
+}
+
+.navigation a {
+  @include fluid-type($min_vw, $max_vw, $min_font_menutype, $max_font_menutype);
+  line-height: 1;
+
+}
+
+.off-canvas__social a {
+  font-size: rem-calc( $min_font_bodytype );
+   
+   // @include fluid-type($min_vw_social, $max_vw, $min_font_bodytype, $max_font_social);
+   @include fluid-type($min_vw, $max_vw, $min_font_menutype, $max_font_menutype);
+
+   font-size: $min_font_bodytype;
+   @media screen and (min-width: $min-vw) {
+     font-size: calc(#{$min_font_menutype} + #{strip-unit($max_font_menutype - $min_font_menutype)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+   }
+   @media screen and (min-width: $max-vw) {
+     font-size: $max_font_menutype;
+   }
 }

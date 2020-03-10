@@ -1,0 +1,17 @@
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	margin-top: rem-calc( 100 );
+	padding: 0;
+
+	&, & a {
+		color: $white;
+		text-decoration: none;
+		text-transform: uppercase;
+
+	}
+
+	@include breakpoint( medium ) {
+		margin-bottom: rem-calc( 30 );
+	}
+}

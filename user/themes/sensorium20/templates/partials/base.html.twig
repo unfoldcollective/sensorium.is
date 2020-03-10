@@ -58,7 +58,22 @@
     <div class="off-canvas-wrapper">
         <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
           <!-- Your menu or Off-canvas content goes here -->
-            <p>offcanvas test</p>
+            {% block header_navigation %}
+            {% include 'partials/navigation.html.twig' %}
+            {% endblock %}
+            <p class="off-canvas__social">
+                <a href="{{site.social_links.facebook}}">Facebook</a> <br>
+            </p>
+            <p class="off-canvas__social">
+                <a href="{{site.social_links.twitter}}">Twitter</a> <br>
+            </p>
+            <p class="off-canvas__social">
+                <a href="{{site.social_links.instagram}}">Instagram</a>
+            </p>
+            {# {% if config.plugins.langswitcher.enabled %}
+            {% include 'partials/langswitcher.html.twig' %}
+            {% endif %} #}
+
         </div>
         <div class="off-canvas-content" data-off-canvas-content>
 

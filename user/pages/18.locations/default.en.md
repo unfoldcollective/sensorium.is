@@ -8,6 +8,8 @@ markdown:
     extra: true
 body_classes: sb-site-overflow-x-hidden no-measure fullwidth
 cache_enable: false	
+published: false
+hide_in_menu: true
 ---
 
 {% include 'partials/organisms/map.html.twig' %}

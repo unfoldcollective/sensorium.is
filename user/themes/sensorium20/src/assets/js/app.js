@@ -53,6 +53,17 @@ jQuery(document).ready(function($) {
 	$(window).on( 'resize', refreshWindowHeight );
 });
 
+///////////////////////////////////////////
+// Close menu on navigation link click
+///////////////////////////////////////////
+$('.off-canvas .navigation a').on( 'click', function() {
+	$('.off-canvas').foundation('close');
+});
+
+jQuery(document).ready(function($) {
+	var elem = new Foundation.SmoothScroll($('.off-canvas .navigation'));
+});
+
 // Returns a function, that, as long as it continues to be invoked, will not
 // be triggered. The function will be called after it stops being called for
 // N milliseconds. If `immediate` is passed, trigger the function on the

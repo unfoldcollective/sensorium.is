@@ -1,5 +1,5 @@
 ---
-title: 'Homepage Showcase'
+title: 'Intro'
 buttons:
     -
         text: 'Get tickets'
@@ -26,7 +26,7 @@ buttons:
         url: /map
         newTab: false
         classes: 'bg-white black hover-black f3 fw6 link grow ba bw1 ph3 pv1 mb2 mr2 dib'
-hide_in_menu: true
+hide_in_menu: false
 ---
 
 <!-- <h2 class="rotated-right">4-5 May 2018, Bratislava</h2> -->

@@ -8,6 +8,7 @@ content:
     items:
         -
             '@page': /city-stage
+hide_in_menu: true
 ---
 
 ## City Stage

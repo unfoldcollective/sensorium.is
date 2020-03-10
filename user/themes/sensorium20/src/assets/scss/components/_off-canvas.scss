@@ -1,0 +1,21 @@
+.off-canvas {
+	padding-left: rem-calc( 10 );
+
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+
+	&__social {
+		margin-bottom: 0;
+		a {
+			color: $white;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+	}
+
+	@include breakpoint( medium ) {
+		padding-left: rem-calc( 20 );
+		justify-content: flex-start;
+	}
+}

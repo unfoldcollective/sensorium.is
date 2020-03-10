@@ -1,5 +1,5 @@
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
-<ul class="navigation">
+<ul class="navigation" data-smooth-scroll>
 {% for module in page.collection() %}
     {% if not (module.header.disabled or module.header.hide_in_menu) %}
         {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
