@@ -1,0 +1,10 @@
+#logo {
+  float: left; }
+  #logo h3, #logo img {
+    color: blue;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=template.css.map */

@@ -1,0 +1,101 @@
+/*
+$sensorium-teal: #0096AC;
+$light-purple:   #A463F2;
+$sensorium-pink: #FBD2CE;
+$light-green:    #9CFCCF;
+$sensorium-gray: #CDCCCB;
+*/
+html, body {
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+}
+
+/* Pointer Events*/
+.penone {
+    pointer-events: none;
+}
+.peall {
+    pointer-events: all;
+}
+a {
+    pointer-events: all;
+}
+
+/* Fonts*/
+.regular {
+    font-family: "Montserrat", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.semi-bold {
+    font-family: "Montserrat-SemiBold", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.light {
+    font-family: "Montserrat-Light", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+.extra-light {
+    font-family: "Montserrat-ExtraLight", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+/* Links*/
+a {
+    color: #A463F2;
+}
+a:hover {
+    color: #bf92f6;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale !important;
+  backface-visibility: hidden !important;
+  transform: translateZ(0) !important;
+  transition: transform 0.25s ease-out !important;
+}
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05) !important;
+}
+
+/* Custom Margins */
+.mh-2 {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+
+@screen and (min-width: 30em) and (max-width: 60em) {
+    .mh-4-m {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }    
+}
+
+@screen and (min-width: 60em) {
+    .mh-5-l {
+        margin-left: -4rem;
+        margin-right: -4rem;
+    }
+}
+
+/* Animated Logotype */
+iframe.animatedLogotype {
+    width: 290px;
+    height: 116px;
+}
+
+@media (min-width: 480px) {
+    iframe.animatedLogotype {
+      width: 450px;
+      height: 180px;
+    }
+}
+@media (min-width: 768px) {
+    iframe.animatedLogotype {
+      width: 630px;
+      height: 252px;
+    }
+}
+@media (min-width: 960px) {
+    iframe.animatedLogotype {
+      width: 750px;
+      height: 300px;
+    }
+}
