@@ -1,0 +1,31 @@
+.newslist {
+	&__item {
+		@include xy-grid();
+		margin-bottom: rem-calc( 60 );
+		
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	&__img {
+		@include xy-cell( 3 );
+
+	}
+
+	&__content {
+		@include xy-cell( 9 );
+
+	}
+
+	&__href {
+		text-decoration: none;
+		display: block;
+		margin-bottom: rem-calc( 20 );
+
+		&::hover {
+			text-decoration: underline;
+		}
+	}
+
+}
