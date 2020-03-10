@@ -2,8 +2,8 @@
 title: About
 ---
 
-Festival of and for curious designers, technologists, architects, innovators, artists and scientists that will inspire you through exciting ways in which technology can augment your mind, practice and everyday life.
+Sensorium is a festival joining a conference, workshops, exhibitions and performances bridging the fields of art, technology and science. Founded in 2016 it has brought to Bratislava the most cutting edge artists, designers and innovators from all around the world. Today we grew into a curious interdisciplinary community, looking forward to reuniting in the gardens of Pistori Palace in Bratislava.
 
-It is the genre-defining platform to experience possible futures of the creative industry on the crossover of art, design and technology. Immerse yourself in the world of dynamic and interactive installations, AI, graphics, data visualisations, generative architecture, design and virtual reality. Internationally established artists and designers who use computation as a creative practice will get together in Bratislava to discuss their projects, processes and ideas. Sensorium is a first-of-its-kind educational event in Slovakia on the crossover of art, design and technology.
+The festival collaborates on its programme with many international organisations such as [Future Everything](http://futureeverything.org/) in the UK, [School of Machines](http://www.schoolofma.org) in Germany, [Instrument Inventors Initiative](https://instrumentinventors.org) in the Netherlands, [Choreographic Coding Labs](http://choreographiccoding.org), [HOLO magazine](http://holo-magazine.com) and many more.
 
-**[read more](/about)**
+<!-- **[read more](/about)** -->
