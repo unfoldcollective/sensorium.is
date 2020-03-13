@@ -1,0 +1,8 @@
+state: enabled
+email: kristina.jurakova@gmail.com
+access:
+  site:
+    login: true
+fullname: "Krist\0na Jur\0kov"
+title: null
+hashed_password: $2y$10$AF10TGVmGY/XAcKa3EA4b.VhedaNzW1H0VOgf8tSbLKf9cnLdYkJC
