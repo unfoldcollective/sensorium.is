@@ -1,18 +1,29 @@
-<section class="modular-row">
-	{{ content }}
+{% set limit = page.header.limit|default(5) %}
 
-	<section class="events-grid">
-		{% for p in page.collection %}
-		  {% include 'partials/organisms/workshop-preview.html.twig' %}
+<div class="grid-x grid-padding-x">
+	<div class="medium-3 cell">
+		<h2>{{ page.title }}</h2>
+	</div>
+	<div class="medium-9 cell">
+		{% set options = { items: {'@page.descendants': '/workshops'}, 'order': {'by': 'folder', 'dir': 'asc'}} %}
+		{% set items = page.collection(options) %}
+		{% for item in items.slice(0, limit)  %}
+			<article class="newslist__item">
+				<a href="{{item.url}}" class="newslist__img">
+					<img src="{{ item.media.images[item.header.custom.coverImage|first.name].url }}" class="" alt="{{item.title}}">
+				</a>
+				<div class="newslist__content">
+					<p class="newslist__date">{{ item.header.workshop_date }}</p>
+					<a href="{{item.url}}" class="newslist__href"><h4 class="newslist__title">{{ item.title }}</h4></a>
+					<div class="newslist__summary">
+						{{ item.summary }}
+					</div>
+					<p class="newslist__location">{{ item.header.workshop_location }}</p>
+					<p class="newslist__moreinfo">
+						<a href="{{item.url}}">Read more</a>
+					</p>
+				</div>
+			</article>
 		{% endfor %}
-	</section>
-</section>
-
-{# 
-<section class="modular-row tl">
-  {{ content }}
-  {% for p in page.collection %}
-    {% include 'partials/organisms/workshop-preview.html.twig' %}
-  {% endfor %}
-</section>
- #}
+	</div>
+</div>

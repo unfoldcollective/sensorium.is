@@ -1,0 +1,32 @@
+{% extends 'partials/base.html.twig' %}
+{% block bodyclass %}page-workshop{% endblock %}
+
+{% block body %}
+
+  <div class="grid-x grid-padding-x speaker">
+    <div class="medium-6 cell">
+      <h2>{{ page.header.workshop_date }} <br>{{ page.title }}</h2>
+      <h3>{{ page.header.subtitle }}</h3>
+      <p>LOCATION: {{ page.header.workshop__location }}</p>
+
+      <p class="show-for-medium">
+        <a href="/" class="page-back">back to homepage</a>
+      </p>
+    </div>
+    <div class="medium-6 cell">
+      {% set featured_image = page.media.images[page.header.custom.coverImage|first.name].url %}
+      {% if featured_image %}
+      <img src="{{ featured_image }}" alt="" class="speaker__featured">      
+      {% endif %}
+
+      {{ page.content }}
+
+      <p class="show-for-small-only">
+        <a href="/" class="page-back">back to homepage</a>
+      </p>
+    </div>
+  </div>
+
+  {# {% include 'modular/workshoplist.html.twig' %} #}
+  
+{% endblock %}

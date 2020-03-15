@@ -1,5 +1,6 @@
 ---
 title: 'School of Machines, Making & Make Believe: Videodrones'
+workshop_date: '7th - 12th June '
 taxonomy:
     category:
         - workshops
@@ -8,11 +9,11 @@ process:
     twig: true
 custom:
     coverImage:
-        user/pages/08.workshops/01.videodrones/videodrones.jpg:
+        user/pages/09.workshops/01.videodrones/videodrones.jpg:
             name: videodrones.jpg
             type: image/jpeg
-            size: 835375
-            path: user/pages/08.workshops/01.videodrones/videodrones.jpg
+            size: 95007
+            path: user/pages/09.workshops/01.videodrones/videodrones.jpg
 date_days: '7th - 12th'
 date_month: June
 time: '10.00 - 18.00'
@@ -21,10 +22,13 @@ description: 'Inspired by Johnny Harris’ Vox Border’s series, this class is 
 no_ticket_button: true
 ---
 
-### 7th - 12th June 
+Inspired by Johnny Harris’ Vox Border’s series, this class is aimed at getting hands-on with drones and drone video footage while connecting concepts of borders, history, politics and the experiences of being human.
+
+===
+
 #### Tutor: [Rachel Uwa](https://sensorium.is/speakers/rachel-uwa)
 
-#BORDERS, #HUMANS, #TECHNOLOGY, AND #AERIAL #VIDEOGRAPHY
+&num;BORDERS, &num;HUMANS, &num;TECHNOLOGY, AND &num;AERIAL &num;VIDEOGRAPHY
 
 {% include 'partials/atoms/button.html.twig' with {'button': {
     'text': 'Sign up',

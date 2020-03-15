@@ -9,12 +9,12 @@
 	}
 
 	&__img {
-		@include xy-cell( 3 );
+		@include xy-cell( 4 );
 
 	}
 
 	&__content {
-		@include xy-cell( 9 );
+		@include xy-cell( 8 );
 
 	}
 
@@ -26,6 +26,18 @@
 		&::hover {
 			text-decoration: underline;
 		}
+	}
+
+	&__date {
+		text-transform: uppercase;
+	}
+
+	&__location {
+		text-transform: uppercase;
+	}
+
+	&__summary {
+		margin-bottom: rem-calc( 20 );
 	}
 
 }

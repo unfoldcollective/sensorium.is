@@ -12,7 +12,7 @@ content:
             - _showcase
             - _speakers
             #- _programme
-            #- _workshops
+            - _workshops
             #- _installations
             #- _performance
             #- _city-stage
