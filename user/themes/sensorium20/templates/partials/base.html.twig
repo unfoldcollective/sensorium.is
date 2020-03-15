@@ -59,7 +59,8 @@
         <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
           <!-- Your menu or Off-canvas content goes here -->
             {% block header_navigation %}
-            {% include 'partials/navigation.html.twig' %}
+            {# {% include 'partials/navigation.html.twig' %} #}
+            {% include 'partials/organisms/navigation-onpage.html.twig' %}
             {% endblock %}
             <p class="off-canvas__social">
                 <a href="{{site.social_links.facebook}}">Facebook</a> <br>

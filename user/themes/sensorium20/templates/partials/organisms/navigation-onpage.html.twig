@@ -1,6 +1,8 @@
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
 <ul class="navigation" data-smooth-scroll>
-{% for module in page.collection() %}
+{% set options = { items: {'@page.modular': '/modular'}, 'order': {'by': 'folder', 'dir': 'asc'}} %}
+{% set modular_pages = page.collection(options) %}
+{% for module in modular_pages %}
     {% if not (module.header.disabled or module.header.hide_in_menu) %}
         {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
         <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}" {% if is_side_bar %}class="sb-close"{% endif %} >{{ module.menu }}</a></li>
