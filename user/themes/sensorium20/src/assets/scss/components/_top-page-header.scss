@@ -1,7 +1,8 @@
 .top-page-header {
-	$header-top-padding: rem-calc( 10 );
+	$header-top-padding: $small-spacing-section-tiny;
 
 	padding-top: $header-top-padding;
+	margin-bottom: $small-spacing-section-tiny;
 
 	.window-scrolled &,
 	.menu-opened & {
@@ -62,8 +63,9 @@
 	}
 
 	@include breakpoint( medium ) {
-		$header-top-padding: rem-calc( 20 );
+		$header-top-padding: $spacing-section-tiny;
 		padding-top: $header-top-padding;
+		margin-bottom: $spacing-section-tiny;
 
 		&__fulltitle {
 			display: inline;

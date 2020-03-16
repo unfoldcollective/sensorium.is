@@ -1,5 +1,6 @@
 .off-canvas {
-	padding-left: rem-calc( 10 );
+	padding-left: $small-spacing-section-tiny;
+	padding-bottom: $small-spacing-section-tiny;
 
 	display: flex;
 	flex-flow: column nowrap;

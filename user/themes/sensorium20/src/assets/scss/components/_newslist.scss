@@ -2,6 +2,10 @@
 	&__item {
 		@include xy-grid();
 		margin-bottom: rem-calc( 60 );
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
 		
 		p {
 			margin-bottom: 0;
@@ -9,12 +13,14 @@
 	}
 
 	&__img {
-		@include xy-cell( 4 );
+		@include xy-cell( 6 );
+		margin-left: 0;
 
 	}
 
 	&__content {
-		@include xy-cell( 8 );
+		@include xy-cell( 6 );
+		margin-right: 0;
 
 	}
 

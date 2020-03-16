@@ -1,6 +1,6 @@
 .footer {
 	text-transform: uppercase;
-	margin-top: rem-calc( 70 );
+	margin-top: $small-spacing-section-huge;
 
 	&__credits {
 		list-style-type: none;
@@ -18,13 +18,13 @@
 	}
 
 	@include breakpoint( medium ) {
-		margin-top: rem-calc( 80 );
+		margin-top: $spacing-section-huge;
 		
 		&__credits {
 			flex-flow: row;
 			flex: 1;
 			justify-content: space-between;
-			margin-top: rem-calc( 90 );
+			margin-top: $spacing-section-huge;
 			padding-bottom: rem-calc( 20 );
 		}
 

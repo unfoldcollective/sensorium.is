@@ -66,14 +66,14 @@ $max_font_social: 32px;
   text-transform: uppercase;
   text-align: center;
   justify-content: center;
-  margin-bottom: rem-calc( 15 );
+  margin-bottom: $small-spacing-section-tiny;
   padding-right: rem-calc( 10 );
   padding-left: rem-calc( 10 );
 
   @include breakpoint( medium ) {
     padding-right: rem-calc( 20 );
     padding-left: rem-calc( 20 );
-    margin-bottom: rem-calc( 25 );
+    margin-bottom: $spacing-section-tiny;
   }
 }
 
@@ -82,6 +82,7 @@ $max_font_social: 32px;
   @include fluid-type($min_vw, $max_vw, $min_font_maintype, $max_font_maintype);
   line-height: 1;
   margin-bottom: rem-calc( $min_font_maintype );
+  // margin-bottom: $small-spacing-section-tiny;
 
   // @include breakpoint( medium ) {
   //   margin-bottom: rem-calc( $max_font_maintype );

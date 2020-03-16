@@ -1,0 +1,11 @@
+.section {
+	margin-bottom: $small-spacing-section-huge;
+	
+	h2 {
+		margin-bottom: $small-spacing-section-huge;
+	}
+
+	@include breakpoint( medium ) {
+		margin-bottom: $spacing-section-huge;
+	}
+}

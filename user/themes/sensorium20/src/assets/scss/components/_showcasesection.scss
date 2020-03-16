@@ -1,4 +1,5 @@
 .showcasesection {
+	margin-bottom: $small-spacing-section-tiny;
 	.cell {
 		display: flex;
 		flex-flow: column nowrap;
@@ -11,7 +12,18 @@
 		}
 	}
 
+	&--last {
+		margin-bottom: $small-spacing-section-huge;
+
+	}
+
 	@include breakpoint( medium ) {
+		margin-bottom: $spacing-section-tiny;
+
+		&--last {
+			margin-bottom: $spacing-section-huge;
+		}
+
 		&--reverseorder {
 			.cell {
 				order: 2;
