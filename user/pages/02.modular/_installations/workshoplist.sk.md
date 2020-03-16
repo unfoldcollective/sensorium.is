@@ -6,7 +6,7 @@ content:
     items:
         -
             '@page': /installations
-published: true
+published: false
 ---
 
 ## Inštalácie

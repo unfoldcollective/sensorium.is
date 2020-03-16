@@ -1,8 +1,8 @@
 ---
 title: Partners
+menu: Partners
 published: true
 hide_in_menu: true
-menu: Partners
 mainPartnersTitle: 'Main Partner'
 mainPartners:
     -
