@@ -1,0 +1,9 @@
+state: enabled
+email: dominika@dominika.sk
+access:
+  admin:
+    login: true
+    super: true
+fullname: Dominika
+title: null
+hashed_password: $2y$10$GYPi6jBnR9GwOiTz4RIYTODu2aGFEksQgjiDWtmjK5Zk8t7S3VI2C
