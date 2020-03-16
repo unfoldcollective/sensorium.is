@@ -83,18 +83,28 @@ $max_font_social: 32px;
   line-height: 1;
   margin-bottom: rem-calc( $min_font_maintype );
 
-  @include breakpoint( medium ) {
-    margin-bottom: rem-calc( $max_font_maintype );
-  }
+  // @include breakpoint( medium ) {
+  //   margin-bottom: rem-calc( $max_font_maintype );
+  // }
 }
 
 h2,
 h3,
 h4,
+h5,
+ul li,
 .body-type,
+.navigation a,
+.off-canvas__social a,
 p {
   @include fluid-type($min_vw, $max_vw, $min_font_bodytype, $max_font_bodytype);
   line-height: 1;
+}
+
+.navigation a {
+  @media screen and (max-width: $min_vw_social) {
+    font-size: rem-calc( $min_font_menutype );
+  }
 }
 
 h2,
@@ -107,23 +117,31 @@ h4 {
   }
 }
 
-.navigation a {
-  @include fluid-type($min_vw, $max_vw, $min_font_menutype, $max_font_menutype);
-  line-height: 1;
+// .navigation a {
+//   @include fluid-type($min_vw, $max_vw, $min_font_menutype, $max_font_menutype);
+//   line-height: 1;
 
-}
+//   // do 640 je velke
+//   // od 640
 
-.off-canvas__social a {
-  font-size: rem-calc( $min_font_bodytype );
+//   // 375 a menej - 40
+
+//   // 376 - 1920 sa zmensuje, no pri 1440 musi byt 25
+//   // 1920  
+
+// }
+
+// .off-canvas__social a {
+//   font-size: rem-calc( $min_font_bodytype );
    
-   // @include fluid-type($min_vw_social, $max_vw, $min_font_bodytype, $max_font_social);
-   @include fluid-type($min_vw, $max_vw, $min_font_menutype, $max_font_menutype);
+//    // @include fluid-type($min_vw_social, $max_vw, $min_font_bodytype, $max_font_social);
+//    @include fluid-type($min_vw, $max_vw, $min_font_menutype, $max_font_menutype);
 
-   font-size: $min_font_bodytype;
-   @media screen and (min-width: $min-vw) {
-     font-size: calc(#{$min_font_menutype} + #{strip-unit($max_font_menutype - $min_font_menutype)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
-   }
-   @media screen and (min-width: $max-vw) {
-     font-size: $max_font_menutype;
-   }
-}
+//    font-size: $min_font_bodytype;
+//    @media screen and (min-width: $min-vw) {
+//      font-size: calc(#{$min_font_menutype} + #{strip-unit($max_font_menutype - $min_font_menutype)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+//    }
+//    @media screen and (min-width: $max-vw) {
+//      font-size: $max_font_menutype;
+//    }
+// }
