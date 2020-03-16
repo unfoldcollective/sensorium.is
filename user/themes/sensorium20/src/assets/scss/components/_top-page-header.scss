@@ -3,7 +3,8 @@
 
 	padding-top: $header-top-padding;
 
-	.window-scrolled & {
+	.window-scrolled &,
+	.menu-opened & {
 		position: fixed;
 		width: 100%;
 		z-index: 13;
@@ -32,6 +33,10 @@
 	&__whatisit {
 		margin-bottom: 0;
 		text-transform: uppercase;
+
+		.menu-opened & {
+			color: $white;
+		}
 	}
 
 	&__fulltitle {
@@ -74,6 +79,12 @@
 
 		&__claimpart {
 			@include xy-cell( 8 );
+		}
+
+		&__whatisit {
+			.menu-opened & {
+				color: $sensorium-primary;
+			}
 		}
 
 		&__controlspart {

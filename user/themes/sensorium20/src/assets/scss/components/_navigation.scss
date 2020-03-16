@@ -12,6 +12,6 @@
 	}
 
 	@include breakpoint( medium ) {
-		margin-bottom: rem-calc( 30 );
+		margin-bottom: 1em;
 	}
 }
