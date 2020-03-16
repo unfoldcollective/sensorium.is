@@ -1,42 +1,35 @@
 {% extends 'partials/base.html.twig' %}
-
-{% block bodyclass %}fullwidth{% endblock %}
-{% block background %}{% endblock %}
-
+{% block bodyclass %}page-single{% endblock %}
 
 {% block body %}
-  {# {% set featured_image = page.media['featured-image.jpg'].url %} #}
-  {% set featured_image = page.media.images[page.header.custom.coverImage|first.name].url %}
-<div class="s-page">
-  <article class="s-page__inner">
-  {% if featured_image %}
-    <div class="s-page__image" style="background-image:url('{{ featured_image }}');"></div>
-  {% endif %}
-    <header class="s-page__header">
-      <h1 class="s-page__title">{{ page.title }}</h1> 
+
+  <div class="grid-x grid-padding-x speaker">
+    <div class="medium-6 cell">
+      <h2>{{ page.title }}</h2>
       {% if page.header.subtitle %}
-      <h2 class="s-page__subtitle">{{ page.header.subtitle }}</h2> 
+      <h3>{{ page.header.subtitle }}</h3>
       {% endif %}
-      {# <p class="s-location">some location detail if there is one</p> #}
-    </header>
 
-    <p class="s-page__introtext">
-      {{ page.header.introtext }}
-    </p>
-
-    {{ page.content }}
-
-    {% if not page.header.no_ticket_button %}
-    <div class="s-page__actions">
-      {% include 'partials/atoms/button.html.twig' with {'button': {
-        'text': 'Get tickets now',
-        'url': site.ticket_url,
-        'newTab': true,
-        'classes': 'bg-white black hover-black f4 fw6 link grow ba bw2 ph3 pv2 mb2 dib'
-      }} %}
+      <p class="show-for-medium">
+        <a href="/" class="page-back">back to homepage</a>
+      </p>
     </div>
-    {% endif %}
+    <div class="medium-6 cell">
+      {% set featured_image = page.media.images[page.header.custom.coverImage|first.name].url %}
+      {% if featured_image %}
+      <img src="{{ featured_image }}" alt="" class="speaker__featured">      
+      {% endif %}
 
-  </article>
-</div>
+      {{ page.content }}
+
+      <p class="show-for-small-only">
+        <a href="/" class="page-back">back to homepage</a>
+      </p>
+    </div>
+  </div>
+
+  {# {% include 'modular/speakerlist.html.twig' %} #}
+  
 {% endblock %}
+
+
