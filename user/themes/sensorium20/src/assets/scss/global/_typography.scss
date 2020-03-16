@@ -98,6 +98,7 @@ ul li,
 .navigation,
 .navigation a,
 .off-canvas__social a,
+.off-canvas__langswitcher,
 p {
   @include fluid-type($min_vw, $max_vw, $min_font_bodytype, $max_font_bodytype);
   line-height: 1;

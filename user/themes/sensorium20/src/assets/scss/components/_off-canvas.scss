@@ -15,8 +15,30 @@
 		}
 	}
 
+	&__langswitcher {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		a {
+			color: $white;
+			text-decoration: none;
+			text-transform: uppercase;
+
+			&.active {
+				display: none;
+			}
+		}
+
+
+	}
+
 	@include breakpoint( medium ) {
 		padding-left: rem-calc( 20 );
 		justify-content: flex-start;
+
+		&__langswitcher {
+			margin-bottom: 1em;
+		}
 	}
 }

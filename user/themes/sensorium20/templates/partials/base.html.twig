@@ -62,6 +62,11 @@
             {# {% include 'partials/navigation.html.twig' %} #}
             {% include 'partials/organisms/navigation-onpage.html.twig' %}
             {% endblock %}
+            
+            {% if config.plugins.langswitcher.enabled %}
+            {% include 'partials/langswitcher.html.twig' %}
+            {% endif %}
+
             <p class="off-canvas__social">
                 <a href="{{site.social_links.facebook}}">Facebook</a> <br>
             </p>
@@ -71,9 +76,6 @@
             <p class="off-canvas__social">
                 <a href="{{site.social_links.instagram}}">Instagram</a>
             </p>
-            {# {% if config.plugins.langswitcher.enabled %}
-            {% include 'partials/langswitcher.html.twig' %}
-            {% endif %} #}
 
         </div>
         <div class="off-canvas-content" data-off-canvas-content>
