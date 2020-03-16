@@ -13,6 +13,7 @@ content:
       - _theme
       - _date
       - _speakers
+      - _beyond-the-sound
 #     - _programme
       - _workshops
 #     - _installations
