@@ -11,7 +11,7 @@
 	}
 
 	&__inner {
-		@include xy-grid-container();
+		// @include xy-grid-container();
 		@include xy-grid();
 	}
 

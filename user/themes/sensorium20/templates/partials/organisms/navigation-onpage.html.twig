@@ -1,5 +1,5 @@
 {% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
-<ul class="navigation" data-smooth-scroll>
+<ul class="navigation" data-smooth-scroll data-offset="30">
 {% set options = { items: {'@page.modular': '/modular'}, 'order': {'by': 'folder', 'dir': 'asc'}} %}
 {% set modular_pages = page.collection(options) %}
 {% for module in modular_pages %}
