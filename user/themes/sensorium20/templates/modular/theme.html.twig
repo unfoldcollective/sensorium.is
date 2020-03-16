@@ -1,0 +1,23 @@
+{% set currentLang = grav.language.getLanguage %}
+
+	<h1 class="grid-x grid-padding-x cell big-type">New <br>sensibility</h1>
+	<div class="grid-x grid-padding-x showcasesection showcasesection--reverseorder main-type">
+		<div class="cell medium-4">
+			<p class="show-for-small-only"> {# same text as in previous section, just different position #}
+				Discussions, performances, installations and experiments that will immerse you into new ideas about the future. Join our community of curious minds interested in conscious coexistence with technology.
+
+			</p>
+			<p>
+				{# Can we redefine our relationship with technology, with one-another and with the current environment full of digital mysteries? How can we build awareness and confidence about the little black boxes we use every day?  #}
+				{{ page.find('/new-sensibility').summary }}
+				<br>
+
+			</p>
+			<p>
+				<a href="/new-sensibility/" class="">More about the theme.</a>
+			</p>
+		</div>
+		<div class="cell medium-8">
+			<img src="{{theme_url}}/dist/assets/img/3d-heads-together.png" alt="">
+		</div>
+	</div>
