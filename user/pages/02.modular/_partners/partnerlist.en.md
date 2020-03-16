@@ -1,157 +1,166 @@
 ---
 title: Partners
-published: false
-media_order: 'logo-adma.png,logo-capturing_reality.png,logo-eset.png,logo-fpu.png,logo-kapital.png,logo-radiofm.jpg,logo-start_it_up.png,logo-start_it_up.svg,logo-studio_727.png,logo-swine_daily.png,logo-tyzden.png,logo-venaco_group.png,New_GI_logo_horizontal_Black_sRGB.png,todaysart.png,Logo_ARS-BW.png,hopin_logo_black_transparent_bcg.png,logo-bratislava-staremesto.png,logo-macblog.png,a4.png,logo-rtvs.png,logo-detepe.png,logo_greyww.jpg,a2larm.jpg,polish-institute.gif,botanical.jpg,SCI_Woordbeeld_EN_3_regels_RGB.gif,logo-iii.png,webexpo.png,logo-creativeapplications.png,logo-dennikn.png,logo-radiofm.png,logo-bratislava.jpg,a4logo.png,StroomLogobw.png,logo-designum.png,logo-swinedaily.png,logo-pcrevue.png,KL 2019 clasic.jpg,hoteltatra.png,fif.jpg,logo_black_neutral.jpg,conque.png,Logo FiF.JPG,365_Logo_RGB_1_365 tagline - black.png,ecal.png,Analytica.png,fajntricko.png,scd-x.png'
-menu: Partners
+published: true
 hide_in_menu: true
+menu: Partners
 mainPartnersTitle: 'Main Partner'
 mainPartners:
     -
         name: FPU
         url: 'https://www.fpu.sk/'
-        logo: logo-fpu.png
+        logo: FPU_logo_orange.png
+sponsorsTitle: 'Sponsors'
+sponsors:
 mainMediaPartnersTitle: 'Main Media Partners'
 mainMediaPartners:
     -
         name: 'Denník N'
         url: 'http://www.dennikn.sk/'
-        logo: logo-dennikn.png
-    -
-        name: 'Rádio FM'
-        url: 'http://www.radiofm.sk/'
-        logo: logo-radiofm.png
+        logo: DennikN_orange.png
     -
         name: RTVS
         url: 'http://www.rtvs.sk/'
-        logo: logo-rtvs.png
+        logo: RTVS_orange.png
+    -
+        name: 'Rádio FM'
+        url: 'http://www.radiofm.sk/'
+        logo: RADIO FM_orange.png
 supportersTitle: Supporters
 supporters:
     -
-        name: 'Creative Industries NL'
-        url: 'https://stimuleringsfonds.nl/'
-        logo: SCI_Woordbeeld_EN_3_regels_RGB.gif
-    -
-        name: 365.bank
-        url: 'https://365.bank'
-        logo: '365_Logo_RGB_1_365 tagline - black.png'
+        name: 'Bratislavský samosprávny kraj'
+        url: 'https://bratislavskykraj.sk/'
+        logo: BSK_orange.png
     -
         name: 'Pro Helvetia'
         url: 'https://prohelvetia.ch/en/'
-        logo: logo_black_neutral.jpg
+        logo: prohelvetia_orange.png
     -
         name: 'Goethe Institut'
         url: 'https://www.goethe.de/ins/sk/sk/index.html'
-        logo: New_GI_logo_horizontal_Black_sRGB.png
-    -
-        name: 'Stare mesto'
-        url: 'https://www.staremesto.sk/'
-        logo: logo-bratislava-staremesto.png
-    -
-        name: 'Polish institute'
-        url: 'http://www.polinst.sk/'
-        logo: polish-institute.gif
+        logo: Goethe_orange.png
+#    -
+#        name: 'Stare mesto'
+#        url: 'https://www.staremesto.sk/'
+#        logo: logo-bratislava-staremesto.png
 partnersTitle: Partners
 partners:
     -
-        name: 'Kultúrne leto'
-        url: 'https://www.bkis.sk'
-        logo: 'KL 2019 clasic.jpg'
-    -
-        name: Analytica
-        url: 'http://www.analyticadesign.sk/'
-        logo: Analytica.png
+        name: A4
+        url: 'https://a4.sk/'
+        logo: A4_orange.png
     -
         name: ADMA
         url: 'http://www.adma.sk/'
-        logo: logo-adma.png
+        logo: ADMA_orange.png
+    -
+        name: Analytica
+        url: 'http://www.analyticadesign.sk/'
+        logo: Analytica_orange.png
+    -
+        name: BADW
+        url: 'http://www.bratislavadesignweek.sk/'
+        logo: BADW_orange.png
     -
         name: Bratislava
         url: 'http://www.bratislava.sk/'
-        logo: logo-bratislava.jpg
+        logo: BA_orange.png
     -
-        name: 'Stare mesto'
-        url: 'https://www.staremesto.sk/'
-        logo: logo-bratislava-staremesto.png
+        name: Conque
+        url: 'http://'
+        logo: Conque_orange.png
     -
-        name: A4
-        url: 'https://a4.sk/'
-        logo: a4.png
+        name: CreativeApplications.Net
+        url: 'https://www.creativeapplications.net/'
+        logo: creativeapplications_orange.png
     -
-        name: 'Hotel Tatra'
-        url: 'https://hoteltatra.sk/en/'
-        logo: hoteltatra.png
+        name: 'Kultúrne leto'
+        url: 'https://www.bkis.sk'
+        logo: 'Kulturne leto_orange.png'
     -
         name: 'Slovak Design Center'
-        url: 'http://www.sdc.sk/'
-        logo: scd-x.png
-    -
-        name: TodaysArt
-        url: 'http://todaysart.nl/'
-        logo: todaysart.png
-    -
-        name: 'instrument inventors(iii)'
-        url: 'https://instrumentinventors.org'
-        logo: logo-iii.png
-    -
-        name: 'Faculty of Arts Comenius university in Bratislava'
-        url: 'https://fphil.uniba.sk/en'
-        logo: fif.jpg
-    -
-        name: Fajntricko
-        url: 'https://fajntricko.sk/'
-        logo: fajntricko.png
-    -
-        name: Honest
-        url: 'https://honest.sk/'
-        logo: honestco.png
-    -
-        name: Roomfactory
-        url: 'https://roomfactory.sk/'
-        logo: roomfactory.png
+        url: 'http://www.scd.sk/'
+        logo: scd_orange.png
     -
         name: Tesco
         url: 'https://tesco.sk/'
-        logo: tesco.png
+        logo: Tesco_orange.png
+#    -
+#        name: 'Faculty of Arts Comenius university in Bratislava'
+#        url: 'https://fphil.uniba.sk/en'
+#        logo: fif.jpg
+#    -
+#        name: Fajntricko
+#        url: 'https://fajntricko.sk/'
+#        logo: fajntricko.png
+#    -
+#        name: Honest
+#        url: 'https://honest.sk/'
+#        logo: honestco.png
+#    -
+#        name: Roomfactory
+#        url: 'https://roomfactory.sk/'
+#        logo: roomfactory.png
 edupartnersTitle: 'Educational Partners'
 edupartners:
     -
         name: ecal
         url: 'https://ecal.ch'
-        logo: ecal.png
+        logo: ECAL_orange.png
     -
         name: MAST
         url: 'https://mastmodule.eu/'
-        logo: logo-mast.png
-supportSentence: 'Sensorium Festival is realised under official support of the mayor of the Old-Town Bratislava and mayor of the City of Bratislava'
+        logo: mast_orange.png
+supportSentence: 'Festival is realised under official support of the mayor of the Old-Town Bratislava Zuzana Aufrichtová and mayor of the City of Bratislava Matúš Vallo.'
 mediaPartnersTitle: 'Media Partners'
 mediaPartners:
     -
-        name: Designum
-        url: 'https://www.scd.sk/?aktualne-cislo-casopisu-designum'
-        logo: logo-designum.png
+        name: Forbes
+        url: 'https://www.forbes.sk/'
+        logo: Forbes_orange.png
+    -
+        name: Quark
+        url: 'https://www.quark.sk/'
+        logo: Quark_orange.png
     -
         name: Kapitál
         url: 'https://kapital-noviny.sk/'
-        logo: logo-kapital.png
+        logo: Kapital_orange.png
     -
-        name: A2larm
-        url: 'https://a2larm.cz/'
-        logo: a2larm.jpg
+        name: CZECHDESIGN
+        url: 'https://www.czechdesign.cz/'
+        logo: czechdesign_orange.png
     -
-        name: DeTePe
-        url: 'http://www.DeTePe.sk/'
-        logo: logo-detepe.png
-    -
-        name: MacBlog
-        url: 'https://www.macblog.sk/'
-        logo: logo-macblog.png
-    -
-        name: 'PC Revue'
-        url: 'http://www.pcrevue.sk/'
-        logo: logo-pcrevue.png
+        name: 'FULLMOON'
+        url: ''
+        logo: Fullmoon_orange.png
     -
         name: 'Swine Daily'
         url: 'http://swinedaily.com/'
-        logo: logo-swinedaily.png
+        logo: Swinedaily_orange.png
+    -
+        name: A2larm
+        url: 'https://a2larm.cz/'
+        logo: A2_orange.png
+    -
+        name: 'PC Revue × Nextech'
+        url: 'http://www.pcrevue.sk/'
+        logo: PCRevue_orange.png
+    -
+        name: 'inba'
+        url: 'http://www.inba.sk/'
+        logo: inba_orange.png
+    -
+        name: 'Proti šedi'
+        url: 'http://www.protisedi.cz/'
+        logo: Protisedi_orange.png
+    -
+        name: MacBlog
+        url: 'https://www.macblog.sk/'
+        logo: Macblog_orange.png
+#    -
+#        name: Designum
+#        url: 'https://www.scd.sk/?aktualne-cislo-casopisu-designum'
+#        logo: logo-designum.png
 ---
 

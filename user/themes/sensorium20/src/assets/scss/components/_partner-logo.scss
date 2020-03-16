@@ -1,0 +1,33 @@
+.partnerlist {
+	&-title {
+		margin-bottom: rem-calc( 20 );
+
+	}
+
+	&-logo {
+		display: block;
+		margin-bottom: rem-calc( 20 );
+
+		&__img {
+			max-width: 80%;
+		}
+	}
+
+	@include breakpoint( medium ) {
+		&-title {
+			margin-bottom: $spacing-section-tiny;
+
+			& + div {
+				margin-bottom: $spacing-section-inner;
+			}
+		}
+
+		&-logo {
+			margin-bottom: $spacing-section-inner;
+
+			&__img {
+				max-height: rem-calc( 120 );
+			}
+		}
+	}
+}
