@@ -46,4 +46,21 @@
 		margin-bottom: rem-calc( 20 );
 	}
 
+	@include breakpoint( medium ) {
+		&__item {
+			// @include xy-gutters( $grid-column-gutter );
+		}
+		
+		&__img {
+			@include xy-cell( 4, $gutters: $grid-column-gutter );
+			// @include xy-cell-gutters( $grid-column-gutter );
+			// width: calc(33.33333% - 1.25rem); //
+		}
+
+		&__content {
+			@include xy-cell( 8, $gutters: $grid-column-gutter );
+		}
+
+	}
+
 }

@@ -20,6 +20,10 @@
 	@include breakpoint( medium ) {
 		margin-bottom: $spacing-section-tiny;
 
+		p:last-child {
+			margin-bottom: 0;
+		}
+
 		&--last {
 			margin-bottom: $spacing-section-huge;
 		}

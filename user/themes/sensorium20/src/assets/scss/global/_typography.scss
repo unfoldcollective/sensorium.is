@@ -19,6 +19,10 @@
   font-stretch: normal;
 }
 
+.text-upper {
+  text-transform: uppercase;
+}
+
 
 //flexible typo via https://css-tricks.com/snippets/css/fluid-typography/
 @function strip-unit($value) {
