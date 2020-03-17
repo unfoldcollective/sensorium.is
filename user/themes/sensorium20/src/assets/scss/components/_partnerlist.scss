@@ -1,4 +1,8 @@
 .partnerlist {
+
+	@include grid-layout( 2, '.partnerlist-logo', 0);
+	overflow: auto;
+	
 	&-title {
 		margin-bottom: rem-calc( 20 );
 
@@ -14,6 +18,8 @@
 	}
 
 	@include breakpoint( medium ) {
+		@include grid-layout( 3, '.partnerlist-logo' );
+
 		&-title {
 			margin-bottom: $spacing-section-tiny;
 
@@ -26,7 +32,16 @@
 			margin-bottom: $spacing-section-inner;
 
 			&__img {
-				max-height: rem-calc( 120 );
+				max-height: rem-calc( 75 );
+			}
+
+			.partnerlist &--major {
+				width: 45%;
+			}
+
+			&--major &__img {
+				max-width: 100%;
+				max-height: none;
 			}
 		}
 	}

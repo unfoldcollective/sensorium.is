@@ -8,7 +8,8 @@ mainPartners:
     -
         name: FPU
         url: 'https://www.fpu.sk/'
-        logo: FPU_logo_orange.png
+        logo: fpu_orange.png
+        major: true
 sponsorsTitle: 'Sponzori'
 sponsors:
 mainMediaPartnersTitle: 'Hlavní mediálni partneri'
@@ -20,21 +21,21 @@ mainMediaPartners:
     -
         name: RTVS
         url: 'http://www.rtvs.sk/'
-        logo: RTVS_orange.png
+        logo: rtv_orange.png
     -
         name: 'Rádio FM'
         url: 'http://www.radiofm.sk/'
         logo: RADIO FM_orange.png
 supportersTitle: Podporili
 supporters:
-    -
-        name: 'Bratislavský samosprávny kraj'
-        url: 'https://bratislavskykraj.sk/'
-        logo: BSK_orange.png
-    -
-        name: 'Pro Helvetia'
-        url: 'https://prohelvetia.ch/en/'
-        logo: prohelvetia_orange.png
+#    -
+#        name: 'Bratislavský samosprávny kraj'
+#        url: 'https://bratislavskykraj.sk/'
+#        logo: BSK_orange.png
+#    -
+#        name: 'Pro Helvetia'
+#        url: 'https://prohelvetia.ch/en/'
+#        logo: prohelvetia_orange.png
     -
         name: 'Goethe Institut'
         url: 'https://www.goethe.de/ins/sk/sk/index.html'
@@ -45,18 +46,18 @@ supporters:
 #        logo: logo-bratislava-staremesto.png
 partnersTitle: Partneri a spoluorganizátori
 partners:
-    -
-        name: A4
-        url: 'https://a4.sk/'
-        logo: A4_orange.png
+#    -
+#        name: A4
+#        url: 'https://a4.sk/'
+#        logo: A4_orange.png
     -
         name: ADMA
         url: 'http://www.adma.sk/'
         logo: ADMA_orange.png
-    -
-        name: Analytica
-        url: 'http://www.analyticadesign.sk/'
-        logo: Analytica_orange.png
+#    -
+#        name: Analytica
+#        url: 'http://www.analyticadesign.sk/'
+#        logo: Analytica_orange.png
     -
         name: BADW
         url: 'http://www.bratislavadesignweek.sk/'
@@ -65,14 +66,14 @@ partners:
         name: Bratislava
         url: 'http://www.bratislava.sk/'
         logo: BA_orange.png
-    -
-        name: Conque
-        url: 'http://'
-        logo: Conque_orange.png
+#    -
+#        name: Conque
+#        url: 'http://'
+#        logo: Conque_orange.png
     -
         name: CreativeApplications.Net
         url: 'https://www.creativeapplications.net/'
-        logo: creativeapplications_orange.png
+        logo: Creative_orange.png
     -
         name: 'Kultúrne leto'
         url: 'https://www.bkis.sk'
@@ -81,10 +82,10 @@ partners:
         name: 'Slovak Design Center'
         url: 'http://www.scd.sk/'
         logo: scd_orange.png
-    -
-        name: Tesco
-        url: 'https://tesco.sk/'
-        logo: Tesco_orange.png
+#    -
+#        name: Tesco
+#        url: 'https://tesco.sk/'
+#        logo: Tesco_orange.png
 #    -
 #        name: 'Faculty of Arts Comenius university in Bratislava'
 #        url: 'https://fphil.uniba.sk/en'
@@ -103,10 +104,10 @@ partners:
 #        logo: roomfactory.png
 edupartnersTitle: 'Vzdelávací partneri'
 edupartners:
-    -
-        name: ecal
-        url: 'https://ecal.ch'
-        logo: ECAL_orange.png
+#    -
+#        name: ecal
+#        url: 'https://ecal.ch'
+#        logo: ECAL_orange.png
     -
         name: MAST
         url: 'https://mastmodule.eu/'
@@ -137,7 +138,7 @@ mediaPartners:
     -
         name: 'Swine Daily'
         url: 'http://swinedaily.com/'
-        logo: Swinedaily_orange.png
+        logo: Swine_orange.png
     -
         name: A2larm
         url: 'https://a2larm.cz/'
@@ -154,10 +155,10 @@ mediaPartners:
         name: 'Proti šedi'
         url: 'http://www.protisedi.cz/'
         logo: Protisedi_orange.png
-    -
-        name: MacBlog
-        url: 'https://www.macblog.sk/'
-        logo: Macblog_orange.png
+#    -
+#        name: MacBlog
+#        url: 'https://www.macblog.sk/'
+#        logo: Macblog_orange.png
 #    -
 #        name: Designum
 #        url: 'https://www.scd.sk/?aktualne-cislo-casopisu-designum'
