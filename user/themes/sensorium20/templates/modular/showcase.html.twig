@@ -3,8 +3,11 @@
 	<div class="grid-x grid-padding-x showcasesection main-type">
 		<div class="medium-6 cell">
 			<p class="show-for-medium">
-				Discussions, performances, installations and experiments that will immerse you into new ideas about the future. Join our community of curious minds interested in conscious coexistence with technology.
-
+				{% if currentLang == 'sk' %} 
+					Diskusie, performance, inštalácie a experimenty, ktoré vás ponoria do nových myšlienok o uvedomelej budúcnosti. Staňte sa súčasťou našej komunity zvedavých hláv!
+				{% else %}
+					Discussions, performances, installations and experiments to immerse yourself into new ideas about a conscious future. Join our community of curious minds!
+				{% endif %}
 			</p>
 		</div>
 		<div class="medium-6 cell">

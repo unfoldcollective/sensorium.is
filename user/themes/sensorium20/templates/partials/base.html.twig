@@ -1,5 +1,6 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 {% set asser_ver = date().timestamp %} {# TODO remove for production to allow caching #}
+{% set currentLang = grav.language.getLanguage %}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getLanguage ?: 'en' }}">
 <head>
@@ -72,7 +73,7 @@
             <p class="off-canvas__social">
                 <a href="{{site.social_links.instagram}}">Instagram</a>
             </p>
-            
+
             {% if config.plugins.langswitcher.enabled %}
             {% include 'partials/langswitcher.html.twig' %}
             {% endif %}
@@ -85,14 +86,26 @@
                     <div class="top-page-header__claimpart">
                         <p class="top-page-header__whatisit">
                             {# desktop, not scrolled #}
-                            <span class="top-page-header__fulltitle">Festival of digital arts and culture, 12—14. 6. 2020, Bratislava {# <br>
+                            {% if currentLang == 'sk' %}
+                                {% set festival_name = 'Festival digitálneho umenia a kultúry' %}
+                            {% else %}
+                                {% set festival_name = 'Festival of digital arts and culture' %}
+                            {% endif %}
+
+                            <span class="top-page-header__fulltitle">{{ festival_name }}, 12—14. 6. 2020, Bratislava {# <br>
                                         Discussions, performances, installations #}</span>
 
                             {# mobile, not scrolled #}
                             <span class="top-page-header__microtitle">
-                                Festival <br>
-                                of digital arts <br>
-                                and culture
+                                {% if currentLang == 'sk' %}
+                                    Festival <br>
+                                    digitálneho umenia <br>
+                                    a kultúry
+                                {% else %}
+                                    Festival <br>
+                                    of digital arts <br>
+                                    and culture
+                                {% endif %}
                             </span>
 
                             {# scrolled desktop / mobile #}

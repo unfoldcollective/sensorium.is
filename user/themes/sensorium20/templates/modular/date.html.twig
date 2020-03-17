@@ -8,11 +8,12 @@
 			</div>
 		</div>
 		<div class="medium-4 cell">
-			<p>
-				At the two-day Sensorium conference, you can join exceptional designers, artists, innovation leaders and scientists interested in humane technologies.
-			</p>
-			<p>
-				 Experience interactive artworks and performances by artists from around the world with your family and friends at site-specific locations in the city.
-			</p>
+			{% if currentLang == 'sk' %}
+				<p>Sensorium pozýva výnimočných dizajnérov, umelcov, lídrov a vedcov, ktorí sa zaoberajú ľudskejšími technológiami.</p>
+				<p>Objavte spolu so svojou rodinou a priateľmi interaktívne umelecké diela a performance umelcov z celého sveta, ukryté na špecifických lokalitách Bratislavy.</p>
+			{% else %}
+				<p>Sensorium invites exceptional designers, artists, innovation leaders and scientists interested in humane technologies.</p>
+				<p>Experience interactive artworks and performances by artists from around the world with your family and friends at site-specific locations in the city.</p>
+			{% endif %}
 		</div>
 	</div>
