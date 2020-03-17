@@ -37,6 +37,13 @@
 		padding-left: rem-calc( 20 );
 		justify-content: flex-start;
 
+		&__social {
+			&:last-of-type {
+				margin-bottom: 1em;
+
+			}
+		}
+
 		&__langswitcher {
 			margin-bottom: 1em;
 		}
