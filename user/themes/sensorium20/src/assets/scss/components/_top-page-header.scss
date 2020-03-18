@@ -21,6 +21,8 @@
 	}
 
 	&__shorttitle {
+		text-decoration: none;
+		
 		.window-scrolled &,
 		.menu-opened & {
 			position: fixed;

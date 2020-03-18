@@ -108,11 +108,17 @@
                             </span>
 
                             {# scrolled desktop / mobile #}
-                            <span class="top-page-header__shorttitle">
-                                SENSORIUM <br class="show-for-small-only">
-                                12 – 14. 6. 2020 <br class="show-for-small-only">
-                                Bratislava
-                            </span> 
+                            {% if page.template != 'modular' %}
+                            <a href="{{ home_url }}" title="Go back to home page" class="top-page-header__shorttitle">
+                            {% else %}
+                            <a href="#top" title="Go back to top" class="top-page-header__shorttitle" data-smooth-scroll>
+                            {% endif %}
+                                {# <span class="top-page-header__shorttitle"> #}
+                                    SENSORIUM <br class="show-for-small-only">
+                                    12 – 14. 6. 2020 <br class="show-for-small-only">
+                                    Bratislava
+                                {# </span> #}
+                            </a> 
                         </p>                        
                     </div>
                     <div class="top-page-header__controlspart">
