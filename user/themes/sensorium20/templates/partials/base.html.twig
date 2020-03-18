@@ -133,7 +133,15 @@
             </header>
 
             <main class="page-body">
-                <h1 class="grid-x grid-padding-x cell big-type">Sensorium</h1>
+                <h1 class="grid-x grid-padding-x cell big-type page-title">
+                    {% if page.template != 'modular' %}
+                    <a href="{{ home_url }}" title="Go back to home page">
+                    {% endif %}
+                        Sensorium
+                    {% if page.template != 'modular' %}
+                    </a>
+                    {% endif %}
+                </h1>
           <!-- Your page content lives here -->
          {% block body %}
              {% block content %}{% endblock %}

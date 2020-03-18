@@ -11,6 +11,12 @@
 		text-transform: uppercase;
 	}
 
+	&-title {
+		a {
+			text-decoration: none;
+		}
+	}
+
 	@include breakpoint( medium ) {
 		&-back {
 			margin-top: rem-calc( 90 );
