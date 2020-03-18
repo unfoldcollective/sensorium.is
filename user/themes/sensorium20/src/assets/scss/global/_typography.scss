@@ -73,6 +73,7 @@ $max_font_social: 32px;
   margin-bottom: $small-spacing-section-tiny;
   padding-right: rem-calc( 10 );
   padding-left: rem-calc( 10 );
+  overflow: hidden;
 
   @include breakpoint( medium ) {
     padding-right: rem-calc( 20 );
