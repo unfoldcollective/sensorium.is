@@ -5,7 +5,10 @@
 {% for module in modular_pages %}
     {% if not (module.header.disabled or module.header.hide_in_menu) %}
         {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
-        <li class="{{ current_module }}"><a href="#{{ _self.pageLinkName(module.menu) }}" {% if is_side_bar %}class="sb-close"{% endif %} >{{ module.menu }}</a></li>
+        {% if page.template != 'modular' %}
+        {% set url_prefix = home_url %}
+        {% endif %}
+        <li class="{{ current_module }}"><a href="{{ url_prefix }}#{{ _self.pageLinkName(module.menu) }}" {% if is_side_bar %}class="sb-close"{% endif %} >{{ module.menu }}</a></li>
     {% endif %}
 {% endfor %}
 {% for mitem in site.menu %}
