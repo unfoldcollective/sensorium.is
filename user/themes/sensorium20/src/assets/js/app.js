@@ -36,12 +36,13 @@ $(document).on( 'closed.zf.offCanvas', function() {
 var windowHeight = $(window).height(); 
 
 var windowScrolledBodyClass = debounce( function() {
-	if( $(window).scrollTop() >= windowHeight ) {
+	console.log( $(window).scrollTop() + ' ' + windowHeight/3 );
+	if( $(window).scrollTop() >= windowHeight/3 ) {
 		$( 'body' ).addClass( 'window-scrolled' );
 	} else {
 		$( 'body' ).removeClass( 'window-scrolled' );		
 	}
-}, 100, false );
+}, 50, false );
 
 var refreshWindowHeight = debounce( function() {
 	windowHeight = $(window).height();

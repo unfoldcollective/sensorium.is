@@ -6,9 +6,9 @@
 
 	.window-scrolled &,
 	.menu-opened & {
-		position: fixed;
-		width: 100%;
-		z-index: 13;
+		// position: fixed;
+		// width: 100%;
+		// z-index: 13;
 	}
 
 	&__inner {
@@ -20,6 +20,16 @@
 		@include xy-cell( 5 );
 	}
 
+	&__shorttitle {
+		.window-scrolled &,
+		.menu-opened & {
+			position: fixed;
+			width: 100%;
+			z-index: 13;
+		}
+
+	}
+
 	&__controlspart {
 		@include xy-cell( 7 );
 		position: absolute;
@@ -29,6 +39,12 @@
 		margin: 0;
 		display: flex;
 		justify-content: flex-end;
+
+		.window-scrolled &,
+		.menu-opened & {
+			position: fixed;
+			z-index: 13;
+		}
 	}
 
 	&__whatisit {
@@ -63,9 +79,13 @@
 	}
 
 	@include breakpoint( medium ) {
-		$header-top-padding: $spacing-section-tiny;
+		$header-top-padding: 1.2rem;
 		padding-top: $header-top-padding;
-		margin-bottom: $spacing-section-tiny;
+		margin-bottom: rem-calc( 16 );
+
+		.menu-opened & {
+			position: static;
+		}
 
 		&__fulltitle {
 			display: inline;

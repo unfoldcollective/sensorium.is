@@ -28,7 +28,9 @@
 			margin-bottom: $spacing-section-huge;
 		}
 
+		&--theme,
 		&--reverseorder {
+			margin-bottom: 0.2rem;
 			.cell {
 				order: 2;
 			}
