@@ -1,16 +1,17 @@
-.speaker {
-	margin-bottom: rem-calc( 20 );
+// .speaker {
+// 	margin-bottom: rem-calc( 20 );
 
-	&__featured {
-		margin-bottom: rem-calc( 10 );
-		margin-top: rem-calc( 10 );
-	}
+// 	&__featured {
+// 		margin-bottom: rem-calc( 10 );
+// 		margin-top: rem-calc( 10 );
+// 	}
 
-	@include breakpoint( medium ) {
-		margin-bottom: rem-calc( 100 );
+// 	@include breakpoint( medium ) {
+// 		margin-bottom: rem-calc( 100 );
 		
-		&__featured {
-			margin-bottom: rem-calc( 20 );
-		}
-	}
-}
+// 		&__featured {
+// 			margin-top: 0;
+// 			margin-bottom: rem-calc( 20 );
+// 		}
+// 	}
+// }

@@ -36,7 +36,6 @@ $(document).on( 'closed.zf.offCanvas', function() {
 var windowHeight = $(window).height(); 
 
 var windowScrolledBodyClass = debounce( function() {
-	console.log( $(window).scrollTop() + ' ' + windowHeight/3 );
 	if( $(window).scrollTop() >= windowHeight/3 ) {
 		$( 'body' ).addClass( 'window-scrolled' );
 	} else {

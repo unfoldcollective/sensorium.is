@@ -1,0 +1,41 @@
+.layout-single {
+	@include xy-grid();
+
+	margin-bottom: rem-calc( 20 );
+
+	&__featured {
+		margin-bottom: rem-calc( 10 );
+		margin-top: rem-calc( 10 );
+	}
+
+	&__meta {
+		@include xy-cell();
+
+	}
+
+	&__content {
+		@include xy-cell();
+
+	}
+
+	@include breakpoint( medium ) {
+		@include xy-gutters(); 
+
+		margin-bottom: rem-calc( 100 );
+		
+		&__featured {
+			margin-top: 0;
+			margin-bottom: rem-calc( 20 );
+		}
+
+		&__meta {
+			@include xy-cell(6, $gutters: 0 );
+		}
+
+		&__content {
+			@include xy-cell(6, $gutters: 0 );
+			margin-left: 0;
+
+		}
+	}
+}

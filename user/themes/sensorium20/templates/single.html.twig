@@ -3,27 +3,27 @@
 
 {% block body %}
 
-  <div class="grid-x grid-padding-x speaker">
-    <div class="medium-6 cell">
+  <div class="layout-single">
+    <div class="layout-single__meta">
       <h2>{{ page.title }}</h2>
       {% if page.header.subtitle %}
       <h3>{{ page.header.subtitle }}</h3>
       {% endif %}
 
       <p class="show-for-medium">
-        <a href="/" class="page-back">back to homepage</a>
+        <a href="{{ home_url }}" class="page-back">back to homepage</a>
       </p>
     </div>
-    <div class="medium-6 cell">
+    <div class="layout-single__content">
       {% set featured_image = page.media.images[page.header.custom.coverImage|first.name].url %}
       {% if featured_image %}
-      <img src="{{ featured_image }}" alt="" class="speaker__featured">      
+      <img src="{{ featured_image }}" alt="" class="layout-single__featured">      
       {% endif %}
 
       {{ page.content }}
 
       <p class="show-for-small-only">
-        <a href="/" class="page-back">back to homepage</a>
+        <a href="{{ home_url }}" class="page-back">back to homepage</a>
       </p>
     </div>
   </div>
