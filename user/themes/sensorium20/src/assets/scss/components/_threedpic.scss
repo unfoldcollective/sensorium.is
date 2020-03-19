@@ -1,0 +1,52 @@
+.threedpic {
+
+
+
+		background: linear-gradient(180deg, rgba(29,143,205,1) 0%, rgba(223,226,226,1) 100%);		
+		position: relative;
+		height: 0;
+		overflow: hidden;
+		
+
+		svg {
+			width: 100%;
+		}
+		img {
+			position: absolute;
+			height: auto;
+		}
+
+	&--first {
+		clip-path: url( #threedpic-clip-01 );
+		padding-bottom: 121.3%;
+
+		img {
+			top: -33%;
+			left: -15%;
+			width: 210%;
+			max-width: none;
+		}
+	}
+
+	&--second {
+		clip-path: url(#threedpic-clip-02 );
+		padding-bottom: 57.2%;
+
+		img {
+			top: -103%;
+			left: 0%;
+		}
+	}
+
+	&--third {
+		clip-path: url(#threedpic-clip-03 );
+		padding-bottom: 197.1%;
+
+		img {
+			top: -1%;
+		    left: -98%;
+		    width: 230%;
+		    max-width: none;
+		}
+	}
+}
