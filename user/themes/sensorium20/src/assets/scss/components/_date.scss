@@ -9,10 +9,4 @@
 			margin: 0 4%;
 		}
 	}
-
-	@include breakpoint( xxlarge ) {
-		&-sep {
-			margin: 0 4.2%;
-		}
-	}
 }
