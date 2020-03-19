@@ -12,7 +12,10 @@
 	img {
 		border-radius: 700px 700px 0 0;
 		margin-bottom: rem-calc( 10 );
-		filter: grayscale(1);
+
+		&.loaded {
+			filter: grayscale(1);
+		}
 	}
 
 	&__href {

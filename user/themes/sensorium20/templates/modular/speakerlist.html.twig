@@ -10,7 +10,7 @@
 		{% for speaker in speakers  %}
 			<li class="speakerlist__item">
 				<a href="{{speaker.url}}" class="speakerlist__href">
-					<img src="{{ speaker.media.images[speaker.header.custom.bioImage|first.name].url }}" alt="">
+					<img data-src="{{ speaker.media.images[speaker.header.custom.bioImage|first.name].url }}" src="{{theme_url}}/dist/assets/img/placeholder.svg" alt="Image of {{ speaker.title }}" class="lazy">
 					<h4 class="speakerlist__name">{{ speaker.title }}</h4>
 					<p class="speakerlist__interest">{{ speaker.header.subtitle }}</p>
 				</a>
