@@ -51,6 +51,11 @@ partners:
 #        url: 'https://a4.sk/'
 #        logo: A4_orange.png
     -
+        name: DOM
+        url: 'http://www.festivaldom.com/'
+        logo: DOM_animace_1.gif
+        major: true
+    -
         name: ADMA
         url: 'http://www.adma.sk/'
         logo: ADMA_orange.png
@@ -98,10 +103,10 @@ partners:
 #        name: Honest
 #        url: 'https://honest.sk/'
 #        logo: honestco.png
-#    -
-#        name: Roomfactory
-#        url: 'https://roomfactory.sk/'
-#        logo: roomfactory.png
+    -
+        name: Roomfactory
+        url: 'https://roomfactory.sk/'
+        logo: RoomFactory.png
 edupartnersTitle: 'Vzdelávací partneri'
 edupartners:
 #    -
@@ -159,9 +164,9 @@ mediaPartners:
 #        name: MacBlog
 #        url: 'https://www.macblog.sk/'
 #        logo: Macblog_orange.png
-#    -
-#        name: Designum
-#        url: 'https://www.scd.sk/?aktualne-cislo-casopisu-designum'
-#        logo: logo-designum.png
+    -
+        name: Designum
+        url: 'https://www.scd.sk/?aktualne-cislo-casopisu-designum'
+        logo: Designum.png
 ---
 

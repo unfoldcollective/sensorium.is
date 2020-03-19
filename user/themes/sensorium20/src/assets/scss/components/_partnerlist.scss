@@ -19,20 +19,20 @@
 
 	@include breakpoint( medium ) {
 		@include grid-layout( 3, '.partnerlist-logo' );
+		margin-bottom: rem-calc( 60 );
 
 		&-title {
 			margin-bottom: $spacing-section-tiny;
 
 			& + div {
-				margin-bottom: $spacing-section-inner;
 			}
 		}
 
 		&-logo {
-			margin-bottom: $spacing-section-inner;
+			margin-bottom: rem-calc( 20 );
 
 			&__img {
-				max-height: rem-calc( 75 );
+				max-height: rem-calc( 95 );
 			}
 
 			.partnerlist &--major {
@@ -40,7 +40,7 @@
 			}
 
 			&--major &__img {
-				max-width: 100%;
+				max-width: 90%;
 				max-height: none;
 			}
 		}
