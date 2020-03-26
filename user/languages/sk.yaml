@@ -1,0 +1,9 @@
+---
+GRAV:
+  NICETIME:
+    NO_DATE_PROVIDED: Bez dátumu
+    AGO: dozadu
+    WK: týž
+    MO: mes
+    WK_PLURAL: týž
+    MO_PLURAL: mes
