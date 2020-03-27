@@ -11,5 +11,3 @@ content:
 limit: 5
 moreinfotext: More info...
 ---
-
-## News

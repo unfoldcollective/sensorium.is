@@ -4,7 +4,10 @@
 	<div class="medium-3 cell">
 		<h2>{{ page.title }}</h2>
 	</div>
-	<div class="medium-9 cell" newslist>
+	<div class="medium-9 cell newslist">
+		<div class="text-upper">
+			{{ page.content }}
+		</div>
 		{% for p in page.collection.slice(0, limit) %}
 			<article class="newslist__item">
 				<a href="{{p.url}}" class="newslist__img">

@@ -1,7 +1,8 @@
 ---
-title: Články a rozhovory
-menu: Články
-hide_in_menu: false
+title: Zásoby potravy pre myseľ
+menu: Zásoby
+hide_in_menu: true
+published: false
 content:
     items:
         '@page': /articles
@@ -10,3 +11,5 @@ content:
         dir: desc
 limit: 3
 ---
+
+

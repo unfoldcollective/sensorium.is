@@ -10,5 +10,3 @@ content:
         dir: desc
 limit: 5
 ---
-
-## Novinky
