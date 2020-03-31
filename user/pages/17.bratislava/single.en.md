@@ -1,5 +1,5 @@
 ---
-title: 'Getting to Bratislava'
+title: 'Practical Info'
 body_classes: 'header-image fullwidth'
 ---
 
@@ -8,17 +8,11 @@ Sensorium festival takes place in the beautiful Old-Town of historical Bratislav
 Addresses:
 
 
-**Sensorium Talks, Augmented Attention Lab, installations**:
+**Sensorium Festival Center (Talks, exhibitions, coffee, food stall, info point)**:
 Pistori Palace, Štefánikova 26, 811 05 Bratislava
 
-**πTon installation**:
-Faculty of Arts, Comenius University
-
-**City Stage**:
-SNP square, in front of The Old Market
-
-**Workshop AI for Augmented Creativity**:
-Goethe-Institute Bratislava, Panenská 682/33, 814 82 Bratislava
+**Videodrones workshop**:
+Čunovo - Bratislava, precise location will be available in April.
 
 # **Flying**
 

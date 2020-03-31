@@ -6,4 +6,4 @@ Sensorium is a festival joining a conference, workshops, exhibitions and perform
 
 The festival collaborates on its programme with many international organisations such as [Future Everything](http://futureeverything.org/) in the UK, [School of Machines](http://www.schoolofma.org) in Germany, [Instrument Inventors Initiative](https://instrumentinventors.org) in the Netherlands, [Choreographic Coding Labs](http://choreographiccoding.org), [HOLO magazine](http://holo-magazine.com) and many more.
 
-<!-- **[read more](/about)** -->
+Sensorium festival is produced by an independent civic organisation Imaginárium. Want to support us? Email to hello@sensorium.is.
