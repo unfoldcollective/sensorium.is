@@ -53,7 +53,7 @@ partners:
     -
         name: DOM
         url: 'http://www.festivaldom.com/'
-        logo: DOM_animace_1.gif
+        logo: DOM_800x400_black.gif
         major: true
     -
         name: ADMA
