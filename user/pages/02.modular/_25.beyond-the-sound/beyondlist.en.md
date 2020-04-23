@@ -1,4 +1,5 @@
 ---
-title: Beyond the sound
-explanation: A series of performance events and installations in site specific locations.
+title: 'Beyond the sound'
+subtitle: 'A series of three performance events in site specific locations.'
 ---
+

@@ -20,6 +20,6 @@ Transversal Is a Loop je 50-minútová zvuková kompozícia a živé vystúpenie
 
 [Saša Spačal ](http://sensorium.is/sk/speakers/sasa-spacal) je umelkyňa, ktorej práca odráža presah výskumu živých systémov so súčasným a hudobným umením. Jej práca sa primárne zameriava na posthumanistické prostredie, v ktorom ľudské bytosti existujú a konajú ako jedny z mnohých elementov ekosystému a nie ako stred vesmíru.
 
-Zaži Sašino predstavenie Transversal Is a Loop v Sensorium Beyond The Sound záhrade v nedeľu 14. 06. o 14:00 - 16:00.
+Zaži Sašino predstavenie Transversal Is a Loop v Sensorium Beyond The Sound záhrade v nedeľu 30. 08. o 14:00 - 16:00.
     
 [www.agapea.si](https://www.agapea.si/en/)

@@ -19,6 +19,6 @@ Príbeh Ata Kaka sa začína niekedy okolo roku 1994 a je dokonalým príkladom 
 
 Snáď najcennejšia na jeho produkcii je totálna bezprostrednosť a akási veľmi sympatická naivita v najlepšom možnom význame tohto slova. Album [Obaa Sima](https://www.youtube.com/watch?v=cd0PV82e1jE) akoby vznikol najmä pre jeho vlastné potešenie, je nezaťažený nutnosťou patriť niekam - či už do špecifického žánru, štýlu alebo éry. Ata je svoj na 100%. A naživo to platí dvojnásobne - [FACTmag](https://www.factmag.com) o tom spravil krásny dokument. 
 
-V rámci Sensorium Festivalu vystúpi Ata Kak s full bandom v slovenskej premiére v piatok 12. 06. o 22:00 v klube [Fuga](http://fuga.forumabsurdum.sk/).
+V rámci Sensorium Festivalu vystúpi Ata Kak s full bandom v slovenskej premiére v piatok 28. 08. o 22:00 v klube [Fuga](http://fuga.forumabsurdum.sk/).
 
 [www.tinyurl.com/atakak](https://tinyurl.com/atakak)

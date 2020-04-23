@@ -19,7 +19,7 @@ The story of Ata Kak started sometime around 1994 and it is a perfect example of
 
 Probably the most valuable component of his music production is a total spontaneity and a very congenial naivety - in the best possible meanings of these words. [Obaa Sima](https://www.youtube.com/watch?v=cd0PV82e1jE) sounds like it was created for Ata’s own joy and doesn’t bear the obligation of falling into any specific music genre, style or era. Ata is 100% himself and that’s especially true during his live performances - the [FACTmag](https://www.factmag.com) even made a beautiful document about this. 
 
-Ata Kak will perform with a full band in Slovak premier as a part of Sensorium Beyond The Sound on Friday 12. 06. from 22:00 in [Fuga](http://fuga.forumabsurdum.sk/).
+Ata Kak will perform with a full band in Slovak premier as a part of Sensorium Beyond The Sound on Friday 28. 08. from 22:00 in [Fuga](http://fuga.forumabsurdum.sk/).
 
 
 [www.tinyurl.com/atakak](https://tinyurl.com/atakak)

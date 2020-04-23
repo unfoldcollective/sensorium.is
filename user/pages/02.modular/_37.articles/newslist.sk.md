@@ -1,6 +1,6 @@
 ---
-title: Stockpiling Food For Thought
-menu: Stockpiling
+title: 'Stockpiling Food For Thought'
+menu: 'Food For Thought'
 hide_in_menu: false
 published: true
 content:

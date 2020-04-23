@@ -20,6 +20,6 @@ Inštalácia [Ethereal Fleeting](http://etherealfleeting.lukastruniger.net) gene
 
 Lukas Truniger je mediálny umelec zo Švajčiarska, ktorý sa angažuje vo svete multimediálnych inštalácií a vytváraní nových, unikátnych hudobných nástrojov. [Čítaj viac.](http://sensorium.is/speakers/lukas-truniger)
 
-Zaži jedinečnú site-specific inštaláciu [Ethereal Fleeting](http://sensorium.is/beyond-the-sound/ethereal-fleeting) generujúcu sériu oblakov v Sensorium Beyond The Sound Sound záhrade od piatku 12. do nedeľe 14. júna vždy v časoch medzi 10:00 a 18:00.
+Zaži jedinečnú site-specific inštaláciu [Ethereal Fleeting](http://sensorium.is/beyond-the-sound/ethereal-fleeting) generujúcu sériu oblakov v Sensorium Beyond The Sound Sound záhrade od piatku 28. do nedeľe 30. augusta vždy v časoch medzi 10:00 a 18:00.
 
 [www.lukastruniger.net](https://lukastruniger.net/)

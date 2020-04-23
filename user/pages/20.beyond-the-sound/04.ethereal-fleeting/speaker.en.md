@@ -20,6 +20,6 @@ This machine-like sculpture is slowly generating a continuous series of cloud fo
 
 Lukas Truniger is a Swiss media artist and electronic musician who engages in the world of multimedia installations, performances and creation of new musical instruments. [Read more.](http://sensorium.is/speakers/lukas-truniger)
 
-Experience his machine-like installation Ethereal Fleeting in the Sensorium Beyond The Sound garden from Friday 12th until Sunday 14th of June. Garden opening times are always 10:00 - 18:00.
+Experience his machine-like installation Ethereal Fleeting in the Sensorium Beyond The Sound garden from Friday 28th until Sunday 30th of August. Garden opening times are always 10:00 - 18:00.
 
 [www.lukastruniger.net](https://lukastruniger.net/)

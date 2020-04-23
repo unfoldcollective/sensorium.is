@@ -2,13 +2,13 @@
 title: 'Performance: Transversal Is a Loop'
 subtitle: 'Saša Spačal'
 custom:
-    bioImage:
+    coverImage:
         'user/pages/20.beyond-the-sound/02.sasa-spacal/Sasa Spacal.jpg':
             name: 'Sasa Spacal.jpg'
             type: image/jpeg
             size: 229777
             path: 'user/pages/20.beyond-the-sound/02.sasa-spacal/Sasa Spacal.jpg'
-    coverImage:
+    bioImage:
         'user/pages/20.beyond-the-sound/02.sasa-spacal/Sasa Spacal.jpg':
             name: 'Sasa Spacal.jpg'
             type: image/jpeg
@@ -20,6 +20,6 @@ Transversal Is a Loop is a fifty-minute long sound composition and live performa
 
 [Saša Spačal](http://sensorium.is/speakers/sasa-spacal) is an artist working at the intersection of living systems research, contemporary and sound art. Her work focuses primarily on the posthuman condition in which human beings exist and act as one of many elements in the ecosystem and not as sovereign individuals.
 
-Experience Saša's performance Transversal Is a Loop at Sensorium's Beyond The Sound garden on Sunday 14th June at 14:00 - 16:00.
+Experience Saša's performance Transversal Is a Loop at Sensorium's Beyond The Sound garden on Sunday 30th August at 14:00 - 16:00.
 
 [www.agapea.si](https://www.agapea.si/en/)
