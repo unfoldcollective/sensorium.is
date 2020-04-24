@@ -16,8 +16,9 @@
 				<div class="newslist__content">
 					<p class="newslist__date">{{ p.date|nicetime(false) }}</p>
 					<a href="{{p.url}}" class="newslist__href"><h4 class="newslist__title">{{ p.title }}</h4></a>
-					<p>{{ p.summary }}</p>
+					{{ p.summary }}
 					{# <p class="newslist__moreinfo">{{ page.header.moreinfotext }}</p> #}
+					<p class="newslist__moreinfo"><a href="{{p.url}}">{{page.header.readmoretext}}</a></p>
 				</div>
 
 
@@ -41,6 +42,12 @@
 				</a> #}
 			</article>
 		{% endfor %}
+
+		{% if page.header.archivelink %}
+
+			<p class="newslist__showall"><a href="{{page.header.archivelink}}">{{ page.header.showalltext }}</a></p>
+
+		{% endif %}
 		{# {% if page.collection.count > limit %}
 			<div class="tc pa4 f4">
 				<a href="/news">see all news...</a>

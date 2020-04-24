@@ -1,0 +1,46 @@
+{% extends 'partials/base.html.twig' %}
+{% set currentLang = grav.language.getLanguage %}
+{% block bodyclass %}page-single{% endblock %}
+
+{% set collection = page.collection() %}
+
+{% block content %}
+	{{ page.content }}
+
+		{# {% if config.plugins.breadcrumbs.enabled %}
+			{% include 'partials/breadcrumbs.html.twig' %}
+		{% endif %} #}
+
+	<div class="layout-single">
+	  <div class="layout-single__meta">
+	    <h2>{{ page.title }}</h2>
+	    {% if page.header.subtitle %}
+	    <h3>{{ page.header.subtitle }}</h3>
+	    {% endif %}
+
+	    <p class="show-for-medium">
+	      <a href="{{ home_url }}" class="page-back">{{ currentLang == 'sk' ? 'Späť na úvodnú stránku' : 'Back to home page'}}</a>
+	    </p>
+	  </div>
+	  <div class="layout-single__content">
+
+	    {{ page.content }}
+
+		{% for child in collection %}
+	        {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+	    {% endfor %}
+
+        {% if config.plugins.pagination.enabled and collection.params.pagination %}
+            {% include 'partials/pagination.html.twig' with {'base_url':page.url, 'pagination':collection.params.pagination} %}
+        {% endif %}
+
+
+	    <p class="show-for-small-only">
+	      <a href="{{ home_url }}" class="page-back">{{ currentLang == 'sk' ? 'Späť na úvodnú stránku' : 'Back to home page'}}</a>
+	    </p>
+	  </div>
+	</div>
+
+{% endblock %}
+
+

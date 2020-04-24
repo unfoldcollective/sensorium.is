@@ -1,6 +1,6 @@
 ---
-published: false
-title: News
+published: true
+title: News Archive
 blog_url: news
 body_classes: 'header-image fullwidth'
 sitemap:
@@ -11,13 +11,11 @@ content:
     order:
         by: date
         dir: desc
-    limit: 5
+    limit: 15
     pagination: true
 feed:
     description: 'Find out about the latest Sensorium developments'
     limit: 10
 pagination: true
+readmoretext: Read more
 ---
-
-# News & updates
-## Find out about the latest Sensorium developments

@@ -1,4 +1,5 @@
-{% extends 'partials/base.html.twig' %}
+{% set currentLang = grav.language.getLanguage %}
+  {% extends 'partials/base.html.twig' %}
 {% block bodyclass %}page-speaker{% endblock %}
 
 {% block body %}
@@ -9,7 +10,7 @@
       <h3>{{ page.header.subtitle }}</h3>
 
       <p class="show-for-medium">
-        <a href="{{ home_url }}" class="page-back">back to homepage</a>
+        <a href="{{ home_url }}" class="page-back">{{ currentLang == 'sk' ? 'Späť na úvodnú stránku' : 'Back to home page'}}</a>
       </p>
     </div>
     <div class="layout-single__content">
@@ -21,7 +22,7 @@
       {{ page.content }}
 
       <p class="show-for-small-only">
-        <a href="{{ home_url }}" class="page-back">back to homepage</a>
+        <a href="{{ home_url }}" class="page-back">{{ currentLang == 'sk' ? 'Späť na úvodnú stránku' : 'Back to home page'}}</a>
       </p>
     </div>
   </div>

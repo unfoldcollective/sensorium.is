@@ -10,6 +10,9 @@ content:
         by: date
         dir: desc
 limit: 3
+moreinfotext: 'Čítať viac...'
+showalltext: 'Archív newslettrov'
+archivelink: '/sk/articles/'
 ---
 
 Týždenný newsletter festivalu Sensorium oprinášajúci rozhovory s poprednými umelcami a mysliteľmi o izolácií, prepojení, kreativite a širšom kontexte pandémie Covid-19. Registruj sa na odber: [bit.ly/nlsens](bit.ly/nlsens).

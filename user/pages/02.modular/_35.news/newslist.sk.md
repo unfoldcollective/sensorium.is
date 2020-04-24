@@ -9,4 +9,8 @@ content:
         by: date
         dir: desc
 limit: 5
+moreinfotext: 'More info...'
+readmoretext: Čítať viac
+showalltext: 'Zobraziť staršie'
+archivelink: '/sk/news/'
 ---

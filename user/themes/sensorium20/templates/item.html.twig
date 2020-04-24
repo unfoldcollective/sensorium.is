@@ -3,6 +3,7 @@
 {# TODO: adjust to news #}
 
 {% extends 'partials/base.html.twig' %}
+{% set currentLang = grav.language.getLanguage %}
 {% block bodyclass %}item-news{% endblock %}
 
 {% block body %}
@@ -13,7 +14,7 @@
       {# <h3>{{ page.header.subtitle }}</h3> #}
 
       <p class="show-for-medium">
-        <a href="/" class="page-back">back to homepage</a>
+        <a href="{{ home_url }}" class="page-back">{{ currentLang == 'sk' ? 'Späť na úvodnú stránku' : 'Back to home page'}}</a>
       </p>
     </div>
     <div class="medium-6 cell">
@@ -25,7 +26,7 @@
       {{ page.content }}
 
       <p class="show-for-small-only">
-        <a href="/" class="page-back">back to homepage</a>
+        <a href="{{ home_url }}" class="page-back">{{ currentLang == 'sk' ? 'Späť na úvodnú stránku' : 'Back to home page'}}</a>
       </p>
     </div>
   </div>

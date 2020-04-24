@@ -9,5 +9,8 @@ content:
         by: date
         dir: desc
 limit: 5
-moreinfotext: More info...
+moreinfotext: 'More info...'
+readmoretext: Read more
+showalltext: 'News archive'
+archivelink: '/news/'
 ---

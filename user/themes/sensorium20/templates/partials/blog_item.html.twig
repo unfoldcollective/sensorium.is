@@ -1,3 +1,19 @@
+<article class="archive-item">
+    <a href="{{page.url}}" class="archive-item__img">
+        <img data-src="{{ page.media.all|first.url }}" class="db lazy" alt="{{page.title}}">
+    </a>
+    <div class="archive-item__content">
+        <p class="archive-item__date">{{ page.date|nicetime(false) }}</p>
+        <a href="{{page.url}}" class="archive-item__href"><h4 class="archive-item__title">{{ page.title }}</h4></a>
+        
+        {{ page.summary }} 
+
+        <p class="archive-item__href"><a href="{{page.url}}">{{blog.header.readmoretext}}</a></p>
+    </div>
+</article>
+
+{# 
+
 <div class="list-item h-entry mw7 center">
 
     {% set header_image = page.header.header_image|defined(true) %}
@@ -87,3 +103,4 @@
 
     </div>
 </div>
+ #}

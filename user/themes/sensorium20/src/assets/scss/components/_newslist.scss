@@ -8,7 +8,7 @@
 		}
 		
 		p {
-			margin-bottom: 0;
+			// margin-bottom: 0;
 		}
 	}
 
@@ -44,6 +44,13 @@
 
 	&__summary {
 		margin-bottom: rem-calc( 20 );
+	}
+
+	&__showall {
+		text-align: center;
+		margin-top: rem-calc( 60 );
+		margin-bottom: 0;
+		text-transform: uppercase;
 	}
 
 	@include breakpoint( medium ) {

@@ -1,7 +1,7 @@
 ---
-published: false
-title: Articles
-blog_url: articles
+published: true
+title: Archív noviniek
+blog_url: news
 body_classes: 'header-image fullwidth'
 sitemap:
     changefreq: monthly
@@ -11,13 +11,11 @@ content:
     order:
         by: date
         dir: desc
-    limit: 5
+    limit: 15
     pagination: true
 feed:
     description: 'Find out about the latest Sensorium developments'
     limit: 10
 pagination: true
+readmoretext: Čítať viac...
 ---
-
-# News & updates
-## Find out about the latest Sensorium developments

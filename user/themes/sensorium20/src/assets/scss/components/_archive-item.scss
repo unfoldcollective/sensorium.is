@@ -1,0 +1,15 @@
+.archive-item {
+	&__title {
+		margin-bottom: $paragraph-margin-bottom;
+	}
+
+	&__img {
+		margin-bottom: rem-calc( 10 );
+	}
+
+	@include breakpoint( medium ) {
+		&__img {
+			margin-bottom: rem-calc( 20 );
+		}	
+	}
+}
