@@ -160,10 +160,14 @@ mediaPartners:
         name: 'Proti šedi'
         url: 'http://www.protisedi.cz/'
         logo: Protisedi_orange.png
-#    -
-#        name: MacBlog
-#        url: 'https://www.macblog.sk/'
-#        logo: Macblog_orange.png
+    -
+        name: 'Noizz'
+        url: 'https://noizz.aktuality.sk/'
+        logo: Noizz.png
+    -
+        name: 'TOUCHIT'
+        url: 'https://touchit.sk/'
+        logo: Touchit.png
     -
         name: Designum
         url: 'https://www.scd.sk/?aktualne-cislo-casopisu-designum'
