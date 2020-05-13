@@ -14,7 +14,6 @@ process:
 Dear friends of Sensorium,
 
 
-We hope you are safe and taking care of yourself and the people around you. In these unusual and uncertain times, we believe more than ever in the importance of connection and sharing. To stay in touch in times of social distancing, to gather our ideas and to contribute what inspires us, we decided to launch a weekly format bringing voices from our community to reflect on the current pandemic situation and its potential implications. 
 This is edition #2 of Stockpiling Food For Thought - the Sensorium Quarantine Weekly Special, with Irini Papadimitriou.
 
 

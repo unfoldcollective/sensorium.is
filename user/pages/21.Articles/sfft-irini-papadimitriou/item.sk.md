@@ -14,8 +14,6 @@ process:
 Milí priatelia,
 
 
-dúfame, že ste v bezpečí a staráte sa o seba a ľudí naokolo. V týchto nezvyčajných a neistých časoch veríme viac ako kedykoľvek predtým v dôležitosť prepojenia a zdieľania. Zostaňme v kontakte aj v časoch sociálnej izolácie, aby sme nielen zhromažďovali naše nápady, ale aj prispeli k tomu, čo nás inšpiruje. Preto sme sa rozhodli sme spustiť týždenný formát, ktorý bude kanálom pre hlasy našej komunity. Budeme spoločne premýšľať o súčasnej pandemickej situácii a jej možných dôsledkoch.
-
 
 Toto je vydanie č. 2** _Stockpiling Food For Thought s Irini Papadimitriu_** – týždenný karanténny špeciál festivalu Sensorium.
 
