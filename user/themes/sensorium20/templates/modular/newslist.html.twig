@@ -11,7 +11,7 @@
 		{% for p in page.collection.slice(0, limit) %}
 			<article class="newslist__item">
 				<a href="{{p.url}}" class="newslist__img">
-					<img data-src="{{ p.media.all|first.url }}" class="db lazy" alt="{{p.title}}">
+					<img data-src="{{ p.media.all|first.cropZoom(600,600).url }}" class="db lazy" alt="{{p.title}}">
 				</a>
 				<div class="newslist__content">
 					<p class="newslist__date">{{ p.date|nicetime(false) }}</p>
