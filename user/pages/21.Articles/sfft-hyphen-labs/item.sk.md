@@ -11,74 +11,72 @@ process:
     twig: true
 ---
 
-This is edition #6 of Stockpiling Food For Thought - the Sensorium Quarantine Weekly Special, with Hyphen Labs.         
+Prinášame vám 6. diel série Stockpiling Food For Thought, týždenného karanténneho špeciálu festivalu Sensorium, tentoraz s kolektívom **Hyphen Labs**.
 
-After nearly two months of quarantine, we may feel our life is evolving towards a strange “new normal”. But what happens after that? Do we keep these new habits, do we go back to acting the way we did before, or do we evolve to create a new reality? We spoke to multidisciplinary collective **Hyphen Labs** about what the current period can teach us about ourselves and about our society.
+Po viac ako dvoch mesiacoch karantény má mnoho z nás pocit, že náš život sa uberá smerom zvláštnej „novej normálnosti“. Čo však príde po nej? Udržíme si nové zvyky, alebo sa všetko vráti do pôvodných koľají? Posunieme sa natoľko, že vytvoríme novú realitu? Rozprávali sme sa s multidisciplinárnym kolektívom **Hyphen Labs** o tom, čo nás môže terajšia situácia naučiť o nás samých i celej spoločnosti.
 
 ![](hyphen-labs_profile.jpg)
     
 ***
 
-**Hyphen Labs** is an award-winning international collective of women with a base in London, UK. Their projects oscillate between technology, design, art, science and futurism to challenge conventions and stimulate conversations. Drawing from their diverse perspectives and expertises - ranging from engineering and molecular biology to game design and architecture, they cultivate a resolutely global and multidisciplinary approach to explore a future built on planetary-centered design, placing collective needs and experiences at the centre of perpetually evolving narratives. 
+**Hyphen Labs** je oceňovaný medzinárodný ženský kolektív so sídlom v Londýne. Projekt osciluje medzi technológiou, dizajnom, umením a futurizmom, spochybňuje konvenčné prístupy a podporuje konverzáciu. Čerpajú pritom zo širokej škály svojich záujmov od strojárstva a molekulárnej biológie po herný dizajn a architektúru. Kultivujú rezolútne globálny a multidisciplinárny prístup k skúmaniu budúcnosti, postavený na dizajne zameriavajúcom sa na planétu, a do centra pozornosti neustále sa vyvíjajúcich naratívov kladú kolektívne potreby a skúsenosti.
 
 ![](nsaf.jpg)
 
-<small>NeuroSpeculative AfroFeminism, cross-platform project by Hyphen Labs, at the intersection of product design, virtual reality, and neuroscience.</small>
+<small>NeuroSpeculative AfroFeminism (NeuroŠpekulatívny AfroFeminizmus) je medziplatformový projekt od Hyphen Labs a predstavuje spojenie produktového dizajnu, virtuálnej reality a neurovedy</small>
 
 
-**Sensorium : Tell us about your current situation. From where are you writing, how did you adapt to the circumstances?**
+**Sensorium : Povedzte nám viac o svojej súčasnej situácii. Odkiaľ nám píšete, a ako ste sa prispôsobili súčasným podmienkam?**
 
-**Hyphen Labs :** We are all currently staying home and based in London. This week marks around 6 weeks of constant isolation from each other and the public. Around March 11, we decided to stop working from our studio after more and more cases were popping up in Europe. Before the pandemic started, we were working on a few commissioned projects, digital experiences as well as physical installations coming up in galleries and at festivals.  We were looking forward to a summer full of workshops and speaking events and developing new work. As things got more serious, like for everyone else, the jobs that required any physical presence were postponed and cancelled. So, we are currently working on developing existing and new digital projects.  
+**Hyphen Labs :** Všetky pracujeme z domu a nachádzame sa v Londýne. Toto je 6. týždeň nepretržitej izolácie od seba navzájom i od verejnosti. Asi 11. marca, keď sa v Európe objavovalo stále viac a viac prípadov, sme sa rozhodli prestať pracovať zo svojho štúdia. Pred vypuknutím pandémie sme pracovali na niekoľkých projektoch na objednávku, digitálnych projektoch, ako aj fyzických inštaláciách do galérií a na festivaly. Tešili sme sa na leto plné workshopov a podujatí, kde budeme môcť prednášať a vytvárať nové diela. Keď však situácia šla do tuhého, všetky podujatia, ktoré vyžadovali akúkoľvek fyzickú prítomnosť, boli presunuté alebo zrušené. Teraz sa preto venujeme rozvoju už existujúcich a nových digitálnych projektov.
 
-We also try to fill our days experimenting and learning. We are investing time into doing the things that keep us curious,  inspired and feel rewarding, including: exercise (bikes & home yoga + digital classes), reading, cooking, Zoom calls, Whatsapp message groups, live streaming concerts, facetime with friends and family, drawing, writing, growing food and flowers, listening and meditating. 
-
-Maintaining routine, communication and practicing sensitivity and compassion will hopefully get us through this pandemic.  We also want to acknowledge and appreciate all essential workers, single parents, our elders and a huge thanks to the hospital workers keeping us and our loved ones alive. 
+Pokúšame sa tiež počas týchto dní experimentovať a učiť sa. Čas investujeme do vecí, ktoré rozvíjajú našu zvedavosť, inšpirujú nás a sú prínosné vrátane cvičenia (bicykel, joga z domu a online lekcie), čítania, varenia, hovorov na Zoome, skupinových chatov na Whatsappe, koncertov prenášaných naživo, facetimovaniu s priateľmi a rodinou, kresleniu, písaniu, pestovaniu či už jedlých rastlín alebo kvetov, počúvaniu hudby a meditovaniu. Veríme, že vďaka pravidelnej rutine, udržiavaniu komunikácie a citlivému a súcitnému správaniu sa nám podarí pandémiu prežiť bez ujmy. Chceme tiež povedať, že si mimoriadne vážime prácu všetkých kriticky dôležitých pracovníkov, slobodných rodičov, starších ľudí a pracovníkov nemocníc, ktorí sa starajú o prežitie nás i našich blízkych.  
 
 ![](prismatic.jpg)
 
-<small>Prismatic_NYC, luminous-kinetic sculpture by Hyphen Labs above The High Line in New York City</small>
+<small>Prismatic_NYC, svetelno-kinetická socha od Hyphen Labs nad High Line v New Yorku,</small>
 
 
-**Sensorium : Has the current situation been in some way stimulating to your creative process? Have you been thinking of new projects or new ways of presenting your projects ? **
+**Sensorium : Podnecuje súčasná situácia nejakým spôsobom váš tvorivý proces? Premýšľali ste o nových projektoch alebo nových spôsoboch prezentácie svojich projektov?**
 
-**Hyphen Labs :** Interesting question. We started working together in 2014, our backgrounds are in architecture and engineering and we were exploring parametric and computational design.  We met during a masters program and are from completely different places, and it was our differences which encouraged us to think through how we could communicate universally through digital and physical experiences and spaces. We started our studio working together across time zones, so we are used to remote work. And when we finally had a studio and were located in the same place, we recognized the value of physical presence, actually having to get dressed and go to work, giving each other a hug, laughing together, grabbing a drink after work and having the spaces and times for random thoughts. Now as we are adjusting to the changes we still have virtual studio brunches and pub clubs, where we try not to talk about work. We must be flexible to figure new ways of working and existing out and it's an exciting challenge to try to figure it out and continue to produce.
+**Hyphen Labs :** Zaujímavá otázka. Začali sme spolupracovať v roku 2014, máme zázemie v architektúre a inžinierstve, skúmali sme parametrický a výpočtový dizajn. Stretli sme sa počas magisterského štúdia. Pochádzame z úplne odlišných miest a odborov. Práve naše rozdiely nás podnietili premýšľať o tom, ako by sme mohli univerzálne komunikovať prostredníctvom digitálnych a fyzických zážitkov a priestorov. Spoluprácu sme začínali tak, že sme pracovali naprieč niekoľkými časovými pásmami, takže sme zvyknuté pracovať na diaľku. A keď sme konečne mali vlastné štúdio a boli sme všetky na tom istom mieste, uvedomili sme si význam fyzickej prítomnosti, to, že sa skutočne musíme obliecť a ísť do práce, že sa môžeme objať, smiať sa spolu, po práci si zájsť na drink a mať priestor a čas na náhodné nápady. Teraz, keď sa prispôsobujeme zmenám, stále sa stretávame na virtuálnych štúdiových raňajkách alebo večernom posedení pri drinku, počas ktorých sa snažíme nehovoriť o práci. Musíme byť flexibilné, aby sme mohli prísť na nové spôsoby práce a existencie. Pokúšame sa prísť na to, ako pokračovať vo vytváraní nových vecí, a je to podnetné.
 
-But some days, let's be honest...it's hard to concentrate - to stay motivated and focus.  The virus has really exposed the existing disparities within our societies. Our hearts and minds are thinking of those who are trying to survive, who have been laid off and subsequently lost their income and health insurance, are immunocompromised, can’t pay rent, are undocumented, isolated at home, alone - losing their lives and their family members because collectively, we (+ some of our governments) didn’t take the pandemic seriously enough and live in a broken system that benefits few and discards the rest.  Are we not all beings?
+Ak máme byť úprimné, sú dni, keď sa nám, povedzme, ťažšie sústredí a nemáme toľko motivácie. Vírus nám odhalil mnoho spoločenských nerovností. Srdcom a mysľou sme s tými, ktorí sa snažia prežiť, ktorých vyhodili z práce a prišli o príjem či zdravotné poistenie, majú podlomenú imunitu, nemôžu platiť nájom alebo nemajú doklady, zostali doma sami, izolovaní, prichádzajú o život alebo o členov rodiny, pretože sme kolektívne (ako i niektoré vlády) podcenili pandémiu, a žijeme v nefunkčnom systéme, ktorý zvýhodňuje len niektorých a prehliada ostatných. Nie sme predsa všetci ľudia?
 
 ![](yawnbooth.jpg)
 
-<small>[The Gospel According to Yawn](https://vimeo.com/369876347), interactive booth commissioned by Somerset House to respond to the book [24/7: Late Capitalism and the Ends of Sleep](https://www.theguardian.com/books/2014/jul/22/24-7-late-capitalism-ends-sleep-jonathan-crary-review) by Jonathan Crary.</small>
+<small>[The Gospel According to Yawn](https://vimeo.com/369876347)(Evanjelium podľa Yawna), interaktívny stánok, inštalácia, ktorú si objednal Somerset House ako reakciu na knihu[24/7: Late Capitalism and the Ends of Sleep](https://www.theguardian.com/books/2014/jul/22/24-7-late-capitalism-ends-sleep-jonathan-crary-review) (24/7: Neskorý kapitalizmus a konce spánku) od Jonathana Craryho..</small>
 
 
-**Sensorium : You work "at the intersection of technology, art, science and the future". How do you interpret the central role of technology in the current crisis? **
+**Sensorium : Pracujete „na priesečníku technológie, umenia, vedy a budúcnosti“. Ako interpretujete ústrednú úlohu technológie v súčasnej kríze?**
 
-**Hyphen Labs :** As to any “central role” of anything in a crisis, there are potentials and pitfalls. Technology has in ways has activated us to communicate more effectively and as society moves online we see the nuance in which everyone is adapting. We are inspired by all of the mutual aid groups that have popped up, the sharing of sewing patterns, tutorials and DIY videos, and oh...the memes! 
+**Hyphen Labs :** Pokiaľ ide o akúkoľvek „ústrednú úlohu“ čohokoľvek v čase krízy, na jednej strane je tu potenciál a na druhej možné úskalia. Technológia nám svojím spôsobom umožnila efektívnejšie komunikovať. Keďže sa spoločnosť presúva online, vidíme v nuansách, kto sa ako prispôsobuje. Inšpirujú nás všetky skupiny vzájomnej pomoci, ktoré sa objavili. Ľudia zdieľajú vzory na šitie, návody a videá pre domácich majstrov, ale rovnako dôležité sú aj vtipné obrázky!
 
-But there are many pitfalls. More than ever, we are tethered to our screens as a form of escapism and for (mis)information. Is it possible to absorb so much media and are we actually retaining it? When it comes to policy, Covid-19 is a great excuse for implementing the surveillance state which deepens the ‘big data biopolitics’ that depends on sketchy algorithms to track us and alert authorities and as we know the outcomes of this will not be the same for all of us, but will reinforce stereotypes and endanger lives. We will inherit another toxic system that will  be difficult to dismantle.
+Existuje však veľa nástrah. Viac ako kedykoľvek predtým sme nalepení na obrazovkách, je to forma úniku a zdroj (často mylných) informácií. Je vôbec možné absorbovať toľko informácii, a zachovávame si ich aj naozaj? Pokiaľ ide o politiku, Covid-19 slúži ako skvelá zámienka implementácie dozoru, ktorý prehlbuje „biopolitiku hromadných dát“. Tá je závislá od povrchných algoritmov, ktoré nás sledujú a informujú príslušné orgány. Ako už vieme, výsledky nebudú pre všetkých rovnaké, naopak, budú posilňovať stereotypy a ohrozovať životy. Zdedíme tak ďalší toxický systém, ktorý bude ťažké rozložiť.
 
 ![](higher-resolution.jpg)
 
-<small>[Higher Resolution](https://www.tate.org.uk/whats-on/tate-modern/tate-exchange/workshop/higher-resolution), an exhibition and workshop curated and produced by Hyphen Labs at Tate Exchange (2019), questioning our relationships with digital platforms, the power behind technology, and how art can be used as a tool of intervention.</small>
+<small>[Higher Resolution](https://www.tate.org.uk/whats-on/tate-modern/tate-exchange/workshop/higher-resolution), (Vyššie rozlíšenie) – výstava a seminár, ktoré kurátoroval a vytvoril kolektív Hyphen Labs v rámci programu Tate Exchange (2019). Spochybňuje naše vzťahy s digitálnymi platformami, moc technológie a spôsob, akým možno umenie použiť ako intervenčný nástroj.</small>
 
 
-**Sensorium : Some people say this pandemic will accelerate a wider paradigm shift in society. Do you agree? Can you describe how you see the importance and impact of this event on a larger scale?**
+**Sensorium : Niektorí ľudia tvrdia, že pandémia spustí v spoločnosti širší posun paradigmy. Súhlasíte? Môžete nám popísať, aký je význam a vplyv tejto udalosti v širšom kontexte?**
 
-**Hyphen Labs :** There have been lots of discussions about this, across industries, think tanks, Zoom chats and Whatsapp groups, we all seem to be buzzing around the question: Do we want to go back to ‘normal’?   
+**Hyphen Labs :** O tejto téme sa vedie veľa diskusií v rôznych odvetviach, think-tankoch, i našich skupinových hovoroch na Zoome i chatoch na WhatsAppe. Zdá sa, že všetci oscilujeme okolo otázky: Chceme sa vrátiť do „normálu“? 
 
-We do not. 
+My sa nechceme.
 
-Can we extract the bits of ‘normal’ that worked, while building an alternative future?  What are the things we want to see in the future? Who is doing that work? How can we share work and efforts and put those ideas into practice? Where and how does this start? 
+Je možné vyňať kúsky „normálu“, ktoré fungovali, a vybudovať si alternatívnu budúcnosť? Ktoré veci si chceme zachovať aj v budúcnosti? Kto to robí? Ako si môžeme prácu a úsilie rozdeliť a pretaviť tieto myšlienky do praxe? Kde a ako to začne?
+Veľa sme diskutovali a prišli sme na mnohé dôležité poznatky. Snažili sme sa pripomenúť si, aké praktiky sú prínosné a analyzovať svoje vzťahy. Ako si vytvárame vzťahy, a ako dávame, či už sebe (osobne, v malom), komunite (lokálne) a planéte (globálne), bez toho, aby sme upadali do vývrtky pudu sebazáchovy. Každá úroveň dávania (osobná, lokálna, globálna) vyžaduje iný druh práce, a s dôrazom na sebareflexiu umožňuje individuálny rozvoj. Ak v budúcnosti dokážeme efektívne riadiť svoje vlastné ekosystémy, a dokonca povzbudiť kúsok nášho vlastného „zdivočenia sa“, či už v ľudskom alebo botanickom zmysle, získame zmysel existencie seba samých a odolnosť.
 
-Our discussions have led to valuable insights around recalling valuable practices and analysing our relationships. Without falling into the potholes of self preservation, how do we relate and give to ourselves (small/personal), our community (local), and our planet (globally). Each level of giving (personal/local/global) requires different kinds of work and with an emphasis of self reflection allows for the development of the individual. Moving forward, if we can govern our own personal ecosystems effectively, and even encourage a bit of our own rewilding, in a human or botanical sense, we will form a sense of ourselves and resilience. 
+Ak máme byť konkrétnejšie, práca v malom alebo na osobnejšej úrovni, o ktorej spoločne uvažujeme, zahŕňa variácie v myslení o jednotlivých praktikách. Naša schopnosť premýšľať o „sebe“ od prechádzok po meditáciu, nám dáva šancu prehodnotiť to, čo nás v skutočnosti brzdí, ale i udržiava našu myseľ a telá v rovnováhe. Môžeme na to prichádzať sami, alebo pomocou liečiteľov či iných vhodných ľudí, prostredníctvom vzájomnej terapie alebo prácou, ktorou sa „vraciame“ do komunity.
 
-To be more specific, the smaller or personal work we are collectively thinking about includes variations on the idea of practices. From walking to meditating, our ability to reflect on the ‘self,’ gives us a chance to reassess what actually sustains us and keeps our minds and bodies in alignment and balance. This can be done by oneself and with the help of healers or practitioners, through peer therapy or by giving back to a community.  
+Je nevyhnutné kolektívne sa snažiť porozumieť systémom, v ktorých žijeme, a odkloniť sa od kapitalistického spôsobu myslenia. Západné kultúry sa sústreďujú na získavanie, šetrenie a hromadenie „vecí“. Hmotné predmety nám neumožňujú pocítiť prináležitosť a nie sú pre našu existenciu podstatné. Ak sa namiesto hromadenia zásob o veci delíme, pomáha nám to posunúť naše vedomie do sfér vnímavosti a prepojenosti. 
 
-It is vital to collectively attempt to understand the systems in which we exist and move away from capitalistic focused mindsets.  Western cultures are so focused on acquiring, saving and hoarding ‘stuff.’  Material belongings don’t help us belong and aren't essential for our existence. When we share instead of stockpile, it helps us shift our consciousness to one of awareness and interconnectivity. 
+Sme si vedomé, že sme neprišli na nič nové…, ale niekde v procese toho, ako sme si zvykali na „normálnosť“ sme boli príliš zaneprázdnené a trochu nepozorné.
 
-Now, we are aware that we aren’t exactly saying anything new... but somewhere with the introduction of a ‘normal’ way we got really busy and maybe a bit distracted.  
-In terms of identifying more immediate shifts, it has been inspirational to see the countries battling the pandemic with the highest success rates have all been led by women!!! It is also inspirational to see how broken and poor leadership leads to smaller and more local governance. 
- 
-A couple of books we would like to recommend are:
+Pokiaľ ide o rozoznanie bezprostrednejších zmien, bolo inšpiratívne vidieť, že krajiny, ktoré bojujú s pandémiou s najvyššou mierou úspešnosti, vedú ženy!!! Je tiež inšpiratívne vidieť, ako rozvrátené a nesprávne vedenie vedie k menšej a lokálnejšej správe.
+
+Niektoré z kníh, ktoré by sme rady odporúčali:
 
 * [Severance](https://www.newyorker.com/books/under-review/ling-ma-severance-captures-the-bleak-fatalistic-mood-of-2018), by Ling Ma
 * [The Mushroom at the End of the World](https://www.theguardian.com/books/2017/oct/19/mushroom-end-world-anna-lowenhaupt-tsing-review), by Anna Tsing
@@ -86,19 +84,19 @@ A couple of books we would like to recommend are:
 
 ![](anxious-ocean.jpg)
 
-<small>The Anxious Ocean &amp; the Moonbathers, speculative interactive installation by Hyphen Labs exploring a post-human underwater future</small>
+<small>The Anxious Ocean &amp; the Moonbathers (Znepokojený oceán a Moonbathers), špekulatívna interaktívna inštalácia kolektívu Hyphen Labs, ktorá skúma budúcnosť pod človekom.</small>
 
 
-**Sensorium : What has been the most inspiring or creative reaction to the pandemic that you have seen so far?**
+**Sensorium : Aká bola zatiaľ najviac inšpirujúca či kreatívna reakcia na pandémiu, ktoré ste zatiaľ videli?**
 
-**Hyphen Labs :** What a great question!  One of the coolest things is seeing the creativity pouring out from social media, from tutorials to concerts to reading groups and dance classes. It's really interesting to see how society has dealt with the shift to being home and online. More abstractly, it's interesting to experience time in a new way, especially how it bends and drifts, as witnessed through the growing plants inside and out and the sun running across our apartment walls. Spring is bursting and our nails and hair seem to be taking up all the energy produced by our latent bodies, resulting in a collective shaggy look. Personally, we are experiencing both the slow and fast paces of our natural world, through new things like sourdough and running. Our favorite creative reaction so far was [this recreation of Avatar: the Last Airbender opening sequence featuring Covid 19 and Cardi-B](https://twitter.com/i/status/1241766179401797637). 
+**Hyphen Labs :** Výborná otázka! Jednou z najúžasnejších vecí bolo zažiť kreativitu na sociálnych médiách, a to od výučbových programov až po koncerty, čitateľské krúžky či kurzy tanca. Je naozaj zaujímavé vidieť, ako spoločnosť zvládla prechod domov, do online sveta. Ak to pojmeme abstraktnejšie, je zaujímavé vnímať čas novým spôsobom, najmä ako sa ohýba a plynie, čo nasvedčujú rastliny vnútri a von a slnko, ktoré oknom preniká do obydlí. Jar je v rozpuku a zdá sa, že naše nechty a vlasy absorbujú všetku energiu, ktorú produkujú naše latentné telá, a to vedie ku kolektívne strapatému vzhľadu. Osobne zažívame pomalé a zároveň rýchle tempo sveta prírody prostredníctvom nových vecí v našich životoch, ako je kváskovanie a beh. Našou doteraz najobľúbenejšou kreatívnou reakciou bolo táto [variácia úvodnej scény Avatara: Posledného vládcu vetra, kde sa predstavili i Covid 19 a Cardi-B](https://twitter.com/i/status/1241766179401797637). 
 
 
-**Thanks a lot to Hyphen Labs for the amazing ideas and references!**
+**Ďakujeme Hyphen Labs za výborné nápady, myšlienky a odporúčania!**
 
 ***
 
-Links:
+Odkazy:
 
 [hyphen-labs.com](http://www.hyphen-labs.com/)  
 [Hyphen Labs Instagram](https://www.instagram.com/hyphenlabs/)  
@@ -106,13 +104,12 @@ Links:
 
 ***
 
-Credits:  
-Writing: Célia Bugniot  
-Interviewees: Ece Tankal, Carmen Aguilar y Wedge, Romy Gad el Rab -  Hyphen Labs  
-Editing: Lucia Dubačová  
-Publishing: Sensorium Festival  
-Pictures: Courtesy of Hyphen Labs  
+Pripravili:  
+Rozhovor viedla: Célia Bugniot  
+Na otázky odpovedali: Ece Tankal, Carmen Aguilar y Wedge, Romy Gad el Rab – Hyphen Labs  
+Redakcia: Lucia Dubačová  
+Vydal: Sensorium Festival  
+Obrázky: Courtesy of Hyphen Labs  
+Preklad: Zuzana Hrivňáková  
 
-
-
-[Previous editions - Stockpiling Food For Thought](https://sensorium.is/#food_for_thought)
+[Predošlé rozhovory zo série „Stockpiling Food For Thought”](https://sensorium.is/#food_for_thought)
