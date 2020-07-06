@@ -1,3 +1,25 @@
+# v2.2.0
+## 03/21/2019
+
+1. [](#new)
+    * Set Dependency of Grav 1.5.10+ which has support for new **Deferred Block** Twig extension
+    * Implement assets rendering using **Deferred Block** Twig extension 
+
+# v2.1.2
+## 9/28/2017
+
+1. [](#improved)
+    * Added polish and brazilian portuguese translations
+    * Allow overriding the slidebar by moving it to its own `sidebar_navigation` block [#110](https://github.com/getgrav/grav-theme-antimatter/pull/110)
+1. [](#bugfix)
+    * Fix showcase template overlapping when not at top [#99](https://github.com/getgrav/grav-theme-antimatter/pull/99)
+
+# v2.1.1
+## 02/26/2017
+
+1. [](#bugfix)
+    * Allow to add a `external` class to site.yaml links to work on modular pages [#95](https://github.com/getgrav/grav-theme-antimatter/pull/95)
+
 # v2.1.0
 ## 01/24/2017
 
@@ -96,7 +118,7 @@
 1. [](#new)
     * Blueprints that work with new admin plugin!
 1. [](#bugfix)
-    * Favicon with full image URL   
+    * Favicon with full image URL
 
 # v1.6.1
 ## 07/24/2015

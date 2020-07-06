@@ -1,3 +1,38 @@
+# v2.1.0
+## 05/27/2020
+
+1. [](#new)
+    * Added ability to search page headers (excluding title, taxonomy, content)
+
+# v2.0.0
+## 05/13/2020
+
+1. [](#new)
+    * Allow searching the content of modular pages [#170](https://github.com/getgrav/grav-plugin-simplesearch/pull/170)
+    * Allow configuration of Title/Content/Taxononmy searchable types [#184](https://github.com/getgrav/grav-plugin-simplesearch/pull/184)
+1. [](#improved)
+    * Improved default vs custom search page functionality [#186](https://github.com/getgrav/grav-plugin-simplesearch/pull/186)
+    * Add field label for screen reader accessibility [#171](https://github.com/getgrav/grav-plugin-simplesearch/pull/171)
+    * Added Traditional Chinese [#169](https://github.com/getgrav/grav-plugin-simplesearch/pull/169)
+    * Updated Russian and English [#165](https://github.com/getgrav/grav-plugin-simplesearch/pull/165)
+    * Added Galacian [#155](https://github.com/getgrav/grav-plugin-simplesearch/pull/155)
+1. [](#bugfix)
+    * Fixed input attribute [#165](https://github.com/getgrav/grav-plugin-simplesearch/pull/165)
+
+# v1.14.2
+## 12/07/2018
+
+1. [](#improved)
+    * Optimize, cleanup and remove typos [#163](https://github.com/getgrav/grav-plugin-simplesearch/pull/163)
+    * Removed `blog` as default filter [#166](https://github.com/getgrav/grav-plugin-simplesearch/pull/166)
+    * Polish translation [#144](https://github.com/getgrav/grav-plugin-simplesearch/pull/144)
+    * Kazakh translation [#153](https://github.com/getgrav/grav-plugin-simplesearch/pull/153)
+    * Spelling corrections [#145](https://github.com/getgrav/grav-plugin-simplesearch/pull/145)
+1. [](#bugfix)
+    * Fix JS to work with IE11 [#161](https://github.com/getgrav/grav-plugin-simplesearch/pull/161)
+    * Updated javascript to be compatible with IE11 [#161](https://github.com/getgrav/grav-plugin-simplesearch/pull/161)
+    * Ensure `$values` is an array to prevent PHP error on implode [#146](https://github.com/getgrav/grav-plugin-simplesearch/pull/146)
+
 # v1.14.1
 ## 01/11/2018
 

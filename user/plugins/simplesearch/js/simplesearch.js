@@ -1,13 +1,16 @@
 ((function(){
+    if (!Element.prototype.matches) {
+        Element.prototype.matches = Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
+    }
     var findAncestor = function(el, selector) {
         while ((el = el.parentElement) && !((el.matches || el.matchesSelector).call(el, selector))) {}
         return el;
     };
 
     var fields = document.querySelectorAll('input[name="searchfield"][data-search-input]');
-    fields.forEach(function(field) {
+    Array.prototype.forEach.call(fields, function(field) {
         var form = findAncestor(field, 'form[data-simplesearch-form]'),
-            min = field.getAttribute('min') || false,
+            min = field.getAttribute('data-min') || false,
             location = field.getAttribute('data-search-input'),
             separator = field.getAttribute('data-search-separator');
 
