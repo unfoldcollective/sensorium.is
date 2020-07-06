@@ -6,6 +6,6 @@ Dokážeme znovu definovať naše medziľudské vzťahy či náš vzťah k prír
 
 ===
 
-_Téma Nová senzibilita bola vytvorená v inšpirujúcej spolupráci s a iniciovaná kurátorkami festivalu súčasného umenia [DOM](www.festivaldom.com) - Martina Ivičič a Marianna Brinzová._
+_Téma Nová senzibilita bola vytvorená v inšpirujúcej spolupráci s a iniciovaná kurátorkami festivalu súčasného umenia [DOM](whttp://festivaldom.com/) - Martina Ivičič a Marianna Brinzová._
 
 Zatiaľ je k dispozícií len [anglická verzia](http://sensorium.is/new-sensibility), slovenská bude čoskoro. Ďakujeme za pochopenie.

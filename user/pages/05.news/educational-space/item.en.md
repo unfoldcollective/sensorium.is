@@ -10,7 +10,7 @@ process:
     twig: true
 ---
 
-For this 5th edition (12 - 14 June 2020 in Bratislava, Slovakia), we have a special focus on creating a space that brings innovation, arts, creative industries and experimental technology to all types of audiences from the hands of research groups, startups, artists, makers and entrepreneurs.
+For this 5th edition, we have a special focus on creating a space that brings innovation, arts, creative industries and experimental technology to all types of audiences from the hands of research groups, startups, artists, makers and entrepreneurs.
 
 The Educational Space aims to become a place of encounter for those involved in the future of education: research labs, groups and projects that work at the intersection of **arts, innovation, technology and creative industries** from all countries of Europe and other continents. 
 
@@ -23,13 +23,13 @@ Through our Educational Space you can connect and engage with a wide audience fr
 * **Showcase** your work to a wide European and international audience
 * **Test** your prototype, project or product: through demos or/and workshops
 * Establish **connections** between business and institutions
-* Make **networking** with other makers and researchers
+* **Network** with other makers and researchers
 
-**Members from the selected projects will be provided with a full pass for the festival, as well as a VIP pass for the networking event happening on Sunday where professionals from the main curatorial and artistic centers and projects in central europe and abroad will gather together.**
+**Members from the selected projects will be provided with a full pass for the festival, as well as a VIP pass for the networking event happening on Sunday where professionals from the main curatorial and artistic centers and projects in central europe and abroad will gather together. There is a one-off 100 EUR fee per organisation to participate. In case your organisation cannot afford this fee please explain the situation in the form and we will consider your participation.**
 
 To join us in this space for our coming edition, you can send us your proposal [through this form](https://forms.gle/ZRva7PjXDqvcuRGb8).
 
-We will consider the viability to exhibit your project and contact you after the selection process.
+We will consider the viability to present your project and contact you after the selection process.
 
 Sensorium Festival is a unique point at the heart of central Europe, which connects all sides and faces of the continent through professionals from different disciplines, institutions and backgrounds. 
 Sensorium Festival is the largest digital arts and culture platform in Slovakia. We are daring active generations to imagine & create their future. The festival brings together an open-minded international community to enhance the level of creative multidisciplinary collaboration and its impact on society through discussion, experiments and showcasing groundbreaking works.

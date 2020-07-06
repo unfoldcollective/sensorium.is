@@ -9,13 +9,13 @@ process:
     twig: true
 ---
 
-DEADLINE: 31.03.2020
+DEADLINE: 31.05.2020
 
 Hľadáme štyroch šikovníkov s nadšením pre interaktívne umenie, dizajn a technológie, ktorí
 pomôžu hlavnému tímu počas 15 - tich dní pred a počas festivalu. Všetky pozície vyžadujú
 dobrú komunikáciu v anglickom jazyku, sme medzinárodný tím. 
 
-Píš na: production@sensorium.is
+Píš na: hello@sensorium.is
 
 Sensorium festival hľadá štyri motivované pravé ruky!
 

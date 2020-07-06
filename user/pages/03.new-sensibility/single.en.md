@@ -7,7 +7,7 @@ Can we redefine our relationships with one-another and with nature? How can we d
 ===
 
 
-_The theme of New Sensibility has been developed in an inspiring collaboration with and initiated by curators of [DOM festival](www.festivaldom.com) of contemporary art Martina Ivičič and Marinna Brinzová. _
+_The theme of New Sensibility has been developed in an inspiring collaboration with and initiated by curators of [DOM festival](http://festivaldom.com/) of contemporary art Martina Ivičič and Marianna Brinzová. _
 
 
 Technology evolves rapidly and we - our legal and educational structures, even our brains and bodies - are not catching up. Tristan Harris in his NYT article Our Brains Are No Match for Our Technology (Dec 5, 2019) describes contemporary society as one with 
