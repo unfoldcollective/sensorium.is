@@ -1,5 +1,6 @@
 ---
-title: 'School of Machines, Making & Make Believe: Videodrones'
+title: 'V4 Videodrones / School of Machines, Making & Make Believe'
+media_order: 'videodrones.jpg,visegrad-logo.png'
 workshop_date: '7 - 12 jún '
 taxonomy:
     category:
@@ -33,13 +34,27 @@ Inspired by Johnny Harris’ Vox Border’s series, this class is aimed at getti
 
 • Tutor: [Rachel Uwa](https://sensorium.is/speakers/rachel-uwa)
 
-• 7. June - 12. June 2020
+• 7. June - 13. June 2021
 
-• Based at Bratislava, Slovakia
+• Based in Slovakia, specific location TBA
 
 • One week, full-time
 
 • Small class of participants 
+
+• Organisers: Sensorium Festival, [School of Machines, Making & Make-Believe](http://schoolofma.org)
+
+• Co-organisers:  [Kukatko Foundation](https://www.kukatko.pl/), [Ziggurat Project - Cultural Association Platform](http://zigguratproject.com/platform), [Zlin Design Week](https://zlindesignweek.com) - [Tomas Bata University in Zlin](https://www.utb.cz/en/)
+
+
+
+
+
+[![](visegrad-logo.png)](https://www.visegradfund.org)
+
+The workshop is realised thanks to the kind support of Visegrad Fund:[ www.visegradfund.org](https://www.visegradfund.org).
+
+
 
 
 
@@ -57,14 +72,17 @@ Inspired by Johnny Harris’ Vox Border’s series, this class is aimed at getti
 
 **Course description**
 
-Inspired by [Johnny Harris’ Vox Border](https://www.vox.com/authors/johnny-harris)’s series, this class is aimed at getting hands-on with drones and drone video footage while connecting concepts of borders, history, politics and the experiences of being human. As you can see we have lofty goals! This course will take place in Bratislava with field trips to rural regions of Slovakia in conjunction with the Sensorium Festival, an art and technology event and community with whom we are partnering on this program.
+Inspired by [Johnny Harris’ Vox Border](https://www.vox.com/authors/johnny-harris)’s series, this project is aimed at getting hands-on with drones and drone video footage while connecting concepts of borders, history, politics and the experiences of being human. As you can see we have lofty goals! This course will take place in Slovakia with field trips to Slovak - Hungarian and Slovak - Czech borders in conjunction with the Sensorium Festival.
 
 Using drones for filmmaking purposes is a relatively new area of focus often used for commercial and entertainment purposes. Drones capture a birds eyeview of the world we aren't often privy too and we'll use this to inspire our artistic interventions and storytelling throughout this one-week intensive.
-This class will be a mixture of learning to navigate, film, and tell stories with flying objects while connecting with others through deep and critical discussions and collective teamwork. There will be site visits and lectures led by artists and experts as participants creatively explore mindful practices in drone and new technology usage. 
+This class will be a mixture of learning to navigate, film, and tell stories with flying objects while connecting with others through deep and critical discussions and collective teamwork. There will be site visits and lectures led by artists and experts as participants creatively explore mindful practices in drone and new technology usage. The programme is co-organised with cultural organisations in the V4 region. The specific choice of partner organisations in the fields of non-formal education, literature, performance and design brings together the necessary knowledge, skills and sensitivity for this programme. 
+
 
 This is a very special program made up of brilliant guest instructors. The full-time course facilitator for this program will be Rachel Uwa, founder of [School of Machines, Making & Make-Believe](http://schoolofma.org).
 
-As part of the program, workshop participants will lead a roundtable discussion at Sensorium Festival 2020 to share highlights and experiences. Additionally, there will be a micro-exhibition of works created during the program showcased during the festival.
+As part of the program, workshop participants will lead a roundtable discussion at Sensorium Festival 2021 to share highlights and experiences. Additionally, there will be a micro-exhibition of works created during the program showcased during the festival.
+
+
 
 In this course, you will be introduced to
 
