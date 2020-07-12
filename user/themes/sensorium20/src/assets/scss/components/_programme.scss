@@ -1,0 +1,13 @@
+.programme {
+	&.section {
+		h2 {
+
+		}
+
+		@include breakpoint( medium ) {
+			h2 {
+				margin-bottom: $spacing-section-tiny;
+			}	
+		}
+	}
+}

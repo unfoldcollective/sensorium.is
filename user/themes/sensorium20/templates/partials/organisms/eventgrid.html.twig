@@ -1,0 +1,57 @@
+<ul class="eventgrid">
+			
+		{% for event in events %}
+			<li id="{{event.slug}}" class="eventgrid__event js-eventgrid-event">
+				<p class="eventgrid__meta">
+					{{event.date|date("d. F")}} <br>
+					{{event.header.time}} <br>
+					{{event.header.venue}} <br>
+					{# {{event.header.address}} <br> #}
+					{{event.header.city}}
+				</p>
+				<h3 class="eventgrid__eventtitle">{{event.title}}</h3>
+				<p class="eventgrid__link">
+					{{header.more}}
+				</p>
+				<div class="eventgrid__event-content-to-expand js-event-content">
+					<div class="eventgrid__event eventgrid__event--content eventcontent">
+						<div class="eventcontent__info">
+							<p><img data-src="{{ event.media.all|first.url }}" class="db lazy" alt="{{p.title}}"></p>
+
+							<p>
+								{{event.date|date("d. F")}} <br>
+								{{event.header.time}} <br>
+								{{event.header.venue}} <br>
+								{{event.header.address}} <br>
+								{{event.header.city}}
+							</p>
+
+							<p>{{event.title}}</p>
+							
+						</div>
+						<div class="eventcontent__content">
+		      				{{ event.content }}					
+						</div>
+						<div class="eventcontent__footer">
+							<div class="eventcontent__footer-fb">
+								<p>
+								{% if event.header.fbevent %}
+									<a href="{{event.header.fbevent}}" target="_blank">Facebook event</a>
+								{% endif %}
+									&nbsp;
+								</p>
+							</div>
+							<div class="eventcontent__footer-close"><p><a href="#{{event.slug}}" class="js-event-close">{{header.close}}</a></p></div>
+						</div>
+					</div>
+				</div>					
+			</li>
+		{% endfor %}
+		{# fix for less thatn 3 evenets in category #}
+		{% if events.length < 3 %}
+			<li>&nbsp;</li>
+		{% endif %}
+		{% if events.length < 2 %}
+			<li>&nbsp;</li>
+		{% endif %}
+		</ul>

@@ -1,0 +1,55 @@
+.eventcontent {
+	@include xy-grid();
+
+	&__info {
+		@include xy-cell();
+	}
+
+	&__content {
+		@include xy-cell();
+		text-transform: none;
+	}
+
+	&__footer {
+		@include xy-grid();
+		flex: 1;
+
+		&-fb,
+		&-close {
+			@include xy-cell();
+		}
+
+		
+	}
+
+	@include breakpoint( medium ) {
+		&__info {
+			@include xy-cell(4);
+		}
+
+		&__content {
+			@include xy-cell(8);
+		}
+	}
+
+	@include breakpoint( large ) {
+		&__info {
+			@include xy-cell(5);
+		}
+
+		&__content {
+			@include xy-cell(7);
+		}
+
+		&__footer {
+			&-fb {
+				@include xy-cell( 5 );
+			}
+
+			&-close {
+				@include xy-cell( 7 );
+				text-align: right;
+			}
+	}			
+	}
+}

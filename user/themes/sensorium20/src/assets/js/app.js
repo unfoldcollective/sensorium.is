@@ -16,6 +16,23 @@ import './lib/foundation-explicit-pieces';
 
 $(document).foundation();
 
+var lazyLoadInstance;
+
+jQuery(document).ready(function($) {
+	///////////////////////////////////////////
+	// lazyload
+	///////////////////////////////////////////
+	lazyLoadInstance = new LazyLoad({
+	  elements_selector: ".lazy"
+	});
+
+	///////////////////////////////////////////
+	// indicate javascript working
+	///////////////////////////////////////////
+	$('html').removeClass( 'no-js' );
+});
+
+
 ///////////////////////////////////////////
 // body class on menu open / close
 ///////////////////////////////////////////
@@ -82,3 +99,72 @@ function debounce(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
+///////////////////////////////////////////
+// Programme
+///////////////////////////////////////////
+let eventClass = '.js-eventgrid-event', //event box
+	contentClass = '.js-event-content', //content to be revealed
+	closeEventClass = '.js-event-close', //event close button
+	expandClass = 'js-event-expanded', //reveal boxes (that should be removed)
+	openedClass = 'eventgrid__event--opened',
+	eventContentToReveal = '',
+	nextInRow = [],
+	cloned = '';
+
+jQuery(document).ready(function($) {
+	//on click na event
+	$(eventClass).on( 'click', function( e ) {
+		var $this = $( this );
+		
+		// remove all
+		closeExpanded();
+		
+		nextInRow = $this.nextAll();
+
+		// add --opened class to show the dot
+		removeOpenedFromEvent();
+		addOpened( $this );
+		
+		// take event content, find three closest (because of 3 col grid) & put content behind them
+		// mark these for removal after any other event clicked - expandClass;
+		eventContentToReveal = $this.find( contentClass ).children(); //children() or .contents()
+		cloned = eventContentToReveal.clone().addClass( expandClass );
+		$this.after( cloned.get(0) ); 
+
+		$.each( nextInRow, function( i, item ) {
+			if ( i > 1 ) { 
+				return false;
+			}
+			cloned = eventContentToReveal.clone().addClass( expandClass );
+			item.after( cloned.get(0) );
+		});
+
+		// lazy load image
+		lazyLoadInstance.update();
+
+		// allow smooth scroll to event after closing expanded
+		var elem = new Foundation.SmoothScroll( $( closeEventClass ) );
+		// on close 1. remove opened class 2. animate content closing 3. remove all contents
+		$(closeEventClass).on( 'click', function( e ) {
+			removeOpenedFromEvent();
+			// remove all
+			closeExpanded();
+		});
+	});
+});
+
+function addOpened( $this ) {
+	$this.addClass( openedClass );
+}
+
+function removeOpenedFromEvent() {
+	$('.' + openedClass).removeClass( openedClass );
+}
+
+function closeExpanded() {
+	var expandedContents = $( '.' + expandClass );
+	$.each( expandedContents, function() {
+		$(this).remove();
+	});
+}
+

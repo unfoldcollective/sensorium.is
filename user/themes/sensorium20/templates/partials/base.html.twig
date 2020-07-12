@@ -2,7 +2,7 @@
 {% set asser_ver = date().timestamp %} {# TODO remove for production to allow caching #}
 {% set currentLang = grav.language.getLanguage %}
 <!DOCTYPE html>
-<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<html lang="{{ grav.language.getLanguage ?: 'en' }}" class="no-js">
 <head>
 {% block head %}
     <meta charset="utf-8" />
@@ -44,9 +44,11 @@
         {# {% do assets.addJs('jquery', 101) %}
         {% do assets.addJs('theme://js/modernizr.custom.71422.js', 100) %}
         {% do assets.addJs('theme://js/antimatter.js') %}
-        {% do assets.addJs('theme://js/slidebars.min.js') %} #}
-        {% do assets.addJs('theme://dist/assets/js/app.js') %}
+        {% do assets.addJs('theme://js/slidebars.min.js') %} 
+        {% do assets.addJs('theme://js/masonry.pkgd.min.js') %}
+        {% do assets.addJs('theme://js/programme.js') %}#}
         {% do assets.addJs('theme://js/lazyload.min.js') %}
+        {% do assets.addJs('theme://dist/assets/js/app.js') %}
         {# {% do assets.addJs('theme://node_modules/js-offcanvas/src/js-offcanvas.js') %} #}
     {% endblock %}
 
@@ -206,15 +208,6 @@
     {% block bottom %}
         {{ assets.js('bottom') }}
     {% endblock %}
-
-            <script>
-                (function() {
-                    var ll = new LazyLoad({
-                        elements_selector: ".lazy",
-                    });
-                })();
-            </script>
-    
     
 </body>
 </html>

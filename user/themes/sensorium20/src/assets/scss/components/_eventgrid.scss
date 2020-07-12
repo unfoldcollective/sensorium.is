@@ -1,0 +1,148 @@
+.eventgrid {
+	@include xy-grid;
+	@include xy-grid-layout(2, '.eventgrid__event', $gutters: $grid-column-gutter);
+
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: $small-spacing-section-huge;
+	padding: 0;
+
+
+	&__event {
+		border: 1px solid $sensorium-primary;
+		border-radius: rem-calc( 20 );
+		padding: rem-calc( 15 );
+		margin-bottom: rem-calc( 25 );
+		text-transform: uppercase;
+		position: relative;
+		display: flex;
+		flex-flow: column nowrap;
+		cursor: pointer;
+
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			width: rem-calc( 15 );
+			height: rem-calc( 15 );
+			border: 1px solid $sensorium-primary;
+			border-radius: 50%;
+			top: rem-calc( 15 );
+			right: rem-calc( 15 );
+		}
+
+		&:hover::before,
+		&--opened::before {
+			background-color: $sensorium-primary;
+		}
+	}
+
+	&__event-content-to-expand {
+		display: none;
+		.no-js & {
+			display: flex;
+			flex-flow: row wrap;
+		}
+	}
+
+	&__event--content {
+		background-color: $sensorium-primary;
+		color: $white;
+		flex: 1 0 100% !important;
+
+		.eventgrid__event + & {
+			display: none;
+		}		
+	}
+
+
+	// below works for 2-col grid of events
+
+	& li:nth-of-type( 2 ) + div,
+	& li:nth-of-type( 4 ) + div,
+	& li:nth-of-type( 6 ) + div,
+	& li:nth-of-type( 8 ) + div,
+	& li:nth-of-type( 10 ) + div {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	& li:nth-of-type( 1 ) + div + li + div,
+	& li:nth-of-type( 3 ) + div + li + div,
+	& li:nth-of-type( 5 ) + div + li + div,
+	& li:nth-of-type( 7 ) + div + li + div,
+	& li:nth-of-type( 9 ) + div + li + div {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	& li + div + li + div + li + &__event--content {
+		display: none;
+
+	}
+
+	&__eventtitle {
+		margin-bottom: $small-spacing-section-tiny;
+	}
+
+	&__link {
+		margin-top: auto;
+		text-decoration: underline;
+		
+		.eventgrid__event:hover & {
+			text-decoration: none;
+		}
+	}
+
+	a {
+		color: $white;
+	}
+
+	@include breakpoint( medium ) {
+		&__eventtitle {
+			margin-bottom: $spacing-section-tiny;
+		}			
+	}
+
+	@include breakpoint( large ) {
+		@include xy-grid-layout(3, '.eventgrid__event', $gutters: $grid-column-gutter );
+		margin-left: rem-calc( -10 );
+		margin-bottom: $spacing-section-huge;
+
+		& li:nth-of-type(n) + div {
+			// hide all contents except ones defined below
+			display: none;
+		}
+
+		// below works for 3-col grid
+
+		& li:nth-of-type( 1 ) + div + li + div + li + &__event--content,
+		& li:nth-of-type( 4 ) + div + li + div + li + &__event--content,
+		& li:nth-of-type( 7 ) + div + li + div + li + &__event--content,
+		& li:nth-of-type( 10 ) + div + li + div + li + &__event--content {
+			display: flex;
+			flex-flow: row wrap;
+		}
+
+		& li:nth-of-type( 2 ) + div + li + &__event--content,
+		& li:nth-of-type( 5 ) + div + li + &__event--content,
+		& li:nth-of-type( 8 ) + div + li + &__event--content,
+		& li:nth-of-type( 11 ) + div + li + &__event--content {
+			display: flex;
+			flex-flow: row wrap;
+		}
+
+		& li:nth-of-type( 3 ) + div.eventgrid__event--content,
+		& li:nth-of-type( 6 ) + div.eventgrid__event--content,
+		& li:nth-of-type( 9 ) + div.eventgrid__event--content,
+		& li:nth-of-type( 12 ) + div.eventgrid__event--content, {
+			display: flex;
+			flex-flow: row wrap;
+		}
+
+		& li + &__event--content + li + &__event--content {
+			display: none;
+		}
+
+	}
+}
