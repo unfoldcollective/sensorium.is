@@ -1,0 +1,42 @@
+title: Page Content
+@extends: 
+  type: default
+  context: blueprints://pages 
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          type: tab
+
+          #
+          # Add your custom fields here.
+          # These fields will be available in the page's Content tab
+          # inside the Admin Panel.
+          #
+          fields:
+            header.time:
+              type: text
+              label: Time of the event
+            header.venue:
+              type: text
+              label: Venue
+            header.address:
+              type: text
+              label: Address
+            header.city:
+              type: text
+              label: City
+            header.fbevent:
+              type: text
+              label: Facebook event link
+            header.taxonomy:
+              type: taxonomy
+              label: PLUGIN_ADMIN.TAXONOMY
+              multiple: true
+              validate:
+                type: array

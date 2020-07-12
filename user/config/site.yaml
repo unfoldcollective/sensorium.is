@@ -2,6 +2,9 @@ title: Sensorium Festival 2020
 author:
   name: Sensorium Festival
   email: hello@sensorium.is
+
+taxonomies: [category,tag,event-type]
+
 ticket_url: /tickets/
 metadata:
     description: Sensorium is the first Slovak festival making sense of creative technology. Sensorium gathers an international community of artists, designers, technologists and entrepreneurs for its conference programme, interactive exhibition, live performances and cross-disciplinary workshops.
