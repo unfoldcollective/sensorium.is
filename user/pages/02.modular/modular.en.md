@@ -13,9 +13,9 @@ content:
       - _theme
       - _date
       - _speakers
+      - _programme
       - _beyond-the-sound
-#     - _programme
-      - _workshops
+#     - _workshops
 #     - _installations
 #     - _performance
 #     - _city-stage
