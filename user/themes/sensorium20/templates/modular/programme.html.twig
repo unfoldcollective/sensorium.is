@@ -6,7 +6,8 @@
 		</p>
 	</div>
 	<div class="medium-9 cell" data-smooth-scroll>
-		<h2>Events</h2>
+		{{ currentLang }}
+		<h2>{{ (grav.language.getLanguage == 'en') ? 'Events' : 'Eventy' }}</h2>
 		
 		{% set events = page.collection({
 		'items':{'@taxonomy':{'event-type': 'event'}},
@@ -17,7 +18,7 @@
 		
 		{% include 'partials/organisms/eventgrid.html.twig' %}
 		
-		<h2>Workshops</h2>
+		<h2>{{ (grav.language.getLanguage == 'en') ? 'Workshops' : 'Workshopy' }}</h2>
 
 		{% set events = page.collection({
 		'items':{'@taxonomy':{'event-type': 'workshop'}},
@@ -26,7 +27,7 @@
 
 		{% include 'partials/organisms/eventgrid.html.twig' %}
 
-		<h2>Installations</h2>
+		<h2>{{ (grav.language.getLanguage == 'en') ? 'Installations' : 'Inštalácie' }}</h2>
 		{% set events = page.collection({
 		'items':{'@taxonomy':{'event-type': 'installation'}},
 		'order': {'by': 'date', 'dir': 'asc'}
