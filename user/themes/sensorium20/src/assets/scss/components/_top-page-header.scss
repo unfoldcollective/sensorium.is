@@ -102,7 +102,7 @@
 		}
 
 		&__claimpart {
-			@include xy-cell( 8 );
+			@include xy-cell( 9 );
 		}
 
 		&__whatisit {
@@ -112,7 +112,7 @@
 		}
 
 		&__controlspart {
-			@include xy-cell( 4 );
+			@include xy-cell( 3 );
 			top: $header-top-padding;
 			right: rem-calc( 20 );
 			margin: 0;

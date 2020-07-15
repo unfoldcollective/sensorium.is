@@ -91,11 +91,13 @@
                             {# desktop, not scrolled #}
                             {% if currentLang == 'sk' %}
                                 {% set festival_name = 'Festival digitálneho umenia a kultúry' %}
+                                {% set festival_location = 'Nomadická hybridná edícia' %}
                             {% else %}
                                 {% set festival_name = 'Festival of digital arts and culture' %}
+                                {% set festival_location = 'Nomadic Hybrid Edition' %}
                             {% endif %}
 
-                            <span class="top-page-header__fulltitle">{{ festival_name }}, 19. 8.—7. 9. 2020, Bratislava</span>
+                            <span class="top-page-header__fulltitle">{{ festival_name }}, 19. 8.—7. 9. '20, {{ festival_location }}</span>
 
                             {# mobile, not scrolled #}
                             <span class="top-page-header__microtitle">
@@ -119,14 +121,14 @@
                                 {# <span class="top-page-header__shorttitle"> #}
                                     SENSORIUM <br class="show-for-small-only">
                                     19. 8.—7. 9. 2020 <br class="show-for-small-only">
-                                    Bratislava
+                                    {{ festival_location }}
                                 {# </span> #}
                             </a> 
                         </p>                        
                     </div>
                     <div class="top-page-header__controlspart">
                         <a href="{{ config.site.ticket_url}}" class="button hollow buy-tickets body-type">
-                            {{ (currentLang == 'en') ? 'Buy tickets' : 'Kúpiť lístky' }}
+                            {{ (currentLang == 'en') ? 'tickets' : 'lístky' }}
                         </a>
                         <button type="button" class="button clear body-type menu-button" data-toggle="offCanvas">
                             {# <i class="menu-button__icon">
