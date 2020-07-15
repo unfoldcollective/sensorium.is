@@ -83,10 +83,12 @@
 
 	&__eventtitle {
 		margin-bottom: $small-spacing-section-tiny;
+		margin-right: rem-calc( 15 );
 	}
 
 	&__link {
 		margin-top: auto;
+		margin-bottom: 0;
 		text-decoration: underline;
 		
 		.eventgrid__event:hover & {

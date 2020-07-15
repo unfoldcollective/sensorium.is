@@ -2,31 +2,37 @@
 			
 		{% for event in events %}
 			<li id="{{event.slug}}" class="eventgrid__event js-eventgrid-event">
+				<h3 class="eventgrid__eventtitle">
+					{{event.title}} <br>
+					{{event.header.venue}}
+				</h3>
 				<p class="eventgrid__meta">
 					{{event.date|date("d. F")}} <br>
 					{{event.header.time}} <br>
-					{{event.header.venue}} <br>
-					{# {{event.header.address}} <br> #}
+					{{event.header.address}} <br>
 					{{event.header.city}}
 				</p>
-				<h3 class="eventgrid__eventtitle">{{event.title}}</h3>
 				<p class="eventgrid__link">
 					{{header.more}}
 				</p>
 				<div class="eventgrid__event-content-to-expand js-event-content">
 					<div class="eventgrid__event eventgrid__event--content eventcontent">
 						<div class="eventcontent__info">
+							{% if event.media.all|first.url %}
 							<p><img data-src="{{ event.media.all|first.url }}" class="db lazy" alt="{{p.title}}"></p>
+							{% endif %}
 
 							<p>
 								{{event.date|date("d. F")}} <br>
 								{{event.header.time}} <br>
-								{{event.header.venue}} <br>
 								{{event.header.address}} <br>
 								{{event.header.city}}
 							</p>
 
-							<p>{{event.title}}</p>
+							<p>
+								{{event.title}} <br>
+								{{event.header.venue}} 
+							</p>
 							
 						</div>
 						<div class="eventcontent__content">
