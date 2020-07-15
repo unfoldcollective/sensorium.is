@@ -116,6 +116,11 @@ jQuery(document).ready(function($) {
 	$(eventClass).on( 'click', function( e ) {
 		var $this = $( this );
 		
+		if( eventIsOpened($this) ) {
+			closeAllEvents();
+			return;
+		}
+
 		// remove all
 		closeExpanded();
 		
@@ -146,12 +151,24 @@ jQuery(document).ready(function($) {
 		var elem = new Foundation.SmoothScroll( $( closeEventClass ) );
 		// on close 1. remove opened class 2. animate content closing 3. remove all contents
 		$(closeEventClass).on( 'click', function( e ) {
-			removeOpenedFromEvent();
-			// remove all
-			closeExpanded();
+			closeAllEvents();
 		});
 	});
 });
+
+function closeAllEvents() {
+	removeOpenedFromEvent();
+	// remove all
+	closeExpanded();
+}
+
+function eventIsOpened ( $event ) {
+	if( $event.hasClass( openedClass ) ) {
+		return true;
+	} else {
+		return false;
+	}
+}
 
 function addOpened( $this ) {
 	$this.addClass( openedClass );
