@@ -6,6 +6,7 @@ author:
 taxonomies: [category,tag,event-type]
 
 ticket_url: /tickets/
+ticket_url_sk: /sk/tickets/
 metadata:
     description: Sensorium is the first Slovak festival making sense of creative technology. Sensorium gathers an international community of artists, designers, technologists and entrepreneurs for its conference programme, interactive exhibition, live performances and cross-disciplinary workshops.
     keywords: sensorium, conference, art, design, performance, technology, digital, bratislava, creative technology

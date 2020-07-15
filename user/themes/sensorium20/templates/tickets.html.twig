@@ -3,9 +3,8 @@
 
 {% block body %}
 
-  {{ page.content }}
-  <script src="https://partners.goout.net/sk-bratislava/sensoriumis.js"></script>
-  {# <div class="layout-single">
+  {# <script src="https://partners.goout.net/sk-bratislava/sensoriumis.js"></script> #}
+  <div class="layout-single">
     <div class="layout-single__meta">
       <h2>{{ page.title }}</h2>
       {% if page.header.subtitle %}
@@ -22,13 +21,14 @@
       <img src="{{ featured_image }}" alt="" class="layout-single__featured">      
       {% endif %}
 
+      {{ page.content }}
 
 
       <p class="show-for-small-only">
         <a href="{{ home_url }}" class="page-back">back to homepage</a>
       </p>
     </div>
-  </div> #}
+  </div>
 
   {# {% include 'modular/speakerlist.html.twig' %} #}
   

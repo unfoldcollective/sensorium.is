@@ -127,7 +127,7 @@
                         </p>                        
                     </div>
                     <div class="top-page-header__controlspart">
-                        <a href="{{ config.site.ticket_url}}" class="button hollow buy-tickets body-type">
+                        <a href="{{ (currentLang == 'en') ? config.site.ticket_url : config.site.ticket_url_sk }}" class="button hollow buy-tickets body-type">
                             {{ (currentLang == 'en') ? 'tickets' : 'lístky' }}
                         </a>
                         <button type="button" class="button clear body-type menu-button" data-toggle="offCanvas">
